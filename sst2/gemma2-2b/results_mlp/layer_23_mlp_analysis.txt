@@ -1,0 +1,50 @@
+======================================================================
+LAYER 23 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.8372 (83.72%)
+Precision: 0.8213
+Recall: 0.8694
+F1-Score: 0.8446
+Baseline Accuracy: 0.6330
+Improvement over baseline: +20.41%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 14138
+Total features activated for NEGATIVE: 14153
+COMMON features: 13386
+UNIQUE to POSITIVE only: 752
+UNIQUE to NEGATIVE only: 767
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 0: count=444 (100.0%), avg_act=68.3020
+2. Feature 6: count=444 (100.0%), avg_act=4.5384
+3. Feature 24: count=444 (100.0%), avg_act=50.0150
+4. Feature 152: count=444 (100.0%), avg_act=4.9771
+5. Feature 158: count=444 (100.0%), avg_act=4.5683
+6. Feature 195: count=444 (100.0%), avg_act=4.0216
+7. Feature 235: count=444 (100.0%), avg_act=4.3028
+8. Feature 249: count=444 (100.0%), avg_act=4.7648
+9. Feature 281: count=444 (100.0%), avg_act=7.2325
+10. Feature 348: count=444 (100.0%), avg_act=9.3245
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 0: count=428 (100.0%), avg_act=68.3020
+2. Feature 6: count=428 (100.0%), avg_act=4.4398
+3. Feature 152: count=428 (100.0%), avg_act=4.9023
+4. Feature 158: count=428 (100.0%), avg_act=4.5665
+5. Feature 195: count=428 (100.0%), avg_act=4.0402
+6. Feature 235: count=428 (100.0%), avg_act=4.3030
+7. Feature 249: count=428 (100.0%), avg_act=4.7589
+8. Feature 281: count=428 (100.0%), avg_act=7.2881
+9. Feature 348: count=428 (100.0%), avg_act=9.9065
+10. Feature 384: count=428 (100.0%), avg_act=5.3086

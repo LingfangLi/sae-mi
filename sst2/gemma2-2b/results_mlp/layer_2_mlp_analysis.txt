@@ -1,0 +1,50 @@
+======================================================================
+LAYER 2 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.7718 (77.18%)
+Precision: 0.7557
+Recall: 0.8153
+F1-Score: 0.7844
+Baseline Accuracy: 0.6330
+Improvement over baseline: +13.88%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 15964
+Total features activated for NEGATIVE: 15958
+COMMON features: 15780
+UNIQUE to POSITIVE only: 184
+UNIQUE to NEGATIVE only: 178
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 1: count=444 (100.0%), avg_act=1.0117
+2. Feature 3: count=444 (100.0%), avg_act=3.2070
+3. Feature 6: count=444 (100.0%), avg_act=1.0399
+4. Feature 8: count=444 (100.0%), avg_act=1.0011
+5. Feature 10: count=444 (100.0%), avg_act=1.1810
+6. Feature 33: count=444 (100.0%), avg_act=1.4544
+7. Feature 37: count=444 (100.0%), avg_act=1.0119
+8. Feature 43: count=444 (100.0%), avg_act=1.2301
+9. Feature 55: count=444 (100.0%), avg_act=1.4462
+10. Feature 63: count=444 (100.0%), avg_act=2.1607
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 1: count=428 (100.0%), avg_act=1.0307
+2. Feature 3: count=428 (100.0%), avg_act=3.1915
+3. Feature 6: count=428 (100.0%), avg_act=1.0487
+4. Feature 8: count=428 (100.0%), avg_act=1.0019
+5. Feature 10: count=428 (100.0%), avg_act=1.1453
+6. Feature 33: count=428 (100.0%), avg_act=1.4385
+7. Feature 37: count=428 (100.0%), avg_act=1.0082
+8. Feature 43: count=428 (100.0%), avg_act=1.2267
+9. Feature 55: count=428 (100.0%), avg_act=1.4190
+10. Feature 63: count=428 (100.0%), avg_act=2.1557

@@ -1,0 +1,50 @@
+======================================================================
+LAYER 19 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.8681 (86.81%)
+Precision: 0.8522
+Recall: 0.8964
+F1-Score: 0.8738
+Baseline Accuracy: 0.6330
+Improvement over baseline: +23.51%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 15950
+Total features activated for NEGATIVE: 15976
+COMMON features: 15690
+UNIQUE to POSITIVE only: 260
+UNIQUE to NEGATIVE only: 286
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 70: count=444 (100.0%), avg_act=5.6209
+2. Feature 159: count=444 (100.0%), avg_act=20.6887
+3. Feature 314: count=444 (100.0%), avg_act=9.0330
+4. Feature 1125: count=444 (100.0%), avg_act=38.0227
+5. Feature 3170: count=444 (100.0%), avg_act=54.5501
+6. Feature 3763: count=444 (100.0%), avg_act=9.7732
+7. Feature 5455: count=444 (100.0%), avg_act=11.5795
+8. Feature 7105: count=444 (100.0%), avg_act=8.7841
+9. Feature 9041: count=444 (100.0%), avg_act=7.8673
+10. Feature 9071: count=444 (100.0%), avg_act=73.9548
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 70: count=428 (100.0%), avg_act=5.8328
+2. Feature 159: count=428 (100.0%), avg_act=21.0698
+3. Feature 314: count=428 (100.0%), avg_act=9.0454
+4. Feature 1125: count=428 (100.0%), avg_act=37.8949
+5. Feature 3170: count=428 (100.0%), avg_act=54.5501
+6. Feature 3763: count=428 (100.0%), avg_act=10.1021
+7. Feature 5455: count=428 (100.0%), avg_act=11.5716
+8. Feature 7105: count=428 (100.0%), avg_act=9.0165
+9. Feature 9041: count=428 (100.0%), avg_act=7.9502
+10. Feature 9071: count=428 (100.0%), avg_act=73.9548

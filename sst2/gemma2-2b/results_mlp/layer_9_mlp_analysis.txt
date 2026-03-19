@@ -1,0 +1,50 @@
+======================================================================
+LAYER 9 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.8911 (89.11%)
+Precision: 0.8835
+Recall: 0.9054
+F1-Score: 0.8943
+Baseline Accuracy: 0.6330
+Improvement over baseline: +25.80%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 15211
+Total features activated for NEGATIVE: 15385
+COMMON features: 14739
+UNIQUE to POSITIVE only: 472
+UNIQUE to NEGATIVE only: 646
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 40: count=444 (100.0%), avg_act=3.4497
+2. Feature 69: count=444 (100.0%), avg_act=2.2431
+3. Feature 168: count=444 (100.0%), avg_act=1.4748
+4. Feature 1046: count=444 (100.0%), avg_act=1.6703
+5. Feature 1198: count=444 (100.0%), avg_act=1.5825
+6. Feature 1530: count=444 (100.0%), avg_act=1.6330
+7. Feature 1637: count=444 (100.0%), avg_act=1.9258
+8. Feature 1795: count=444 (100.0%), avg_act=1.9960
+9. Feature 1880: count=444 (100.0%), avg_act=2.1329
+10. Feature 2041: count=444 (100.0%), avg_act=3.4170
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 40: count=428 (100.0%), avg_act=3.4240
+2. Feature 69: count=428 (100.0%), avg_act=2.2426
+3. Feature 168: count=428 (100.0%), avg_act=1.4649
+4. Feature 1046: count=428 (100.0%), avg_act=1.6709
+5. Feature 1198: count=428 (100.0%), avg_act=1.5825
+6. Feature 1530: count=428 (100.0%), avg_act=1.6691
+7. Feature 1637: count=428 (100.0%), avg_act=1.9260
+8. Feature 1795: count=428 (100.0%), avg_act=1.9959
+9. Feature 1880: count=428 (100.0%), avg_act=2.1820
+10. Feature 2041: count=428 (100.0%), avg_act=3.4170

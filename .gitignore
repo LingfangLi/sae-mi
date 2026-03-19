@@ -1,0 +1,7 @@
+*.npy
+hf_cache/
+*.err
+*.out
+__pycache__/
+*.pyc
+.DS_Store

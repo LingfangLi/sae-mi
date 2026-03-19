@@ -1,0 +1,50 @@
+======================================================================
+LAYER 3 - MLP-OUT SAE ANALYSIS (GPT-2 Small)
+Pooling: Max | SAE features: 32k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.7936 (79.36%)
+Precision: 0.7882
+Recall: 0.8131
+F1-Score: 0.8004
+Baseline Accuracy: 0.5344
+Improvement over baseline: +25.92%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 24246
+Total features activated for NEGATIVE: 24468
+COMMON features: 20770
+UNIQUE to POSITIVE only: 3476
+UNIQUE to NEGATIVE only: 3698
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 183: count=444 (100.0%), avg_act=0.3240
+2. Feature 1349: count=444 (100.0%), avg_act=0.2994
+3. Feature 1821: count=444 (100.0%), avg_act=2.3998
+4. Feature 2903: count=444 (100.0%), avg_act=0.1579
+5. Feature 5565: count=444 (100.0%), avg_act=0.0214
+6. Feature 6335: count=444 (100.0%), avg_act=23.4212
+7. Feature 7091: count=444 (100.0%), avg_act=0.0382
+8. Feature 7216: count=444 (100.0%), avg_act=5.6529
+9. Feature 8335: count=444 (100.0%), avg_act=0.0052
+10. Feature 8985: count=444 (100.0%), avg_act=9.4017
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 183: count=428 (100.0%), avg_act=0.3311
+2. Feature 1349: count=428 (100.0%), avg_act=0.2272
+3. Feature 1821: count=428 (100.0%), avg_act=2.3824
+4. Feature 2903: count=428 (100.0%), avg_act=0.1257
+5. Feature 5565: count=428 (100.0%), avg_act=0.0280
+6. Feature 6335: count=428 (100.0%), avg_act=23.4212
+7. Feature 7091: count=428 (100.0%), avg_act=0.0382
+8. Feature 7216: count=428 (100.0%), avg_act=5.4738
+9. Feature 8335: count=428 (100.0%), avg_act=0.0052
+10. Feature 8985: count=428 (100.0%), avg_act=9.2697

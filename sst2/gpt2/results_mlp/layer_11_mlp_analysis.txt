@@ -1,0 +1,50 @@
+======================================================================
+LAYER 11 - MLP-OUT SAE ANALYSIS (GPT-2 Small)
+Pooling: Max | SAE features: 32k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.7890 (78.90%)
+Precision: 0.7826
+Recall: 0.8108
+F1-Score: 0.7965
+Baseline Accuracy: 0.5344
+Improvement over baseline: +25.46%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 20582
+Total features activated for NEGATIVE: 20427
+COMMON features: 16670
+UNIQUE to POSITIVE only: 3912
+UNIQUE to NEGATIVE only: 3757
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 81: count=444 (100.0%), avg_act=0.3672
+2. Feature 316: count=444 (100.0%), avg_act=0.5056
+3. Feature 1314: count=444 (100.0%), avg_act=12.2211
+4. Feature 2754: count=444 (100.0%), avg_act=2.5141
+5. Feature 3877: count=444 (100.0%), avg_act=1.0152
+6. Feature 4396: count=444 (100.0%), avg_act=0.2829
+7. Feature 5221: count=444 (100.0%), avg_act=3.0382
+8. Feature 5576: count=444 (100.0%), avg_act=8.8345
+9. Feature 5979: count=444 (100.0%), avg_act=7.4337
+10. Feature 6142: count=444 (100.0%), avg_act=0.5904
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 81: count=428 (100.0%), avg_act=0.4413
+2. Feature 316: count=428 (100.0%), avg_act=0.4804
+3. Feature 1314: count=428 (100.0%), avg_act=11.9397
+4. Feature 2754: count=428 (100.0%), avg_act=2.5141
+5. Feature 3877: count=428 (100.0%), avg_act=1.0152
+6. Feature 4396: count=428 (100.0%), avg_act=0.2849
+7. Feature 5221: count=428 (100.0%), avg_act=3.0758
+8. Feature 5979: count=428 (100.0%), avg_act=7.3530
+9. Feature 6142: count=428 (100.0%), avg_act=0.5471
+10. Feature 6208: count=428 (100.0%), avg_act=16.9411

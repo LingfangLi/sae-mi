@@ -1,0 +1,50 @@
+======================================================================
+LAYER 13 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.9083 (90.83%)
+Precision: 0.8939
+Recall: 0.9302
+F1-Score: 0.9117
+Baseline Accuracy: 0.6330
+Improvement over baseline: +27.52%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 14764
+Total features activated for NEGATIVE: 14778
+COMMON features: 14104
+UNIQUE to POSITIVE only: 660
+UNIQUE to NEGATIVE only: 674
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 249: count=444 (100.0%), avg_act=162.1133
+2. Feature 1589: count=444 (100.0%), avg_act=8.6117
+3. Feature 2245: count=444 (100.0%), avg_act=3.3796
+4. Feature 2837: count=444 (100.0%), avg_act=3.8895
+5. Feature 3759: count=444 (100.0%), avg_act=4.2013
+6. Feature 3869: count=444 (100.0%), avg_act=55.4696
+7. Feature 4046: count=444 (100.0%), avg_act=3.5567
+8. Feature 4166: count=444 (100.0%), avg_act=23.6732
+9. Feature 4501: count=444 (100.0%), avg_act=3.5980
+10. Feature 4959: count=444 (100.0%), avg_act=2.2311
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 249: count=428 (100.0%), avg_act=162.5316
+2. Feature 1589: count=428 (100.0%), avg_act=8.4323
+3. Feature 2245: count=428 (100.0%), avg_act=3.4390
+4. Feature 2837: count=428 (100.0%), avg_act=3.7641
+5. Feature 3759: count=428 (100.0%), avg_act=4.2148
+6. Feature 3869: count=428 (100.0%), avg_act=55.5902
+7. Feature 4046: count=428 (100.0%), avg_act=3.6286
+8. Feature 4166: count=428 (100.0%), avg_act=23.6732
+9. Feature 4501: count=428 (100.0%), avg_act=3.5889
+10. Feature 4959: count=428 (100.0%), avg_act=2.2763

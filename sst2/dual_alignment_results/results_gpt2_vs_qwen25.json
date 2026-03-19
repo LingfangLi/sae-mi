@@ -1,0 +1,318 @@
+{
+  "model_a": "gpt2",
+  "model_b": "qwen25",
+  "model_a_name": "GPT-2 Small",
+  "model_b_name": "Qwen2.5 1.5B",
+  "layer_a": 6,
+  "layer_b": 15,
+  "n_features_a": 186,
+  "n_features_b": 171,
+  "jaccard_mean": 0.06648252235270007,
+  "jaccard_max": 0.6052631578947368,
+  "cosine_mean": 0.6235907077789307,
+  "cosine_max": 0.9466589689254761,
+  "pearson_valid_ratio": 0.5149971703452179,
+  "overall_correlation": -0.3176525491646894,
+  "top_matches": [
+    {
+      "feature_a": 1733,
+      "feature_b": 5986,
+      "jaccard": 0.5831202046035806,
+      "cosine": 0.8371955156326294,
+      "pearson": 0.1228763535618782,
+      "combined": 0.710157860118105,
+      "desc_a": "This SAE feature appears to respond to linguistic patterns indicating disappointment or negative sentiment towards a creative work, particularly when expectations are high due to an impressive cast or notable director.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 22394,
+      "feature_b": 5986,
+      "jaccard": 0.4326647564469914,
+      "cosine": 0.9000827670097351,
+      "pearson": 0.029153278097510338,
+      "combined": 0.6663737617283633,
+      "desc_a": "This SAE feature appears to respond to negative criticisms or expressions of disappointment related to movies or media, as evidenced by its strong activation on sentences discussing unentertaining or poorly executed films.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 16940,
+      "feature_b": 15139,
+      "jaccard": 0.4355495251017639,
+      "cosine": 0.8671397566795349,
+      "pearson": 0.0358499139547348,
+      "combined": 0.6513446408906494,
+      "desc_a": "This SAE feature responds to the concept of \"positive cinematic experience\" or \"appreciation of film quality,\" as it strongly activates on sentences expressing admiration for a movie's scope, story, or overall impact.",
+      "desc_b": "This SAE feature responds to the semantic feature of \"praise or commendation for a movie's approach or quality,\" as evident in the top-activating sentences expressing positive sentiments towards films that take a straightforward or unique approach to storytelling or atmosphere."
+    },
+    {
+      "feature_a": 3547,
+      "feature_b": 5986,
+      "jaccard": 0.3789004457652303,
+      "cosine": 0.9050844311714172,
+      "pearson": -0.024728482589125633,
+      "combined": 0.6419924384683238,
+      "desc_a": "This SAE feature (index 3547, layer 6) responds to the linguistic pattern of expressing criticism, disappointment, or dissatisfaction with a movie, often using phrases that imply the movie fails to meet certain expectations or achieves a lesser impact compared to what was anticipated.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 30695,
+      "feature_b": 20524,
+      "jaccard": 0.40610687022900765,
+      "cosine": 0.7786805629730225,
+      "pearson": 0.005770393181592226,
+      "combined": 0.592393716601015,
+      "desc_a": "This SAE feature responds to the linguistic pattern of \"aesthetic appreciation and emotional resonance\" in positive reviews, as evident from its strong activation on sentences describing beautiful, moving, and thought-provoking movies and experiences.",
+      "desc_b": "This SAE feature appears to respond to the presence of positive, nuanced, and culturally-informed commentary, as indicated by its strong activation in sentences praising films for their unique perspectives, humor, or craftsmanship."
+    },
+    {
+      "feature_a": 28039,
+      "feature_b": 26600,
+      "jaccard": 0.6052631578947368,
+      "cosine": 0.5792744159698486,
+      "pearson": 0.3511239290237427,
+      "combined": 0.5922687869322927,
+      "desc_a": "This SAE feature appears to respond to negative critiques or criticisms of artistic works, specifically identifying sentences that express disappointment or dissatisfaction with a movie or performance due to predictable or overly dramatic elements.",
+      "desc_b": "This sparse autoencoder feature responds to linguistic patterns of contrasting or criticizing overly simplistic, predictable, or overly dramatic elements in a narrative, often paired with an expectation of higher quality or depth."
+    },
+    {
+      "feature_a": 18716,
+      "feature_b": 5986,
+      "jaccard": 0.3313343328335832,
+      "cosine": 0.8516396284103394,
+      "pearson": 0.13468177616596222,
+      "combined": 0.5914869806219613,
+      "desc_a": "This SAE feature responds to the linguistic pattern of negative criticism towards horror movies, specifically the disappointment or annoyance resulting from their failure to deliver on the expectation of fear or thrills.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 29454,
+      "feature_b": 7782,
+      "jaccard": 0.3667953667953668,
+      "cosine": 0.8060353994369507,
+      "pearson": 0.012136918492615223,
+      "combined": 0.5864153831161587,
+      "desc_a": "This SAE feature responds to the linguistic pattern of strongly negative critique or criticism, particularly in film or entertainment reviews, often involving words with negative connotations such as \"soullessness,\" \"brutal,\" \"hokum,\" \"hopeless,\" and \"clunker.\"",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of strong negative sentiment or criticism, particularly in movie reviews, where negative phrases, rhetorical questions, and sarcastic tone dominate the top-activating sentences."
+    },
+    {
+      "feature_a": 25909,
+      "feature_b": 65235,
+      "jaccard": 0.3379721669980119,
+      "cosine": 0.8315000534057617,
+      "pearson": 0.011530312709510326,
+      "combined": 0.5847361102018869,
+      "desc_a": "This SAE feature responds strongly to sentences expressing praise and admiration for a film, particularly highlighting memorable performances, cinematography, and the director's vision, often using superlatives and emotive language.",
+      "desc_b": "This SAE feature appears to respond to the linguistic pattern of complex, high-level aesthetic or artistic evaluations, as seen in the top-activating sentences that describe films as \"dazzling,\" \"soaringly moving,\" and \"masterpiece\", suggesting a sensitivity to rich, nuanced expressions of appreciation and admiration."
+    },
+    {
+      "feature_a": 4165,
+      "feature_b": 5986,
+      "jaccard": 0.29320113314447593,
+      "cosine": 0.871003270149231,
+      "pearson": 0.04601277783513069,
+      "combined": 0.5821022016468534,
+      "desc_a": "This SAE feature appears to respond to sarcastic or critical evaluations of artistic works, specifically detecting phrases that express disappointment or disdain towards overly sentimental, melodramatic, or poorly executed films.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 7419,
+      "feature_b": 52375,
+      "jaccard": 0.30837004405286345,
+      "cosine": 0.8386792540550232,
+      "pearson": 0.03524089604616165,
+      "combined": 0.5735246490539433,
+      "desc_a": "This SAE feature responds to the linguistic pattern of describing and appreciating cinematic qualities, such as visual effects, soundtracks, and character performances in film reviews.",
+      "desc_b": "This SAE feature appears to respond to the linguistic pattern of praising literary or narrative qualities, particularly in the context of film or storytelling, as it activates strongly on sentences expressing admiration for storytelling, language, or cinematic techniques."
+    },
+    {
+      "feature_a": 30323,
+      "feature_b": 5986,
+      "jaccard": 0.2304075235109718,
+      "cosine": 0.9069259762763977,
+      "pearson": 0.09757586568593979,
+      "combined": 0.5686667498936847,
+      "desc_a": "This SAE feature appears to respond to the linguistic pattern of expressing strong negative opinions or criticism of a movie, particularly focusing on the underwhelming or disappointing aspects of a film.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 15787,
+      "feature_b": 5986,
+      "jaccard": 0.31076923076923074,
+      "cosine": 0.822955846786499,
+      "pearson": 0.16026456654071808,
+      "combined": 0.5668625387778649,
+      "desc_a": "This SAE feature responds to the linguistic pattern of expressing strong disapproval or criticism, as evident from its activation on sentences that contain words or phrases indicating a negative sentiment, such as \"bad\", \"dull\", and \"not entertaining\".",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 24520,
+      "feature_b": 29070,
+      "jaccard": 0.20670391061452514,
+      "cosine": 0.9190428256988525,
+      "pearson": 0.03301047161221504,
+      "combined": 0.5628733681566889,
+      "desc_a": "This SAE feature responds to the linguistic pattern of positive praise and admiration for films or authors, particularly highlighting their unique qualities, complexity, and artistic merit.",
+      "desc_b": "This SAE feature appears to respond to the linguistic pattern of expressing praise and admiration for a creative work, such as a film, with an emphasis on its engaging and inspiring qualities."
+    },
+    {
+      "feature_a": 32660,
+      "feature_b": 5986,
+      "jaccard": 0.2634069400630915,
+      "cosine": 0.8606343865394592,
+      "pearson": 0.05195875093340874,
+      "combined": 0.5620206633012754,
+      "desc_a": "This SAE feature responds to the linguistic pattern of expressing disappointment or criticism about a movie's failure to deliver, specifically highlighting issues with coherence, development, and overall quality.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 280,
+      "feature_b": 5986,
+      "jaccard": 0.2597402597402597,
+      "cosine": 0.8607784509658813,
+      "pearson": -0.06942123919725418,
+      "combined": 0.5602593553530706,
+      "desc_a": "This SAE feature responds to negatively-toned criticisms of a movie, particularly expressing disappointment or frustration with a film's lack of originality, quality, or entertainment value.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 21354,
+      "feature_b": 5986,
+      "jaccard": 0.3914285714285714,
+      "cosine": 0.7245601415634155,
+      "pearson": 0.0046840328723192215,
+      "combined": 0.5579943564959935,
+      "desc_a": "This SAE feature appears to respond to the presence of critical or evaluative language, particularly in the form of explicitly negative or dismissive phrases, such as \"there isn't a redeeming moment\" or \"as unseemly as its title suggests.\"",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 2012,
+      "feature_b": 5986,
+      "jaccard": 0.3490853658536585,
+      "cosine": 0.7583699822425842,
+      "pearson": 0.05269012972712517,
+      "combined": 0.5537276740481214,
+      "desc_a": "This SAE feature likely responds to strong expressions of negation or disparagement, as indicated by its activation on sentences featuring phrases with explicit negation, criticism, or strong disapproval.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 25436,
+      "feature_b": 18961,
+      "jaccard": 0.3472429210134128,
+      "cosine": 0.760161280632019,
+      "pearson": 0.009093856438994408,
+      "combined": 0.5537021008227159,
+      "desc_a": "This SAE feature appears to respond to the concept of strong emotional impact or emotional resonance, as it activates most strongly on sentences describing experiences that evoke powerful emotions, such as fascination, horror, and intense sentiment.",
+      "desc_b": "This SAE feature appears to respond to the presence of emotionally positive or uplifting expressions, particularly those that describe characters or experiences as \"pure of heart,\" \"satisfying,\" or \"energetic.\""
+    },
+    {
+      "feature_a": 3869,
+      "feature_b": 5986,
+      "jaccard": 0.29210134128166915,
+      "cosine": 0.8074709177017212,
+      "pearson": -0.0253006499260664,
+      "combined": 0.5497861294916951,
+      "desc_a": "This SAE feature responds to the linguistic pattern of expressing a sense of disappointment or underwhelm, particularly in the context of films and entertainment that fail to deliver expected thrills or excitement.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 24310,
+      "feature_b": 20524,
+      "jaccard": 0.23025210084033612,
+      "cosine": 0.860721230506897,
+      "pearson": 0.0670848935842514,
+      "combined": 0.5454866656736166,
+      "desc_a": "This SAE feature appears to respond to the concept of nuanced, in-depth cultural commentary or critique, particularly in the context of film and storytelling.",
+      "desc_b": "This SAE feature appears to respond to the presence of positive, nuanced, and culturally-informed commentary, as indicated by its strong activation in sentences praising films for their unique perspectives, humor, or craftsmanship."
+    },
+    {
+      "feature_a": 8192,
+      "feature_b": 31042,
+      "jaccard": 0.2606060606060606,
+      "cosine": 0.8290202617645264,
+      "pearson": 0.03553471714258194,
+      "combined": 0.5448131611852935,
+      "desc_a": "This SAE feature responds to a linguistic pattern of expressing admiration or enthusiasm for something, particularly with regards to praising a movie's features, such as action scenes, unique influences, and original storylines.",
+      "desc_b": "This SAE feature appears to respond to linguistically complex, descriptive phrases praising a film's technical aspects, such as cinematography, music, and costumes, indicating a preference for artistic merit."
+    },
+    {
+      "feature_a": 13317,
+      "feature_b": 21557,
+      "jaccard": 0.19047619047619047,
+      "cosine": 0.8896048069000244,
+      "pearson": 0.09806545078754425,
+      "combined": 0.5400404986881074,
+      "desc_a": "This SAE feature appears to respond to linguistic patterns of effusive praise and appreciation, particularly in the context of literature, film, and the arts, as it activates strongly on sentences expressing admiration for creative works or artists.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns of praise and admiration, particularly in descriptions of artistic works or creative endeavors that are original, effective, or of high quality."
+    },
+    {
+      "feature_a": 20777,
+      "feature_b": 50402,
+      "jaccard": 0.14885496183206107,
+      "cosine": 0.9307742118835449,
+      "pearson": 0.032193735241889954,
+      "combined": 0.539814586857803,
+      "desc_a": "This SAE feature appears to respond to linguistic patterns associated with strong negative sentiment, particularly in the context of criticizing movies or films as poorly made, boring, or lacking in redeeming qualities.",
+      "desc_b": "This SAE feature appears to respond to the linguistic pattern of expressing negative sentiment towards a movie, particularly criticizing its lack of coherence, charm, and engaging qualities."
+    },
+    {
+      "feature_a": 8577,
+      "feature_b": 7782,
+      "jaccard": 0.2217741935483871,
+      "cosine": 0.8576134443283081,
+      "pearson": 0.020423870533704758,
+      "combined": 0.5396938189383476,
+      "desc_a": "This SAE feature responds to a pattern of strong negative opinions and scathing critiques, particularly in movie reviews, as evident in its activation on strongly disapproving sentences about poorly made movies.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of strong negative sentiment or criticism, particularly in movie reviews, where negative phrases, rhetorical questions, and sarcastic tone dominate the top-activating sentences."
+    },
+    {
+      "feature_a": 29867,
+      "feature_b": 62142,
+      "jaccard": 0.19488188976377951,
+      "cosine": 0.8837632536888123,
+      "pearson": -0.009386456571519375,
+      "combined": 0.5393225717262959,
+      "desc_a": "This sparse autoencoder feature appears to respond to the presence of negative sentiment or dissatisfaction with a creative work, particularly in the context of comedy or entertainment that fails to meet expectations.",
+      "desc_b": "This sparse autoencoder feature appears to respond to strongly negative or critical commentary about a movie or creative work, particularly when it expresses disappointment or frustration with certain aspects, such as a lack of originality or spontaneity."
+    },
+    {
+      "feature_a": 9674,
+      "feature_b": 5986,
+      "jaccard": 0.19592476489028213,
+      "cosine": 0.8806827068328857,
+      "pearson": 0.0032103785779327154,
+      "combined": 0.538303735861584,
+      "desc_a": "This SAE feature (index 9674, layer 6) responds to linguistic patterns of unexpected disappointment or dissatisfaction with an otherwise positive or enjoyable experience, such as a movie or show.",
+      "desc_b": "This SAE feature appears to respond to linguistic patterns indicative of criticism or negative sentiment, particularly in the context of disappointment or disillusionment with a movie or film."
+    },
+    {
+      "feature_a": 7563,
+      "feature_b": 38949,
+      "jaccard": 0.17660550458715596,
+      "cosine": 0.8961606025695801,
+      "pearson": 0.18534232676029205,
+      "combined": 0.536383053578368,
+      "desc_a": "This SAE feature appears to respond to nuanced, positive descriptions of film performances, often highlighting understated yet captivating character portrayals.",
+      "desc_b": "This SAE feature appears to respond to nuanced, subtle, and complex evaluations of film performances, particularly in capturing the skill and depth of an actor's portrayal."
+    },
+    {
+      "feature_a": 9190,
+      "feature_b": 26600,
+      "jaccard": 0.5333333333333333,
+      "cosine": 0.5377868413925171,
+      "pearson": 0.503701388835907,
+      "combined": 0.5355600873629252,
+      "desc_a": "This SAE feature responds to the linguistic pattern of expressing criticism towards something being overly large, complicated, or excessive in terms of scope, size, or duration.",
+      "desc_b": "This sparse autoencoder feature responds to linguistic patterns of contrasting or criticizing overly simplistic, predictable, or overly dramatic elements in a narrative, often paired with an expectation of higher quality or depth."
+    },
+    {
+      "feature_a": 11521,
+      "feature_b": 7307,
+      "jaccard": 0.16470588235294117,
+      "cosine": 0.9031034708023071,
+      "pearson": 0.14479753375053406,
+      "combined": 0.5339046765776242,
+      "desc_a": "This SAE feature responds to a semantic feature of \"disappointment\" or \"unmet expectations\" as it strongly activates on sentences expressing negative emotions and criticism towards underwhelming experiences.",
+      "desc_b": "This SAE feature (index 7307, layer 15) appears to respond to the concept of \"disappointment or negative expectation,\" as it activates strongly on sentences expressing frustration or letdown in relation to a film or similar experience."
+    }
+  ]
+}

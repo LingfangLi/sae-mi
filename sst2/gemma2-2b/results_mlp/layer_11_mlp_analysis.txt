@@ -1,0 +1,50 @@
+======================================================================
+LAYER 11 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.9025 (90.25%)
+Precision: 0.8945
+Recall: 0.9167
+F1-Score: 0.9055
+Baseline Accuracy: 0.6330
+Improvement over baseline: +26.95%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 14980
+Total features activated for NEGATIVE: 15064
+COMMON features: 14456
+UNIQUE to POSITIVE only: 524
+UNIQUE to NEGATIVE only: 608
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 182: count=444 (100.0%), avg_act=10.8440
+2. Feature 245: count=444 (100.0%), avg_act=4.3276
+3. Feature 1521: count=444 (100.0%), avg_act=4.7090
+4. Feature 3318: count=444 (100.0%), avg_act=82.3782
+5. Feature 3458: count=444 (100.0%), avg_act=32.3957
+6. Feature 3493: count=444 (100.0%), avg_act=1.6906
+7. Feature 3587: count=444 (100.0%), avg_act=2.3992
+8. Feature 4394: count=444 (100.0%), avg_act=15.6679
+9. Feature 4397: count=444 (100.0%), avg_act=12.4424
+10. Feature 5421: count=444 (100.0%), avg_act=17.2781
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 182: count=428 (100.0%), avg_act=10.9270
+2. Feature 245: count=428 (100.0%), avg_act=4.3304
+3. Feature 1521: count=428 (100.0%), avg_act=4.7074
+4. Feature 3318: count=428 (100.0%), avg_act=82.5421
+5. Feature 3458: count=428 (100.0%), avg_act=32.2792
+6. Feature 3493: count=428 (100.0%), avg_act=1.6906
+7. Feature 3587: count=428 (100.0%), avg_act=2.3992
+8. Feature 4394: count=428 (100.0%), avg_act=15.7459
+9. Feature 4397: count=428 (100.0%), avg_act=12.4793
+10. Feature 5421: count=428 (100.0%), avg_act=17.2261

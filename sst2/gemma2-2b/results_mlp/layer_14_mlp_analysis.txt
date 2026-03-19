@@ -1,0 +1,50 @@
+======================================================================
+LAYER 14 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.9071 (90.71%)
+Precision: 0.8989
+Recall: 0.9212
+F1-Score: 0.9099
+Baseline Accuracy: 0.6330
+Improvement over baseline: +27.41%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 15215
+Total features activated for NEGATIVE: 15291
+COMMON features: 14729
+UNIQUE to POSITIVE only: 486
+UNIQUE to NEGATIVE only: 562
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 650: count=444 (100.0%), avg_act=4.0666
+2. Feature 951: count=444 (100.0%), avg_act=4.1692
+3. Feature 1052: count=444 (100.0%), avg_act=3.2380
+4. Feature 2412: count=444 (100.0%), avg_act=4.9352
+5. Feature 2564: count=444 (100.0%), avg_act=66.9713
+6. Feature 2619: count=444 (100.0%), avg_act=5.8748
+7. Feature 2673: count=444 (100.0%), avg_act=33.7681
+8. Feature 3001: count=444 (100.0%), avg_act=9.6072
+9. Feature 4958: count=444 (100.0%), avg_act=4.7408
+10. Feature 7173: count=444 (100.0%), avg_act=3.0698
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 650: count=428 (100.0%), avg_act=4.0562
+2. Feature 951: count=428 (100.0%), avg_act=4.2739
+3. Feature 1052: count=428 (100.0%), avg_act=3.0768
+4. Feature 2412: count=428 (100.0%), avg_act=5.2886
+5. Feature 2564: count=428 (100.0%), avg_act=67.4729
+6. Feature 2619: count=428 (100.0%), avg_act=5.9013
+7. Feature 2673: count=428 (100.0%), avg_act=33.7681
+8. Feature 3001: count=428 (100.0%), avg_act=9.6345
+9. Feature 4958: count=428 (100.0%), avg_act=4.8811
+10. Feature 7173: count=428 (100.0%), avg_act=3.0978

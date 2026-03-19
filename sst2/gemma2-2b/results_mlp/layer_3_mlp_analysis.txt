@@ -1,0 +1,50 @@
+======================================================================
+LAYER 3 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.8050 (80.50%)
+Precision: 0.7842
+Recall: 0.8514
+F1-Score: 0.8164
+Baseline Accuracy: 0.6330
+Improvement over baseline: +17.20%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 15900
+Total features activated for NEGATIVE: 15925
+COMMON features: 15634
+UNIQUE to POSITIVE only: 266
+UNIQUE to NEGATIVE only: 291
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 13: count=444 (100.0%), avg_act=2.8914
+2. Feature 19: count=444 (100.0%), avg_act=3.8003
+3. Feature 76: count=444 (100.0%), avg_act=2.2392
+4. Feature 98: count=444 (100.0%), avg_act=1.4922
+5. Feature 108: count=444 (100.0%), avg_act=2.3701
+6. Feature 127: count=444 (100.0%), avg_act=1.4962
+7. Feature 165: count=444 (100.0%), avg_act=1.6839
+8. Feature 171: count=444 (100.0%), avg_act=1.5028
+9. Feature 172: count=444 (100.0%), avg_act=2.4854
+10. Feature 188: count=444 (100.0%), avg_act=1.7450
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 13: count=428 (100.0%), avg_act=2.8991
+2. Feature 19: count=428 (100.0%), avg_act=3.7769
+3. Feature 76: count=428 (100.0%), avg_act=2.2244
+4. Feature 98: count=428 (100.0%), avg_act=1.4441
+5. Feature 108: count=428 (100.0%), avg_act=2.1664
+6. Feature 127: count=428 (100.0%), avg_act=1.4723
+7. Feature 165: count=428 (100.0%), avg_act=1.6758
+8. Feature 171: count=428 (100.0%), avg_act=1.4606
+9. Feature 172: count=428 (100.0%), avg_act=2.4917
+10. Feature 188: count=428 (100.0%), avg_act=1.7262

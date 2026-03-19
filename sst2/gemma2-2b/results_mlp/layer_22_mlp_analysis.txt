@@ -1,0 +1,50 @@
+======================================================================
+LAYER 22 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.8452 (84.52%)
+Precision: 0.8351
+Recall: 0.8671
+F1-Score: 0.8508
+Baseline Accuracy: 0.6330
+Improvement over baseline: +21.22%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 14575
+Total features activated for NEGATIVE: 14633
+COMMON features: 13868
+UNIQUE to POSITIVE only: 707
+UNIQUE to NEGATIVE only: 765
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 10: count=444 (100.0%), avg_act=4.1325
+2. Feature 89: count=444 (100.0%), avg_act=3.7608
+3. Feature 172: count=444 (100.0%), avg_act=4.0298
+4. Feature 259: count=444 (100.0%), avg_act=4.4422
+5. Feature 336: count=444 (100.0%), avg_act=3.8713
+6. Feature 861: count=444 (100.0%), avg_act=3.6737
+7. Feature 880: count=444 (100.0%), avg_act=3.7903
+8. Feature 910: count=444 (100.0%), avg_act=4.0576
+9. Feature 926: count=444 (100.0%), avg_act=3.8280
+10. Feature 947: count=444 (100.0%), avg_act=3.7139
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 10: count=428 (100.0%), avg_act=4.1243
+2. Feature 89: count=428 (100.0%), avg_act=3.7729
+3. Feature 172: count=428 (100.0%), avg_act=4.1179
+4. Feature 259: count=428 (100.0%), avg_act=4.4461
+5. Feature 336: count=428 (100.0%), avg_act=3.8817
+6. Feature 861: count=428 (100.0%), avg_act=3.7205
+7. Feature 880: count=428 (100.0%), avg_act=3.8202
+8. Feature 910: count=428 (100.0%), avg_act=4.0520
+9. Feature 926: count=428 (100.0%), avg_act=3.8278
+10. Feature 947: count=428 (100.0%), avg_act=3.7379

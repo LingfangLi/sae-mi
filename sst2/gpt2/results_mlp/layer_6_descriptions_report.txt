@@ -1,0 +1,1678 @@
+SAE Feature Descriptions - GPT-2 Small, Layer 6
+Features: 186 (MI+LR selected, sparsity filtered)
+======================================================================
+
+Feature 280 (MI=0.0000, LR=0.0905, act_rate=0.333)
+  Description: This SAE feature responds to negatively-toned criticisms of a movie, particularly expressing disappointment or frustration with a film's lack of originality, quality, or entertainment value.
+  Top sentences:
+    [0] (4.683) it takes a strange kind of laziness to waste the talents of robert forster , anne meara , eugene levy , and reginald veljohnson all in the same movie . 
+    [0] (3.668) not an objectionable or dull film ; it merely lacks everything except good intentions . 
+    [0] (3.627) it 's not original , and , robbed of the element of surprise , it does n't have any huge laughs in its story of irresponsible cops who love to play pranks . 
+    [0] (3.436) as ` chick flicks ' go , this one is pretty miserable , resorting to string-pulling rather than legitimate character development and intelligent plotting . 
+    [1] (3.395) light years / several warp speeds / levels and levels of dilithium crystals better than the pitiful insurrection . 
+
+Feature 461 (MI=0.0000, LR=0.0696, act_rate=0.010)
+  Description: This SAE feature responds to a linguistic pattern of contrasting expectations with disappointing reality, particularly in the context of movies or TV shows, where high hopes are dashed by lackluster results.
+  Top sentences:
+    [0] (14.227) despite all evidence to the contrary , this clunker has somehow managed to pose as an actual feature movie , the kind that charges full admission and gets hyped on tv and purports to amuse small children and ostensible adults . 
+    [0] (14.201) if the first men in black was money , the second is small change . 
+    [0] (13.571) the movie is what happens when you blow up small potatoes to 10 times their natural size , and it ai n't pretty . 
+    [0] (13.390) looks and feels like a project better suited for the small screen . 
+    [0] (12.880) as the latest bid in the tv-to-movie franchise game , i spy makes its big-screen entry with little of the nervy originality of its groundbreaking small-screen progenitor . 
+
+Feature 499 (MI=0.0267, LR=0.0932, act_rate=0.106)
+  Description: This SAE feature responds to negative opinions about creative works being poorly developed, unfocused, and overly convoluted.
+  Top sentences:
+    [0] (4.151) too much of it feels unfocused and underdeveloped . 
+    [0] (3.848) at its worst , it implodes in a series of very bad special effects . 
+    [0] (3.435) but it 's too long and too convoluted and it ends in a muddle . 
+    [0] (3.221) this movie is something of an impostor itself , stretching and padding its material in a blur of dead ends and distracting camera work . 
+    [1] (3.179) the socio-histo-political treatise is told in earnest strides ... ( and ) personal illusion is deconstructed with poignancy . 
+
+Feature 688 (MI=0.0097, LR=0.0672, act_rate=0.123)
+  Description: This SAE feature appears to respond to linguistic patterns of negation and criticism, as all top-activating sentences express negative opinions or criticisms of movies, with features such as "has nothing fresh or particularly interesting to say," "virtually no interesting elements," and "little else to offer."
+  Top sentences:
+    [0] (11.712) works hard to establish rounded characters , but then has nothing fresh or particularly interesting to say about them . 
+    [0] (11.099) with virtually no interesting elements for an audience to focus on , chelsea walls is a triple-espresso endurance challenge . 
+    [1] (9.918) ( t ) his beguiling belgian fable , very much its own droll and delicate little film , has some touching things to say about what is important in life and why . 
+    [1] (9.829) while there 's something intrinsically funny about sir anthony hopkins saying ` get in the car , bitch , ' this jerry bruckheimer production has little else to offer 
+    [0] (9.423) prurient playthings aside , there 's little to love about this english trifle . 
+
+Feature 964 (MI=0.0002, LR=0.1067, act_rate=0.010)
+  Description: This SAE feature (index 964, layer 6) responds to the linguistic pattern of expressing cautious or lukewarm appreciation for something that falls short of being truly memorable or impactful.
+  Top sentences:
+    [0] (19.443) in all , this is a watchable movie that 's not quite the memorable experience it might have been . 
+    [0] (18.256) impostor has a handful of thrilling moments and a couple of good performances , but the movie does n't quite fly . 
+    [0] (17.760) determined to be fun , and bouncy , with energetic musicals , the humor did n't quite engage this adult . 
+    [0] (16.913) zaidan 's script has barely enough plot to string the stunts together and not quite enough characterization to keep the faces straight . 
+    [0] (16.738) the film makes a fatal mistake : it asks us to care about a young man whose only apparent virtue is that he is not quite as unpleasant as some of the people in his life . 
+
+Feature 1317 (MI=0.0469, LR=0.0029, act_rate=0.014)
+  Description: This SAE feature responds to positive evaluations of creative achievement, as evidenced by the top-activating sentences' frequent mentions of artistic success, awards, and praise for directors and actors.
+  Top sentences:
+    [1] (5.649) no sophomore slump for director sam mendes , who segues from oscar winner to oscar-winning potential with a smooth sleight of hand . 
+    [0] (5.038) scores no points for originality , wit , or intelligence . 
+    [1] (2.879) like mike is a winner for kids , and no doubt a winner for lil bow wow , who can now add movies to the list of things he does well . 
+    [1] (2.849) a romantic comedy enriched by a sharp eye for manners and mores . 
+    [0] (2.489) while the resident evil games may have set new standards for thrills , suspense , and gore for video games , the movie really only succeeds in the third of these . 
+
+Feature 1458 (MI=0.0000, LR=0.0844, act_rate=0.190)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing a negative or critical commentary on a movie or film, often incorporating a sense of irony or unexpectedness in the form of a planned trilogy or franchise.
+  Top sentences:
+    [0] (8.953) nothing in waking up in reno ever inspired me to think of its inhabitants as anything more than markers in a screenplay . 
+    [1] (8.453) the structure the film takes may find matt damon and ben affleck once again looking for residuals as this officially completes a good will hunting trilogy that was never planned . 
+    [1] (8.321) nine queens is not only than a frighteningly capable debut and genre piece , but also a snapshot of a dangerous political situation on the verge of coming to a head . 
+    [0] (7.949) as the latest bid in the tv-to-movie franchise game , i spy makes its big-screen entry with little of the nervy originality of its groundbreaking small-screen progenitor . 
+    [1] (7.556) add yet another hat to a talented head , clooney 's a good director . 
+
+Feature 1473 (MI=0.0072, LR=0.0725, act_rate=0.266)
+  Description: This SAE feature appears to respond to the concept of "exaggerated, playful, or self-aware seriousness" in text, particularly in contexts where a work or character is described as over-the-top, cheesy, or affectingly serious.
+  Top sentences:
+    [0] (9.907) sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . 
+    [1] (8.666) miller is playing so free with emotions , and the fact that children are hostages to fortune , that he makes the audience hostage to his swaggering affectation of seriousness . 
+    [1] (7.737) ( lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place . 
+    [1] (7.628) ... mafia , rap stars and hood rats butt their ugly heads in a regurgitation of cinematic violence that gives brutal birth to an unlikely , but likable , hero . ' 
+    [1] (7.238) it 's refreshing to see a girl-power movie that does n't feel it has to prove anything . 
+
+Feature 1576 (MI=0.0080, LR=0.0742, act_rate=0.167)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing negation or contrast, particularly when comparing something to its extreme or absolute opposite (e.g., "isn't even", "isn't just", "isn't exactly").
+  Top sentences:
+    [0] (9.044) you wonder why enough was n't just a music video rather than a full-length movie . 
+    [0] (8.972) this is n't even madonna 's swept away . 
+    [1] (8.957) it will grip even viewers who are n't interested in rap , as it cuts to the heart of american society in an unnerving way . 
+    [1] (8.868) while undisputed is n't exactly a high , it is a gripping , tidy little movie that takes mr. hill higher than he 's been in a while . 
+    [1] (8.814) the movie is n't just hilarious : it 's witty and inventive , too , and in hindsight , it is n't even all that dumb . 
+
+Feature 1607 (MI=0.0000, LR=0.0739, act_rate=0.022)
+  Description: This SAE feature responds to the linguistic pattern of expressing strong negative emotions, particularly boredom and fatigue, which are often associated with a lack of engagement or interest.
+  Top sentences:
+    [0] (10.222) when the film ended , i felt tired and drained and wanted to lie on my own deathbed for a while . 
+    [0] (7.792) it does n't believe in itself , it has no sense of humor ... it 's just plain bored . 
+    [0] (7.651) i 'm just too bored to care . 
+    [0] (4.444) the entire movie is about a boring , sad man being boring and sad . 
+    [0] (3.442) ... a boring parade of talking heads and technical gibberish that will do little to advance the linux cause . 
+
+Feature 1733 (MI=0.0090, LR=0.1052, act_rate=0.751)
+  Description: This SAE feature appears to respond to linguistic patterns indicating disappointment or negative sentiment towards a creative work, particularly when expectations are high due to an impressive cast or notable director.
+  Top sentences:
+    [0] (7.099) sit through this one , and you wo n't need a magic watch to stop time ; your dvd player will do it for you . 
+    [0] (6.907) a subject like this should inspire reaction in its audience ; the pianist does not . 
+    [1] (6.638) if you dig on david mamet 's mind tricks ... rent this movie and enjoy ! 
+    [0] (5.866) do n't be fooled by the impressive cast list - eye see you is pure junk . 
+    [0] (5.371) stealing harvard is evidence that the farrelly bros. -- peter and bobby -- and their brand of screen comedy are wheezing to an end , along with green 's half-hearted movie career . 
+
+Feature 1775 (MI=0.0000, LR=0.0826, act_rate=0.141)
+  Description: This SAE feature responds to the linguistic pattern of "positive cultural or artistic appreciation," as it activates strongly on sentences expressing admiration for engaging characterizations, lively cultural mixes, and winning performances in films.
+  Top sentences:
+    [1] (9.806) yakusho and shimizu ... create engaging characterizations in imamura 's lively and enjoyable cultural mix . 
+    [0] (9.305) even on those rare occasions when the narrator stops yammering , miller 's hand often feels unsure . 
+    [1] (9.043) the chateau cleverly probes the cross-cultural differences between gauls and yanks . 
+    [0] (7.616) the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold . 
+    [1] (7.366) a giggle-inducing comedy with snappy dialogue and winning performances by an unlikely team of oscar-winners : susan sarandon and goldie hawn . 
+
+Feature 2012 (MI=0.0464, LR=0.0835, act_rate=0.346)
+  Description: This SAE feature likely responds to strong expressions of negation or disparagement, as indicated by its activation on sentences featuring phrases with explicit negation, criticism, or strong disapproval.
+  Top sentences:
+    [0] (5.677) this is so bad . 
+    [0] (5.391) this one is definitely one to skip , even for horror movie fanatics . 
+    [0] (5.295) sit through this one , and you wo n't need a magic watch to stop time ; your dvd player will do it for you . 
+    [0] (5.092) i had to look away - this was god awful . 
+    [1] (4.435) scooby dooby doo / and shaggy too / you both look and sound great . 
+
+Feature 2694 (MI=0.0154, LR=0.0685, act_rate=0.033)
+  Description: This SAE feature responds to the presence of phrases expressing appreciation or praise for a film, often using words like "good", "touching", and "fun", indicating its sensitivity to sentimentally positive evaluations.
+  Top sentences:
+    [1] (11.850) that dogged good will of the parents and ` vain ' jia 's defoliation of ego , make the film touching despite some doldrums . 
+    [0] (11.577) not an objectionable or dull film ; it merely lacks everything except good intentions . 
+    [1] (10.423) the continued good chemistry between carmen and juni is what keeps this slightly disappointing sequel going , with enough amusing banter -- blessedly curse-free -- to keep both kids and parents entertained . 
+    [1] (10.120) falls neatly into the category of good stupid fun . 
+    [1] (8.370) it all adds up to good fun . 
+
+Feature 2816 (MI=0.0505, LR=0.0158, act_rate=0.031)
+  Description: This SAE feature appears to respond to nuanced, insightful, and sophisticated language use, particularly in the context of film criticism, as evidenced by its strong activation on sentences that express complex analysis and evaluation of cinematic works.
+  Top sentences:
+    [1] (2.066) pacino is brilliant as the sleep-deprived dormer , his increasing weariness as much existential as it is physical . 
+    [1] (2.008) uses sharp humor and insight into human nature to examine class conflict , adolescent yearning , the roots of friendship and sexual identity . 
+    [1] (1.933) with tightly organized efficiency , numerous flashbacks and a constant edge of tension , miller 's film is one of 2002 's involvingly adult surprises . 
+    [0] (1.859) for all the writhing and wailing , tears , rage and opium overdoses , there 's no sense of actual passion being washed away in love 's dissolution . 
+    [0] (1.850) the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . 
+
+Feature 3251 (MI=0.0535, LR=0.0042, act_rate=0.015)
+  Description: This SAE feature responds to linguistic patterns related to complex, nuanced, or ironic interpretations of creative works, as evident in the top-activating sentences' usage of figurative language, meta-references, and self-aware humor.
+  Top sentences:
+    [1] (2.606) this surreal gilliam-esque film is also a troubling interpretation of ecclesiastes . 
+    [1] (2.207) it is great summer fun to watch arnold and his buddy gerald bounce off a quirky cast of characters . 
+    [0] (2.121) with the exception of some fleetingly amusing improvisations by cedric the entertainer as perry 's boss , there is n't a redeeming moment here . 
+    [1] (1.943) no sophomore slump for director sam mendes , who segues from oscar winner to oscar-winning potential with a smooth sleight of hand . 
+    [0] (1.857) jason x is positively anti-darwinian : nine sequels and 400 years later , the teens are none the wiser and jason still kills on auto-pilot . 
+
+Feature 3529 (MI=0.0482, LR=0.0101, act_rate=0.013)
+  Description: This SAE feature responds to the linguistic pattern of expressing nuanced, sophisticated, and often contrasting opinions or sentiments, as evident in the top-activating sentences that frequently combine positive and negative evaluations of a subject.
+  Top sentences:
+    [1] (9.853) the sort of film that makes me miss hitchcock , but also feel optimistic that there 's hope for popular cinema yet . 
+    [1] (4.504) kinnear does n't aim for our sympathy , but rather delivers a performance of striking skill and depth . 
+    [0] (4.350) once the 50 year old benigni appears as the title character , we find ourselves longing for the block of wood to come back . 
+    [1] (3.813) if you are an actor who can relate to the search for inner peace by dramatically depicting the lives of others onstage , then esther 's story is a compelling quest for truth . 
+    [0] (2.448) for all its technical virtuosity , the film is so mired in juvenile and near-xenophobic pedagogy that it 's enough to make one pine for the day when godard can no longer handle the rigors of filmmaking . 
+
+Feature 3547 (MI=0.0058, LR=0.0706, act_rate=0.396)
+  Description: This SAE feature (index 3547, layer 6) responds to the linguistic pattern of expressing criticism, disappointment, or dissatisfaction with a movie, often using phrases that imply the movie fails to meet certain expectations or achieves a lesser impact compared to what was anticipated.
+  Top sentences:
+    [0] (6.175) while the resident evil games may have set new standards for thrills , suspense , and gore for video games , the movie really only succeeds in the third of these . 
+    [0] (5.581) impostor has a handful of thrilling moments and a couple of good performances , but the movie does n't quite fly . 
+    [0] (5.356) i sympathize with the plight of these families , but the movie does n't do a very good job conveying the issue at hand . 
+    [1] (5.240) the movie achieves as great an impact by keeping these thoughts hidden as ... ( quills ) did by showing them . 
+    [1] (5.206) this is wild surreal stuff , but brilliant and the camera just kind of sits there and lets you look at this and its like you 're going from one room to the next and none of them have any relation to the other . 
+
+Feature 3716 (MI=0.0000, LR=0.0902, act_rate=0.052)
+  Description: This SAE feature responds to linguistic patterns of negative film criticism, particularly the use of pejorative language and sarcastic tone when expressing disappointment or disdain towards movies.
+  Top sentences:
+    [0] (10.251) the affectionate loopiness that once seemed congenital to demme 's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects . 
+    [0] (10.089) visually rather stunning , but ultimately a handsome-looking bore , the true creativity would have been to hide treasure planet entirely and completely reimagine it . 
+    [0] (9.860) with its dogged hollywood naturalism and the inexorable passage of its characters toward sainthood , windtalkers is nothing but a sticky-sweet soap . 
+    [1] (9.731) more romantic , more emotional and ultimately more satisfying than the teary-eyed original . 
+    [0] (8.816) expect the same-old , lame-old slasher nonsense , just with different scenery . 
+
+Feature 3726 (MI=0.0017, LR=0.0777, act_rate=0.021)
+  Description: This SAE feature responds to the linguistic pattern of expressing sentiment through emotional and personal connections, particularly in the context of describing movies or stories as "heartwarming," "heartfelt," or emotionally impactful.
+  Top sentences:
+    [1] (13.096) corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . 
+    [1] (12.864) a working class `` us vs. them '' opera that leaves no heartstring untugged and no liberal cause unplundered . 
+    [1] (11.422) `` mostly martha '' is a bright , light modern day family parable that wears its heart on its sleeve for all to see . 
+    [1] (10.995) a cartoon that 's truly cinematic in scope , and a story that 's compelling and heartfelt -- even if the heart belongs to a big , four-legged herbivore . 
+    [0] (10.952) the talented and clever robert rodriguez perhaps put a little too much heart into his first film and did n't reserve enough for his second . 
+
+Feature 3869 (MI=0.0000, LR=0.0719, act_rate=0.326)
+  Description: This SAE feature responds to the linguistic pattern of expressing a sense of disappointment or underwhelm, particularly in the context of films and entertainment that fail to deliver expected thrills or excitement.
+  Top sentences:
+    [0] (5.504) all the amped-up tony hawk-style stunts and thrashing rap-metal ca n't disguise the fact that , really , we 've been here , done that . 
+    [0] (5.355) feels too formulaic and too familiar to produce the transgressive thrills of early underground work . 
+    [0] (5.347) ( w ) hile long on amiable monkeys and worthy environmentalism , jane goodall 's wild chimpanzees is short on the thrills the oversize medium demands . 
+    [1] (5.030) this flick is about as cool and crowd-pleasing as a documentary can get . 
+    [0] (4.714) while the resident evil games may have set new standards for thrills , suspense , and gore for video games , the movie really only succeeds in the third of these . 
+
+Feature 4165 (MI=0.0000, LR=0.0868, act_rate=0.378)
+  Description: This SAE feature appears to respond to sarcastic or critical evaluations of artistic works, specifically detecting phrases that express disappointment or disdain towards overly sentimental, melodramatic, or poorly executed films.
+  Top sentences:
+    [0] (7.118) there 's enough melodrama in this magnolia primavera to make pta proud yet director muccino 's characters are less worthy of puccini than they are of daytime television . 
+    [0] (6.357) sticky sweet sentimentality , clumsy plotting and a rosily myopic view of life in the wwii-era mississippi delta undermine this adaptation . 
+    [1] (5.923) the wild thornberrys movie is a jolly surprise . 
+    [1] (5.758) `` mostly martha '' is a bright , light modern day family parable that wears its heart on its sleeve for all to see . 
+    [0] (5.296) director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+
+Feature 4297 (MI=0.0481, LR=0.0486, act_rate=0.141)
+  Description: This SAE feature (index 4297, layer 6) appears to respond to the linguistic pattern of subtle criticism or nuanced disappointment, often expressed in a relatively polite or indirect manner, indicating a complex evaluation of a text that is neither purely positive nor strongly negative.
+  Top sentences:
+    [0] (11.574) it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , without all oedekerk 's impish augmentation . 
+    [0] (11.455) as vulgar as it is banal . 
+    [1] (10.894) audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . 
+    [1] (10.116) it 's hard to imagine alan arkin being better than he is in this performance . 
+    [0] (9.897) there 's enough melodrama in this magnolia primavera to make pta proud yet director muccino 's characters are less worthy of puccini than they are of daytime television . 
+
+Feature 4442 (MI=0.0524, LR=0.0736, act_rate=0.225)
+  Description: This SAE feature responds to the linguistic pattern of criticizing a movie's failure to live up to its potential or exceed expectations, often accompanied by negative comparisons to the original material it is based on.
+  Top sentences:
+    [0] (9.160) irwin is a man with enough charisma and audacity to carry a dozen films , but this particular result is ultimately held back from being something greater . 
+    [1] (6.692) a movie that successfully crushes a best selling novel into a timeframe that mandates that you avoid the godzilla sized soda . 
+    [0] (6.286) it 's so mediocre , despite the dynamic duo on the marquee , that we just ca n't get no satisfaction . 
+    [0] (5.585) the action switches between past and present , but the material link is too tenuous to anchor the emotional connections that purport to span a 125-year divide . 
+    [0] (5.576) a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . 
+
+Feature 4484 (MI=0.0468, LR=0.0566, act_rate=0.106)
+  Description: This SAE feature responds to negative sentiment and criticism, particularly in sentences expressing strong disapproval or disappointment with a movie's quality or artistic merit.
+  Top sentences:
+    [0] (2.351) sit through this one , and you wo n't need a magic watch to stop time ; your dvd player will do it for you . 
+    [0] (2.290) professionally speaking , it 's tempting to jump ship in january to avoid ridiculous schlock like this shoddy suspense thriller . 
+    [1] (2.257) a must-see for the david mamet enthusiast and for anyone who appreciates intelligent , stylish moviemaking . 
+    [0] (2.236) for all the writhing and wailing , tears , rage and opium overdoses , there 's no sense of actual passion being washed away in love 's dissolution . 
+    [0] (2.221) hit and miss as far as the comedy goes and a big ole ' miss in the way of story . 
+
+Feature 5261 (MI=0.0261, LR=0.1086, act_rate=0.044)
+  Description: This SAE feature responds to the semantic feature of "unexpected enjoyment" or "surprising fun" in text, as it activates on sentences describing activities or experiences that are unexpectedly enjoyable or entertaining despite initial reservations.
+  Top sentences:
+    [1] (12.389) nothing 's at stake , just a twisty double-cross you can smell a mile away -- still , the derivative nine queens is lots of fun . 
+    [0] (11.864) determined to be fun , and bouncy , with energetic musicals , the humor did n't quite engage this adult . 
+    [0] (11.442) although huppert 's intensity and focus has a raw exhilaration about it , the piano teacher is anything but fun . 
+    [1] (11.340) ... a fun little timewaster , helped especially by the cool presence of jean reno . 
+    [0] (10.889) there is n't nearly enough fun here , despite the presence of some appealing ingredients . 
+
+Feature 5425 (MI=0.0000, LR=0.0700, act_rate=0.069)
+  Description: This SAE feature appears to respond to negative criticism or disapproval of movies, as all top-activating sentences express disappointment or dissatisfaction with films, particularly in terms of their storytelling, characters, and overall quality.
+  Top sentences:
+    [0] (6.880) what the director ca n't do is make either of val kilmer 's two personas interesting or worth caring about . 
+    [0] (6.607) the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold . 
+    [0] (6.482) one of the more irritating cartoons you will see this , or any , year . 
+    [0] (5.799) it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake . 
+    [1] (5.104) one of creepiest , scariest movies to come along in a long , long time , easily rivaling blair witch or the others . 
+
+Feature 5427 (MI=0.0225, LR=0.0920, act_rate=0.092)
+  Description: This SAE feature appears to respond to the presence of nuanced, positive film criticism, particularly when praising the script, characters, and emotional resonance of a movie.
+  Top sentences:
+    [1] (8.801) a superbly acted and funny/gritty fable of the humanizing of one woman at the hands of the unseen forces of fate . 
+    [1] (7.970) based on a devilishly witty script by heather mcgowan and niels mueller , the film gets great laughs , but never at the expense of its characters 
+    [1] (7.884) a full world has been presented onscreen , not some series of carefully structured plot points building to a pat resolution . 
+    [1] (7.765) altogether , this is successful as a film , while at the same time being a most touching reconsideration of the familiar masterpiece . 
+    [1] (7.601) preaches to two completely different choirs at the same time , which is a pretty amazing accomplishment . 
+
+Feature 5840 (MI=0.0102, LR=0.0744, act_rate=0.025)
+  Description: This SAE feature appears to respond to the semantic concept of "familiarity," particularly in the context of a negative evaluation, where it seems to indicate that something is overused, predictable, or unoriginal.
+  Top sentences:
+    [0] (9.847) a great ensemble cast ca n't lift this heartfelt enterprise out of the familiar . 
+    [1] (8.894) altogether , this is successful as a film , while at the same time being a most touching reconsideration of the familiar masterpiece . 
+    [0] (7.256) feels too formulaic and too familiar to produce the transgressive thrills of early underground work . 
+    [0] (7.205) tries to add some spice to its quirky sentiments but the taste is all too familiar . 
+    [0] (6.956) forced , familiar and thoroughly condescending . 
+
+Feature 6029 (MI=0.0200, LR=0.0694, act_rate=0.114)
+  Description: This SAE feature responds to the linguistic pattern of expressing enthusiastic or positive sentiments towards artistic works, such as films or music, using superlatives and descriptive adjectives.
+  Top sentences:
+    [1] (8.629) preaches to two completely different choirs at the same time , which is a pretty amazing accomplishment . 
+    [1] (7.805) it 's a lovely film with lovely performances by buy and accorsi . 
+    [1] (7.311) it 's a beautiful madness . 
+    [1] (6.788) it 's a stunning lyrical work of considerable force and truth . 
+    [1] (6.282) it 's a charming and often affecting journey . 
+
+Feature 6345 (MI=0.0167, LR=0.0899, act_rate=0.087)
+  Description: This SAE feature responds to nuanced and often negative assessments of artistic merit, particularly criticism of a work's failure to transcend its medium or meet expectations.
+  Top sentences:
+    [0] (11.082) well-nigh unendurable ... though the picture strains to become cinematic poetry , it remains depressingly prosaic and dull . 
+    [1] (10.309) despite the 2-d animation , the wild thornberrys movie makes for a surprisingly cinematic experience . 
+    [0] (10.032) it 's just disappointingly superficial -- a movie that has all the elements necessary to be a fascinating , involving character study , but never does more than scratch the surface . 
+    [1] (9.873) birthday girl is an amusing joy ride , with some surprisingly violent moments . 
+    [0] (9.429) utterly lacking in charm , wit and invention , roberto benigni 's pinocchio is an astonishingly bad film . 
+
+Feature 6766 (MI=0.0000, LR=0.0763, act_rate=0.213)
+  Description: This sparse autoencoder feature responds to the linguistic pattern of expressing mixed or ambivalent emotions, as evident in the top-activating sentences that describe films or events that elicit both positive and negative reactions.
+  Top sentences:
+    [0] (7.155) ... designed to provide a mix of smiles and tears , `` crossroads '' instead provokes a handful of unintentional howlers and numerous yawns . 
+    [1] (6.899) it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . 
+    [0] (6.863) shaky close-ups of turkey-on-rolls , stubbly chins , liver spots , red noses and the filmmakers new bobbed do draw easy chuckles but lead nowhere . 
+    [1] (6.676) that dogged good will of the parents and ` vain ' jia 's defoliation of ego , make the film touching despite some doldrums . 
+    [0] (5.574) nervous breakdowns are not entertaining . 
+
+Feature 6944 (MI=0.0508, LR=0.0129, act_rate=0.026)
+  Description: The sparse autoencoder feature at index 6944, layer 6, appears to respond to positive praise or commendation, particularly in the form of acknowledging an artist's skill or performance.
+  Top sentences:
+    [1] (3.748) blanchett 's performance confirms her power once again . 
+    [1] (2.632) based on a devilishly witty script by heather mcgowan and niels mueller , the film gets great laughs , but never at the expense of its characters 
+    [1] (2.500) this is an egotistical endeavor from the daughter of horror director dario argento ( a producer here ) , but her raw performance and utter fearlessness make it strangely magnetic . 
+    [1] (2.362) the special effects and many scenes of weightlessness look as good or better than in the original , while the oscar-winning sound and james horner 's rousing score make good use of the hefty audio system . 
+    [1] (2.318) a psychological thriller with a genuinely spooky premise and an above-average cast , actor bill paxton 's directing debut is a creepy slice of gothic rural americana . 
+
+Feature 6948 (MI=0.0469, LR=0.0072, act_rate=0.065)
+  Description: This SAE feature appears to respond to the linguistic pattern of contrasting opposing forces or elements, such as success vs. failure, or humor vs. offensiveness, often in a subtle or nuanced manner.
+  Top sentences:
+    [1] (3.838) it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . 
+    [0] (3.483) some of their jokes work , but most fail miserably and in the end , pumpkin is far more offensive than it is funny . 
+    [0] (3.131) this time mr. burns is trying something in the martin scorsese street-realist mode , but his self-regarding sentimentality trips him up again . 
+    [0] (3.030) the movie is dawn of the dead crossed with john carpenter 's ghosts of mars , with zombies not as ghoulish as the first and trains not as big as the second . 
+    [0] (3.025) it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , without all oedekerk 's impish augmentation . 
+
+Feature 6983 (MI=0.0338, LR=0.1209, act_rate=0.025)
+  Description: This SAE feature appears to respond to a semantic concept of "bad filmmaking" or "poor movie quality," as it strongly activates on sentences describing dull, nonsensical, and amateurish cinematic productions.
+  Top sentences:
+    [0] (14.363) it can not be enjoyed , even on the level that one enjoys a bad slasher flick , primarily because it is dull . 
+    [0] (13.744) in its best moments , resembles a bad high school production of grease , without benefit of song . 
+    [0] (13.293) it 's another video movie photographed like a film , with the bad lighting that 's often written off as indie film naturalism . 
+    [0] (12.562) it 's like every bad idea that 's ever gone into an after-school special compiled in one place , minus those daytime programs ' slickness and sophistication ( and who knew they even had any ? ) . 
+    [0] (12.239) nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting . 
+
+Feature 7110 (MI=0.0476, LR=0.0559, act_rate=0.276)
+  Description: This SAE feature responds to complex or nuanced literary or aesthetic evaluations, particularly those that acknowledge both positive and negative aspects of a work.
+  Top sentences:
+    [1] (7.237) oscar wilde 's masterpiece , the importance of being earnest , may be the best play of the 19th century . 
+    [1] (6.846) harrison 's flowers puts its heart in the right place , but its brains are in no particular place at all . 
+    [1] (6.846) hilariously inept and ridiculous . 
+    [1] (6.846) huston nails both the glad-handing and the choking sense of hollow despair . 
+    [0] (6.369) i had to look away - this was god awful . 
+
+Feature 7134 (MI=0.0523, LR=0.0018, act_rate=0.087)
+  Description: This SAE feature appears to respond to the linguistic pattern of acknowledging or appreciating a movie's well-executed narrative elements, such as plot, morality, or tension, indicating a positive sentiment towards the film.
+  Top sentences:
+    [1] (2.607) the movie 's relatively simple plot and uncomplicated morality play well with the affable cast . 
+    [1] (2.314) it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . 
+    [1] (2.261) inside the film 's conflict-powered plot there is a decent moral trying to get out , but it 's not that , it 's the tension that keeps you in your seat . 
+    [0] (2.243) sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . 
+    [1] (2.071) my wife is an actress is an utterly charming french comedy that feels so american in sensibility and style it 's virtually its own hollywood remake . 
+
+Feature 7349 (MI=0.0000, LR=0.0808, act_rate=0.198)
+  Description: This SAE feature responds to the linguistic pattern of "mitigating criticism" or "positive spin on a negative aspect," as it activates strongly on sentences that express a positive sentiment while highlighting a minor flaw or imperfection.
+  Top sentences:
+    [1] (6.062) the jabs it employs are short , carefully placed and dead-center . 
+    [1] (5.934) the continued good chemistry between carmen and juni is what keeps this slightly disappointing sequel going , with enough amusing banter -- blessedly curse-free -- to keep both kids and parents entertained . 
+    [0] (5.818) the humor is forced and heavy-handed , and occasionally simply unpleasant . 
+    [1] (5.767) while its careful pace and seemingly opaque story may not satisfy every moviegoer 's appetite , the film 's final scene is soaringly , transparently moving . 
+    [0] (5.703) rarely has leukemia looked so shimmering and benign . 
+
+Feature 7354 (MI=0.0000, LR=0.1014, act_rate=0.161)
+  Description: This SAE feature appears to respond to the concept of "chemistry" or "complementary relationships" between characters in a story, particularly in the context of positive interactions and collaborations.
+  Top sentences:
+    [1] (17.232) it 's fascinating to see how bettany and mcdowell play off each other . 
+    [1] (13.862) affleck and jackson are good sparring partners . 
+    [1] (12.258) preaches to two completely different choirs at the same time , which is a pretty amazing accomplishment . 
+    [1] (12.123) as the two leads , lathan and diggs are charming and have chemistry both as friends and lovers . 
+    [1] (11.842) this is a story of two misfits who do n't stand a chance alone , but together they are magnificent . 
+
+Feature 7419 (MI=0.0317, LR=0.0717, act_rate=0.343)
+  Description: This SAE feature responds to the linguistic pattern of describing and appreciating cinematic qualities, such as visual effects, soundtracks, and character performances in film reviews.
+  Top sentences:
+    [1] (5.390) the special effects and many scenes of weightlessness look as good or better than in the original , while the oscar-winning sound and james horner 's rousing score make good use of the hefty audio system . 
+    [1] (5.184) martin and barbara are complex characters -- sometimes tender , sometimes angry -- and the delicate performances by sven wollter and viveka seldahl make their hopes and frustrations vivid . 
+    [1] (5.156) a breezy romantic comedy that has the punch of a good sitcom , while offering exceptionally well-detailed characters . 
+    [1] (5.103) a difficult , absorbing film that manages to convey more substance despite its repetitions and inconsistencies than do most films than are far more pointed and clear . 
+    [0] (5.023) impostor has a handful of thrilling moments and a couple of good performances , but the movie does n't quite fly . 
+
+Feature 7439 (MI=0.0136, LR=0.0699, act_rate=0.304)
+  Description: This SAE feature (index 7439, layer 6) appears to respond to the linguistic pattern of irony, sarcasm, or understatement, as it strongly activates on sentences that contain phrases with a hint of positive sentiment but also convey a sense of disappointment or criticism.
+  Top sentences:
+    [1] (4.201) but it still jingles in the pocket . 
+    [0] (4.018) passable entertainment , but it 's the kind of motion picture that wo n't make much of a splash when it 's released , and will not be remembered long afterwards . 
+    [1] (4.007) harrison 's flowers puts its heart in the right place , but its brains are in no particular place at all . 
+    [1] (3.816) ( grant 's ) bumbling magic takes over the film , and it turns out to be another winning star vehicle . 
+    [1] (3.812) it 's a scattershot affair , but when it hits its mark it 's brilliant . 
+
+Feature 7492 (MI=0.0270, LR=0.0802, act_rate=0.115)
+  Description: This SAE feature appears to respond to the presence of nuanced, high-level praise or appreciation for a film, particularly in the context of literary or artistic merit, often using descriptors such as "literate," "evocative," and "memorable."
+  Top sentences:
+    [1] (10.700) the volatile dynamics of female friendship is the subject of this unhurried , low-key film that is so off-hollywood that it seems positively french in its rhythms and resonance . 
+    [1] (10.231) audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . 
+    [0] (9.689) villeneuve spends too much time wallowing in bibi 's generic angst ( there are a lot of shots of her gazing out windows ) . 
+    [1] (9.683) does paint some memorable images ... , but makhmalbaf keeps her distance from the characters 
+    [1] (8.979) ( chaiken 's ) talent lies in an evocative , accurate observation of a distinctive milieu and in the lively , convincing dialogue she creates for her characters . 
+
+Feature 7563 (MI=0.0211, LR=0.1170, act_rate=0.222)
+  Description: This SAE feature appears to respond to nuanced, positive descriptions of film performances, often highlighting understated yet captivating character portrayals.
+  Top sentences:
+    [1] (11.609) a movie that successfully crushes a best selling novel into a timeframe that mandates that you avoid the godzilla sized soda . 
+    [1] (11.557) a gripping movie , played with performances that are all understated and touching . 
+    [0] (11.082) at times , the suspense is palpable , but by the end there 's a sense that the crux of the mystery hinges on a technicality that strains credulity and leaves the viewer haunted by the waste of potential . 
+    [1] (11.017) byler reveals his characters in a way that intrigues and even fascinates us , and he never reduces the situation to simple melodrama . 
+    [1] (10.738) looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+
+Feature 7667 (MI=0.0509, LR=0.0328, act_rate=0.015)
+  Description: This SAE feature responds to criticisms or negative assessments of movies, particularly those that express disappointment or dissatisfaction with plot, pacing, or overall quality.
+  Top sentences:
+    [0] (5.955) even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . 
+    [0] (5.381) ... turns so unforgivably trite in its last 10 minutes that anyone without a fortified sweet tooth will likely go into sugar shock . 
+    [0] (5.350) however it may please those who love movies that blare with pop songs , young science fiction fans will stomp away in disgust . 
+    [0] (4.905) outer-space buffs might love this film , but others will find its pleasures intermittent . 
+    [1] (3.970) while locals will get a kick out of spotting cleveland sites , the rest of the world will enjoy a fast-paced comedy with quirks that might make the award-winning coen brothers envious . 
+
+Feature 7970 (MI=0.0294, LR=0.0912, act_rate=0.083)
+  Description: This SAE feature responds to the linguistic pattern of expressing nuanced appreciation or admiration for a film, often highlighting qualities such as engaging storytelling, well-crafted characters, or visually striking elements.
+  Top sentences:
+    [1] (8.404) the movie is beautiful to behold and engages one in a sense of epic struggle -- inner and outer -- that 's all too rare in hollywood 's hastier productions . 
+    [1] (8.269) there is nothing outstanding about this film , but it is good enough and will likely be appreciated most by sailors and folks who know their way around a submarine . 
+    [1] (6.776) as the two leads , lathan and diggs are charming and have chemistry both as friends and lovers . 
+    [1] (6.609) the characters are interesting and often very creatively constructed from figure to backstory . 
+    [1] (5.945) this is wild surreal stuff , but brilliant and the camera just kind of sits there and lets you look at this and its like you 're going from one room to the next and none of them have any relation to the other . 
+
+Feature 8002 (MI=0.0242, LR=0.0679, act_rate=0.080)
+  Description: This SAE feature (index 8002, layer 6) responds to a linguistic pattern of "audacious artistic expression or challenging narrative choices that deviate from expectations, often in a positive or critically acclaimed context."
+  Top sentences:
+    [1] (4.720) a densely constructed , highly referential film , and an audacious return to form that can comfortably sit among jean-luc godard 's finest work . 
+    [1] (4.626) there 's something auspicious , and daring , too , about the artistic instinct that pushes a majority-oriented director like steven spielberg to follow a.i. with this challenging report so liable to unnerve the majority . 
+    [0] (4.062) it 's somewhat clumsy and too lethargically paced -- but its story about a mysterious creature with psychic abilities offers a solid build-up , a terrific climax , and some nice chills along the way . 
+    [1] (3.955) macdowell , whose wifty southern charm has anchored lighter affairs ... brings an absolutely riveting conviction to her role . 
+    [1] (3.104) ... mafia , rap stars and hood rats butt their ugly heads in a regurgitation of cinematic violence that gives brutal birth to an unlikely , but likable , hero . ' 
+
+Feature 8073 (MI=0.0000, LR=0.0687, act_rate=0.155)
+  Description: This SAE feature responds to linguistic patterns of 'beguiling' or similarly nuanced expressions of subtle disappointment or subtle praise, often describing something as unexpectedly delightful or unpleasant.
+  Top sentences:
+    [0] (9.464) the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . 
+    [1] (8.700) a beguiling splash of pastel colors and prankish comedy from disney . 
+    [1] (8.521) ( t ) his beguiling belgian fable , very much its own droll and delicate little film , has some touching things to say about what is important in life and why . 
+    [0] (8.344) the humor is forced and heavy-handed , and occasionally simply unpleasant . 
+    [0] (8.206) for close to two hours the audience is forced to endure three terminally depressed , mostly inarticulate , hyper dysfunctional families for the price of one . 
+
+Feature 8192 (MI=0.0000, LR=0.0882, act_rate=0.200)
+  Description: This SAE feature responds to a linguistic pattern of expressing admiration or enthusiasm for something, particularly with regards to praising a movie's features, such as action scenes, unique influences, and original storylines.
+  Top sentences:
+    [0] (4.761) a dumb movie with dumb characters doing dumb things and you have to be really dumb not to see where this is going . 
+    [1] (4.157) light years / several warp speeds / levels and levels of dilithium crystals better than the pitiful insurrection . 
+    [1] (4.017) good car chases , great fight scenes , and a distinctive blend of european , american and asian influences . 
+    [1] (3.759) a celebration of quirkiness , eccentricity , and certain individuals ' tendency to let it all hang out , and damn the consequences . 
+    [1] (3.617) ... a story we have n't seen on the big screen before , and it 's a story that we as americans , and human beings , should know . 
+
+Feature 8577 (MI=0.0470, LR=0.0101, act_rate=0.224)
+  Description: This SAE feature responds to a pattern of strong negative opinions and scathing critiques, particularly in movie reviews, as evident in its activation on strongly disapproving sentences about poorly made movies.
+  Top sentences:
+    [0] (5.525) a dumb movie with dumb characters doing dumb things and you have to be really dumb not to see where this is going . 
+    [0] (5.292) there 's enough melodrama in this magnolia primavera to make pta proud yet director muccino 's characters are less worthy of puccini than they are of daytime television . 
+    [0] (5.028) not since freddy got fingered has a major release been so painful to sit through . 
+    [1] (5.008) not since tom cruise in risky business has an actor made such a strong impression in his underwear . 
+    [1] (4.771) even if you do n't think ( kissinger 's ) any more guilty of criminal activity than most contemporary statesmen , he 'd sure make a courtroom trial great fun to watch . 
+
+Feature 8868 (MI=0.0199, LR=0.0693, act_rate=0.050)
+  Description: This SAE feature responds to the linguistic pattern of positive film criticism, specifically praising movies as "good" or "gripping," and highlighting their unique qualities or strengths.
+  Top sentences:
+    [1] (9.372) the very definition of the ` small ' movie , but it is a good stepping stone for director sprecher . 
+    [1] (8.147) a rarity among recent iranian films : it 's a comedy full of gentle humor that chides the absurdity of its protagonist 's plight . 
+    [1] (8.099) while undisputed is n't exactly a high , it is a gripping , tidy little movie that takes mr. hill higher than he 's been in a while . 
+    [1] (7.830) for anyone unfamiliar with pentacostal practices in general and theatrical phenomenon of hell houses in particular , it 's an eye-opener . 
+    [1] (7.238) for the most part , it 's a work of incendiary genius , steering clear of knee-jerk reactions and quick solutions . 
+
+Feature 9100 (MI=0.0470, LR=0.0063, act_rate=0.015)
+  Description: This SAE feature responds to linguistic patterns associated with critical or evaluative language, particularly expressing disappointment or skepticism towards formulaic or overly simplistic creative works.
+  Top sentences:
+    [0] (2.280) ( t ) here 's only so much anyone can do with a florid , overplotted , anne rice rock 'n' roll vampire novel before the built-in silliness of the whole affair defeats them . 
+    [0] (2.034) from the opening scenes , it 's clear that all about the benjamins is a totally formulaic movie . 
+    [1] (1.881) displaying about equal amounts of naiveté , passion and talent , beneath clouds establishes sen as a filmmaker of considerable potential . 
+    [1] (1.860) an exquisitely crafted and acted tale . 
+    [1] (1.850) preaches to two completely different choirs at the same time , which is a pretty amazing accomplishment . 
+
+Feature 9174 (MI=0.0235, LR=0.0828, act_rate=0.146)
+  Description: This sparse autoencoder feature (index 9174, layer 6) responds to the linguistic pattern of expressing appreciation for storytelling and narrative elements in a work, particularly when combining aesthetics or art with a meaningful message or emotional impact.
+  Top sentences:
+    [1] (9.076) ... takes the beauty of baseball and melds it with a story that could touch anyone regardless of their familiarity with the sport 
+    [0] (6.646) combining quick-cut editing and a blaring heavy metal much of the time , beck seems to be under the illusion that he 's shooting the latest system of a down video . 
+    [1] (5.680) the chateau cleverly probes the cross-cultural differences between gauls and yanks . 
+    [1] (5.573) the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy . 
+    [1] (5.451) the vivid lead performances sustain interest and empathy , but the journey is far more interesting than the final destination . 
+
+Feature 9190 (MI=0.0165, LR=0.0856, act_rate=0.039)
+  Description: This SAE feature responds to the linguistic pattern of expressing criticism towards something being overly large, complicated, or excessive in terms of scope, size, or duration.
+  Top sentences:
+    [0] (10.116) once ( kim ) begins to overplay the shock tactics and bait-and-tackle metaphors , you may decide it 's too high a price to pay for a shimmering picture postcard . 
+    [0] (9.721) though moonlight mile is replete with acclaimed actors and actresses and tackles a subject that 's potentially moving , the movie is too predictable and too self-conscious to reach a level of high drama . 
+    [0] (9.403) a sequel that 's much too big for its britches . 
+    [0] (8.689) but it 's too long and too convoluted and it ends in a muddle . 
+    [0] (7.913) too slow , too long and too little happens . 
+
+Feature 9501 (MI=0.0139, LR=0.0935, act_rate=0.123)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing a nuanced, mixed, or critical evaluation of a creative work, such as a movie or book, highlighting both positive and negative aspects.
+  Top sentences:
+    [1] (9.229) nine queens is not only than a frighteningly capable debut and genre piece , but also a snapshot of a dangerous political situation on the verge of coming to a head . 
+    [0] (8.952) though moonlight mile is replete with acclaimed actors and actresses and tackles a subject that 's potentially moving , the movie is too predictable and too self-conscious to reach a level of high drama . 
+    [0] (8.661) it showcases carvey 's talent for voices , but not nearly enough and not without taxing every drop of one 's patience to get to the good stuff . 
+    [0] (8.311) it 's clear the filmmakers were n't sure where they wanted their story to go , and even more clear that they lack the skills to get us to this undetermined destination . 
+    [1] (8.090) visually imaginative , thematically instructive and thoroughly delightful , it takes us on a roller-coaster ride from innocence to experience without even a hint of that typical kiddie-flick sentimentality . 
+
+Feature 9611 (MI=0.0175, LR=0.0692, act_rate=0.016)
+  Description: This SAE feature responds to the linguistic pattern of expressing strong negative opinions or criticism towards a movie or film, often using hyperbolic language to convey disgust or disappointment.
+  Top sentences:
+    [0] (10.080) this is not the undisputed worst boxing movie ever , but it 's certainly not a champion - the big loser is the audience . 
+    [0] (9.844) the last 20 minutes are somewhat redeeming , but most of the movie is the same teenage american road-trip drek we 've seen before - only this time you have to read the fart jokes 
+    [0] (8.331) should have been someone else - 
+    [0] (7.770) it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake . 
+    [0] (7.593) i had to look away - this was god awful . 
+
+Feature 9640 (MI=0.0491, LR=0.0017, act_rate=0.058)
+  Description: This SAE feature (index 9640, layer 6) appears to respond to the concept of "authenticity" or "naturalism" in film or documentary presentation, as it strongly activates when the text describes a preference for observational, non-intrusive filmmaking styles.
+  Top sentences:
+    [1] (2.559) the fly-on-the-wall method used to document rural french school life is a refreshing departure from the now more prevalent technique of the docu-makers being a visible part of their work . 
+    [1] (2.132) `` mostly martha '' is a bright , light modern day family parable that wears its heart on its sleeve for all to see . 
+    [0] (2.082) one of the more irritating cartoons you will see this , or any , year . 
+    [1] (1.996) not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . 
+    [1] (1.948) a full world has been presented onscreen , not some series of carefully structured plot points building to a pat resolution . 
+
+Feature 9660 (MI=0.0322, LR=0.0752, act_rate=0.036)
+  Description: The sparse autoencoder feature at index 9660 in layer 6 of the GPT-2 Small model appears to respond to linguistic patterns of praise for exceptional filmmaking elements, particularly cinematography, sound, and performances.
+  Top sentences:
+    [1] (13.712) ... a fun little timewaster , helped especially by the cool presence of jean reno . 
+    [1] (13.218) the special effects and many scenes of weightlessness look as good or better than in the original , while the oscar-winning sound and james horner 's rousing score make good use of the hefty audio system . 
+    [1] (12.569) a densely constructed , highly referential film , and an audacious return to form that can comfortably sit among jean-luc godard 's finest work . 
+    [0] (12.547) this is a train wreck of an action film -- a stupefying attempt by the filmmakers to force-feed james bond into the mindless xxx mold and throw 40 years of cinematic history down the toilet in favor of bright flashes and loud bangs . 
+    [1] (12.448) looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+
+Feature 9666 (MI=0.0000, LR=0.0736, act_rate=0.173)
+  Description: This SAE feature responds to the linguistic pattern of evoking strong, positive emotional resonance through rich, vivid descriptions of artistic or cinematic experiences.
+  Top sentences:
+    [1] (6.684) a working class `` us vs. them '' opera that leaves no heartstring untugged and no liberal cause unplundered . 
+    [0] (6.501) delivers the same old same old , tarted up with latin flava and turned out by hollywood playas . 
+    [1] (6.294) it has the charm of the original american road movies , feasting on the gorgeous , ramshackle landscape of the filmmaker 's motherland . 
+    [1] (6.071) it will grip even viewers who are n't interested in rap , as it cuts to the heart of american society in an unnerving way . 
+    [1] (6.008) even in its most tedious scenes , russian ark is mesmerizing . 
+
+Feature 9674 (MI=0.0000, LR=0.1002, act_rate=0.206)
+  Description: This SAE feature (index 9674, layer 6) responds to linguistic patterns of unexpected disappointment or dissatisfaction with an otherwise positive or enjoyable experience, such as a movie or show.
+  Top sentences:
+    [1] (6.794) add yet another hat to a talented head , clooney 's a good director . 
+    [0] (5.902) ... plot holes so large and obvious a marching band might as well be stomping through them in clown clothes , playing a college football fight song on untuned instruments . 
+    [1] (5.580) an interesting story with a pertinent ( cinematically unique ) message , told fairly well and scored to perfection , i found myself struggling to put my finger on that elusive `` missing thing . '' 
+    [0] (5.522) partway through watching this saccharine , easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected tv show . 
+    [0] (5.283) it all feels like a monty python sketch gone horribly wrong . 
+
+Feature 9915 (MI=0.0213, LR=0.0689, act_rate=0.281)
+  Description: This SAE feature responds to the linguistic pattern of expressing nuanced positivity or constructive criticism, where the reviewer finds value in a movie despite acknowledging some flaws.
+  Top sentences:
+    [1] (6.246) mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+    [1] (5.837) a movie that successfully crushes a best selling novel into a timeframe that mandates that you avoid the godzilla sized soda . 
+    [1] (5.610) the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy . 
+    [0] (5.324) ... nothing scary here except for some awful acting and lame special effects . 
+    [1] (5.264) there are some wonderfully fresh moments that smooth the moral stiffness with human kindness and hopefulness . 
+
+Feature 9953 (MI=0.0048, LR=0.0755, act_rate=0.204)
+  Description: This SAE feature appears to respond to the linguistic pattern of contrasting or juxtaposing positive and negative elements, as seen in phrases such as "too bad," "heavy one," "hollow despair," and "revoked," which are often used to highlight a negative aspect while acknowledging a positive one.
+  Top sentences:
+    [0] (10.231) it 's too bad that the helping hand he uses to stir his ingredients is also a heavy one . 
+    [1] (8.956) inside the film 's conflict-powered plot there is a decent moral trying to get out , but it 's not that , it 's the tension that keeps you in your seat . 
+    [1] (8.808) a coda in every sense , the pinochet case splits time between a minute-by-minute account of the british court 's extradition chess game and the regime 's talking-head survivors . 
+    [1] (8.742) huston nails both the glad-handing and the choking sense of hollow despair . 
+    [0] (8.478) there ought to be a directing license , so that ed burns can have his revoked . 
+
+Feature 10202 (MI=0.0481, LR=0.0049, act_rate=0.016)
+  Description: This SAE feature responds to the linguistic pattern of "one of the [adjective] [noun]" or "one of the most [adjective] [noun]," where "one of" is a phrase used to introduce a positive or comparative opinion.
+  Top sentences:
+    [1] (2.391) one of the most significant moviegoing pleasures of the year . 
+    [1] (2.391) one of the best films of the year with its exploration of the obstacles to happiness faced by five contemporary individuals ... a psychological masterpiece . 
+    [1] (2.391) one of creepiest , scariest movies to come along in a long , long time , easily rivaling blair witch or the others . 
+    [0] (2.391) one of the more irritating cartoons you will see this , or any , year . 
+    [0] (2.391) one of those pictures whose promising , if rather precious , premise is undercut by amateurish execution . 
+
+Feature 10235 (MI=0.0000, LR=0.0701, act_rate=0.010)
+  Description: This SAE feature responds to a pattern of sarcastic or ironic expressions, particularly those used to convey negative sentiment through the use of rhetorical questions or phrases indicating disbelief or disdain.
+  Top sentences:
+    [1] (5.324) cool ? 
+    [0] (4.981) is the time really ripe for a warmed-over james bond adventure , with a village idiot as the 007 clone ? 
+    [0] (4.494) it 's like every bad idea that 's ever gone into an after-school special compiled in one place , minus those daytime programs ' slickness and sophistication ( and who knew they even had any ? ) . 
+    [0] (3.044) fancy a real downer ? 
+    [0] (2.455) but what are adults doing in the theater at all ? 
+
+Feature 10617 (MI=0.0512, LR=0.0076, act_rate=0.034)
+  Description: This SAE feature appears to respond to the presence of sentiments or evaluations of films, movies, or creative works, as indicated by its strong activation in sentences expressing enthusiasm, appreciation, and enjoyment of artistic endeavors.
+  Top sentences:
+    [1] (2.235) there 's ... tremendous energy from the cast , a sense of playfulness and excitement that seems appropriate . 
+    [1] (2.189) it 's worth seeing just on the basis of the wisdom , and at times , the startling optimism , of the children . 
+    [1] (2.172) not the kind of film that will appeal to a mainstream american audience , but there is a certain charm about the film that makes it a suitable entry into the fest circuit . 
+    [1] (2.152) the movie has an infectious exuberance that will engage anyone with a passing interest in the skate/surf culture , the l.a. beach scene and the imaginative ( and sometimes illegal ) ways kids can make a playground out of the refuse of adults . 
+    [0] (1.997) the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold . 
+
+Feature 10742 (MI=0.0027, LR=0.0743, act_rate=0.183)
+  Description: This SAE feature responds to nuanced and insightful commentary or critique about artistic works, often involving the interpretation of their themes and meanings.
+  Top sentences:
+    [1] (7.507) among the year 's most intriguing explorations of alientation . 
+    [0] (6.100) the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . 
+    [0] (5.867) if director michael dowse only superficially understands his characters , he does n't hold them in contempt . 
+    [1] (5.349) brilliantly explores the conflict between following one 's heart and following the demands of tradition . 
+    [0] (5.147) feels haphazard , as if the writers mistakenly thought they could achieve an air of frantic spontaneity by simply tossing in lots of characters doing silly stuff and stirring the pot . 
+
+Feature 10905 (MI=0.0133, LR=0.1140, act_rate=0.131)
+  Description: This SAE feature appears to respond to the semantic feature of "existential themes and introspection," as indicated by the presence of words and phrases related to existential crises, weariness, and philosophical introspection in the top-activating sentences.
+  Top sentences:
+    [1] (8.740) pacino is brilliant as the sleep-deprived dormer , his increasing weariness as much existential as it is physical . 
+    [0] (7.784) for all the writhing and wailing , tears , rage and opium overdoses , there 's no sense of actual passion being washed away in love 's dissolution . 
+    [0] (7.410) schaeffer has to find some hook on which to hang his persistently useless movies , and it might as well be the resuscitation of the middle-aged character . 
+    [0] (6.826) without non-stop techno or the existential overtones of a kieslowski morality tale , maelström is just another winter sleepers . 
+    [0] (6.127) the reality of the new live-action pinocchio he directed , cowrote and starred in borders on the grotesque . 
+
+Feature 11021 (MI=0.0280, LR=0.1041, act_rate=0.194)
+  Description: This SAE feature appears to respond to the linguistic pattern of negative evaluations of artistic or creative works, particularly film, where a critic expresses strong disapproval or disappointment, often using comparative or derogatory language.
+  Top sentences:
+    [1] (8.209) cq 's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors . 
+    [0] (7.971) it 's hard to like a film about a guy who is utterly unlikeable , and shiner , starring michael caine as an aging british boxing promoter desperate for a taste of fame and fortune , is certainly that . 
+    [0] (7.800) ( t ) here 's only so much anyone can do with a florid , overplotted , anne rice rock 'n' roll vampire novel before the built-in silliness of the whole affair defeats them . 
+    [0] (7.777) it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake . 
+    [0] (7.507) once ( kim ) begins to overplay the shock tactics and bait-and-tackle metaphors , you may decide it 's too high a price to pay for a shimmering picture postcard . 
+
+Feature 11044 (MI=0.0475, LR=0.0037, act_rate=0.029)
+  Description: This SAE feature responds to negative sentiment expressions of disappointment, criticism, or dismissal towards movies, as evidenced by the top-activating sentences' consistent condemnation of Hollywood films.
+  Top sentences:
+    [0] (2.046) k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension . 
+    [0] (1.996) feels haphazard , as if the writers mistakenly thought they could achieve an air of frantic spontaneity by simply tossing in lots of characters doing silly stuff and stirring the pot . 
+    [0] (1.987) it 's just disappointingly superficial -- a movie that has all the elements necessary to be a fascinating , involving character study , but never does more than scratch the surface . 
+    [0] (1.905) in exactly 89 minutes , most of which passed as slowly as if i 'd been sitting naked on an igloo , formula 51 sank from quirky to jerky to utter turkey . 
+    [1] (1.867) a giggle-inducing comedy with snappy dialogue and winning performances by an unlikely team of oscar-winners : susan sarandon and goldie hawn . 
+
+Feature 11378 (MI=0.0000, LR=0.0794, act_rate=0.022)
+  Description: This SAE feature responds to the linguistic pattern of describing something as simply "just" lacking or inferior in a particular aspect.
+  Top sentences:
+    [0] (15.167) ... the movie is just a plain old monster . 
+    [0] (14.805) without non-stop techno or the existential overtones of a kieslowski morality tale , maelström is just another winter sleepers . 
+    [0] (13.773) for starters , the story is just too slim . 
+    [0] (12.811) it 's dumb , but more importantly , it 's just not scary . 
+    [0] (11.405) it does n't believe in itself , it has no sense of humor ... it 's just plain bored . 
+
+Feature 11521 (MI=0.0109, LR=0.0716, act_rate=0.170)
+  Description: This SAE feature responds to a semantic feature of "disappointment" or "unmet expectations" as it strongly activates on sentences expressing negative emotions and criticism towards underwhelming experiences.
+  Top sentences:
+    [0] (3.357) if the first men in black was money , the second is small change . 
+    [0] (2.867) it takes a certain kind of horror movie to qualify as ` worse than expected , ' but ghost ship somehow manages to do exactly that . 
+    [1] (2.832) two hours fly by -- opera 's a pleasure when you do n't have to endure intermissions -- and even a novice to the form comes away exhilarated . 
+    [0] (2.806) it 's everything you do n't go to the movies for . 
+    [0] (2.640) jason x is positively anti-darwinian : nine sequels and 400 years later , the teens are none the wiser and jason still kills on auto-pilot . 
+
+Feature 11647 (MI=0.0483, LR=0.0167, act_rate=0.052)
+  Description: This SAE feature (index 11647, layer 6) appears to respond to abstract, poetic, or figurative language describing complex emotional experiences or themes, particularly in the context of film or storytelling.
+  Top sentences:
+    [1] (2.301) whether writer-director anne fontaine 's film is a ghost story , an account of a nervous breakdown , a trip down memory lane , all three or none of the above , it is as seductive as it is haunting . 
+    [0] (2.248) ... nothing scary here except for some awful acting and lame special effects . 
+    [1] (2.222) building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+    [1] (2.209) thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . 
+    [0] (2.157) here 's yet another studio horror franchise mucking up its storyline with glitches casual fans could correct in their sleep . 
+
+Feature 11724 (MI=0.0000, LR=0.0839, act_rate=0.297)
+  Description: This SAE feature responds to the linguistic pattern of "expressions of critical acclaim and enthusiasm," as it strongly activates on sentences that include phrases conveying praise, admiration, and excitement about a movie or performance.
+  Top sentences:
+    [1] (8.873) may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . 
+    [1] (8.186) exquisitely nuanced in mood tics and dialogue , this chamber drama is superbly acted by the deeply appealing veteran bouquet and the chilling but quite human berling . 
+    [1] (7.632) two hours fly by -- opera 's a pleasure when you do n't have to endure intermissions -- and even a novice to the form comes away exhilarated . 
+    [1] (7.620) first-time writer-director serry shows a remarkable gift for storytelling with this moving , effective little film . 
+    [0] (7.476) it does nothing new with the old story , except to show fisticuffs in this sort of stop-go slow motion that makes the gang rumbles look like they 're being streamed over a 28k modem . 
+
+Feature 11851 (MI=0.0228, LR=0.0927, act_rate=0.234)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing mild disappointment or criticism towards a creative work, often using phrases that convey a sense of over-the-top or excessive qualities.
+  Top sentences:
+    [0] (8.616) ( t ) here 's only so much anyone can do with a florid , overplotted , anne rice rock 'n' roll vampire novel before the built-in silliness of the whole affair defeats them . 
+    [0] (8.612) it 's inoffensive , cheerful , built to inspire the young people , set to an unending soundtrack of beach party pop numbers and aside from its remarkable camerawork and awesome scenery , it 's about as exciting as a sunburn . 
+    [0] (8.231) delivers the same old same old , tarted up with latin flava and turned out by hollywood playas . 
+    [0] (8.130) this is n't even madonna 's swept away . 
+    [1] (7.994) moody , heartbreaking , and filmed in a natural , unforced style that makes its characters seem entirely convincing even when its script is not . 
+
+Feature 11852 (MI=0.0000, LR=0.0857, act_rate=0.212)
+  Description: This SAE feature responds to linguistic patterns of criticism or disappointment expressed through metaphorical language, specifically comparing a movie or a situation to something undesirable or inferior, such as a "different film altogether," "small change," or "sugar shock."
+  Top sentences:
+    [0] (7.213) a tv style murder mystery with a few big screen moments ( including one that seems to be made for a different film altogether ) . 
+    [1] (6.471) if you dig on david mamet 's mind tricks ... rent this movie and enjoy ! 
+    [0] (6.162) there are simply too many ideas floating around -- part farce , part sliding doors , part pop video -- and yet failing to exploit them . 
+    [0] (6.060) ... turns so unforgivably trite in its last 10 minutes that anyone without a fortified sweet tooth will likely go into sugar shock . 
+    [0] (5.954) if the first men in black was money , the second is small change . 
+
+Feature 12070 (MI=0.0545, LR=0.0113, act_rate=0.021)
+  Description: This SAE feature appears to respond to the concept of "disappointment" or "anticipatory letdown," as suggested by the common thread of sentences expressing a mismatch between expectations and actual experiences.
+  Top sentences:
+    [0] (2.312) the iditarod lasts for days - this just felt like it did . 
+    [1] (2.222) a spellbinding african film about the modern condition of rootlessness , a state experienced by millions around the globe . 
+    [1] (1.999) the film 's welcome breeziness and some unbelievably hilarious moments -- most portraying the idiocy of the film industry -- make it mostly worth the trip . 
+    [0] (1.956) excessive , profane , packed with cartoonish violence and comic-strip characters . 
+    [1] (1.938) audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . 
+
+Feature 12187 (MI=0.0215, LR=0.0957, act_rate=0.060)
+  Description: This SAE feature responds to the linguistic pattern of expressing strong negative opinions or sentiments towards something, particularly in the context of describing an unpleasant or annoying experience.
+  Top sentences:
+    [0] (8.343) the humor is forced and heavy-handed , and occasionally simply unpleasant . 
+    [0] (6.334) makes for a pretty unpleasant viewing experience . 
+    [0] (6.050) the film makes a fatal mistake : it asks us to care about a young man whose only apparent virtue is that he is not quite as unpleasant as some of the people in his life . 
+    [0] (5.883) suffocated by its fussy script and uptight characters , this musty adaptation is all the more annoying since it 's been packaged and sold back to us by hollywood . 
+    [0] (5.519) one of the more irritating cartoons you will see this , or any , year . 
+
+Feature 12478 (MI=0.0483, LR=0.0140, act_rate=0.011)
+  Description: This SAE feature appears to respond to the presence of positive sentiment in the form of effusive and exaggerated praise, often expressed through comparisons and use of superlatives (e.g. "better than", "ever", "best").
+  Top sentences:
+    [1] (4.202) light years / several warp speeds / levels and levels of dilithium crystals better than the pitiful insurrection . 
+    [1] (3.395) just as moving , uplifting and funny as ever . 
+    [0] (2.993) it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , without all oedekerk 's impish augmentation . 
+    [1] (2.697) old-form moviemaking at its best . 
+    [0] (2.691) it 's too self-important and plodding to be funny , and too clipped and abbreviated to be an epic . 
+
+Feature 12578 (MI=0.0000, LR=0.0702, act_rate=0.022)
+  Description: This SAE feature responds to a pattern of strongly negative sentiment, particularly in criticizing movies with poor storytelling, acting, or dialogue.
+  Top sentences:
+    [0] (11.415) it 's another stale , kill-by-numbers flick , complete with blade-thin characters and terrible , pun-laden dialogue . 
+    [0] (10.428) nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting . 
+    [0] (10.428) nervous breakdowns are not entertaining . 
+    [0] (10.428) nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . 
+    [0] (10.428) nelson 's brutally unsentimental approach ... sucks the humanity from the film , leaving behind an horrific but weirdly unemotional spectacle . 
+
+Feature 12641 (MI=0.0638, LR=0.0012, act_rate=0.015)
+  Description: This SAE feature responds to the concept of "critique or negative evaluation of a movie or experience," as evidenced by its strong activation on sentences describing potentially off-putting or disappointing events or narratives.
+  Top sentences:
+    [0] (2.849) if you 've ever entertained the notion of doing what the title of this film implies , what sex with strangers actually shows may put you off the idea forever . 
+    [1] (2.412) true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable . 
+    [1] (1.946) a pleasant enough romance with intellectual underpinnings , the kind of movie that entertains even as it turns maddeningly predictable . 
+    [1] (1.867) it deserves to be seen by anyone with even a passing interest in the events shaping the world beyond their own horizons . 
+    [1] (1.765) a fitfully amusing romp that , if nothing else , will appeal to fans of malcolm in the middle and its pubescent star , frankie muniz . 
+
+Feature 12891 (MI=0.0312, LR=0.0692, act_rate=0.146)
+  Description: This SAE feature appears to respond to the semantic feature of 'disappointment' or 'unfulfillment' in a movie or experience, capturing negative sentiments related to expectations not being met.
+  Top sentences:
+    [0] (4.322) it 's a bit disappointing that it only manages to be decent instead of dead brilliant . 
+    [0] (4.163) a disappointment for those who love alternate versions of the bard , particularly ones that involve deep fryers and hamburgers . 
+    [0] (3.971) it 's so mediocre , despite the dynamic duo on the marquee , that we just ca n't get no satisfaction . 
+    [0] (3.807) utterly lacking in charm , wit and invention , roberto benigni 's pinocchio is an astonishingly bad film . 
+    [0] (3.597) director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+
+Feature 12951 (MI=0.0478, LR=0.0660, act_rate=0.126)
+  Description: This SAE feature appears to respond to the linguistic pattern of criticizing or expressing disappointment with a movie, particularly in regards to its storytelling or script.
+  Top sentences:
+    [0] (4.701) the x potion gives the quickly named blossom , bubbles and buttercup supernatural powers that include extraordinary strength and laser-beam eyes , which unfortunately do n't enable them to discern flimsy screenplays . 
+    [0] (4.568) while ( hill ) has learned new tricks , the tricks alone are not enough to salvage this lifeless boxing film . 
+    [0] (4.440) ( director ) o'fallon manages to put some lovely pictures up on the big screen , but his skill at telling a story -- he also contributed to the screenplay -- falls short . 
+    [1] (4.143) and that 's a big part of why we go to the movies . 
+    [1] (4.075) the continued good chemistry between carmen and juni is what keeps this slightly disappointing sequel going , with enough amusing banter -- blessedly curse-free -- to keep both kids and parents entertained . 
+
+Feature 13317 (MI=0.0141, LR=0.1456, act_rate=0.166)
+  Description: This SAE feature appears to respond to linguistic patterns of effusive praise and appreciation, particularly in the context of literature, film, and the arts, as it activates strongly on sentences expressing admiration for creative works or artists.
+  Top sentences:
+    [1] (18.451) gives you the steady pulse of life in a beautiful city viewed through the eyes of a character who , in spite of tragic loss and increasing decrepitude , knows in his bones that he is one of the luckiest men alive . 
+    [1] (17.046) oscar wilde 's masterpiece , the importance of being earnest , may be the best play of the 19th century . 
+    [1] (16.746) for the first time in years , de niro digs deep emotionally , perhaps because he 's been stirred by the powerful work of his co-stars . 
+    [0] (15.334) the most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take . 
+    [1] (15.213) one of creepiest , scariest movies to come along in a long , long time , easily rivaling blair witch or the others . 
+
+Feature 13424 (MI=0.0161, LR=0.0685, act_rate=0.047)
+  Description: This SAE feature responds to nuanced, somewhat negative evaluations of creative works or artistic expressions, often highlighting a lack or absence of certain qualities (e.g. joy, originality) that are typically associated with positive reviews.
+  Top sentences:
+    [0] (9.595) care deftly captures the wonder and menace of growing up , but he never really embraces the joy of fuhrman 's destructive escapism or the grace-in-rebellion found by his characters . 
+    [1] (8.885) the movie understands like few others how the depth and breadth of emotional intimacy give the physical act all of its meaning and most of its pleasure . 
+    [0] (8.288) all that 's missing is the spontaneity , originality and delight . 
+    [1] (7.762) birthday girl is an amusing joy ride , with some surprisingly violent moments . 
+    [0] (7.606) it offers little beyond the momentary joys of pretty and weightless intellectual entertainment . 
+
+Feature 13514 (MI=0.0521, LR=0.0062, act_rate=0.013)
+  Description: This SAE feature appears to respond to nuanced and balanced evaluations of artistic or creative endeavors, as all top-activating sentences provide thoughtful and context-specific praise or critique of movies, directors, or performances.
+  Top sentences:
+    [1] (2.580) add yet another hat to a talented head , clooney 's a good director . 
+    [1] (1.764) on this tricky topic , tadpole is very much a step in the right direction , with its blend of frankness , civility and compassion . 
+    [0] (1.764) on the whole , the movie lacks wit , feeling and believability to compensate for its incessant coarseness and banality . 
+    [1] (1.764) on the heels of the ring comes a similarly morose and humorless horror movie that , although flawed , is to be commended for its straight-ahead approach to creepiness . 
+    [1] (1.653) so refreshingly incisive is grant that for the first time he 'll probably appeal more to guys than to their girlfriends who drag them to this movie for the hugh factor . 
+
+Feature 13534 (MI=0.0298, LR=0.0895, act_rate=0.170)
+  Description: This SAE feature responds to nuanced, contextualized positive sentiment evaluations of films and movies, particularly when they acknowledge limitations or mixed qualities while still offering overall praise.
+  Top sentences:
+    [1] (5.914) there is nothing outstanding about this film , but it is good enough and will likely be appreciated most by sailors and folks who know their way around a submarine . 
+    [1] (5.548) it just may inspire a few younger moviegoers to read stevenson 's book , which is a treasure in and of itself . 
+    [0] (5.257) for all its technical virtuosity , the film is so mired in juvenile and near-xenophobic pedagogy that it 's enough to make one pine for the day when godard can no longer handle the rigors of filmmaking . 
+    [1] (4.924) deliriously funny , fast and loose , accessible to the uninitiated , and full of surprises 
+    [1] (4.707) but taken as a stylish and energetic one-shot , the queen of the damned can not be said to suck . 
+
+Feature 13546 (MI=0.0000, LR=0.1055, act_rate=0.314)
+  Description: This SAE feature responds to the presence of explicit, exaggerated, and often humorous language describing energetic or dynamic physical behavior, such as dancing, running, or sweating.
+  Top sentences:
+    [1] (11.225) ( lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place . 
+    [0] (10.120) what is 100 % missing here is a script of even the most elemental literacy , an inkling of genuine wit , and anything resembling acting . 
+    [1] (9.510) this is a winning ensemble comedy that shows canadians can put gentle laughs and equally gentle sentiments on the button , just as easily as their counterparts anywhere else in the world . 
+    [0] (9.209) it does nothing new with the old story , except to show fisticuffs in this sort of stop-go slow motion that makes the gang rumbles look like they 're being streamed over a 28k modem . 
+    [0] (8.697) complete lack of originality , cleverness or even visible effort 
+
+Feature 13856 (MI=0.0000, LR=0.1011, act_rate=0.042)
+  Description: This SAE feature responds to the linguistic pattern of "praising a film or movie as a positive stepping stone or introduction to something good."
+  Top sentences:
+    [1] (10.759) the very definition of the ` small ' movie , but it is a good stepping stone for director sprecher . 
+    [1] (9.558) this is a good script , good dialogue , funny even for adults . 
+    [1] (9.525) add yet another hat to a talented head , clooney 's a good director . 
+    [1] (9.482) hardly a masterpiece , but it introduces viewers to a good charitable enterprise and some interesting real people . 
+    [1] (9.304) the structure the film takes may find matt damon and ben affleck once again looking for residuals as this officially completes a good will hunting trilogy that was never planned . 
+
+Feature 14397 (MI=0.0278, LR=0.0872, act_rate=0.036)
+  Description: This SAE feature responds strongly to strong negative sentiments expressed through vivid descriptions of bad quality or "awful" aspects, particularly in the domains of acting, special effects, and film.
+  Top sentences:
+    [0] (9.214) ... nothing scary here except for some awful acting and lame special effects . 
+    [0] (8.486) i had to look away - this was god awful . 
+    [0] (8.311) it 's another stale , kill-by-numbers flick , complete with blade-thin characters and terrible , pun-laden dialogue . 
+    [0] (7.393) it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake . 
+    [0] (6.507) an unclassifiably awful study in self - and audience-abuse . 
+
+Feature 14426 (MI=0.0473, LR=0.0331, act_rate=0.016)
+  Description: This SAE feature appears to respond to the semantic feature of "disappointment" or "negative evaluation," as it strongly activates on sentences expressing dissatisfaction or criticism, such as negative opinions about ideas, performances, or efforts.
+  Top sentences:
+    [0] (4.134) just one bad idea after another . 
+    [1] (4.134) just as moving , uplifting and funny as ever . 
+    [0] (4.134) just embarrassment and a vague sense of shame . 
+    [0] (4.134) just not campy enough 
+    [0] (3.944) in an effort , i suspect , not to offend by appearing either too serious or too lighthearted , it offends by just being wishy-washy . 
+
+Feature 14529 (MI=0.0060, LR=0.0680, act_rate=0.032)
+  Description: This SAE feature responds to the semantic concept of "haunting" or "engaging" entertainment, specifically in the context of films or stories that captivate and fascinate the viewer.
+  Top sentences:
+    [1] (8.580) whether writer-director anne fontaine 's film is a ghost story , an account of a nervous breakdown , a trip down memory lane , all three or none of the above , it is as seductive as it is haunting . 
+    [1] (8.352) it haunts , horrifies , startles and fascinates ; it is impossible to look away . 
+    [0] (8.015) partway through watching this saccharine , easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected tv show . 
+    [1] (7.344) it is great summer fun to watch arnold and his buddy gerald bounce off a quirky cast of characters . 
+    [1] (7.344) it is amusing , and that 's all it needs to be . 
+
+Feature 14534 (MI=0.0000, LR=0.0711, act_rate=0.010)
+  Description: This sparse autoencoder feature appears to respond to the semantic feature of "disappointment or underwhelming experience" in sentences that express a sense of unmet expectations or familiarity, often in the context of comparing an experience (e.g., movie, video game) unfavorably to its predecessors.
+  Top sentences:
+    [0] (15.564) wince-inducing dialogue , thrift-shop costumes , prosthetic makeup by silly putty and kmart blue-light-special effects all conspire to test trekkie loyalty . 
+    [0] (15.431) all the amped-up tony hawk-style stunts and thrashing rap-metal ca n't disguise the fact that , really , we 've been here , done that . 
+    [0] (14.940) while the resident evil games may have set new standards for thrills , suspense , and gore for video games , the movie really only succeeds in the third of these . 
+    [0] (13.963) even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . 
+    [0] (13.395) feels too formulaic and too familiar to produce the transgressive thrills of early underground work . 
+
+Feature 14611 (MI=0.0000, LR=0.1040, act_rate=0.142)
+  Description: This SAE feature appears to respond to strongly negative reviews and criticisms of films, specifically focusing on the tone of disappointment and derision in describing poorly made or unimpressive movies.
+  Top sentences:
+    [0] (7.335) shaky close-ups of turkey-on-rolls , stubbly chins , liver spots , red noses and the filmmakers new bobbed do draw easy chuckles but lead nowhere . 
+    [1] (6.323) the volatile dynamics of female friendship is the subject of this unhurried , low-key film that is so off-hollywood that it seems positively french in its rhythms and resonance . 
+    [0] (6.317) at times , the suspense is palpable , but by the end there 's a sense that the crux of the mystery hinges on a technicality that strains credulity and leaves the viewer haunted by the waste of potential . 
+    [0] (6.105) nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting . 
+    [0] (5.922) stultifyingly , dumbfoundingly , mind-numbingly bad . 
+
+Feature 14740 (MI=0.0000, LR=0.0859, act_rate=0.014)
+  Description: This SAE feature appears to respond to the linguistic pattern of describing a movie or film as "well-acted" and positively evaluating its overall quality.
+  Top sentences:
+    [1] (20.332) chilling , well-acted , and finely directed : david jacobson 's dahmer . 
+    [1] (20.229) a simple , but gritty and well-acted ensemble drama that encompasses a potent metaphor for a country still dealing with its fascist past . 
+    [1] (19.987) a very well-made , funny and entertaining picture . 
+    [1] (19.986) a lean , deftly shot , well-acted , weirdly retro thriller that recalls a raft of '60s and '70s european-set spy pictures . 
+    [1] (19.813) a subtle and well-crafted ( for the most part ) chiller . 
+
+Feature 14749 (MI=0.0182, LR=0.0856, act_rate=0.210)
+  Description: This SAE feature appears to respond to a pattern of "positive and uplifting sentiment related to character relationships and interactions, particularly in the context of friendships and romantic connections."
+  Top sentences:
+    [1] (5.164) just as moving , uplifting and funny as ever . 
+    [1] (4.636) there are some wonderfully fresh moments that smooth the moral stiffness with human kindness and hopefulness . 
+    [1] (3.828) this is a winning ensemble comedy that shows canadians can put gentle laughs and equally gentle sentiments on the button , just as easily as their counterparts anywhere else in the world . 
+    [1] (3.634) the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+    [1] (3.576) as the two leads , lathan and diggs are charming and have chemistry both as friends and lovers . 
+
+Feature 15575 (MI=0.0540, LR=0.0035, act_rate=0.042)
+  Description: This sparse autoencoder feature responds to the linguistic pattern of expressing strong negative sentiment towards a movie or film, often using metaphors and hyperbolic language to emphasize disappointment and weakness.
+  Top sentences:
+    [0] (2.514) it 's as if you 're watching a movie that was made in 1978 but not released then because it was so weak , and it has been unearthed and released now , when it has become even weaker . 
+    [1] (2.319) nothing 's at stake , just a twisty double-cross you can smell a mile away -- still , the derivative nine queens is lots of fun . 
+    [0] (2.219) it 's another stale , kill-by-numbers flick , complete with blade-thin characters and terrible , pun-laden dialogue . 
+    [0] (2.211) rarely has so much money delivered so little entertainment . 
+    [0] (2.211) rarely has leukemia looked so shimmering and benign . 
+
+Feature 15649 (MI=0.0321, LR=0.0863, act_rate=0.181)
+  Description: This SAE feature responds to linguistic patterns related to in-depth, critical, or nuanced explorations of complex themes, particularly within religious or spiritual contexts.
+  Top sentences:
+    [1] (16.270) the film may appear naked in its narrative form ... but it goes deeper than that , to fundamental choices that include the complexity of the catholic doctrine 
+    [1] (12.955) this surreal gilliam-esque film is also a troubling interpretation of ecclesiastes . 
+    [1] (12.071) ( d ) oes n't bother being as cloying or preachy as equivalent evangelical christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful . 
+    [1] (11.857) this illuminating documentary transcends our preconceived vision of the holy land and its inhabitants , revealing the human complexities beneath . 
+    [1] (11.112) for anyone unfamiliar with pentacostal practices in general and theatrical phenomenon of hell houses in particular , it 's an eye-opener . 
+
+Feature 15719 (MI=0.0348, LR=0.0697, act_rate=0.022)
+  Description: This SAE feature responds to the linguistic pattern of expressing disappointment or negation of expectation, particularly in the context of criticizing overly sentimental or clichéd portrayals in movies or stories.
+  Top sentences:
+    [0] (14.472) dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+    [0] (14.082) with its dogged hollywood naturalism and the inexorable passage of its characters toward sainthood , windtalkers is nothing but a sticky-sweet soap . 
+    [0] (6.870) although huppert 's intensity and focus has a raw exhilaration about it , the piano teacher is anything but fun . 
+    [0] (6.029) stealing harvard aspires to comedic grand larceny but stands convicted of nothing more than petty theft of your time . 
+    [0] (6.000) the plot convolutions ultimately add up to nothing more than jerking the audience 's chain . 
+
+Feature 15787 (MI=0.0330, LR=0.1717, act_rate=0.308)
+  Description: This SAE feature responds to the linguistic pattern of expressing strong disapproval or criticism, as evident from its activation on sentences that contain words or phrases indicating a negative sentiment, such as "bad", "dull", and "not entertaining".
+  Top sentences:
+    [0] (4.738) bad . 
+    [0] (4.667) very bad . 
+    [0] (4.180) yes , dull . 
+    [0] (3.848) holden caulfield did it better . 
+    [0] (3.824) nervous breakdowns are not entertaining . 
+
+Feature 15952 (MI=0.0473, LR=0.0083, act_rate=0.016)
+  Description: This SAE feature appears to respond to the semantic feature of "critique of creative failure or ineffectiveness," as evident in the presence of phrases and sentiments expressing disappointment with unexploited ideas, lack of skill, or overused concepts.
+  Top sentences:
+    [0] (9.911) there are simply too many ideas floating around -- part farce , part sliding doors , part pop video -- and yet failing to exploit them . 
+    [1] (9.309) so much facile technique , such cute ideas , so little movie . 
+    [0] (9.247) there is very little dread or apprehension , and though i like the creepy ideas , they are not executed with anything more than perfunctory skill . 
+    [1] (7.758) while the ideas about techno-saturation are far from novel , they 're presented with a wry dark humor . 
+    [0] (7.471) the film 's few ideas are stretched to the point of evaporation ; the whole central section is one big chase that seems to have no goal and no urgency . 
+
+Feature 16497 (MI=0.0117, LR=0.1016, act_rate=0.257)
+  Description: This SAE feature appears to respond to the concept of strong, often pejorative language used to describe something as flawed, unpleasant, or lacking in quality.
+  Top sentences:
+    [0] (9.446) so unremittingly awful that labeling it a dog probably constitutes cruelty to canines . 
+    [1] (9.310) the very definition of the ` small ' movie , but it is a good stepping stone for director sprecher . 
+    [0] (8.878) this is the sort of burly action flick where one coincidence pummels another , narrative necessity is a drunken roundhouse , and whatever passes for logic is a factor of the last plot device left standing . 
+    [0] (7.749) a synthesis of cliches and absurdities that seems positively decadent in its cinematic flash and emptiness . 
+    [0] (7.480) too restrained to be a freak show , too mercenary and obvious to be cerebral , too dull and pretentious to be engaging ... the isle defies an easy categorization . 
+
+Feature 16662 (MI=0.0531, LR=0.0028, act_rate=0.034)
+  Description: This SAE feature responds to a pattern of expressing disappointment or criticism towards a film's ending, specifically when it contrasts with the excitement or satisfaction of leaving the theater.
+  Top sentences:
+    [0] (2.622) the only excitement comes when the credits finally roll and you get to leave the theater . 
+    [1] (2.059) belongs to daniel day-lewis as much as it belongs to martin scorsese ; it 's a memorable performance in a big , brassy , disturbing , unusual and highly successful film . 
+    [1] (1.956) light years / several warp speeds / levels and levels of dilithium crystals better than the pitiful insurrection . 
+    [1] (1.941) an exhilarating futuristic thriller-noir , minority report twists the best of technology around a gripping story , delivering a riveting , pulse intensifying escapist adventure of the first order 
+    [0] (1.919) this film seems thirsty for reflection , itself taking on adolescent qualities . 
+
+Feature 16940 (MI=0.0199, LR=0.1119, act_rate=0.671)
+  Description: This SAE feature responds to the concept of "positive cinematic experience" or "appreciation of film quality," as it strongly activates on sentences expressing admiration for a movie's scope, story, or overall impact.
+  Top sentences:
+    [1] (6.900) a cartoon that 's truly cinematic in scope , and a story that 's compelling and heartfelt -- even if the heart belongs to a big , four-legged herbivore . 
+    [0] (6.687) expect the same-old , lame-old slasher nonsense , just with different scenery . 
+    [0] (4.969) chabrol has taken promising material for a black comedy and turned it instead into a somber chamber drama . 
+    [1] (4.867) the lion king was a roaring success when it was released eight years ago , but on imax it seems better , not just bigger . 
+    [1] (4.847) aside from minor tinkering , this is the same movie you probably loved in 1994 , except that it looks even better . 
+
+Feature 17053 (MI=0.0408, LR=0.0795, act_rate=0.109)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing strong praise or endorsement, particularly in the form of positive adjectives such as "smart", "witty", "gorgeous", and "exuberant", and descriptive phrases indicating exceptional quality or charm.
+  Top sentences:
+    [1] (5.957) a smart , witty follow-up . 
+    [1] (5.854) audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . 
+    [1] (5.737) a gorgeous , witty , seductive movie . 
+    [1] (5.308) a grimly competent and stolid and earnest military courtroom drama . 
+    [1] (5.294) vera 's three actors -- mollà , gil and bardem -- excel in insightful , empathetic performances . 
+
+Feature 17221 (MI=0.0000, LR=0.0799, act_rate=0.133)
+  Description: This SAE feature appears to respond to the semantic concept of "surprising juxtaposition" or "ironic contrast," as it strongly activates on sentences that describe unexpected blends of opposing elements, such as humor and poignancy, or stereotypes and romance.
+  Top sentences:
+    [0] (9.629) k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension . 
+    [1] (9.384) uses high comedy to evoke surprising poignance . 
+    [1] (7.229) my big fat greek wedding uses stereotypes in a delightful blend of sweet romance and lovingly dished out humor . 
+    [1] (7.038) the fly-on-the-wall method used to document rural french school life is a refreshing departure from the now more prevalent technique of the docu-makers being a visible part of their work . 
+    [1] (6.911) harris commands the screen , using his frailty to suggest the ravages of a life of corruption and ruthlessness . 
+
+Feature 17623 (MI=0.0345, LR=0.0831, act_rate=0.139)
+  Description: This SAE feature (index 17623, layer 6) responds to negative criticism or disappointment in the quality of creative work, such as films or performances.
+  Top sentences:
+    [0] (7.854) some of their jokes work , but most fail miserably and in the end , pumpkin is far more offensive than it is funny . 
+    [0] (7.211) there 's too much falseness to the second half , and what began as an intriguing look at youth fizzles into a dull , ridiculous attempt at heart-tugging . 
+    [0] (7.091) but it 's too long and too convoluted and it ends in a muddle . 
+    [0] (7.041) feels too formulaic and too familiar to produce the transgressive thrills of early underground work . 
+    [0] (7.004) well-nigh unendurable ... though the picture strains to become cinematic poetry , it remains depressingly prosaic and dull . 
+
+Feature 17805 (MI=0.0000, LR=0.0757, act_rate=0.086)
+  Description: The sparse autoencoder feature at index 17805, layer 6, appears to respond to complex metaphors or figurative language involving comparisons or descriptions of abstract concepts, often with a negative tone.
+  Top sentences:
+    [0] (7.469) the script kicks in , and mr. hartley 's distended pace and foot-dragging rhythms follow . 
+    [0] (6.746) not really bad so much as distasteful : we need kidnapping suspense dramas right now like we need doomsday thrillers . 
+    [1] (5.126) so , too , is this comedy about mild culture clashing in today 's new delhi . 
+    [1] (4.892) a superbly acted and funny/gritty fable of the humanizing of one woman at the hands of the unseen forces of fate . 
+    [0] (4.875) given how heavy-handed and portent-heavy it is , this could be the worst thing soderbergh has ever done . 
+
+Feature 17909 (MI=0.0149, LR=0.0905, act_rate=0.016)
+  Description: This SAE feature responds to the linguistic pattern of expressing a negative critique or criticism, specifically focusing on the absence or lack of something in a film, such as coherence, passion, or engaging elements.
+  Top sentences:
+    [0] (13.445) the problem with this film is that it lacks focus . 
+    [0] (13.028) but this films lacks the passion required to sell the material . 
+    [0] (12.606) it 's clear the filmmakers were n't sure where they wanted their story to go , and even more clear that they lack the skills to get us to this undetermined destination . 
+    [0] (12.448) even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . 
+    [0] (12.089) not an objectionable or dull film ; it merely lacks everything except good intentions . 
+
+Feature 18167 (MI=0.0252, LR=0.1224, act_rate=0.106)
+  Description: This SAE feature responds to the semantic feature of "praise for artistic or creative aspects of a film."
+  Top sentences:
+    [1] (8.767) an operatic , sprawling picture that 's entertainingly acted , magnificently shot and gripping enough to sustain most of its 170-minute length . 
+    [1] (8.436) a gorgeous , high-spirited musical from india that exquisitely blends music , dance , song , and high drama . 
+    [1] (8.267) it confirms fincher 's status as a film maker who artfully bends technical know-how to the service of psychological insight . 
+    [1] (8.101) a poignant , artfully crafted meditation on mortality . 
+    [1] (7.984) candid and comfortable ; a film that deftly balances action and reflection as it lets you grasp and feel the passion others have for their work . 
+
+Feature 18263 (MI=0.0000, LR=0.0701, act_rate=0.019)
+  Description: This SAE feature responds to linguistic patterns related to ironic or backhanded praise, typically expressed through phrases that describe something as being "little more than" or "little else" when referring to movies, emphasizing the speaker's positive sentiment towards the subject despite their reservations.
+  Top sentences:
+    [1] (13.067) at a time when half the so-called real movies are little more than live-action cartoons , it 's refreshing to see a cartoon that knows what it is , and knows the form 's history . 
+    [1] (11.021) ... routine , harmless diversion and little else . 
+    [1] (10.816) few films capture so perfectly the hopes and dreams of little boys on baseball fields as well as the grown men who sit in the stands . 
+    [1] (7.292) while there 's something intrinsically funny about sir anthony hopkins saying ` get in the car , bitch , ' this jerry bruckheimer production has little else to offer 
+    [0] (6.721) as the latest bid in the tv-to-movie franchise game , i spy makes its big-screen entry with little of the nervy originality of its groundbreaking small-screen progenitor . 
+
+Feature 18543 (MI=0.0295, LR=0.1305, act_rate=0.064)
+  Description: This SAE feature responds to the linguistic pattern of expressing praise or admiration for something, particularly using the adjective "gorgeous" or similar superlatives to describe a positive experience or aesthetic.
+  Top sentences:
+    [1] (10.837) it 's a beautiful madness . 
+    [1] (10.232) gives you the steady pulse of life in a beautiful city viewed through the eyes of a character who , in spite of tragic loss and increasing decrepitude , knows in his bones that he is one of the luckiest men alive . 
+    [1] (9.142) it has the charm of the original american road movies , feasting on the gorgeous , ramshackle landscape of the filmmaker 's motherland . 
+    [1] (7.495) a gorgeous , witty , seductive movie . 
+    [1] (7.495) a gorgeous , high-spirited musical from india that exquisitely blends music , dance , song , and high drama . 
+
+Feature 18675 (MI=0.0055, LR=0.0714, act_rate=0.165)
+  Description: This SAE feature responds to a pattern of sarcastic or ironic criticism of artistic or creative endeavors that are perceived as pretentious or overly optimistic.
+  Top sentences:
+    [0] (7.304) a nightmare date with a half-formed wit done a great disservice by a lack of critical distance and a sad trust in liberal arts college bumper sticker platitudes . 
+    [1] (6.549) a poignant and compelling story about relationships , food of love takes us on a bumpy but satisfying journey of the heart . 
+    [1] (6.502) instead of a hyperbolic beat-charged urban western , it 's an unpretentious , sociologically pointed slice of life . 
+    [0] (5.767) despite all evidence to the contrary , this clunker has somehow managed to pose as an actual feature movie , the kind that charges full admission and gets hyped on tv and purports to amuse small children and ostensible adults . 
+    [0] (5.763) there are simply too many ideas floating around -- part farce , part sliding doors , part pop video -- and yet failing to exploit them . 
+
+Feature 18716 (MI=0.0470, LR=0.1114, act_rate=0.350)
+  Description: This SAE feature responds to the linguistic pattern of negative criticism towards horror movies, specifically the disappointment or annoyance resulting from their failure to deliver on the expectation of fear or thrills.
+  Top sentences:
+    [1] (9.681) on the heels of the ring comes a similarly morose and humorless horror movie that , although flawed , is to be commended for its straight-ahead approach to creepiness . 
+    [0] (9.384) it 's so mediocre , despite the dynamic duo on the marquee , that we just ca n't get no satisfaction . 
+    [0] (7.855) it 's dumb , but more importantly , it 's just not scary . 
+    [0] (7.847) well-nigh unendurable ... though the picture strains to become cinematic poetry , it remains depressingly prosaic and dull . 
+    [0] (7.839) like being trapped at a perpetual frat party ... how can something so gross be so boring ? 
+
+Feature 18787 (MI=0.0648, LR=0.0002, act_rate=0.033)
+  Description: This SAE feature appears to respond to linguistic patterns related to effusive praise or appreciation, as all top-activating sentences contain highly positive sentiment and use superlatives (e.g., "best", "riveting", "masterpiece") to express admiration.
+  Top sentences:
+    [1] (2.072) the best revenge may just be living well because this film , unlike other dumas adaptations , is far more likened to a treasure than a lengthy jail sentence . 
+    [0] (1.889) the affectionate loopiness that once seemed congenital to demme 's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects . 
+    [1] (1.883) macdowell , whose wifty southern charm has anchored lighter affairs ... brings an absolutely riveting conviction to her role . 
+    [1] (1.877) one of the best films of the year with its exploration of the obstacles to happiness faced by five contemporary individuals ... a psychological masterpiece . 
+    [1] (1.818) although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . 
+
+Feature 18943 (MI=0.0510, LR=0.0054, act_rate=0.019)
+  Description: This SAE feature responds to strong negative language and hyperbolic expressions used to emphasize a strongly negative sentiment.
+  Top sentences:
+    [0] (5.707) stultifyingly , dumbfoundingly , mind-numbingly bad . 
+    [1] (4.799) for anyone unfamiliar with pentacostal practices in general and theatrical phenomenon of hell houses in particular , it 's an eye-opener . 
+    [1] (4.405) further proof that the epicenter of cool , beautiful , thought-provoking foreign cinema is smack-dab in the middle of dubya 's axis of evil . 
+    [1] (3.580) instead of a hyperbolic beat-charged urban western , it 's an unpretentious , sociologically pointed slice of life . 
+    [0] (3.449) directed in a paint-by-numbers manner . 
+
+Feature 19332 (MI=0.0000, LR=0.0678, act_rate=0.115)
+  Description: This SAE feature likely responds to the linguistic pattern of expressing admiration or appreciation for a creative work, such as a movie or book, by highlighting its positive qualities or the talent of its creators.
+  Top sentences:
+    [1] (6.256) affleck and jackson are good sparring partners . 
+    [1] (5.775) crackerjack entertainment -- nonstop romance , music , suspense and action . 
+    [1] (4.684) if steven soderbergh 's ` solaris ' is a failure it is a glorious failure . 
+    [1] (4.595) ( chaiken 's ) talent lies in an evocative , accurate observation of a distinctive milieu and in the lively , convincing dialogue she creates for her characters . 
+    [1] (4.398) binoche makes it interesting trying to find out . 
+
+Feature 19510 (MI=0.0638, LR=0.0297, act_rate=0.019)
+  Description: This SAE feature appears to respond to the presence of positive language related to the "performance" or "casting" of actors in a film or production, particularly when expressing admiration or appreciation for the quality of acting.
+  Top sentences:
+    [1] (6.827) this is an egotistical endeavor from the daughter of horror director dario argento ( a producer here ) , but her raw performance and utter fearlessness make it strangely magnetic . 
+    [1] (6.337) a beguiling splash of pastel colors and prankish comedy from disney . 
+    [1] (6.233) there 's ... tremendous energy from the cast , a sense of playfulness and excitement that seems appropriate . 
+    [1] (5.389) zhang ... has done an amazing job of getting realistic performances from his mainly nonprofessional cast . 
+    [1] (5.090) having had the good sense to cast actors who are , generally speaking , adored by the movie-going public , khouri then gets terrific performances from them all . 
+
+Feature 19513 (MI=0.0259, LR=0.0783, act_rate=0.313)
+  Description: This SAE feature responds to linguistic patterns associated with romantic comedies that are perceived as subpar or lacking in quality, particularly those with awkward or cringeworthy humor.
+  Top sentences:
+    [0] (10.112) nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . 
+    [0] (8.752) determined to be fun , and bouncy , with energetic musicals , the humor did n't quite engage this adult . 
+    [0] (8.378) a hamfisted romantic comedy that makes our girl the hapless facilitator of an extended cheap shot across the mason-dixon line . 
+    [0] (8.363) his last movie was poetically romantic and full of indelible images , but his latest has nothing going for it . 
+    [1] (8.275) a romantic comedy enriched by a sharp eye for manners and mores . 
+
+Feature 19947 (MI=0.0475, LR=0.0116, act_rate=0.067)
+  Description: This SAE feature responds strongly to positive and effusive language used to describe engaging, entertaining, and often nostalgic or high-quality cinematic experiences.
+  Top sentences:
+    [1] (4.057) the most compelling wiseman epic of recent years . 
+    [1] (3.511) the volatile dynamics of female friendship is the subject of this unhurried , low-key film that is so off-hollywood that it seems positively french in its rhythms and resonance . 
+    [1] (2.905) ( a ) n utterly charming and hilarious film that reminded me of the best of the disney comedies from the 60s . 
+    [0] (2.866) feels haphazard , as if the writers mistakenly thought they could achieve an air of frantic spontaneity by simply tossing in lots of characters doing silly stuff and stirring the pot . 
+    [1] (2.796) an exhilarating futuristic thriller-noir , minority report twists the best of technology around a gripping story , delivering a riveting , pulse intensifying escapist adventure of the first order 
+
+Feature 20038 (MI=0.0308, LR=0.2123, act_rate=0.347)
+  Description: This SAE feature responds to the linguistic pattern of expressing nuanced, ambivalent opinions or criticisms, often using phrases that convey appreciation for an aspect of a work while simultaneously criticizing another aspect.
+  Top sentences:
+    [0] (8.562) for all its impressive craftsmanship , and despite an overbearing series of third-act crescendos , lily chou-chou never really builds up a head of emotional steam . 
+    [1] (8.498) dazzles with its fully-written characters , its determined stylishness ( which always relates to characters and story ) and johnny dankworth 's best soundtrack in years . 
+    [0] (8.464) delivers the same old same old , tarted up with latin flava and turned out by hollywood playas . 
+    [1] (8.434) with rabbit-proof fence , noyce has tailored an epic tale into a lean , economical movie . 
+    [1] (8.073) candid and comfortable ; a film that deftly balances action and reflection as it lets you grasp and feel the passion others have for their work . 
+
+Feature 20047 (MI=0.0341, LR=0.1002, act_rate=0.350)
+  Description: This SAE feature appears to respond to a semantic feature of "wry humor" or "dry wit" in text, as all top-activating sentences feature language that is characterized by a clever, understated, or ironic tone.
+  Top sentences:
+    [1] (6.607) director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+    [1] (6.362) while the ideas about techno-saturation are far from novel , they 're presented with a wry dark humor . 
+    [1] (5.732) building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+    [1] (5.377) candid and comfortable ; a film that deftly balances action and reflection as it lets you grasp and feel the passion others have for their work . 
+    [1] (5.340) a swashbuckling tale of love , betrayal , revenge and above all , faith . 
+
+Feature 20063 (MI=0.0342, LR=0.0916, act_rate=0.149)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing a critical or negative tone through the use of ironic or hyperbolic language, often accompanied by a hint of appreciation for the subject's effort or quality.
+  Top sentences:
+    [1] (7.885) ` de niro ... is a veritable source of sincere passion that this hollywood contrivance orbits around . ' 
+    [0] (6.606) though perry and hurley make inspiring efforts to breathe life into the disjointed , haphazard script by jay scherick and david ronn , neither the actors nor director reginald hudlin can make it more than fitfully entertaining . 
+    [0] (6.512) whaley 's determination to immerse you in sheer , unrelenting wretchedness is exhausting . 
+    [0] (6.344) this film seems thirsty for reflection , itself taking on adolescent qualities . 
+    [1] (5.649) montias ... pumps a lot of energy into his nicely nuanced narrative and surrounds himself with a cast of quirky -- but not stereotyped -- street characters . 
+
+Feature 20084 (MI=0.0539, LR=0.0115, act_rate=0.014)
+  Description: This SAE feature responds to the linguistic pattern of expressing subtle disappointment or criticism towards a creative work's potential being underutilized or unfulfilled.
+  Top sentences:
+    [0] (1.910) it 's just disappointingly superficial -- a movie that has all the elements necessary to be a fascinating , involving character study , but never does more than scratch the surface . 
+    [1] (1.896) charles ' entertaining film chronicles seinfeld 's return to stand-up comedy after the wrap of his legendary sitcom , alongside wannabe comic adams ' attempts to get his shot at the big time . 
+    [0] (1.839) zaidan 's script has barely enough plot to string the stunts together and not quite enough characterization to keep the faces straight . 
+    [1] (1.750) anchored by friel and williams 's exceptional performances , the film 's power lies in its complexity . 
+    [1] (1.708) `` mostly martha '' is a bright , light modern day family parable that wears its heart on its sleeve for all to see . 
+
+Feature 20136 (MI=0.0561, LR=0.0027, act_rate=0.021)
+  Description: This sparse autoencoder feature responds to linguistically complex, evaluative sentences that convey a sense of thematic depth, richness, and cinematic appreciation, particularly when describing films in a positive light.
+  Top sentences:
+    [1] (5.795) visually imaginative , thematically instructive and thoroughly delightful , it takes us on a roller-coaster ride from innocence to experience without even a hint of that typical kiddie-flick sentimentality . 
+    [1] (5.425) while undisputed is n't exactly a high , it is a gripping , tidy little movie that takes mr. hill higher than he 's been in a while . 
+    [1] (5.061) something akin to a japanese alice through the looking glass , except that it seems to take itself far more seriously . 
+    [1] (3.938) ( grant 's ) bumbling magic takes over the film , and it turns out to be another winning star vehicle . 
+    [1] (3.761) an effectively creepy , fear-inducing ( not fear-reducing ) film from japanese director hideo nakata , who takes the superstitious curse on chain letters and actually applies it . 
+
+Feature 20531 (MI=0.0000, LR=0.0699, act_rate=0.133)
+  Description: This SAE feature (index 20531, layer 6) responds to the linguistic pattern of expressing disappointment or dissatisfaction in an overly sentimental or clichéd work, often in the context of reviewing a movie or TV show.
+  Top sentences:
+    [0] (7.420) and that leaves a hole in the center of the salton sea . 
+    [0] (6.796) partway through watching this saccharine , easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected tv show . 
+    [0] (6.761) the movie is dawn of the dead crossed with john carpenter 's ghosts of mars , with zombies not as ghoulish as the first and trains not as big as the second . 
+    [1] (6.586) the fly-on-the-wall method used to document rural french school life is a refreshing departure from the now more prevalent technique of the docu-makers being a visible part of their work . 
+    [0] (5.782) confirms the nagging suspicion that ethan hawke would be even worse behind the camera than he is in front of it . 
+
+Feature 20777 (MI=0.0473, LR=0.1016, act_rate=0.170)
+  Description: This SAE feature appears to respond to linguistic patterns associated with strong negative sentiment, particularly in the context of criticizing movies or films as poorly made, boring, or lacking in redeeming qualities.
+  Top sentences:
+    [0] (5.286) nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting . 
+    [0] (4.659) yes , dull . 
+    [0] (4.633) as a rumor of angels reveals itself to be a sudsy tub of supernatural hokum , not even ms. redgrave 's noblest efforts can redeem it from hopeless sentimentality . 
+    [0] (4.232) it has its moments of swaggering camaraderie , but more often just feels generic , derivative and done to death . 
+    [0] (4.039) the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold . 
+
+Feature 21095 (MI=0.0014, LR=0.0732, act_rate=0.018)
+  Description: This SAE feature appears to respond to the semantic feature of "contrasting opinions or evaluations," as evidenced by the top-activating sentences expressing mixed or nuanced views on the quality of a movie.
+  Top sentences:
+    [0] (8.011) corpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in . 
+    [1] (7.758) though only 60 minutes long , the film is packed with information and impressions . 
+    [0] (7.531) it feels like an after-school special gussied up with some fancy special effects , and watching its rote plot points connect is about as exciting as gazing at an egg timer for 93 minutes . 
+    [1] (7.467) generally , clockstoppers will fulfill your wildest fantasies about being a different kind of time traveler , while happily killing 94 minutes . 
+    [1] (5.846) a giggle a minute . 
+
+Feature 21240 (MI=0.0000, LR=0.0727, act_rate=0.172)
+  Description: This SAE feature responds to a linguistic pattern of expressing strong disdain or critique, particularly in the tone of dismissing something as "unfunny", "repellent", or lacking substance, often with a negative sentiment.
+  Top sentences:
+    [0] (7.735) not only unfunny , but downright repellent . 
+    [0] (7.378) partway through watching this saccharine , easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected tv show . 
+    [1] (6.360) a difficult , absorbing film that manages to convey more substance despite its repetitions and inconsistencies than do most films than are far more pointed and clear . 
+    [1] (5.369) stephen rea , aidan quinn , and alan bates play desmond 's legal eagles , and when joined by brosnan , the sight of this grandiloquent quartet lolling in pretty irish settings is a pleasant enough thing , ` tis . 
+    [0] (4.629) a nightmare date with a half-formed wit done a great disservice by a lack of critical distance and a sad trust in liberal arts college bumper sticker platitudes . 
+
+Feature 21294 (MI=0.0000, LR=0.0677, act_rate=0.081)
+  Description: This SAE feature responds to the linguistic pattern of "backhanded compliments" or "grudging praise," where a sentence expresses a negative opinion while still acknowledging some redeeming quality or positive aspect.
+  Top sentences:
+    [1] (3.235) moody , heartbreaking , and filmed in a natural , unforced style that makes its characters seem entirely convincing even when its script is not . 
+    [1] (3.044) a beguiling splash of pastel colors and prankish comedy from disney . 
+    [1] (2.752) corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . 
+    [1] (2.720) stephen rea , aidan quinn , and alan bates play desmond 's legal eagles , and when joined by brosnan , the sight of this grandiloquent quartet lolling in pretty irish settings is a pleasant enough thing , ` tis . 
+    [1] (2.692) if steven soderbergh 's ` solaris ' is a failure it is a glorious failure . 
+
+Feature 21354 (MI=0.0000, LR=0.1328, act_rate=0.448)
+  Description: This SAE feature appears to respond to the presence of critical or evaluative language, particularly in the form of explicitly negative or dismissive phrases, such as "there isn't a redeeming moment" or "as unseemly as its title suggests."
+  Top sentences:
+    [0] (6.589) with the exception of some fleetingly amusing improvisations by cedric the entertainer as perry 's boss , there is n't a redeeming moment here . 
+    [1] (6.535) as unseemly as its title suggests . 
+    [0] (6.256) there is n't nearly enough fun here , despite the presence of some appealing ingredients . 
+    [1] (6.109) maud and roland 's search for an unknowable past makes for a haunting literary detective story , but labute pulls off a neater trick in possession : he makes language sexy . 
+    [1] (6.039) ( t ) his beguiling belgian fable , very much its own droll and delicate little film , has some touching things to say about what is important in life and why . 
+
+Feature 21982 (MI=0.0000, LR=0.0906, act_rate=0.022)
+  Description: This SAE feature (index 21982, layer 6) responds to complex, nuanced, or ironic criticisms or evaluations of artistic works or performances, often expressing a mix of negative and positive sentiments.
+  Top sentences:
+    [0] (11.256) the most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take . 
+    [1] (10.931) true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable . 
+    [1] (10.544) the weight of the piece , the unerring professionalism of the chilly production , and the fascination embedded in the lurid topic prove recommendation enough . 
+    [0] (10.533) vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . 
+    [1] (10.342) there 's something auspicious , and daring , too , about the artistic instinct that pushes a majority-oriented director like steven spielberg to follow a.i. with this challenging report so liable to unnerve the majority . 
+
+Feature 22001 (MI=0.0469, LR=0.0131, act_rate=0.060)
+  Description: This SAE feature appears to respond to linguistic patterns associated with negative critiques or unfavorable opinions, particularly in film reviews, as it strongly activates on sentences containing expressions of disappointment or disapproval.
+  Top sentences:
+    [0] (2.652) shaky close-ups of turkey-on-rolls , stubbly chins , liver spots , red noses and the filmmakers new bobbed do draw easy chuckles but lead nowhere . 
+    [1] (2.379) if you 're hard up for raunchy college humor , this is your ticket right here . 
+    [1] (2.288) cq 's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors . 
+    [0] (2.214) this time mr. burns is trying something in the martin scorsese street-realist mode , but his self-regarding sentimentality trips him up again . 
+    [0] (2.187) the film 's tone and pacing are off almost from the get-go . 
+
+Feature 22394 (MI=0.0413, LR=0.2257, act_rate=0.478)
+  Description: This SAE feature appears to respond to negative criticisms or expressions of disappointment related to movies or media, as evidenced by its strong activation on sentences discussing unentertaining or poorly executed films.
+  Top sentences:
+    [0] (12.451) offers very little genuine romance and even fewer laughs ... a sad sitcom of a movie , largely devoid of charm . 
+    [0] (9.422) jason x is positively anti-darwinian : nine sequels and 400 years later , the teens are none the wiser and jason still kills on auto-pilot . 
+    [0] (8.907) the film 's few ideas are stretched to the point of evaporation ; the whole central section is one big chase that seems to have no goal and no urgency . 
+    [0] (8.325) it showcases carvey 's talent for voices , but not nearly enough and not without taxing every drop of one 's patience to get to the good stuff . 
+    [0] (8.264) not only unfunny , but downright repellent . 
+
+Feature 22500 (MI=0.0000, LR=0.0848, act_rate=0.039)
+  Description: This SAE feature responds to the linguistic pattern of criticizing or expressing dissatisfaction with movies, particularly focusing on negative emotional impact or disappointment from poor storytelling.
+  Top sentences:
+    [0] (13.566) because of an unnecessary and clumsy last scene , ` swimfan ' left me with a very bad feeling . 
+    [0] (11.996) the words , ` frankly , my dear , i do n't give a damn , ' have never been more appropriate . 
+    [1] (11.265) the very definition of the ` small ' movie , but it is a good stepping stone for director sprecher . 
+    [1] (10.718) what better message than ` love thyself ' could young women of any size receive ? 
+    [0] (10.490) as ` chick flicks ' go , this one is pretty miserable , resorting to string-pulling rather than legitimate character development and intelligent plotting . 
+
+Feature 22620 (MI=0.0515, LR=0.0002, act_rate=0.023)
+  Description: This SAE feature responds to critical or negative evaluations of artistic works, as all top-activating sentences express disappointment or criticism towards a film or documentary.
+  Top sentences:
+    [0] (10.506) sticky sweet sentimentality , clumsy plotting and a rosily myopic view of life in the wwii-era mississippi delta undermine this adaptation . 
+    [1] (9.593) this illuminating documentary transcends our preconceived vision of the holy land and its inhabitants , revealing the human complexities beneath . 
+    [0] (7.272) perceptive in its vision of nascent industrialized world politics as a new art form , but far too clunky , didactic and saddled with scenes that seem simply an ill fit for this movie . 
+    [0] (6.052) chokes on its own depiction of upper-crust decorum . 
+    [0] (3.713) the director knows how to apply textural gloss , but his portrait of sex-as-war is strictly sitcom . 
+
+Feature 22717 (MI=0.0078, LR=0.0700, act_rate=0.291)
+  Description: This sparse autoencoder feature appears to be sensitive to linguistic patterns of critical acclaim, specifically responding to phrases and sentences that express nuanced, thoughtful criticisms or praises, particularly in the context of film reviews.
+  Top sentences:
+    [0] (6.586) velocity represents everything wrong with '' independent film '' as a commodified , sold-out concept on the american filmmaking scene . 
+    [0] (6.015) not an objectionable or dull film ; it merely lacks everything except good intentions . 
+    [1] (5.486) it 's a work by an artist so in control of both his medium and his message that he can improvise like a jazzman . 
+    [1] (5.092) lapaglia 's ability to convey grief and hope works with weaver 's sensitive reactions to make this a two-actor master class . 
+    [1] (5.088) for the most part , it 's a work of incendiary genius , steering clear of knee-jerk reactions and quick solutions . 
+
+Feature 22823 (MI=0.0525, LR=0.0018, act_rate=0.017)
+  Description: This SAE feature responds to the linguistic pattern of "critique of commercial or cinematic value," as evident from the top-activating sentences, which all express opinions on the quality or worth of a movie.
+  Top sentences:
+    [0] (3.020) slapstick buffoonery can tickle many a preschooler 's fancy , but when it costs a family of four about $ 40 to see a film in theaters , why spend money on a dog like this when you can rent a pedigree instead ? 
+    [1] (1.870) the special effects and many scenes of weightlessness look as good or better than in the original , while the oscar-winning sound and james horner 's rousing score make good use of the hefty audio system . 
+    [1] (1.867) a fitfully amusing romp that , if nothing else , will appeal to fans of malcolm in the middle and its pubescent star , frankie muniz . 
+    [0] (1.859) an occasionally funny , but overall limp , fish-out-of-water story . 
+    [1] (1.846) the sort of film that makes me miss hitchcock , but also feel optimistic that there 's hope for popular cinema yet . 
+
+Feature 23187 (MI=0.0234, LR=0.0790, act_rate=0.124)
+  Description: This SAE feature (index 23187, layer 6) responds to the semantic feature of "emotional resonance" or "narrative immersion," as it activates strongly on sentences describing personal connections to characters, storytelling, and emotional experiences that evoke a sense of shared understanding or empathy.
+  Top sentences:
+    [1] (3.729) what really makes it special is that it pulls us into its world , gives us a hero whose suffering and triumphs we can share , surrounds him with interesting characters and sends us out of the theater feeling we 've shared a great adventure . 
+    [1] (3.690) an important movie , a reminder of the power of film to move us and to make us examine our values . 
+    [1] (3.528) a celebration of quirkiness , eccentricity , and certain individuals ' tendency to let it all hang out , and damn the consequences . 
+    [0] (3.494) all that 's missing is the spontaneity , originality and delight . 
+    [1] (3.445) gives you the steady pulse of life in a beautiful city viewed through the eyes of a character who , in spite of tragic loss and increasing decrepitude , knows in his bones that he is one of the luckiest men alive . 
+
+Feature 23313 (MI=0.0082, LR=0.0939, act_rate=0.026)
+  Description: This SAE feature appears to respond to instances of rhetorical questioning or irony, as all top-activating sentences feature questions that are likely intended to be humorous or critical rather than genuinely seeking information.
+  Top sentences:
+    [0] (8.989) but what are adults doing in the theater at all ? 
+    [0] (8.836) / but daphne , you 're too buff / fred thinks he 's tough / and velma - wow , you 've lost weight ! 
+    [0] (8.483) how do you spell cliché ? 
+    [1] (8.148) mr. tsai is a very original artist in his medium , and what time is it there ? 
+    [0] (8.082) is the time really ripe for a warmed-over james bond adventure , with a village idiot as the 007 clone ? 
+
+Feature 23340 (MI=0.0043, LR=0.0771, act_rate=0.078)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing interest or fascination in a creative, positive, or engaging way, often using words like "interesting," "fascinating," or "amusing."
+  Top sentences:
+    [1] (6.934) the characters are interesting and often very creatively constructed from figure to backstory . 
+    [0] (6.524) corpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in . 
+    [1] (5.307) it 's fascinating to see how bettany and mcdowell play off each other . 
+    [0] (4.642) what the director ca n't do is make either of val kilmer 's two personas interesting or worth caring about . 
+    [1] (4.482) it is amusing , and that 's all it needs to be . 
+
+Feature 23730 (MI=0.0520, LR=0.0653, act_rate=0.109)
+  Description: This sparse autoencoder feature appears to respond to the concept of "positive evaluation of character actions" or "admiration for a character's behavior", as all top-activating sentences describe situations where characters show respect, empathy, or make a strong impression.
+  Top sentences:
+    [1] (2.380) not since tom cruise in risky business has an actor made such a strong impression in his underwear . 
+    [0] (2.354) while it 's genuinely cool to hear characters talk about early rap records ( sugar hill gang , etc. ) , the constant referencing of hip-hop arcana can alienate even the savviest audiences . 
+    [1] (2.287) instead , he shows them the respect they are due . 
+    [1] (2.257) it will grip even viewers who are n't interested in rap , as it cuts to the heart of american society in an unnerving way . 
+    [0] (2.229) portentous and pretentious , the weight of water is appropriately titled , given the heavy-handedness of it drama . 
+
+Feature 23976 (MI=0.0131, LR=0.0709, act_rate=0.034)
+  Description: This SAE feature appears to respond to the concept of "love" as a positive emotional theme, particularly in the context of relationships, friendships, and romantic partnerships.
+  Top sentences:
+    [1] (14.388) cq 's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors . 
+    [1] (13.127) despite its title , punch-drunk love is never heavy-handed . 
+    [1] (13.117) offers much to enjoy ... and a lot to mull over in terms of love , loyalty and the nature of staying friends . 
+    [1] (13.113) a tender , witty , captivating film about friendship , love , memory , trust and loyalty . 
+    [1] (13.087) a swashbuckling tale of love , betrayal , revenge and above all , faith . 
+
+Feature 24057 (MI=0.0000, LR=0.1096, act_rate=0.010)
+  Description: This SAE feature responds to a pattern of strong negative sentiment towards movies or films, particularly when they fail to meet expectations or resort to clichés.
+  Top sentences:
+    [0] (17.566) as ` chick flicks ' go , this one is pretty miserable , resorting to string-pulling rather than legitimate character development and intelligent plotting . 
+    [0] (16.578) the longer the movie goes , the worse it gets , but it 's actually pretty good in the first few minutes . 
+    [0] (15.393) a broad , melodramatic estrogen opera that 's pretty toxic in its own right . 
+    [0] (13.310) and when you 're talking about a slapstick comedy , that 's a pretty big problem . 
+    [1] (12.757) preaches to two completely different choirs at the same time , which is a pretty amazing accomplishment . 
+
+Feature 24135 (MI=0.0012, LR=0.0728, act_rate=0.048)
+  Description: This SAE feature responds to nuanced, positive evaluations of creative works, particularly films, that express a mix of admiration and slight criticism, often using metaphors or vivid descriptions.
+  Top sentences:
+    [0] (12.053) like being trapped at a perpetual frat party ... how can something so gross be so boring ? 
+    [1] (10.832) it 's worth seeing just on the basis of the wisdom , and at times , the startling optimism , of the children . 
+    [0] (9.582) for each chuckle there are at least 10 complete misses , many coming from the amazingly lifelike tara reid , whose acting skills are comparable to a cardboard cutout . 
+    [1] (8.578) this tenth feature is a big deal , indeed -- at least the third-best , and maybe even a notch above the previous runner-up , nicholas meyer 's star trek vi : the undiscovered country . 
+    [1] (8.543) as surreal as a dream and as detailed as a photograph , as visually dexterous as it is at times imaginatively overwhelming . 
+
+Feature 24310 (MI=0.0160, LR=0.0732, act_rate=0.229)
+  Description: This SAE feature appears to respond to the concept of nuanced, in-depth cultural commentary or critique, particularly in the context of film and storytelling.
+  Top sentences:
+    [0] (5.661) this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . 
+    [0] (5.594) the talented and clever robert rodriguez perhaps put a little too much heart into his first film and did n't reserve enough for his second . 
+    [1] (5.558) ( chaiken 's ) talent lies in an evocative , accurate observation of a distinctive milieu and in the lively , convincing dialogue she creates for her characters . 
+    [1] (5.222) yakusho and shimizu ... create engaging characterizations in imamura 's lively and enjoyable cultural mix . 
+    [1] (5.207) the minor figures surrounding ( bobby ) ... form a gritty urban mosaic . 
+
+Feature 24520 (MI=0.0289, LR=0.0969, act_rate=0.352)
+  Description: This SAE feature responds to the linguistic pattern of positive praise and admiration for films or authors, particularly highlighting their unique qualities, complexity, and artistic merit.
+  Top sentences:
+    [1] (5.461) the best revenge may just be living well because this film , unlike other dumas adaptations , is far more likened to a treasure than a lengthy jail sentence . 
+    [1] (5.400) the subtle strength of `` elling '' is that it never loses touch with the reality of the grim situation . 
+    [1] (5.355) it has charm to spare , and unlike many romantic comedies , it does not alienate either gender in the audience . 
+    [1] (4.773) on the heels of the ring comes a similarly morose and humorless horror movie that , although flawed , is to be commended for its straight-ahead approach to creepiness . 
+    [1] (4.733) a densely constructed , highly referential film , and an audacious return to form that can comfortably sit among jean-luc godard 's finest work . 
+
+Feature 24640 (MI=0.0000, LR=0.0777, act_rate=0.048)
+  Description: This SAE feature appears to respond to a sense of irony or sarcasm, particularly in the presence of phrases or sentences that express strong emotions or opinions in a hyperbolic or mocking tone.
+  Top sentences:
+    [0] (11.576) like being trapped at a perpetual frat party ... how can something so gross be so boring ? 
+    [1] (11.202) the film may appear naked in its narrative form ... but it goes deeper than that , to fundamental choices that include the complexity of the catholic doctrine 
+    [0] (10.688) i can take infantile humor ... but this is the sort of infantile that makes you wonder about changing the director and writer 's diapers . 
+    [0] (10.495) movie fans , get ready to take off ... the other direction . 
+    [0] (10.495) it does n't believe in itself , it has no sense of humor ... it 's just plain bored . 
+
+Feature 24645 (MI=0.0489, LR=0.0032, act_rate=0.011)
+  Description: This SAE feature responds to the concept of "negative critical assessment of artistic or creative endeavors," as evident from its strong activations on sentences expressing strong disapproval of movies, music projects, or romantic comedies.
+  Top sentences:
+    [0] (3.313) this is a train wreck of an action film -- a stupefying attempt by the filmmakers to force-feed james bond into the mindless xxx mold and throw 40 years of cinematic history down the toilet in favor of bright flashes and loud bangs . 
+    [1] (2.789) immersing us in the endlessly inventive , fiercely competitive world of hip-hop djs , the project is sensational and revelatory , even if scratching makes you itch . 
+    [0] (2.285) it 's so mediocre , despite the dynamic duo on the marquee , that we just ca n't get no satisfaction . 
+    [1] (2.185) it has charm to spare , and unlike many romantic comedies , it does not alienate either gender in the audience . 
+    [0] (2.013) in the end , we are left with something like two ships passing in the night rather than any insights into gay love , chinese society or the price one pays for being dishonest . 
+
+Feature 24785 (MI=0.0247, LR=0.0888, act_rate=0.138)
+  Description: This sparse autoencoder feature responds to strong linguistic cues of irony, sarcasm, or hyperbole in negative criticism, where the feature activates on sentences that express extreme dislike or disdain in a manner that is perceived as humorous or exaggerated.
+  Top sentences:
+    [1] (9.773) preaches to two completely different choirs at the same time , which is a pretty amazing accomplishment . 
+    [0] (9.600) to call the other side of heaven `` appalling '' would be to underestimate just how dangerous entertainments like it can be . 
+    [0] (9.171) it feels like an after-school special gussied up with some fancy special effects , and watching its rote plot points connect is about as exciting as gazing at an egg timer for 93 minutes . 
+    [0] (9.072) so unremittingly awful that labeling it a dog probably constitutes cruelty to canines . 
+    [0] (7.567) the notion that bombing buildings is the funniest thing in the world goes entirely unexamined in this startlingly unfunny comedy . 
+
+Feature 24881 (MI=0.0000, LR=0.0962, act_rate=0.261)
+  Description: This SAE feature responds to the semantic feature of "clichéd or overused literary devices, particularly melodramatic or sentimental language used to evoke a strong emotional response."
+  Top sentences:
+    [0] (6.400) at least one scene is so disgusting that viewers may be hard pressed to retain their lunch . 
+    [1] (5.216) while its careful pace and seemingly opaque story may not satisfy every moviegoer 's appetite , the film 's final scene is soaringly , transparently moving . 
+    [0] (4.919) as a rumor of angels reveals itself to be a sudsy tub of supernatural hokum , not even ms. redgrave 's noblest efforts can redeem it from hopeless sentimentality . 
+    [0] (4.585) well-nigh unendurable ... though the picture strains to become cinematic poetry , it remains depressingly prosaic and dull . 
+    [0] (4.524) this time mr. burns is trying something in the martin scorsese street-realist mode , but his self-regarding sentimentality trips him up again . 
+
+Feature 25109 (MI=0.0491, LR=0.0307, act_rate=0.213)
+  Description: This SAE feature appears to respond to a pattern of "positive sentiment surrounding artistic or creative endeavors, particularly when they deviate from or challenge conventional expectations."
+  Top sentences:
+    [1] (4.302) there 's something auspicious , and daring , too , about the artistic instinct that pushes a majority-oriented director like steven spielberg to follow a.i. with this challenging report so liable to unnerve the majority . 
+    [0] (3.873) shaky close-ups of turkey-on-rolls , stubbly chins , liver spots , red noses and the filmmakers new bobbed do draw easy chuckles but lead nowhere . 
+    [0] (3.747) it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , without all oedekerk 's impish augmentation . 
+    [1] (3.342) even in its most tedious scenes , russian ark is mesmerizing . 
+    [1] (3.244) a superbly acted and funny/gritty fable of the humanizing of one woman at the hands of the unseen forces of fate . 
+
+Feature 25154 (MI=0.0587, LR=0.0018, act_rate=0.010)
+  Description: This SAE feature appears to respond to the concept of "over-the-top, exaggerated, or unconvincing performances or portrayals," as evident in the top-activating sentences, which all contain criticisms of actresses' or actors' acting abilities.
+  Top sentences:
+    [0] (15.365) for each chuckle there are at least 10 complete misses , many coming from the amazingly lifelike tara reid , whose acting skills are comparable to a cardboard cutout . 
+    [1] (13.473) macdowell , whose wifty southern charm has anchored lighter affairs ... brings an absolutely riveting conviction to her role . 
+    [1] (12.981) the format gets used best ... to capture the dizzying heights achieved by motocross and bmx riders , whose balletic hotdogging occasionally ends in bone-crushing screwups . 
+    [1] (11.164) seldahl 's barbara is a precise and moving portrait of someone whose world is turned upside down , first by passion and then by illness . 
+    [0] (10.784) the film makes a fatal mistake : it asks us to care about a young man whose only apparent virtue is that he is not quite as unpleasant as some of the people in his life . 
+
+Feature 25258 (MI=0.0619, LR=0.0033, act_rate=0.024)
+  Description: This SAE feature responds to negative criticisms of cinematic qualities, particularly the use of overly complex or melodramatic storytelling, cheesy effects, and poor performances.
+  Top sentences:
+    [0] (3.296) deadeningly dull , mired in convoluted melodrama , nonsensical jargon and stiff-upper-lip laboriousness . 
+    [1] (2.377) what distinguishes time of favor from countless other thrillers is its underlying concern with the consequences of words and with the complicated emotions fueling terrorist acts . 
+    [0] (2.221) it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake . 
+    [1] (2.124) against all odds in heaven and hell , it creeped me out just fine . 
+    [0] (1.906) sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . 
+
+Feature 25420 (MI=0.0024, LR=0.0907, act_rate=0.104)
+  Description: This SAE feature appears to respond to linguistic patterns of subtle or nuanced criticism, particularly in the context of artistic or cultural depictions, where the tone is often negative or ambivalent without being overtly confrontational.
+  Top sentences:
+    [0] (4.509) sacrifices the value of its wealth of archival foot-age with its less-than-objective stance . 
+    [0] (4.469) chokes on its own depiction of upper-crust decorum . 
+    [1] (4.345) a quiet , pure , elliptical film 
+    [1] (4.108) what 's surprising about full frontal is that despite its overt self-awareness , parts of the movie still manage to break past the artifice and thoroughly engage you . 
+    [0] (4.089) too restrained to be a freak show , too mercenary and obvious to be cerebral , too dull and pretentious to be engaging ... the isle defies an easy categorization . 
+
+Feature 25436 (MI=0.0000, LR=0.0759, act_rate=0.530)
+  Description: This SAE feature appears to respond to the concept of strong emotional impact or emotional resonance, as it activates most strongly on sentences describing experiences that evoke powerful emotions, such as fascination, horror, and intense sentiment.
+  Top sentences:
+    [1] (3.755) it haunts , horrifies , startles and fascinates ; it is impossible to look away . 
+    [0] (3.697) there 's no emotional pulse to solaris . 
+    [0] (3.529) in all , this is a watchable movie that 's not quite the memorable experience it might have been . 
+    [1] (2.988) a giggle-inducing comedy with snappy dialogue and winning performances by an unlikely team of oscar-winners : susan sarandon and goldie hawn . 
+    [1] (2.966) more romantic , more emotional and ultimately more satisfying than the teary-eyed original . 
+
+Feature 25551 (MI=0.0020, LR=0.1357, act_rate=0.149)
+  Description: This SAE feature responds to the semantic feature of "hilarity" or "comedy," as it strongly activates on sentences that praise a script or film as funny, humorous, or amusing.
+  Top sentences:
+    [1] (10.383) this is a good script , good dialogue , funny even for adults . 
+    [1] (9.907) just as moving , uplifting and funny as ever . 
+    [1] (9.064) not only is undercover brother as funny , if not more so , than both austin powers films , but it 's also one of the smarter , savvier spoofs to come along in some time . 
+    [1] (8.885) the film 's welcome breeziness and some unbelievably hilarious moments -- most portraying the idiocy of the film industry -- make it mostly worth the trip . 
+    [1] (8.782) a painfully funny ode to bad behavior . 
+
+Feature 25727 (MI=0.0193, LR=0.0677, act_rate=0.075)
+  Description: This SAE feature responds to positive, high-level appraisals of artistic or creative works.
+  Top sentences:
+    [1] (8.988) smart , provocative and blisteringly funny . 
+    [1] (8.723) belongs to daniel day-lewis as much as it belongs to martin scorsese ; it 's a memorable performance in a big , brassy , disturbing , unusual and highly successful film . 
+    [1] (8.313) a very well-made , funny and entertaining picture . 
+    [1] (8.156) this is human comedy at its most amusing , interesting and confirming . 
+    [0] (8.090) adults will wish the movie were less simplistic , obvious , clumsily plotted and shallowly characterized . 
+
+Feature 25896 (MI=0.0470, LR=0.0043, act_rate=0.032)
+  Description: This SAE feature likely responds to the contrast between positive and negative evaluations or assessments, particularly when they are expressed in a formal or objective tone, often accompanied by a sense of criticism or disapproval.
+  Top sentences:
+    [0] (3.160) corpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in . 
+    [1] (3.021) entertains by providing good , lively company . 
+    [1] (2.809) enormously entertaining for moviegoers of any age . 
+    [0] (2.421) sacrifices the value of its wealth of archival foot-age with its less-than-objective stance . 
+    [0] (2.364) stultifyingly , dumbfoundingly , mind-numbingly bad . 
+
+Feature 25909 (MI=0.0594, LR=0.1333, act_rate=0.392)
+  Description: This SAE feature responds strongly to sentences expressing praise and admiration for a film, particularly highlighting memorable performances, cinematography, and the director's vision, often using superlatives and emotive language.
+  Top sentences:
+    [1] (7.271) leigh 's film is full of memorable performances from top to bottom . 
+    [1] (7.197) a cartoon that 's truly cinematic in scope , and a story that 's compelling and heartfelt -- even if the heart belongs to a big , four-legged herbivore . 
+    [1] (6.499) the film is quiet , threatening and unforgettable . 
+    [1] (6.431) there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . 
+    [1] (6.332) although laced with humor and a few fanciful touches , the film is a refreshingly serious look at young women . 
+
+Feature 26023 (MI=0.0483, LR=0.0183, act_rate=0.016)
+  Description: This SAE feature responds to the linguistic pattern of expressing positive sentiment and surprise or delight in finding a desirable or long-awaited follow-up, suggesting a semantic feature related to anticipation and satisfaction.
+  Top sentences:
+    [1] (10.728) highbrow self-appointed guardians of culture need not apply , but those who loved cool as ice have at last found a worthy follow-up . 
+    [0] (10.480) outer-space buffs might love this film , but others will find its pleasures intermittent . 
+    [1] (9.440) a film about a young man finding god that is accessible and touching to the marrow . 
+    [1] (9.055) the structure the film takes may find matt damon and ben affleck once again looking for residuals as this officially completes a good will hunting trilogy that was never planned . 
+    [0] (8.891) even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . 
+
+Feature 26112 (MI=0.0649, LR=0.0030, act_rate=0.023)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing criticism or negative opinion, particularly when it involves a mix of dismissive language and a contrasting, often ironic or humorous, positive reaction from others.
+  Top sentences:
+    [0] (2.477) try as i may , i ca n't think of a single good reason to see this movie , even though everyone in my group extemporaneously shouted , ` thank you ! ' 
+    [0] (1.760) excessive , profane , packed with cartoonish violence and comic-strip characters . 
+    [1] (1.741) a giggle-inducing comedy with snappy dialogue and winning performances by an unlikely team of oscar-winners : susan sarandon and goldie hawn . 
+    [1] (1.667) charles ' entertaining film chronicles seinfeld 's return to stand-up comedy after the wrap of his legendary sitcom , alongside wannabe comic adams ' attempts to get his shot at the big time . 
+    [1] (1.616) not only are the special effects and narrative flow much improved , and daniel radcliffe more emotionally assertive this time around as harry , but the film conjures the magic of author j.k. rowling 's books . 
+
+Feature 26555 (MI=0.0235, LR=0.0701, act_rate=0.049)
+  Description: This SAE feature appears to respond to negative criticisms of movies, particularly those involving a lack of humor, poor believability, and a sense of dullness or coarseness.
+  Top sentences:
+    [0] (4.480) on the whole , the movie lacks wit , feeling and believability to compensate for its incessant coarseness and banality . 
+    [0] (4.184) ... the film suffers from a lack of humor ( something needed to balance out the violence ) ... 
+    [0] (4.120) a very long movie , dull in stretches , with entirely too much focus on meal preparation and igloo construction . 
+    [0] (4.071) perceptive in its vision of nascent industrialized world politics as a new art form , but far too clunky , didactic and saddled with scenes that seem simply an ill fit for this movie . 
+    [0] (3.973) complete lack of originality , cleverness or even visible effort 
+
+Feature 26649 (MI=0.0024, LR=0.0674, act_rate=0.220)
+  Description: This SAE feature appears to respond to the semantic feature of "predictability vs. surprise" in the context of evaluating narrative quality, particularly activating when a text expresses disappointment or criticism towards an expected level of dramatic tension or emotional impact.
+  Top sentences:
+    [0] (4.590) although huppert 's intensity and focus has a raw exhilaration about it , the piano teacher is anything but fun . 
+    [0] (3.395) though moonlight mile is replete with acclaimed actors and actresses and tackles a subject that 's potentially moving , the movie is too predictable and too self-conscious to reach a level of high drama . 
+    [1] (3.209) you will emerge with a clearer view of how the gears of justice grind on and the death report comes to share airtime alongside the farm report . 
+    [1] (3.199) it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . 
+    [1] (3.183) stephen rea , aidan quinn , and alan bates play desmond 's legal eagles , and when joined by brosnan , the sight of this grandiloquent quartet lolling in pretty irish settings is a pleasant enough thing , ` tis . 
+
+Feature 26796 (MI=0.0037, LR=0.0793, act_rate=0.275)
+  Description: This SAE feature responds to the linguistic pattern of expressing a mix of interest and disappointment or frustration, often with a tone of mild criticism or lukewarm praise.
+  Top sentences:
+    [1] (9.925) binoche makes it interesting trying to find out . 
+    [0] (8.745) not since freddy got fingered has a major release been so painful to sit through . 
+    [0] (8.081) it 's everything you do n't go to the movies for . 
+    [0] (7.666) corpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in . 
+    [1] (7.237) slick piece of cross-promotion . 
+
+Feature 27306 (MI=0.0265, LR=0.1024, act_rate=0.037)
+  Description: This SAE feature appears to respond to the concept of "exceptionally skilled or impressive performances" by actors, often accompanied by positive adjectives and phrases highlighting their raw talent, fearlessness, or mesmerizing abilities.
+  Top sentences:
+    [1] (9.931) this is an egotistical endeavor from the daughter of horror director dario argento ( a producer here ) , but her raw performance and utter fearlessness make it strangely magnetic . 
+    [1] (9.534) featuring a dangerously seductive performance from the great daniel auteuil , `` sade '' covers the same period as kaufmann 's `` quills '' with more unsettlingly realistic results . 
+    [1] (8.810) kinnear does n't aim for our sympathy , but rather delivers a performance of striking skill and depth . 
+    [1] (8.604) the terrific and bewilderingly underrated campbell scott gives a star performance that is nothing short of mesmerizing . 
+    [0] (8.333) impostor has a handful of thrilling moments and a couple of good performances , but the movie does n't quite fly . 
+
+Feature 28039 (MI=0.0000, LR=0.1032, act_rate=0.030)
+  Description: This SAE feature appears to respond to negative critiques or criticisms of artistic works, specifically identifying sentences that express disappointment or dissatisfaction with a movie or performance due to predictable or overly dramatic elements.
+  Top sentences:
+    [0] (15.784) the action switches between past and present , but the material link is too tenuous to anchor the emotional connections that purport to span a 125-year divide . 
+    [0] (14.041) though moonlight mile is replete with acclaimed actors and actresses and tackles a subject that 's potentially moving , the movie is too predictable and too self-conscious to reach a level of high drama . 
+    [0] (13.148) once ( kim ) begins to overplay the shock tactics and bait-and-tackle metaphors , you may decide it 's too high a price to pay for a shimmering picture postcard . 
+    [0] (13.077) but it 's too long and too convoluted and it ends in a muddle . 
+    [0] (12.564) the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold . 
+
+Feature 28044 (MI=0.0278, LR=0.0777, act_rate=0.013)
+  Description: This SAE feature responds to the linguistic pattern of expressing a negative sentiment due to an expectation of more or better content, often framed as a quantitative deficiency ("not enough").
+  Top sentences:
+    [0] (11.749) it showcases carvey 's talent for voices , but not nearly enough and not without taxing every drop of one 's patience to get to the good stuff . 
+    [0] (11.305) while ( hill ) has learned new tricks , the tricks alone are not enough to salvage this lifeless boxing film . 
+    [0] (10.719) there 's not enough here to justify the almost two hours . 
+    [0] (9.120) there is n't nearly enough fun here , despite the presence of some appealing ingredients . 
+    [0] (9.116) just not campy enough 
+
+Feature 28128 (MI=0.0168, LR=0.0882, act_rate=0.138)
+  Description: This SAE feature responds to a pattern of sarcastic or ironic criticism, as evidenced by its strong activation in sentences expressing negative opinions with a tone of disdain or mockery.
+  Top sentences:
+    [1] (4.725) something akin to a japanese alice through the looking glass , except that it seems to take itself far more seriously . 
+    [0] (4.658) it 's a cookie-cutter movie , a cut-and-paste job . 
+    [0] (4.557) the result is a gaudy bag of stale candy , something from a halloween that died . 
+    [0] (4.447) without non-stop techno or the existential overtones of a kieslowski morality tale , maelström is just another winter sleepers . 
+    [0] (4.148) a misogynistic piece of filth that attempts to pass itself off as hip , young adult entertainment . 
+
+Feature 28229 (MI=0.0000, LR=0.1092, act_rate=0.222)
+  Description: This SAE feature (index 28229, layer 6) appears to respond to a pattern of expressing strong disappointment or criticism, particularly through exaggerated and hyperbolic language comparing something to a lackluster or mundane experience.
+  Top sentences:
+    [0] (14.982) for each chuckle there are at least 10 complete misses , many coming from the amazingly lifelike tara reid , whose acting skills are comparable to a cardboard cutout . 
+    [0] (13.383) has all the depth of a wading pool . 
+    [1] (12.867) a breezy romantic comedy that has the punch of a good sitcom , while offering exceptionally well-detailed characters . 
+    [0] (11.417) it has all the excitement of eating oatmeal . 
+    [0] (11.333) samira makhmalbaf 's new film blackboards is much like the ethos of a stream of consciousness , although , it 's unfortunate for the viewer that the thoughts and reflections coming through are torpid and banal 
+
+Feature 28933 (MI=0.0073, LR=0.0915, act_rate=0.172)
+  Description: This SAE feature appears to respond to the linguistic pattern of nuanced, somewhat ambiguous or open-ended praise, particularly when describing a movie or film.
+  Top sentences:
+    [1] (3.382) an interesting story with a pertinent ( cinematically unique ) message , told fairly well and scored to perfection , i found myself struggling to put my finger on that elusive `` missing thing . '' 
+    [0] (3.054) that 's pure pr hype . 
+    [0] (3.008) forced , familiar and thoroughly condescending . 
+    [1] (2.964) liotta put on 30 pounds for the role , and has completely transformed himself from his smooth , goodfellas image . 
+    [0] (2.904) it 's slow -- very , very slow . 
+
+Feature 29002 (MI=0.0000, LR=0.0690, act_rate=0.158)
+  Description: This SAE feature responds to the linguistic pattern of "nuanced, non-reducible, and emotionally evocative character portrayals" in sentences that suggest depth and complexity in character development.
+  Top sentences:
+    [0] (5.087) schaeffer has to find some hook on which to hang his persistently useless movies , and it might as well be the resuscitation of the middle-aged character . 
+    [1] (5.030) moody , heartbreaking , and filmed in a natural , unforced style that makes its characters seem entirely convincing even when its script is not . 
+    [1] (4.463) fresnadillo 's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that wo n't go away . 
+    [1] (4.119) byler reveals his characters in a way that intrigues and even fascinates us , and he never reduces the situation to simple melodrama . 
+    [1] (4.018) turns potentially forgettable formula into something strangely diverting . 
+
+Feature 29201 (MI=0.0000, LR=0.0698, act_rate=0.015)
+  Description: This SAE feature responds to nuanced criticisms or mixed opinions about movies, particularly when expressing disappointment or mild approval in a measured tone, often with a hint of sarcasm or irony.
+  Top sentences:
+    [0] (12.316) it 's not the ultimate depression-era gangster movie . 
+    [0] (11.992) this is not the undisputed worst boxing movie ever , but it 's certainly not a champion - the big loser is the audience . 
+    [1] (10.386) not the kind of film that will appeal to a mainstream american audience , but there is a certain charm about the film that makes it a suitable entry into the fest circuit . 
+    [0] (7.614) in all , this is a watchable movie that 's not quite the memorable experience it might have been . 
+    [1] (7.431) may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . 
+
+Feature 29454 (MI=0.0386, LR=0.2172, act_rate=0.341)
+  Description: This SAE feature responds to the linguistic pattern of strongly negative critique or criticism, particularly in film or entertainment reviews, often involving words with negative connotations such as "soullessness," "brutal," "hokum," "hopeless," and "clunker."
+  Top sentences:
+    [0] (6.159) does n't offer much besides glib soullessness , raunchy language and a series of brutal set pieces ... that raise the bar on stylized screen violence . 
+    [0] (5.753) as a rumor of angels reveals itself to be a sudsy tub of supernatural hokum , not even ms. redgrave 's noblest efforts can redeem it from hopeless sentimentality . 
+    [0] (5.677) despite all evidence to the contrary , this clunker has somehow managed to pose as an actual feature movie , the kind that charges full admission and gets hyped on tv and purports to amuse small children and ostensible adults . 
+    [1] (5.535) it 's the chemistry between the women and the droll scene-stealing wit and wolfish pessimism of anna chancellor that makes this `` two weddings and a funeral '' fun . 
+    [0] (5.514) it 's not original , and , robbed of the element of surprise , it does n't have any huge laughs in its story of irresponsible cops who love to play pranks . 
+
+Feature 29500 (MI=0.0688, LR=0.0215, act_rate=0.039)
+  Description: This SAE feature responds to the linguistic pattern of describing a creative or artistic work (e.g., movie, cuisine, novel) in a positive and appreciative manner, using phrases that convey originality, flair, or emotional impact.
+  Top sentences:
+    [1] (2.375) although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . 
+    [1] (2.227) there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . 
+    [1] (1.984) an effectively creepy , fear-inducing ( not fear-reducing ) film from japanese director hideo nakata , who takes the superstitious curse on chain letters and actually applies it . 
+    [0] (1.945) there 's too much falseness to the second half , and what began as an intriguing look at youth fizzles into a dull , ridiculous attempt at heart-tugging . 
+    [0] (1.882) works hard to establish rounded characters , but then has nothing fresh or particularly interesting to say about them . 
+
+Feature 29867 (MI=0.0043, LR=0.0693, act_rate=0.201)
+  Description: This sparse autoencoder feature appears to respond to the presence of negative sentiment or dissatisfaction with a creative work, particularly in the context of comedy or entertainment that fails to meet expectations.
+  Top sentences:
+    [0] (6.374) i am sorry that i was unable to get the full brunt of the comedy . 
+    [1] (5.889) while locals will get a kick out of spotting cleveland sites , the rest of the world will enjoy a fast-paced comedy with quirks that might make the award-winning coen brothers envious . 
+    [0] (5.708) i got a headache watching this meaningless downer . 
+    [0] (5.582) combining quick-cut editing and a blaring heavy metal much of the time , beck seems to be under the illusion that he 's shooting the latest system of a down video . 
+    [0] (5.362) for close to two hours the audience is forced to endure three terminally depressed , mostly inarticulate , hyper dysfunctional families for the price of one . 
+
+Feature 30157 (MI=0.0000, LR=0.0833, act_rate=0.017)
+  Description: This SAE feature responds to the linguistic pattern of describing something as "cool," particularly within the context of entertainment or cultural references, conveying a positive sentiment.
+  Top sentences:
+    [1] (10.171) ... a fun little timewaster , helped especially by the cool presence of jean reno . 
+    [0] (9.086) while it 's genuinely cool to hear characters talk about early rap records ( sugar hill gang , etc. ) , the constant referencing of hip-hop arcana can alienate even the savviest audiences . 
+    [1] (7.962) highbrow self-appointed guardians of culture need not apply , but those who loved cool as ice have at last found a worthy follow-up . 
+    [1] (7.902) this flick is about as cool and crowd-pleasing as a documentary can get . 
+    [1] (6.857) further proof that the epicenter of cool , beautiful , thought-provoking foreign cinema is smack-dab in the middle of dubya 's axis of evil . 
+
+Feature 30195 (MI=0.0476, LR=0.0083, act_rate=0.011)
+  Description: This SAE feature appears to respond to the semantic concept of "depression" or "unhappiness," as it strongly activates on sentences that express negative sentiments related to depression, melancholy, or despair.
+  Top sentences:
+    [0] (6.857) it 's not the ultimate depression-era gangster movie . 
+    [0] (5.529) for close to two hours the audience is forced to endure three terminally depressed , mostly inarticulate , hyper dysfunctional families for the price of one . 
+    [0] (2.725) well-nigh unendurable ... though the picture strains to become cinematic poetry , it remains depressingly prosaic and dull . 
+    [1] (2.526) a swashbuckling tale of love , betrayal , revenge and above all , faith . 
+    [1] (2.267) one of the best films of the year with its exploration of the obstacles to happiness faced by five contemporary individuals ... a psychological masterpiece . 
+
+Feature 30323 (MI=0.0157, LR=0.0897, act_rate=0.232)
+  Description: This SAE feature appears to respond to the linguistic pattern of expressing strong negative opinions or criticism of a movie, particularly focusing on the underwhelming or disappointing aspects of a film.
+  Top sentences:
+    [1] (12.368) it 's hard to imagine alan arkin being better than he is in this performance . 
+    [0] (10.727) though perry and hurley make inspiring efforts to breathe life into the disjointed , haphazard script by jay scherick and david ronn , neither the actors nor director reginald hudlin can make it more than fitfully entertaining . 
+    [0] (9.191) sit through this one , and you wo n't need a magic watch to stop time ; your dvd player will do it for you . 
+    [0] (9.057) it 's so mediocre , despite the dynamic duo on the marquee , that we just ca n't get no satisfaction . 
+    [0] (8.951) there is very little dread or apprehension , and though i like the creepy ideas , they are not executed with anything more than perfunctory skill . 
+
+Feature 30695 (MI=0.0103, LR=0.1096, act_rate=0.446)
+  Description: This SAE feature responds to the linguistic pattern of "aesthetic appreciation and emotional resonance" in positive reviews, as evident from its strong activation on sentences describing beautiful, moving, and thought-provoking movies and experiences.
+  Top sentences:
+    [1] (5.702) an important movie , a reminder of the power of film to move us and to make us examine our values . 
+    [1] (5.601) travels a fascinating arc from hope and euphoria to reality and disillusionment . 
+    [1] (5.508) the weight of the piece , the unerring professionalism of the chilly production , and the fascination embedded in the lurid topic prove recommendation enough . 
+    [1] (5.209) the movie is beautiful to behold and engages one in a sense of epic struggle -- inner and outer -- that 's all too rare in hollywood 's hastier productions . 
+    [1] (5.171) ... takes the beauty of baseball and melds it with a story that could touch anyone regardless of their familiarity with the sport 
+
+Feature 30919 (MI=0.0493, LR=0.0022, act_rate=0.014)
+  Description: This SAE feature appears to respond to the concept of narrative flaws or shortcomings, particularly in the context of criticism or disappointment with a movie or story.
+  Top sentences:
+    [0] (2.475) there are simply too many ideas floating around -- part farce , part sliding doors , part pop video -- and yet failing to exploit them . 
+    [0] (2.181) as ` chick flicks ' go , this one is pretty miserable , resorting to string-pulling rather than legitimate character development and intelligent plotting . 
+    [1] (2.070) it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . 
+    [0] (1.751) ( t ) here 's only so much anyone can do with a florid , overplotted , anne rice rock 'n' roll vampire novel before the built-in silliness of the whole affair defeats them . 
+    [1] (1.586) we know the plot 's a little crazy , but it held my interest from start to finish . 
+
+Feature 31147 (MI=0.0000, LR=0.0734, act_rate=0.195)
+  Description: This SAE feature appears to respond to a pattern of strongly negative criticism, specifically targeting subpar film content, such as poorly developed characters and lackluster entertainment value.
+  Top sentences:
+    [0] (4.171) stealing harvard is evidence that the farrelly bros. -- peter and bobby -- and their brand of screen comedy are wheezing to an end , along with green 's half-hearted movie career . 
+    [0] (4.102) green might want to hang onto that ski mask , as robbery may be the only way to pay for his next project . 
+    [0] (3.900) rarely has so much money delivered so little entertainment . 
+    [0] (3.823) the character of zigzag is not sufficiently developed to support a film constructed around him . 
+    [0] (3.757) it treats women like idiots . 
+
+Feature 31151 (MI=0.0447, LR=0.1452, act_rate=0.219)
+  Description: This SAE feature appears to respond to a pattern of negative sentiment accompanied by criticisms of artistic or creative shortcomings, such as poor writing, excessive violence, or lack of coherence.
+  Top sentences:
+    [0] (5.528) due to some script weaknesses and the casting of the director 's brother , the film trails off into inconsequentiality . 
+    [0] (5.214) feels haphazard , as if the writers mistakenly thought they could achieve an air of frantic spontaneity by simply tossing in lots of characters doing silly stuff and stirring the pot . 
+    [0] (4.485) i am sorry that i was unable to get the full brunt of the comedy . 
+    [0] (4.208) excessive , profane , packed with cartoonish violence and comic-strip characters . 
+    [0] (4.112) i thought my own watch had stopped keeping time as i slogged my way through clockstoppers . 
+
+Feature 31746 (MI=0.0148, LR=0.0777, act_rate=0.194)
+  Description: This SAE feature responds to the linguistic pattern of expressing nuanced, somewhat mixed opinions or criticisms about movies, often highlighting both positive and negative aspects simultaneously.
+  Top sentences:
+    [1] (13.741) mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+    [0] (12.163) pumpkin means to be an outrageous dark satire on fraternity life , but its ambitions far exceed the abilities of writer adam larson broder and his co-director , tony r. abrams , in their feature debut . 
+    [0] (11.014) the talented and clever robert rodriguez perhaps put a little too much heart into his first film and did n't reserve enough for his second . 
+    [0] (10.664) though perry and hurley make inspiring efforts to breathe life into the disjointed , haphazard script by jay scherick and david ronn , neither the actors nor director reginald hudlin can make it more than fitfully entertaining . 
+    [1] (10.547) richard gere and diane lane put in fine performances as does french actor oliver martinez . 
+
+Feature 31749 (MI=0.0499, LR=0.0058, act_rate=0.100)
+  Description: This SAE feature appears to respond to phrases that express enthusiasm, admiration, or positive evaluation of a movie or book, specifically highlighting its spectacle, entertainment value, or ability to inspire.
+  Top sentences:
+    [1] (3.163) awesome creatures , breathtaking scenery , and epic battle scenes add up to another ` spectacular spectacle . ' 
+    [0] (2.776) i thought my own watch had stopped keeping time as i slogged my way through clockstoppers . 
+    [1] (2.775) it just may inspire a few younger moviegoers to read stevenson 's book , which is a treasure in and of itself . 
+    [0] (2.634) you really have to wonder how on earth anyone , anywhere could have thought they 'd make audiences guffaw with a script as utterly diabolical as this . 
+    [1] (2.539) one of creepiest , scariest movies to come along in a long , long time , easily rivaling blair witch or the others . 
+
+Feature 31827 (MI=0.0724, LR=0.2001, act_rate=0.186)
+  Description: This SAE feature appears to respond to strong negative sentiment, particularly in the presence of words or phrases conveying a sense of artistic or cinematic criticism, such as "decadent", "hackneyed", "pretentious", and criticism of a film's style or quality.
+  Top sentences:
+    [0] (6.627) a synthesis of cliches and absurdities that seems positively decadent in its cinematic flash and emptiness . 
+    [0] (6.544) professionally speaking , it 's tempting to jump ship in january to avoid ridiculous schlock like this shoddy suspense thriller . 
+    [0] (5.924) the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . 
+    [0] (5.854) i got a headache watching this meaningless downer . 
+    [0] (5.714) just embarrassment and a vague sense of shame . 
+
+Feature 32626 (MI=0.0021, LR=0.0862, act_rate=0.023)
+  Description: This SAE feature appears to respond to linguistic patterns related to the evaluation and criticism of Hollywood movies, particularly in the context of film style, sensibility, and quality.
+  Top sentences:
+    [1] (12.059) my wife is an actress is an utterly charming french comedy that feels so american in sensibility and style it 's virtually its own hollywood remake . 
+    [1] (12.026) ` de niro ... is a veritable source of sincere passion that this hollywood contrivance orbits around . ' 
+    [0] (11.851) k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension . 
+    [1] (11.828) so refreshingly incisive is grant that for the first time he 'll probably appeal more to guys than to their girlfriends who drag them to this movie for the hugh factor . 
+    [0] (11.731) delivers the same old same old , tarted up with latin flava and turned out by hollywood playas . 
+
+Feature 32660 (MI=0.1257, LR=0.3438, act_rate=0.250)
+  Description: This SAE feature responds to the linguistic pattern of expressing disappointment or criticism about a movie's failure to deliver, specifically highlighting issues with coherence, development, and overall quality.
+  Top sentences:
+    [0] (6.709) too much of it feels unfocused and underdeveloped . 
+    [0] (6.523) there are simply too many ideas floating around -- part farce , part sliding doors , part pop video -- and yet failing to exploit them . 
+    [0] (6.143) by getting myself wrapped up in the visuals and eccentricities of many of the characters , i found myself confused when it came time to get to the heart of the movie . 
+    [0] (5.848) well-nigh unendurable ... though the picture strains to become cinematic poetry , it remains depressingly prosaic and dull . 
+    [0] (5.814) a very long movie , dull in stretches , with entirely too much focus on meal preparation and igloo construction . 
+

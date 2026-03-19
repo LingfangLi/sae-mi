@@ -1,0 +1,92 @@
+======================================================================
+LAYER 9 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.8085 (80.85%)
+Precision: 0.7867
+Recall: 0.8559
+F1-Score: 0.8198
+Baseline Accuracy: 0.6353
+Improvement over baseline: +17.32%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  325    103]
+       Pos  [   64    380]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 36220
+Total features activated for NEGATIVE: 36029
+COMMON features (activated for both): 28708
+UNIQUE to POSITIVE only: 7512
+UNIQUE to NEGATIVE only: 7321
+
+C. TOP 5 MOST ACTIVATING FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 25357: avg_activation=17.1117, frequency=444/444 (100.0%) | COMMON
+2. Feature 35763: avg_activation=1.8179, frequency=1/444 (0.2%) | COMMON
+3. Feature 1190: avg_activation=1.7946, frequency=1/444 (0.2%) | COMMON
+4. Feature 42185: avg_activation=1.5202, frequency=1/444 (0.2%) | UNIQUE
+5. Feature 51582: avg_activation=1.4222, frequency=1/444 (0.2%) | UNIQUE
+
+D. TOP 5 MOST ACTIVATING FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 25357: avg_activation=17.2894, frequency=428/428 (100.0%) | COMMON
+2. Feature 19098: avg_activation=2.0214, frequency=1/428 (0.2%) | UNIQUE
+3. Feature 40310: avg_activation=1.8459, frequency=1/428 (0.2%) | COMMON
+4. Feature 25256: avg_activation=1.4753, frequency=1/428 (0.2%) | UNIQUE
+5. Feature 43986: avg_activation=1.4698, frequency=1/428 (0.2%) | UNIQUE
+
+E. TOP 5 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 10096: count=444 (100.0%), avg_activation=0.1151 | COMMON
+2. Feature 12726: count=444 (100.0%), avg_activation=0.0559 | COMMON
+3. Feature 14307: count=444 (100.0%), avg_activation=0.0089 | COMMON
+4. Feature 20820: count=444 (100.0%), avg_activation=0.1164 | COMMON
+5. Feature 24371: count=444 (100.0%), avg_activation=0.0919 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 10096: count=428 (100.0%), avg_activation=0.1233 | COMMON
+2. Feature 12726: count=428 (100.0%), avg_activation=0.0603 | COMMON
+3. Feature 14307: count=428 (100.0%), avg_activation=0.0098 | COMMON
+4. Feature 20820: count=428 (100.0%), avg_activation=0.1239 | COMMON
+5. Feature 24371: count=428 (100.0%), avg_activation=0.0879 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 10096: count=444 (100.0%)
+2. Feature 12726: count=444 (100.0%)
+3. Feature 14307: count=444 (100.0%)
+4. Feature 20820: count=444 (100.0%)
+5. Feature 24371: count=444 (100.0%)
+6. Feature 25357: count=444 (100.0%)
+7. Feature 35519: count=444 (100.0%)
+8. Feature 38575: count=444 (100.0%)
+9. Feature 38576: count=444 (100.0%)
+10. Feature 41695: count=444 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 10096: count=428 (100.0%)
+2. Feature 12726: count=428 (100.0%)
+3. Feature 14307: count=428 (100.0%)
+4. Feature 20820: count=428 (100.0%)
+5. Feature 24371: count=428 (100.0%)
+6. Feature 25357: count=428 (100.0%)
+7. Feature 35519: count=428 (100.0%)
+8. Feature 38575: count=428 (100.0%)
+9. Feature 38576: count=428 (100.0%)
+10. Feature 41695: count=428 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 POS & NEG
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 10096, 12726, 14307, 20820, 24371, 25357, 35519, 38575, 38576, 41695

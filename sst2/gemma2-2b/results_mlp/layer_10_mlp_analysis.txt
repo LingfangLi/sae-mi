@@ -1,0 +1,50 @@
+======================================================================
+LAYER 10 - MLP-OUT SAE ANALYSIS (Gemma 2 2B)
+Pooling: Max | SAE features: 16k
+======================================================================
+
+A. LAYER PERFORMANCE (MLP-out Linear Probe)
+----------------------------------------------------------------------
+Accuracy: 0.9060 (90.60%)
+Precision: 0.9004
+Recall: 0.9167
+F1-Score: 0.9085
+Baseline Accuracy: 0.6330
+Improvement over baseline: +27.29%
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 15248
+Total features activated for NEGATIVE: 15304
+COMMON features: 14757
+UNIQUE to POSITIVE only: 491
+UNIQUE to NEGATIVE only: 547
+
+C. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 666: count=444 (100.0%), avg_act=27.1259
+2. Feature 991: count=444 (100.0%), avg_act=4.4419
+3. Feature 1202: count=444 (100.0%), avg_act=7.6676
+4. Feature 1344: count=444 (100.0%), avg_act=3.8483
+5. Feature 1634: count=444 (100.0%), avg_act=1.5975
+6. Feature 1779: count=444 (100.0%), avg_act=3.7055
+7. Feature 2108: count=444 (100.0%), avg_act=4.0297
+8. Feature 2139: count=444 (100.0%), avg_act=4.1699
+9. Feature 2234: count=444 (100.0%), avg_act=1.8924
+10. Feature 2709: count=444 (100.0%), avg_act=1.8483
+
+D. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 666: count=428 (100.0%), avg_act=27.1229
+2. Feature 991: count=428 (100.0%), avg_act=4.4419
+3. Feature 1202: count=428 (100.0%), avg_act=7.6676
+4. Feature 1344: count=428 (100.0%), avg_act=3.8483
+5. Feature 1634: count=428 (100.0%), avg_act=1.5975
+6. Feature 1779: count=428 (100.0%), avg_act=3.6615
+7. Feature 2108: count=428 (100.0%), avg_act=3.8655
+8. Feature 2139: count=428 (100.0%), avg_act=4.1699
+9. Feature 2234: count=428 (100.0%), avg_act=1.8924
+10. Feature 2709: count=428 (100.0%), avg_act=1.8391
