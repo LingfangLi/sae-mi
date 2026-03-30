@@ -1,0 +1,92 @@
+======================================================================
+LAYER 3 - COMPLETE ANALYSIS (Gemma Scope Attention SAE, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7328 (73.28%)
+Precision: 0.8346
+Recall: 0.7599
+F1-Score: 0.7955
+Baseline Accuracy: 0.6838
+Improvement over baseline: +4.90%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   87     42]
+       Pos  [   67    212]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 10942
+Total features activated for NON-PARAPHRASE: 9414
+COMMON features (activated for both): 8720
+UNIQUE to PARAPHRASE only: 2222
+UNIQUE to NON-PARAPHRASE only: 694
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 4226: avg_activation=1.3928, frequency=279/279 (100.0%) | COMMON
+2. Feature 13998: avg_activation=1.3021, frequency=279/279 (100.0%) | COMMON
+3. Feature 13051: avg_activation=1.1240, frequency=279/279 (100.0%) | COMMON
+4. Feature 6576: avg_activation=1.1054, frequency=279/279 (100.0%) | COMMON
+5. Feature 5768: avg_activation=0.9319, frequency=279/279 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 13998: avg_activation=1.3714, frequency=129/129 (100.0%) | COMMON
+2. Feature 4226: avg_activation=1.3605, frequency=129/129 (100.0%) | COMMON
+3. Feature 6576: avg_activation=1.1242, frequency=129/129 (100.0%) | COMMON
+4. Feature 13051: avg_activation=1.0784, frequency=129/129 (100.0%) | COMMON
+5. Feature 5768: avg_activation=0.9570, frequency=129/129 (100.0%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 61: count=279 (100.0%), avg_activation=0.0373 | COMMON
+2. Feature 130: count=279 (100.0%), avg_activation=0.0490 | COMMON
+3. Feature 151: count=279 (100.0%), avg_activation=0.0595 | COMMON
+4. Feature 221: count=279 (100.0%), avg_activation=0.0938 | COMMON
+5. Feature 289: count=279 (100.0%), avg_activation=0.0649 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 61: count=129 (100.0%), avg_activation=0.0369 | COMMON
+2. Feature 79: count=129 (100.0%), avg_activation=0.0740 | COMMON
+3. Feature 130: count=129 (100.0%), avg_activation=0.0513 | COMMON
+4. Feature 151: count=129 (100.0%), avg_activation=0.0574 | COMMON
+5. Feature 164: count=129 (100.0%), avg_activation=0.0735 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 61: count=279 (100.0%)
+2. Feature 130: count=279 (100.0%)
+3. Feature 151: count=279 (100.0%)
+4. Feature 221: count=279 (100.0%)
+5. Feature 289: count=279 (100.0%)
+6. Feature 395: count=279 (100.0%)
+7. Feature 401: count=279 (100.0%)
+8. Feature 430: count=279 (100.0%)
+9. Feature 677: count=279 (100.0%)
+10. Feature 684: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 61: count=129 (100.0%)
+2. Feature 79: count=129 (100.0%)
+3. Feature 130: count=129 (100.0%)
+4. Feature 151: count=129 (100.0%)
+5. Feature 164: count=129 (100.0%)
+6. Feature 221: count=129 (100.0%)
+7. Feature 289: count=129 (100.0%)
+8. Feature 368: count=129 (100.0%)
+9. Feature 401: count=129 (100.0%)
+10. Feature 430: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 7
+Example IDs: 61, 130, 151, 221, 289, 401, 430

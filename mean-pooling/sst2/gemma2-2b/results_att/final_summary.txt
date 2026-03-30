@@ -1,0 +1,96 @@
+======================================================================
+FINAL SUMMARY - GEMMA SCOPE ATTENTION SAE LAYER-WISE ANALYSIS
+======================================================================
+
+1. BASELINE (Zero-Shot Prompting)
+----------------------------------------------------------------------
+Accuracy: 63.30%
+F1-Score: 0.7329
+
+2. LAYER-WISE PERFORMANCE & SAE FEATURE STATISTICS
+----------------------------------------------------------------------
+Layer  Acc%     Improv     Pos Feat   Neg Feat   Common     Pos Only   Neg Only  
+------------------------------------------------------------------------------------
+L0     77.64%   +14.33%    9868       9688       8213       1655       1475      
+L1     78.21%   +14.91%    8929       8889       7509       1420       1380      
+L2     78.78%   +15.48%    10962      11168      9636       1326       1532      
+L3     81.31%   +18.00%    9864       9694       8510       1354       1184      
+L4     83.49%   +20.18%    10276      10404      9147       1129       1257      
+L5     84.17%   +20.87%    9913       10092      8960       953        1132      
+L6     82.57%   +19.27%    9144       9128       7973       1171       1155      
+L7     86.81%   +23.51%    8346       8496       7314       1032       1182      
+L8     86.58%   +23.28%    N/A        N/A        N/A        N/A        N/A       
+L9     87.27%   +23.97%    N/A        N/A        N/A        N/A        N/A       
+L10    87.27%   +23.97%    N/A        N/A        N/A        N/A        N/A       
+L11    90.83%   +27.52%    N/A        N/A        N/A        N/A        N/A       
+L12    90.94%   +27.64%    N/A        N/A        N/A        N/A        N/A       
+L13    90.83%   +27.52%    N/A        N/A        N/A        N/A        N/A       
+L14    90.60%   +27.29%    N/A        N/A        N/A        N/A        N/A       
+L15    90.94%   +27.64%    N/A        N/A        N/A        N/A        N/A       
+L16    88.76%   +25.46%    N/A        N/A        N/A        N/A        N/A       
+L17    88.88%   +25.57%    N/A        N/A        N/A        N/A        N/A       
+L18    88.19%   +24.89%    N/A        N/A        N/A        N/A        N/A       
+L19    86.24%   +22.94%    N/A        N/A        N/A        N/A        N/A       
+L20    86.12%   +22.82%    N/A        N/A        N/A        N/A        N/A       
+L21    88.99%   +25.69%    N/A        N/A        N/A        N/A        N/A       
+L22    86.93%   +23.62%    N/A        N/A        N/A        N/A        N/A       
+L23    86.01%   +22.71%    N/A        N/A        N/A        N/A        N/A       
+L24    87.73%   +24.43%    N/A        N/A        N/A        N/A        N/A       
+L25    87.16%   +23.85%    N/A        N/A        N/A        N/A        N/A       
+
+3. TOP K MOST FREQUENT FEATURES PER LAYER
+----------------------------------------------------------------------
+
+Layer 0:
+  POSITIVE (top-k by frequency): F655(444) F1379(444) F1421(444) F1608(444) F2362(444) F2998(444) F3880(444) F5548(444) F6706(444) F8636(444)
+  NEGATIVE (top-k by frequency): F655(428) F1379(428) F1421(428) F1608(428) F2362(428) F2998(428) F3880(428) F6706(428) F8636(428) F9944(428)
+  Common in top-k: 9 features
+
+Layer 1:
+  POSITIVE (top-k by frequency): F2759(444) F3633(444) F3883(444) F4488(444) F4672(444) F5816(444) F6251(444) F6662(444) F7425(444) F7428(444)
+  NEGATIVE (top-k by frequency): F2759(428) F3633(428) F3883(428) F4488(428) F4672(428) F5816(428) F6251(428) F6662(428) F7425(428) F7428(428)
+  Common in top-k: 10 features
+
+Layer 2:
+  POSITIVE (top-k by frequency): F888(444) F3818(444) F3940(444) F6190(444) F7273(444) F8012(444) F8912(444) F9138(444) F11147(444) F11425(444)
+  NEGATIVE (top-k by frequency): F888(428) F3818(428) F3940(428) F6190(428) F7273(428) F8012(428) F8912(428) F9138(428) F11147(428) F11425(428)
+  Common in top-k: 10 features
+
+Layer 3:
+  POSITIVE (top-k by frequency): F903(444) F1128(444) F1451(444) F1635(444) F1667(444) F2635(444) F2983(444) F3178(444) F3419(444) F3481(444)
+  NEGATIVE (top-k by frequency): F903(428) F1128(428) F1451(428) F1635(428) F1667(428) F2635(428) F2983(428) F3178(428) F3419(428) F3481(428)
+  Common in top-k: 10 features
+
+Layer 4:
+  POSITIVE (top-k by frequency): F329(444) F355(444) F427(444) F463(444) F472(444) F478(444) F612(444) F700(444) F884(444) F948(444)
+  NEGATIVE (top-k by frequency): F329(428) F355(428) F427(428) F463(428) F472(428) F478(428) F612(428) F700(428) F884(428) F948(428)
+  Common in top-k: 10 features
+
+Layer 5:
+  POSITIVE (top-k by frequency): F13(444) F109(444) F165(444) F173(444) F183(444) F184(444) F207(444) F248(444) F305(444) F316(444)
+  NEGATIVE (top-k by frequency): F13(428) F109(428) F165(428) F173(428) F183(428) F184(428) F207(428) F248(428) F305(428) F316(428)
+  Common in top-k: 10 features
+
+Layer 6:
+  POSITIVE (top-k by frequency): F20(444) F22(444) F55(444) F75(444) F87(444) F100(444) F111(444) F112(444) F142(444) F183(444)
+  NEGATIVE (top-k by frequency): F20(428) F22(428) F55(428) F75(428) F87(428) F100(428) F111(428) F112(428) F142(428) F183(428)
+  Common in top-k: 10 features
+
+Layer 7:
+  POSITIVE (top-k by frequency): F5(444) F17(444) F66(444) F95(444) F113(444) F129(444) F188(444) F195(444) F242(444) F328(444)
+  NEGATIVE (top-k by frequency): F5(428) F17(428) F66(428) F95(428) F113(428) F188(428) F195(428) F242(428) F328(428) F335(428)
+  Common in top-k: 9 features
+
+4. KEY FINDINGS
+----------------------------------------------------------------------
+Best Performing Layer: Layer 12
+  Accuracy: 90.94%
+  Improvement over baseline: +27.64%
+
+Worst Performing Layer: Layer 0
+  Accuracy: 77.64%
+
+INTERPRETATION:
+- Higher accuracy = more sentiment information in that layer
+- Many pos-only / neg-only SAE features = stronger class separation
+- Overlap among top-k frequent features quantifies common concepts

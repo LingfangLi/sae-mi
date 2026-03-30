@@ -1,0 +1,55 @@
+======================================================================
+FINAL SUMMARY - LAYER-WISE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B + SAE, MRPC)
+======================================================================
+
+1. BASELINE (Zero-Shot Prompting)
+----------------------------------------------------------------------
+Accuracy: 65.93%
+F1-Score: 0.7871
+
+2. LAYER-WISE PERFORMANCE & SAE FEATURE STATISTICS
+----------------------------------------------------------------------
+Layer  Acc%     Improv     Para Feat    NonP Feat    Common    
+------------------------------------------------------------------------------------------
+L0     62.99%    -2.94%    43761        31520        26957     
+L1     61.76%    -4.17%    23236        16118        12926     
+L2     67.40%    +1.47%    23194        16445        13490     
+L3     67.89%    +1.96%    27136        19650        15943     
+L4     67.40%    +1.47%    37804        27531        23008     
+L5     70.34%    +4.41%    31819        23685        19334     
+L6     65.69%    -0.25%    39626        29532        24811     
+L7     71.81%    +5.88%    39195        29193        24705     
+L8     70.59%    +4.66%    40465        31120        26826     
+L9     70.59%    +4.66%    41897        32896        29015     
+L10    69.61%    +3.68%    43315        34139        30174     
+L11    67.65%    +1.72%    43582        34665        30566     
+L12    67.89%    +1.96%    45611        36442        32608     
+L13    71.32%    +5.39%    49190        40352        36714     
+L14    71.81%    +5.88%    51613        42786        39423     
+L15    73.04%    +7.11%    43968        34584        30464     
+L16    73.04%    +7.11%    45747        36950        33011     
+L17    71.57%    +5.64%    N/A          N/A          N/A       
+L18    70.34%    +4.41%    N/A          N/A          N/A       
+L19    69.12%    +3.19%    N/A          N/A          N/A       
+L20    68.14%    +2.21%    N/A          N/A          N/A       
+L21    69.12%    +3.19%    N/A          N/A          N/A       
+L22    70.59%    +4.66%    N/A          N/A          N/A       
+L23    69.12%    +3.19%    N/A          N/A          N/A       
+L24    69.85%    +3.92%    N/A          N/A          N/A       
+L25    65.69%    -0.25%    N/A          N/A          N/A       
+L26    66.42%    +0.49%    N/A          N/A          N/A       
+L27    63.97%    -1.96%    N/A          N/A          N/A       
+
+3. KEY FINDINGS
+----------------------------------------------------------------------
+Best Performing Layer: Layer 15
+  Accuracy: 73.04%
+  Improvement over baseline: +7.11%
+
+Worst Performing Layer: Layer 1
+  Accuracy: 61.76%
+
+INTERPRETATION:
+- Higher accuracy = more paraphrase information in that layer
+- Many paraphrase-only / non-paraphrase-only SAE features = stronger class separation
+- Overlap among top-k frequent features quantifies common concepts

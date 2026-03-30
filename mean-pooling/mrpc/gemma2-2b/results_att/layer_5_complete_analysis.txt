@@ -1,0 +1,92 @@
+======================================================================
+LAYER 5 - COMPLETE ANALYSIS (Gemma Scope Attention SAE, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7353 (73.53%)
+Precision: 0.8276
+Recall: 0.7742
+F1-Score: 0.8000
+Baseline Accuracy: 0.6838
+Improvement over baseline: +5.15%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   84     45]
+       Pos  [   63    216]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 10629
+Total features activated for NON-PARAPHRASE: 9677
+COMMON features (activated for both): 9193
+UNIQUE to PARAPHRASE only: 1436
+UNIQUE to NON-PARAPHRASE only: 484
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 9670: avg_activation=3.2429, frequency=279/279 (100.0%) | COMMON
+2. Feature 5252: avg_activation=1.7162, frequency=279/279 (100.0%) | COMMON
+3. Feature 11619: avg_activation=1.6144, frequency=279/279 (100.0%) | COMMON
+4. Feature 1340: avg_activation=1.5079, frequency=279/279 (100.0%) | COMMON
+5. Feature 11557: avg_activation=1.3303, frequency=279/279 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 9670: avg_activation=3.2160, frequency=129/129 (100.0%) | COMMON
+2. Feature 5252: avg_activation=1.8112, frequency=129/129 (100.0%) | COMMON
+3. Feature 11619: avg_activation=1.7207, frequency=129/129 (100.0%) | COMMON
+4. Feature 1340: avg_activation=1.4683, frequency=129/129 (100.0%) | COMMON
+5. Feature 2908: avg_activation=1.3507, frequency=29/129 (22.5%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 13: count=279 (100.0%), avg_activation=0.0079 | COMMON
+2. Feature 58: count=279 (100.0%), avg_activation=0.1228 | COMMON
+3. Feature 109: count=279 (100.0%), avg_activation=0.0231 | COMMON
+4. Feature 165: count=279 (100.0%), avg_activation=0.0075 | COMMON
+5. Feature 173: count=279 (100.0%), avg_activation=0.0059 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 13: count=129 (100.0%), avg_activation=0.0079 | COMMON
+2. Feature 58: count=129 (100.0%), avg_activation=0.1232 | COMMON
+3. Feature 109: count=129 (100.0%), avg_activation=0.0199 | COMMON
+4. Feature 165: count=129 (100.0%), avg_activation=0.0077 | COMMON
+5. Feature 173: count=129 (100.0%), avg_activation=0.0061 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 13: count=279 (100.0%)
+2. Feature 58: count=279 (100.0%)
+3. Feature 109: count=279 (100.0%)
+4. Feature 165: count=279 (100.0%)
+5. Feature 173: count=279 (100.0%)
+6. Feature 183: count=279 (100.0%)
+7. Feature 184: count=279 (100.0%)
+8. Feature 189: count=279 (100.0%)
+9. Feature 195: count=279 (100.0%)
+10. Feature 197: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 13: count=129 (100.0%)
+2. Feature 58: count=129 (100.0%)
+3. Feature 109: count=129 (100.0%)
+4. Feature 165: count=129 (100.0%)
+5. Feature 173: count=129 (100.0%)
+6. Feature 183: count=129 (100.0%)
+7. Feature 184: count=129 (100.0%)
+8. Feature 189: count=129 (100.0%)
+9. Feature 195: count=129 (100.0%)
+10. Feature 197: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 13, 58, 109, 165, 173, 183, 184, 189, 195, 197

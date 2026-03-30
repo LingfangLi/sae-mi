@@ -1,0 +1,92 @@
+======================================================================
+LAYER 14 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.8314 (83.14%)
+Precision: 0.8249
+Recall: 0.8491
+F1-Score: 0.8368
+Baseline Accuracy: 0.6353
+Improvement over baseline: +19.61%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  348     80]
+       Pos  [   67    377]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 44094
+Total features activated for NEGATIVE: 43737
+COMMON features (activated for both): 36953
+UNIQUE to POSITIVE only: 7141
+UNIQUE to NEGATIVE only: 6784
+
+C. TOP 5 MOST ACTIVATING FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 27161: avg_activation=11.8843, frequency=444/444 (100.0%) | COMMON
+2. Feature 59385: avg_activation=1.0229, frequency=1/444 (0.2%) | COMMON
+3. Feature 1181: avg_activation=0.8165, frequency=1/444 (0.2%) | COMMON
+4. Feature 32969: avg_activation=0.7335, frequency=1/444 (0.2%) | COMMON
+5. Feature 8686: avg_activation=0.6699, frequency=3/444 (0.7%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 27161: avg_activation=12.2197, frequency=428/428 (100.0%) | COMMON
+2. Feature 32771: avg_activation=0.9038, frequency=1/428 (0.2%) | COMMON
+3. Feature 15343: avg_activation=0.8133, frequency=2/428 (0.5%) | UNIQUE
+4. Feature 3528: avg_activation=0.7356, frequency=1/428 (0.2%) | UNIQUE
+5. Feature 2786: avg_activation=0.7135, frequency=1/428 (0.2%) | UNIQUE
+
+E. TOP 5 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 2249: count=444 (100.0%), avg_activation=0.0647 | COMMON
+2. Feature 7790: count=444 (100.0%), avg_activation=0.0490 | COMMON
+3. Feature 13705: count=444 (100.0%), avg_activation=0.0546 | COMMON
+4. Feature 27161: count=444 (100.0%), avg_activation=11.8843 | COMMON
+5. Feature 28103: count=444 (100.0%), avg_activation=0.0474 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 2249: count=428 (100.0%), avg_activation=0.0690 | COMMON
+2. Feature 7790: count=428 (100.0%), avg_activation=0.0522 | COMMON
+3. Feature 13705: count=428 (100.0%), avg_activation=0.0583 | COMMON
+4. Feature 24188: count=428 (100.0%), avg_activation=0.4623 | COMMON
+5. Feature 27161: count=428 (100.0%), avg_activation=12.2197 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 2249: count=444 (100.0%)
+2. Feature 7790: count=444 (100.0%)
+3. Feature 13705: count=444 (100.0%)
+4. Feature 27161: count=444 (100.0%)
+5. Feature 28103: count=444 (100.0%)
+6. Feature 31737: count=444 (100.0%)
+7. Feature 33993: count=444 (100.0%)
+8. Feature 35169: count=444 (100.0%)
+9. Feature 35839: count=444 (100.0%)
+10. Feature 38341: count=444 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 2249: count=428 (100.0%)
+2. Feature 7790: count=428 (100.0%)
+3. Feature 13705: count=428 (100.0%)
+4. Feature 24188: count=428 (100.0%)
+5. Feature 27161: count=428 (100.0%)
+6. Feature 28103: count=428 (100.0%)
+7. Feature 31737: count=428 (100.0%)
+8. Feature 33993: count=428 (100.0%)
+9. Feature 35169: count=428 (100.0%)
+10. Feature 35839: count=428 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 POS & NEG
+----------------------------------------------------------------------
+Count: 9
+Example IDs: 2249, 7790, 13705, 27161, 28103, 31737, 33993, 35169, 35839

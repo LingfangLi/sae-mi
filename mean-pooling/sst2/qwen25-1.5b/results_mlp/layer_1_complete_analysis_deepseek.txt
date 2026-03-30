@@ -1,0 +1,92 @@
+======================================================================
+LAYER 1 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7282 (72.82%)
+Precision: 0.7125
+Recall: 0.7815
+F1-Score: 0.7454
+Baseline Accuracy: 0.6353
+Improvement over baseline: +9.29%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  288    140]
+       Pos  [   97    347]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 22842
+Total features activated for NEGATIVE: 22582
+COMMON features (activated for both): 16325
+UNIQUE to POSITIVE only: 6517
+UNIQUE to NEGATIVE only: 6257
+
+C. TOP 5 MOST ACTIVATING FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 43166: avg_activation=12.8564, frequency=444/444 (100.0%) | COMMON
+2. Feature 41132: avg_activation=11.8286, frequency=444/444 (100.0%) | COMMON
+3. Feature 34389: avg_activation=11.8146, frequency=444/444 (100.0%) | COMMON
+4. Feature 8497: avg_activation=11.5795, frequency=444/444 (100.0%) | COMMON
+5. Feature 3386: avg_activation=11.4922, frequency=444/444 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 43166: avg_activation=13.7206, frequency=428/428 (100.0%) | COMMON
+2. Feature 41132: avg_activation=12.6238, frequency=428/428 (100.0%) | COMMON
+3. Feature 34389: avg_activation=12.6088, frequency=428/428 (100.0%) | COMMON
+4. Feature 8497: avg_activation=12.3580, frequency=428/428 (100.0%) | COMMON
+5. Feature 3386: avg_activation=12.2647, frequency=428/428 (100.0%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 1921: count=444 (100.0%), avg_activation=3.2777 | COMMON
+2. Feature 2881: count=444 (100.0%), avg_activation=0.1802 | COMMON
+3. Feature 3386: count=444 (100.0%), avg_activation=11.4922 | COMMON
+4. Feature 3860: count=444 (100.0%), avg_activation=6.5546 | COMMON
+5. Feature 7438: count=444 (100.0%), avg_activation=1.2050 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 1921: count=428 (100.0%), avg_activation=3.4980 | COMMON
+2. Feature 2881: count=428 (100.0%), avg_activation=0.1920 | COMMON
+3. Feature 3386: count=428 (100.0%), avg_activation=12.2647 | COMMON
+4. Feature 3860: count=428 (100.0%), avg_activation=6.9953 | COMMON
+5. Feature 7438: count=428 (100.0%), avg_activation=1.2366 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 1921: count=444 (100.0%)
+2. Feature 2881: count=444 (100.0%)
+3. Feature 3386: count=444 (100.0%)
+4. Feature 3860: count=444 (100.0%)
+5. Feature 7438: count=444 (100.0%)
+6. Feature 8497: count=444 (100.0%)
+7. Feature 9159: count=444 (100.0%)
+8. Feature 11133: count=444 (100.0%)
+9. Feature 11201: count=444 (100.0%)
+10. Feature 11632: count=444 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 1921: count=428 (100.0%)
+2. Feature 2881: count=428 (100.0%)
+3. Feature 3386: count=428 (100.0%)
+4. Feature 3860: count=428 (100.0%)
+5. Feature 7438: count=428 (100.0%)
+6. Feature 8497: count=428 (100.0%)
+7. Feature 9159: count=428 (100.0%)
+8. Feature 11133: count=428 (100.0%)
+9. Feature 11201: count=428 (100.0%)
+10. Feature 11632: count=428 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 POS & NEG
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 1921, 2881, 3386, 3860, 7438, 8497, 9159, 11133, 11201, 11632

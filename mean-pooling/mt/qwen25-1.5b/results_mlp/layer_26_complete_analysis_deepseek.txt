@@ -1,0 +1,92 @@
+======================================================================
+LAYER 26 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, Europarl MT)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.4930 (49.30%)
+Precision: 0.4928
+Recall: 0.4800
+F1-Score: 0.4863
+Baseline Accuracy: 0.4930
+Improvement over baseline: +0.00%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  253    247]
+       Pos  [  260    240]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total EQUIVALENT samples: 500
+Total DIVERGENT samples: 500
+
+Total features activated for EQUIVALENT: 39286
+Total features activated for DIVERGENT: 39371
+COMMON features (activated for both): 31909
+UNIQUE to EQUIVALENT only: 7377
+UNIQUE to DIVERGENT only: 7462
+
+C. TOP 5 MOST ACTIVATING FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 29818: avg_activation=33.3908, frequency=500/500 (100.0%) | COMMON
+2. Feature 57368: avg_activation=26.5151, frequency=500/500 (100.0%) | COMMON
+3. Feature 62701: avg_activation=9.0085, frequency=500/500 (100.0%) | COMMON
+4. Feature 46154: avg_activation=6.4493, frequency=495/500 (99.0%) | COMMON
+5. Feature 60974: avg_activation=6.1037, frequency=500/500 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 29818: avg_activation=33.3145, frequency=500/500 (100.0%) | COMMON
+2. Feature 57368: avg_activation=25.7245, frequency=500/500 (100.0%) | COMMON
+3. Feature 62701: avg_activation=8.7306, frequency=500/500 (100.0%) | COMMON
+4. Feature 46154: avg_activation=6.2902, frequency=495/500 (99.0%) | COMMON
+5. Feature 60974: avg_activation=5.9277, frequency=500/500 (100.0%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 312: count=500 (100.0%), avg_activation=1.5040 | COMMON
+2. Feature 977: count=500 (100.0%), avg_activation=0.1271 | COMMON
+3. Feature 2013: count=500 (100.0%), avg_activation=3.8747 | COMMON
+4. Feature 4086: count=500 (100.0%), avg_activation=4.0518 | COMMON
+5. Feature 4175: count=500 (100.0%), avg_activation=2.3745 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 312: count=500 (100.0%), avg_activation=1.4697 | COMMON
+2. Feature 977: count=500 (100.0%), avg_activation=0.1231 | COMMON
+3. Feature 4086: count=500 (100.0%), avg_activation=3.9351 | COMMON
+4. Feature 4175: count=500 (100.0%), avg_activation=2.3061 | COMMON
+5. Feature 4883: count=500 (100.0%), avg_activation=5.6556 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 312: count=500 (100.0%)
+2. Feature 977: count=500 (100.0%)
+3. Feature 2013: count=500 (100.0%)
+4. Feature 4086: count=500 (100.0%)
+5. Feature 4175: count=500 (100.0%)
+6. Feature 4883: count=500 (100.0%)
+7. Feature 12349: count=500 (100.0%)
+8. Feature 14300: count=500 (100.0%)
+9. Feature 14381: count=500 (100.0%)
+10. Feature 19228: count=500 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 312: count=500 (100.0%)
+2. Feature 977: count=500 (100.0%)
+3. Feature 4086: count=500 (100.0%)
+4. Feature 4175: count=500 (100.0%)
+5. Feature 4883: count=500 (100.0%)
+6. Feature 12349: count=500 (100.0%)
+7. Feature 14300: count=500 (100.0%)
+8. Feature 14381: count=500 (100.0%)
+9. Feature 19228: count=500 (100.0%)
+10. Feature 19928: count=500 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 EQUIVALENT & DIVERGENT
+----------------------------------------------------------------------
+Count: 9
+Example IDs: 312, 977, 4086, 4175, 4883, 12349, 14300, 14381, 19228

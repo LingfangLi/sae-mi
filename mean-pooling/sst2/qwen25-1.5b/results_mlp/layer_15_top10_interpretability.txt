@@ -1,0 +1,209 @@
+DEEPSEEK-R1-DISTILL-QWEN-1.5B INTERPRETABILITY REPORT - Layer 15, top-10 global features (MLP SAE)
+======================================================================
+
+Layer 15, Feature 374
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the concept of a word or phrase related to 'sleight', 'smooth', or 'heavy', often indicating a figurative or literary usage, particularly in a film or artistic context.
+
+Evaluation sentences:
+1. corpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in . 
+   Actual=0.325, Pred=2.000
+2. the far future may be awesome to consider , but from period detail to matters of the heart , this film is most transporting when it stays put in the past . 
+   Actual=0.225, Pred=4.000
+3. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.225, Pred=2.000
+4. dull , lifeless , and amateurishly assembled . 
+   Actual=0.225, Pred=0.000
+5. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.225, Pred=2.000
+
+Pearson correlation: 0.0000
+======================================================================
+
+Layer 15, Feature 1012
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the concept of a word or phrase related to "originality", particularly when it appears in a context that suggests a comparison or critique of something (e.g. a movie or TV adaptation).
+
+Evaluation sentences:
+1. unflinchingly bleak and desperate 
+   Actual=0.066, Pred=4.000
+2. for close to two hours the audience is forced to endure three terminally depressed , mostly inarticulate , hyper dysfunctional families for the price of one . 
+   Actual=0.066, Pred=4.000
+3. care deftly captures the wonder and menace of growing up , but he never really embraces the joy of fuhrman 's destructive escapism or the grace-in-rebellion found by his characters . 
+   Actual=0.066, Pred=8.000
+4. not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . 
+   Actual=0.066, Pred=8.000
+5. michael gerbosi 's script is economically packed with telling scenes . 
+   Actual=0.066, Pred=3.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 1139
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to negative opinions or criticisms, particularly those related to weak character development, poor writing, or lackluster performances in movies.
+
+Evaluation sentences:
+1. unflinchingly bleak and desperate 
+   Actual=0.966, Pred=8.000
+2. k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension . 
+   Actual=0.925, Pred=7.000
+3. although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . 
+   Actual=0.945, Pred=2.000
+4. if the first men in black was money , the second is small change . 
+   Actual=0.945, Pred=8.000
+5. with rabbit-proof fence , noyce has tailored an epic tale into a lean , economical movie . 
+   Actual=0.945, Pred=2.000
+
+Pearson correlation: 0.1232
+======================================================================
+
+Layer 15, Feature 3285
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to a concept of something being unengaging or unexciting, often associated with overly familiar or clichéd content, and may be related to the idea that it lacks originality or sophistication.
+
+Evaluation sentences:
+1. it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , without all oedekerk 's impish augmentation . 
+   Actual=21.208, Pred=7.000
+2. but the power of these ( subjects ) is obscured by the majority of the film that shows a stationary camera on a subject that could be mistaken for giving a public oration , rather than contributing to a film 's narrative . 
+   Actual=18.685, Pred=8.000
+3. samira makhmalbaf 's new film blackboards is much like the ethos of a stream of consciousness , although , it 's unfortunate for the viewer that the thoughts and reflections coming through are torpid and banal 
+   Actual=19.653, Pred=8.000
+4. once ( kim ) begins to overplay the shock tactics and bait-and-tackle metaphors , you may decide it 's too high a price to pay for a shimmering picture postcard . 
+   Actual=21.550, Pred=9.000
+5. not only is undercover brother as funny , if not more so , than both austin powers films , but it 's also one of the smarter , savvier spoofs to come along in some time . 
+   Actual=21.375, Pred=2.000
+
+Pearson correlation: -0.3524
+======================================================================
+
+Layer 15, Feature 6064
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the presence of derogatory or strongly negative language, particularly when describing movies or books.
+
+Evaluation sentences:
+1. people cinema at its finest . 
+   Actual=1.970, Pred=0.000
+2. cq 's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors . 
+   Actual=2.401, Pred=0.000
+3. director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+   Actual=1.954, Pred=9.000
+4. plays like a volatile and overlong w magazine fashion spread . 
+   Actual=2.122, Pred=7.000
+5. director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+   Actual=1.988, Pred=2.000
+
+Pearson correlation: -0.3678
+======================================================================
+
+Layer 15, Feature 7631
+----------------------------------------------------------------------
+Interpretation:
+The sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B appears to respond to concepts related to 'storytelling' and 'engagement' in movies. It is sensitive to the presence of narratives, heroes, interesting characters, and the emotional connection between the audience and the story. The feature is also sensitive to the tone and atmosphere of the movie, responding to words related to 'suspense', 'haunting', 'seductive', and 'adventure'.
+
+Evaluation sentences:
+1. though perry and hurley make inspiring efforts to breathe life into the disjointed , haphazard script by jay scherick and david ronn , neither the actors nor director reginald hudlin can make it more than fitfully entertaining . 
+   Actual=155.868, Pred=8.000
+2. it 's as if you 're watching a movie that was made in 1978 but not released then because it was so weak , and it has been unearthed and released now , when it has become even weaker . 
+   Actual=174.192, Pred=4.000
+3. the so-inept - it 's - surreal dubbing ( featuring the voices of glenn close , regis philbin and breckin meyer ) brings back memories of cheesy old godzilla flicks . 
+   Actual=185.378, Pred=2.000
+4. the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold . 
+   Actual=176.256, Pred=8.000
+5. audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . 
+   Actual=187.651, Pred=9.000
+
+Pearson correlation: -0.2528
+======================================================================
+
+Layer 15, Feature 8190
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to patterns involving technical or artistic weaknesses, specifically phrases that imply underwhelming or unfulfilling cinematic experiences, such as "technicality that strains credulity," "waste of potential," and "has all the excitement of eating oatmeal."
+
+Evaluation sentences:
+1. it 's a charming and often affecting journey . 
+   Actual=0.194, Pred=0.000
+2. a superbly acted and funny/gritty fable of the humanizing of one woman at the hands of the unseen forces of fate . 
+   Actual=0.194, Pred=3.000
+3. plays like a volatile and overlong w magazine fashion spread . 
+   Actual=0.194, Pred=8.000
+4. not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . 
+   Actual=0.194, Pred=7.000
+5. michael gerbosi 's script is economically packed with telling scenes . 
+   Actual=0.194, Pred=1.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 9101
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the pattern or concept of a "negative review" in the context of a movie or a novel, emphasizing a strong negative sentiment or criticism with terms like "buff", "tough", "lost weight", "bright", "light", "modern day family parable", "silliness", "built-in silliness", and "desperate entertainment".
+
+Evaluation sentences:
+1. ( grant 's ) bumbling magic takes over the film , and it turns out to be another winning star vehicle . 
+   Actual=1.128, Pred=5.000
+2. ( e ) ventually , every idea in this film is flushed down the latrine of heroism . 
+   Actual=1.128, Pred=9.000
+3. ( d ) oes n't bother being as cloying or preachy as equivalent evangelical christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful . 
+   Actual=1.002, Pred=4.000
+4. ( w ) hile long on amiable monkeys and worthy environmentalism , jane goodall 's wild chimpanzees is short on the thrills the oversize medium demands . 
+   Actual=1.025, Pred=8.000
+5. ( a ) n utterly charming and hilarious film that reminded me of the best of the disney comedies from the 60s . 
+   Actual=1.126, Pred=0.000
+
+Pearson correlation: -0.1439
+======================================================================
+
+Layer 15, Feature 9894
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to mentions of a specific, positive, and often comparative evaluation of a film or movie, typically involving praise for a particular aspect such as character development or a skill like voice acting.
+
+Evaluation sentences:
+1. less dizzying than just dizzy , the jaunt is practically over before it begins . 
+   Actual=0.288, Pred=8.000
+2. i thought my own watch had stopped keeping time as i slogged my way through clockstoppers . 
+   Actual=0.288, Pred=2.000
+3. the vivid lead performances sustain interest and empathy , but the journey is far more interesting than the final destination . 
+   Actual=0.288, Pred=8.000
+4. lapaglia 's ability to convey grief and hope works with weaver 's sensitive reactions to make this a two-actor master class . 
+   Actual=0.288, Pred=9.000
+5. two hours fly by -- opera 's a pleasure when you do n't have to endure intermissions -- and even a novice to the form comes away exhilarated . 
+   Actual=0.281, Pred=9.000
+
+Pearson correlation: -0.3411
+======================================================================
+
+Layer 15, Feature 10888
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the concept of a movie being poorly made or lacking quality, with a focus on negative criticisms, such as weak direction, dullness, and amateurish assembly.
+
+Evaluation sentences:
+1. looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+   Actual=0.046, Pred=1.000
+2. a movie with a real anarchic flair . 
+   Actual=0.046, Pred=2.000
+3. has all the depth of a wading pool . 
+   Actual=0.046, Pred=8.000
+4. the far future may be awesome to consider , but from period detail to matters of the heart , this film is most transporting when it stays put in the past . 
+   Actual=0.046, Pred=3.000
+5. a subject like this should inspire reaction in its audience ; the pianist does not . 
+   Actual=0.046, Pred=8.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 15
+Mean Pearson correlation: nan
+Features analyzed: 10/10
+======================================================================

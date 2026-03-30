@@ -1,0 +1,92 @@
+======================================================================
+LAYER 24 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, Europarl MT)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.4910 (49.10%)
+Precision: 0.4907
+Recall: 0.4740
+F1-Score: 0.4822
+Baseline Accuracy: 0.4930
+Improvement over baseline: -0.20%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  254    246]
+       Pos  [  263    237]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total EQUIVALENT samples: 500
+Total DIVERGENT samples: 500
+
+Total features activated for EQUIVALENT: 36338
+Total features activated for DIVERGENT: 36300
+COMMON features (activated for both): 30151
+UNIQUE to EQUIVALENT only: 6187
+UNIQUE to DIVERGENT only: 6149
+
+C. TOP 5 MOST ACTIVATING FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 35047: avg_activation=45.0174, frequency=500/500 (100.0%) | COMMON
+2. Feature 32751: avg_activation=18.2663, frequency=498/500 (99.6%) | COMMON
+3. Feature 31615: avg_activation=6.6239, frequency=494/500 (98.8%) | COMMON
+4. Feature 20252: avg_activation=3.3659, frequency=496/500 (99.2%) | COMMON
+5. Feature 56621: avg_activation=3.2876, frequency=493/500 (98.6%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 35047: avg_activation=44.5419, frequency=500/500 (100.0%) | COMMON
+2. Feature 32751: avg_activation=17.9292, frequency=500/500 (100.0%) | COMMON
+3. Feature 31615: avg_activation=6.6439, frequency=496/500 (99.2%) | COMMON
+4. Feature 20252: avg_activation=3.4312, frequency=493/500 (98.6%) | COMMON
+5. Feature 56621: avg_activation=3.1883, frequency=496/500 (99.2%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 1686: count=500 (100.0%), avg_activation=0.3192 | COMMON
+2. Feature 2099: count=500 (100.0%), avg_activation=0.0917 | COMMON
+3. Feature 7156: count=500 (100.0%), avg_activation=0.0278 | COMMON
+4. Feature 9551: count=500 (100.0%), avg_activation=0.0586 | COMMON
+5. Feature 10783: count=500 (100.0%), avg_activation=0.1169 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 1686: count=500 (100.0%), avg_activation=0.3168 | COMMON
+2. Feature 2099: count=500 (100.0%), avg_activation=0.0890 | COMMON
+3. Feature 7156: count=500 (100.0%), avg_activation=0.0274 | COMMON
+4. Feature 9551: count=500 (100.0%), avg_activation=0.0628 | COMMON
+5. Feature 10783: count=500 (100.0%), avg_activation=0.1137 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 1686: count=500 (100.0%)
+2. Feature 2099: count=500 (100.0%)
+3. Feature 7156: count=500 (100.0%)
+4. Feature 9551: count=500 (100.0%)
+5. Feature 10783: count=500 (100.0%)
+6. Feature 12426: count=500 (100.0%)
+7. Feature 13106: count=500 (100.0%)
+8. Feature 15099: count=500 (100.0%)
+9. Feature 19351: count=500 (100.0%)
+10. Feature 20421: count=500 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 1686: count=500 (100.0%)
+2. Feature 2099: count=500 (100.0%)
+3. Feature 7156: count=500 (100.0%)
+4. Feature 9551: count=500 (100.0%)
+5. Feature 10783: count=500 (100.0%)
+6. Feature 12426: count=500 (100.0%)
+7. Feature 13106: count=500 (100.0%)
+8. Feature 15099: count=500 (100.0%)
+9. Feature 19351: count=500 (100.0%)
+10. Feature 20421: count=500 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 EQUIVALENT & DIVERGENT
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 1686, 2099, 7156, 9551, 10783, 12426, 13106, 15099, 19351, 20421

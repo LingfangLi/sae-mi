@@ -1,0 +1,92 @@
+======================================================================
+LAYER 9 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7059 (70.59%)
+Precision: 0.7809
+Recall: 0.7921
+F1-Score: 0.7865
+Baseline Accuracy: 0.6593
+Improvement over baseline: +4.66%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   67     62]
+       Pos  [   58    221]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 41897
+Total features activated for NON-PARAPHRASE: 32896
+COMMON features (activated for both): 29015
+UNIQUE to PARAPHRASE only: 12882
+UNIQUE to NON-PARAPHRASE only: 3881
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 25357: avg_activation=11.3040, frequency=279/279 (100.0%) | COMMON
+2. Feature 12720: avg_activation=1.6772, frequency=1/279 (0.4%) | UNIQUE
+3. Feature 16501: avg_activation=1.2762, frequency=1/279 (0.4%) | COMMON
+4. Feature 49346: avg_activation=1.2754, frequency=1/279 (0.4%) | COMMON
+5. Feature 32068: avg_activation=1.0844, frequency=1/279 (0.4%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 25357: avg_activation=11.7570, frequency=129/129 (100.0%) | COMMON
+2. Feature 32361: avg_activation=2.0136, frequency=1/129 (0.8%) | COMMON
+3. Feature 5609: avg_activation=1.8222, frequency=1/129 (0.8%) | COMMON
+4. Feature 63577: avg_activation=1.5017, frequency=1/129 (0.8%) | COMMON
+5. Feature 40113: avg_activation=1.4543, frequency=1/129 (0.8%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 6290: count=279 (100.0%), avg_activation=0.0491 | COMMON
+2. Feature 10096: count=279 (100.0%), avg_activation=0.0496 | COMMON
+3. Feature 12726: count=279 (100.0%), avg_activation=0.0224 | COMMON
+4. Feature 14307: count=279 (100.0%), avg_activation=0.0037 | COMMON
+5. Feature 18469: count=279 (100.0%), avg_activation=0.0182 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 587: count=129 (100.0%), avg_activation=0.1878 | COMMON
+2. Feature 6290: count=129 (100.0%), avg_activation=0.0470 | COMMON
+3. Feature 10096: count=129 (100.0%), avg_activation=0.0509 | COMMON
+4. Feature 12726: count=129 (100.0%), avg_activation=0.0239 | COMMON
+5. Feature 14307: count=129 (100.0%), avg_activation=0.0035 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 6290: count=279 (100.0%)
+2. Feature 10096: count=279 (100.0%)
+3. Feature 12726: count=279 (100.0%)
+4. Feature 14307: count=279 (100.0%)
+5. Feature 18469: count=279 (100.0%)
+6. Feature 20820: count=279 (100.0%)
+7. Feature 24371: count=279 (100.0%)
+8. Feature 25357: count=279 (100.0%)
+9. Feature 26082: count=279 (100.0%)
+10. Feature 35519: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 587: count=129 (100.0%)
+2. Feature 6290: count=129 (100.0%)
+3. Feature 10096: count=129 (100.0%)
+4. Feature 12726: count=129 (100.0%)
+5. Feature 14307: count=129 (100.0%)
+6. Feature 18469: count=129 (100.0%)
+7. Feature 20820: count=129 (100.0%)
+8. Feature 24371: count=129 (100.0%)
+9. Feature 25357: count=129 (100.0%)
+10. Feature 26082: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 9
+Example IDs: 6290, 10096, 12726, 14307, 18469, 20820, 24371, 25357, 26082

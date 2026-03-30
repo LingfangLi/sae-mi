@@ -1,0 +1,92 @@
+======================================================================
+LAYER 4 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, Europarl MT)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.4790 (47.90%)
+Precision: 0.4783
+Recall: 0.4620
+F1-Score: 0.4700
+Baseline Accuracy: 0.4930
+Improvement over baseline: -1.40%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  248    252]
+       Pos  [  269    231]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total EQUIVALENT samples: 500
+Total DIVERGENT samples: 500
+
+Total features activated for EQUIVALENT: 48636
+Total features activated for DIVERGENT: 48529
+COMMON features (activated for both): 42331
+UNIQUE to EQUIVALENT only: 6305
+UNIQUE to DIVERGENT only: 6198
+
+C. TOP 5 MOST ACTIVATING FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 6328: avg_activation=1.1334, frequency=1/500 (0.2%) | UNIQUE
+2. Feature 11391: avg_activation=0.8181, frequency=1/500 (0.2%) | UNIQUE
+3. Feature 40538: avg_activation=0.6948, frequency=493/500 (98.6%) | COMMON
+4. Feature 56904: avg_activation=0.6303, frequency=1/500 (0.2%) | UNIQUE
+5. Feature 48414: avg_activation=0.6180, frequency=1/500 (0.2%) | UNIQUE
+
+D. TOP 5 MOST ACTIVATING FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 63061: avg_activation=1.0459, frequency=1/500 (0.2%) | COMMON
+2. Feature 57115: avg_activation=0.8590, frequency=1/500 (0.2%) | UNIQUE
+3. Feature 49715: avg_activation=0.7893, frequency=1/500 (0.2%) | UNIQUE
+4. Feature 46951: avg_activation=0.7750, frequency=15/500 (3.0%) | COMMON
+5. Feature 40538: avg_activation=0.7023, frequency=496/500 (99.2%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 3860: count=500 (100.0%), avg_activation=0.0602 | COMMON
+2. Feature 4346: count=500 (100.0%), avg_activation=0.1391 | COMMON
+3. Feature 8497: count=500 (100.0%), avg_activation=0.1190 | COMMON
+4. Feature 11201: count=500 (100.0%), avg_activation=0.1847 | COMMON
+5. Feature 14548: count=500 (100.0%), avg_activation=0.0970 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 3860: count=500 (100.0%), avg_activation=0.0585 | COMMON
+2. Feature 4346: count=500 (100.0%), avg_activation=0.1351 | COMMON
+3. Feature 8497: count=500 (100.0%), avg_activation=0.1157 | COMMON
+4. Feature 11201: count=500 (100.0%), avg_activation=0.1795 | COMMON
+5. Feature 14548: count=500 (100.0%), avg_activation=0.0943 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 3860: count=500 (100.0%)
+2. Feature 4346: count=500 (100.0%)
+3. Feature 8497: count=500 (100.0%)
+4. Feature 11201: count=500 (100.0%)
+5. Feature 14548: count=500 (100.0%)
+6. Feature 18907: count=500 (100.0%)
+7. Feature 19796: count=500 (100.0%)
+8. Feature 21517: count=500 (100.0%)
+9. Feature 21622: count=500 (100.0%)
+10. Feature 25246: count=500 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 3860: count=500 (100.0%)
+2. Feature 4346: count=500 (100.0%)
+3. Feature 8497: count=500 (100.0%)
+4. Feature 11201: count=500 (100.0%)
+5. Feature 14548: count=500 (100.0%)
+6. Feature 18907: count=500 (100.0%)
+7. Feature 21517: count=500 (100.0%)
+8. Feature 21622: count=500 (100.0%)
+9. Feature 24303: count=500 (100.0%)
+10. Feature 25246: count=500 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 EQUIVALENT & DIVERGENT
+----------------------------------------------------------------------
+Count: 9
+Example IDs: 3860, 4346, 8497, 11201, 14548, 18907, 21517, 21622, 25246

@@ -1,0 +1,92 @@
+======================================================================
+LAYER 15 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7304 (73.04%)
+Precision: 0.8118
+Recall: 0.7885
+F1-Score: 0.8000
+Baseline Accuracy: 0.6593
+Improvement over baseline: +7.11%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   78     51]
+       Pos  [   59    220]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 43968
+Total features activated for NON-PARAPHRASE: 34584
+COMMON features (activated for both): 30464
+UNIQUE to PARAPHRASE only: 13504
+UNIQUE to NON-PARAPHRASE only: 4120
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 7631: avg_activation=15.2387, frequency=279/279 (100.0%) | COMMON
+2. Feature 3285: avg_activation=1.3754, frequency=279/279 (100.0%) | COMMON
+3. Feature 11541: avg_activation=0.7236, frequency=1/279 (0.4%) | UNIQUE
+4. Feature 19044: avg_activation=0.6733, frequency=2/279 (0.7%) | UNIQUE
+5. Feature 14292: avg_activation=0.6041, frequency=1/279 (0.4%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 7631: avg_activation=16.0448, frequency=129/129 (100.0%) | COMMON
+2. Feature 3285: avg_activation=1.3953, frequency=129/129 (100.0%) | COMMON
+3. Feature 52545: avg_activation=1.3109, frequency=1/129 (0.8%) | COMMON
+4. Feature 61327: avg_activation=0.6493, frequency=1/129 (0.8%) | COMMON
+5. Feature 11988: avg_activation=0.5701, frequency=1/129 (0.8%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 374: count=279 (100.0%), avg_activation=0.0146 | COMMON
+2. Feature 1012: count=279 (100.0%), avg_activation=0.0055 | COMMON
+3. Feature 1139: count=279 (100.0%), avg_activation=0.0824 | COMMON
+4. Feature 3285: count=279 (100.0%), avg_activation=1.3754 | COMMON
+5. Feature 6064: count=279 (100.0%), avg_activation=0.0643 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 374: count=129 (100.0%), avg_activation=0.0170 | COMMON
+2. Feature 1012: count=129 (100.0%), avg_activation=0.0060 | COMMON
+3. Feature 1139: count=129 (100.0%), avg_activation=0.0841 | COMMON
+4. Feature 3285: count=129 (100.0%), avg_activation=1.3953 | COMMON
+5. Feature 6064: count=129 (100.0%), avg_activation=0.0626 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 374: count=279 (100.0%)
+2. Feature 1012: count=279 (100.0%)
+3. Feature 1139: count=279 (100.0%)
+4. Feature 3285: count=279 (100.0%)
+5. Feature 6064: count=279 (100.0%)
+6. Feature 7631: count=279 (100.0%)
+7. Feature 8190: count=279 (100.0%)
+8. Feature 9101: count=279 (100.0%)
+9. Feature 9314: count=279 (100.0%)
+10. Feature 9894: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 374: count=129 (100.0%)
+2. Feature 1012: count=129 (100.0%)
+3. Feature 1139: count=129 (100.0%)
+4. Feature 3285: count=129 (100.0%)
+5. Feature 6064: count=129 (100.0%)
+6. Feature 7631: count=129 (100.0%)
+7. Feature 8190: count=129 (100.0%)
+8. Feature 9101: count=129 (100.0%)
+9. Feature 9894: count=129 (100.0%)
+10. Feature 10888: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 9
+Example IDs: 374, 1012, 1139, 3285, 6064, 7631, 8190, 9101, 9894

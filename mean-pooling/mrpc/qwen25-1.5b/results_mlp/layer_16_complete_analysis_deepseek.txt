@@ -1,0 +1,92 @@
+======================================================================
+LAYER 16 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7304 (73.04%)
+Precision: 0.8007
+Recall: 0.8065
+F1-Score: 0.8036
+Baseline Accuracy: 0.6593
+Improvement over baseline: +7.11%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   73     56]
+       Pos  [   54    225]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 45747
+Total features activated for NON-PARAPHRASE: 36950
+COMMON features (activated for both): 33011
+UNIQUE to PARAPHRASE only: 12736
+UNIQUE to NON-PARAPHRASE only: 3939
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 41269: avg_activation=9.3104, frequency=279/279 (100.0%) | COMMON
+2. Feature 14276: avg_activation=0.7882, frequency=1/279 (0.4%) | UNIQUE
+3. Feature 50930: avg_activation=0.6459, frequency=1/279 (0.4%) | COMMON
+4. Feature 62294: avg_activation=0.6345, frequency=1/279 (0.4%) | COMMON
+5. Feature 43607: avg_activation=0.5312, frequency=1/279 (0.4%) | UNIQUE
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 41269: avg_activation=9.7939, frequency=129/129 (100.0%) | COMMON
+2. Feature 56397: avg_activation=0.7838, frequency=1/129 (0.8%) | COMMON
+3. Feature 15121: avg_activation=0.7682, frequency=1/129 (0.8%) | COMMON
+4. Feature 4927: avg_activation=0.6456, frequency=1/129 (0.8%) | COMMON
+5. Feature 7505: avg_activation=0.5146, frequency=1/129 (0.8%) | UNIQUE
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 3150: count=279 (100.0%), avg_activation=0.0724 | COMMON
+2. Feature 5589: count=279 (100.0%), avg_activation=0.0460 | COMMON
+3. Feature 5944: count=279 (100.0%), avg_activation=0.1572 | COMMON
+4. Feature 6765: count=279 (100.0%), avg_activation=0.0027 | COMMON
+5. Feature 7953: count=279 (100.0%), avg_activation=0.1385 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 3150: count=129 (100.0%), avg_activation=0.0731 | COMMON
+2. Feature 5589: count=129 (100.0%), avg_activation=0.0460 | COMMON
+3. Feature 5944: count=129 (100.0%), avg_activation=0.1606 | COMMON
+4. Feature 6765: count=129 (100.0%), avg_activation=0.0025 | COMMON
+5. Feature 7953: count=129 (100.0%), avg_activation=0.1430 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 3150: count=279 (100.0%)
+2. Feature 5589: count=279 (100.0%)
+3. Feature 5944: count=279 (100.0%)
+4. Feature 6765: count=279 (100.0%)
+5. Feature 7953: count=279 (100.0%)
+6. Feature 10547: count=279 (100.0%)
+7. Feature 10548: count=279 (100.0%)
+8. Feature 14003: count=279 (100.0%)
+9. Feature 17887: count=279 (100.0%)
+10. Feature 18523: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 3150: count=129 (100.0%)
+2. Feature 5589: count=129 (100.0%)
+3. Feature 5944: count=129 (100.0%)
+4. Feature 6765: count=129 (100.0%)
+5. Feature 7953: count=129 (100.0%)
+6. Feature 10547: count=129 (100.0%)
+7. Feature 10548: count=129 (100.0%)
+8. Feature 14003: count=129 (100.0%)
+9. Feature 17887: count=129 (100.0%)
+10. Feature 18523: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 3150, 5589, 5944, 6765, 7953, 10547, 10548, 14003, 17887, 18523

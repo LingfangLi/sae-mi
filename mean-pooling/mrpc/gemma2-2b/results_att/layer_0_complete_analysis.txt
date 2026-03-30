@@ -1,0 +1,92 @@
+======================================================================
+LAYER 0 - COMPLETE ANALYSIS (Gemma Scope Attention SAE, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.6397 (63.97%)
+Precision: 0.7727
+Recall: 0.6703
+F1-Score: 0.7179
+Baseline Accuracy: 0.6838
+Improvement over baseline: -4.41%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   74     55]
+       Pos  [   92    187]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 10820
+Total features activated for NON-PARAPHRASE: 8710
+COMMON features (activated for both): 7908
+UNIQUE to PARAPHRASE only: 2912
+UNIQUE to NON-PARAPHRASE only: 802
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 9944: avg_activation=2.2165, frequency=279/279 (100.0%) | COMMON
+2. Feature 1421: avg_activation=1.8749, frequency=279/279 (100.0%) | COMMON
+3. Feature 11654: avg_activation=1.6196, frequency=279/279 (100.0%) | COMMON
+4. Feature 655: avg_activation=1.3525, frequency=279/279 (100.0%) | COMMON
+5. Feature 2362: avg_activation=1.2331, frequency=279/279 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 9944: avg_activation=2.2814, frequency=129/129 (100.0%) | COMMON
+2. Feature 1421: avg_activation=2.0222, frequency=129/129 (100.0%) | COMMON
+3. Feature 11654: avg_activation=1.4838, frequency=129/129 (100.0%) | COMMON
+4. Feature 655: avg_activation=1.3544, frequency=129/129 (100.0%) | COMMON
+5. Feature 2362: avg_activation=1.2718, frequency=129/129 (100.0%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 170: count=279 (100.0%), avg_activation=0.2866 | COMMON
+2. Feature 655: count=279 (100.0%), avg_activation=1.3525 | COMMON
+3. Feature 734: count=279 (100.0%), avg_activation=0.0568 | COMMON
+4. Feature 743: count=279 (100.0%), avg_activation=0.7257 | COMMON
+5. Feature 769: count=279 (100.0%), avg_activation=0.1504 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 170: count=129 (100.0%), avg_activation=0.2969 | COMMON
+2. Feature 655: count=129 (100.0%), avg_activation=1.3544 | COMMON
+3. Feature 734: count=129 (100.0%), avg_activation=0.0527 | COMMON
+4. Feature 743: count=129 (100.0%), avg_activation=0.6955 | COMMON
+5. Feature 769: count=129 (100.0%), avg_activation=0.1455 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 170: count=279 (100.0%)
+2. Feature 655: count=279 (100.0%)
+3. Feature 734: count=279 (100.0%)
+4. Feature 743: count=279 (100.0%)
+5. Feature 769: count=279 (100.0%)
+6. Feature 796: count=279 (100.0%)
+7. Feature 831: count=279 (100.0%)
+8. Feature 1101: count=279 (100.0%)
+9. Feature 1130: count=279 (100.0%)
+10. Feature 1131: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 170: count=129 (100.0%)
+2. Feature 655: count=129 (100.0%)
+3. Feature 734: count=129 (100.0%)
+4. Feature 743: count=129 (100.0%)
+5. Feature 769: count=129 (100.0%)
+6. Feature 796: count=129 (100.0%)
+7. Feature 831: count=129 (100.0%)
+8. Feature 1101: count=129 (100.0%)
+9. Feature 1130: count=129 (100.0%)
+10. Feature 1131: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 170, 655, 734, 743, 769, 796, 831, 1101, 1130, 1131

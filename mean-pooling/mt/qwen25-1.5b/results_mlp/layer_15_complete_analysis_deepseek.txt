@@ -1,0 +1,92 @@
+======================================================================
+LAYER 15 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, Europarl MT)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.5060 (50.60%)
+Precision: 0.5060
+Recall: 0.5100
+F1-Score: 0.5080
+Baseline Accuracy: 0.4930
+Improvement over baseline: +1.30%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  251    249]
+       Pos  [  245    255]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total EQUIVALENT samples: 500
+Total DIVERGENT samples: 500
+
+Total features activated for EQUIVALENT: 52675
+Total features activated for DIVERGENT: 52525
+COMMON features (activated for both): 47892
+UNIQUE to EQUIVALENT only: 4783
+UNIQUE to DIVERGENT only: 4633
+
+C. TOP 5 MOST ACTIVATING FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 7631: avg_activation=14.3863, frequency=500/500 (100.0%) | COMMON
+2. Feature 3285: avg_activation=1.6662, frequency=500/500 (100.0%) | COMMON
+3. Feature 16150: avg_activation=0.4869, frequency=500/500 (100.0%) | COMMON
+4. Feature 58562: avg_activation=0.4508, frequency=499/500 (99.8%) | COMMON
+5. Feature 33211: avg_activation=0.3783, frequency=489/500 (97.8%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 7631: avg_activation=14.4728, frequency=500/500 (100.0%) | COMMON
+2. Feature 3285: avg_activation=1.7003, frequency=500/500 (100.0%) | COMMON
+3. Feature 16150: avg_activation=0.4841, frequency=499/500 (99.8%) | COMMON
+4. Feature 58562: avg_activation=0.4562, frequency=499/500 (99.8%) | COMMON
+5. Feature 32158: avg_activation=0.3827, frequency=1/500 (0.2%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 374: count=500 (100.0%), avg_activation=0.0127 | COMMON
+2. Feature 1012: count=500 (100.0%), avg_activation=0.0046 | COMMON
+3. Feature 1139: count=500 (100.0%), avg_activation=0.0689 | COMMON
+4. Feature 3285: count=500 (100.0%), avg_activation=1.6662 | COMMON
+5. Feature 6064: count=500 (100.0%), avg_activation=0.0395 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 374: count=500 (100.0%), avg_activation=0.0120 | COMMON
+2. Feature 1012: count=500 (100.0%), avg_activation=0.0045 | COMMON
+3. Feature 1139: count=500 (100.0%), avg_activation=0.0670 | COMMON
+4. Feature 3285: count=500 (100.0%), avg_activation=1.7003 | COMMON
+5. Feature 6064: count=500 (100.0%), avg_activation=0.0398 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (EQUIVALENT)
+----------------------------------------------------------------------
+1. Feature 374: count=500 (100.0%)
+2. Feature 1012: count=500 (100.0%)
+3. Feature 1139: count=500 (100.0%)
+4. Feature 3285: count=500 (100.0%)
+5. Feature 6064: count=500 (100.0%)
+6. Feature 7631: count=500 (100.0%)
+7. Feature 8190: count=500 (100.0%)
+8. Feature 9101: count=500 (100.0%)
+9. Feature 9314: count=500 (100.0%)
+10. Feature 9894: count=500 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (DIVERGENT)
+----------------------------------------------------------------------
+1. Feature 374: count=500 (100.0%)
+2. Feature 1012: count=500 (100.0%)
+3. Feature 1139: count=500 (100.0%)
+4. Feature 3285: count=500 (100.0%)
+5. Feature 6064: count=500 (100.0%)
+6. Feature 7631: count=500 (100.0%)
+7. Feature 8190: count=500 (100.0%)
+8. Feature 9101: count=500 (100.0%)
+9. Feature 9894: count=500 (100.0%)
+10. Feature 10888: count=500 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 EQUIVALENT & DIVERGENT
+----------------------------------------------------------------------
+Count: 9
+Example IDs: 374, 1012, 1139, 3285, 6064, 7631, 8190, 9101, 9894

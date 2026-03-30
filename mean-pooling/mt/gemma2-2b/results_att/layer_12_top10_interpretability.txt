@@ -1,0 +1,215 @@
+GEMMA-2B INTERPRETABILITY REPORT - Layer 12, Europarl MT, top-10 global features
+======================================================================
+
+Layer 12, Feature 4
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the presence of formal or official titles and introductory phrases in the source text.
+
+Evaluation sentences:
+1. With the approval of this agreement, we have not achieved the final goal of transparency and democra
+   Actual=0.292, Pred=6.000
+2. I will take another look at the issue, although I should point out that having two PHARE programmes 
+   Actual=0.287, Pred=6.000
+3. As for the inspections, very much a key question, the first thing we have to consider is how the cur
+   Actual=0.269, Pred=6.000
+4. I think this rather nicely puts the finishing touches to a debate which has, on the whole, been quit
+   Actual=0.265, Pred=3.000
+5. I think this rather nicely puts the finishing touches to a debate which has, on the whole, been quit
+   Actual=0.265, Pred=2.000
+
+Pearson correlation: 0.7385
+======================================================================
+
+Layer 12, Feature 6
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the pattern of a sentence beginning with the word "Il faut" (French for "It is necessary" or "We must"), which often indicates a directive or imperative statement.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.026, Pred=9.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.026, Pred=2.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.026, Pred=1.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.026, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.026, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 7
+----------------------------------------------------------------------
+Interpretation:
+The sparse autoencoder feature from Gemma-2B responds to the presence of word-initial capitalization in English sentences, particularly at the beginning of the sentence.
+
+Evaluation sentences:
+1. In terms of our priorities, then, Mr Howitt, and in terms of efficiency, I feel that, given the choi
+   Actual=0.075, Pred=0.000
+2. Perhaps we ought to learn to do this one day. <|endoftext|> Il faut les consolider. À cet égard, la 
+   Actual=0.049, Pred=2.000
+3. I am well aware of the sensitivity of these taxation and social protection issues. <|endoftext|> Cel
+   Actual=0.049, Pred=4.000
+4. That means breaking with the materialistic and individualistic view of man and believing that there 
+   Actual=0.049, Pred=2.000
+5. Mr President, I voted in favour of the resolution on European postal services with all the more sati
+   Actual=0.049, Pred=8.000
+
+Pearson correlation: -0.5898
+======================================================================
+
+Layer 12, Feature 15
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of a sentence containing a phrase that indicates a transition or shift, often accompanied by a speaker's intention to conclude their statement or allow further discussion.
+
+Evaluation sentences:
+1. In the present situation, the national defence can only supply approximately 1 500 men, due to reduc
+   Actual=0.666, Pred=4.000
+2. This task is carried out in parallel by the ECB and the national central banks, whereby the national
+   Actual=0.539, Pred=5.000
+3. The IRA terrorists have not given up any of their weapons, nor have the loyalist terrorists, yet the
+   Actual=0.326, Pred=6.000
+4. I would just make one point: we cannot be 100% sure - I am not at any rate - that one only has to pr
+   Actual=0.315, Pred=5.000
+5. This explains why the initial figures given in the press, setting the volume of the forces to be bui
+   Actual=0.268, Pred=3.000
+
+Pearson correlation: -0.0396
+======================================================================
+
+Layer 12, Feature 17
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the linguistic concept of first-person singular pronouns, as evidenced by the consistent activation on the token 'I' or its French translation 'je' is not present, but the first-person singular pronoun 'I' is present in all sentences where the feature is activated.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.025, Pred=0.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.025, Pred=3.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.025, Pred=1.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.025, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.025, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 27
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of formal, official, or institutional language, as it activates strongly on tokens like "il faut" and "Mr President", which are characteristic of formal or official speech.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.028, Pred=8.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.028, Pred=7.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.028, Pred=4.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.028, Pred=9.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.028, Pred=5.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 32
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the pattern of formal or official language, as indicated by its strong activation on tokens such as "Il faut" and "À cet égard" in sentence 1, and its consistent activation across multiple sentences involving formal or institutional language.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.029, Pred=9.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.029, Pred=8.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.029, Pred=8.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.029, Pred=9.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.029, Pred=3.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 39
+----------------------------------------------------------------------
+Interpretation:
+This feature appears to respond to the presence of the first-person singular pronoun "I" in a sentence.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.030, Pred=0.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.030, Pred=0.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.030, Pred=3.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.030, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.030, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 40
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of the first word or token in a sentence, as all top activations are associated with the position 0 and have a high activation strength of 0.761.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.033, Pred=4.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.033, Pred=0.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.033, Pred=8.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.033, Pred=2.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.033, Pred=2.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 45
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of the word "faut" (which translates to "should" or "ought"), likely capturing a pattern related to obligation or necessity in the source language.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.027, Pred=7.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.027, Pred=2.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.027, Pred=2.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.027, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.027, Pred=4.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 12
+Mean Pearson correlation: 0.0364
+Features analyzed: 3/10
+Best feature: 4 (correlation: 0.7385)
+
+All correlations:
+  Feature 4: 0.7385
+  Feature 15: -0.0396
+  Feature 7: -0.5898
+======================================================================

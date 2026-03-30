@@ -1,0 +1,92 @@
+======================================================================
+LAYER 26 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7787 (77.87%)
+Precision: 0.7795
+Recall: 0.7883
+F1-Score: 0.7839
+Baseline Accuracy: 0.6353
+Improvement over baseline: +14.33%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  329     99]
+       Pos  [   94    350]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 24865
+Total features activated for NEGATIVE: 24628
+COMMON features (activated for both): 17300
+UNIQUE to POSITIVE only: 7565
+UNIQUE to NEGATIVE only: 7328
+
+C. TOP 5 MOST ACTIVATING FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 57368: avg_activation=76.6261, frequency=444/444 (100.0%) | COMMON
+2. Feature 29818: avg_activation=31.5646, frequency=444/444 (100.0%) | COMMON
+3. Feature 60974: avg_activation=18.4485, frequency=444/444 (100.0%) | COMMON
+4. Feature 14381: avg_activation=17.7720, frequency=444/444 (100.0%) | COMMON
+5. Feature 33419: avg_activation=16.5274, frequency=444/444 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 57368: avg_activation=81.6017, frequency=428/428 (100.0%) | COMMON
+2. Feature 29818: avg_activation=34.5356, frequency=428/428 (100.0%) | COMMON
+3. Feature 60974: avg_activation=19.6891, frequency=428/428 (100.0%) | COMMON
+4. Feature 14381: avg_activation=18.9700, frequency=428/428 (100.0%) | COMMON
+5. Feature 33419: avg_activation=17.6392, frequency=428/428 (100.0%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 312: count=444 (100.0%), avg_activation=4.5784 | COMMON
+2. Feature 977: count=444 (100.0%), avg_activation=0.3897 | COMMON
+3. Feature 1136: count=444 (100.0%), avg_activation=0.0377 | COMMON
+4. Feature 3992: count=444 (100.0%), avg_activation=0.0406 | COMMON
+5. Feature 4086: count=444 (100.0%), avg_activation=12.2547 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 312: count=428 (100.0%), avg_activation=4.8369 | COMMON
+2. Feature 977: count=428 (100.0%), avg_activation=0.4158 | COMMON
+3. Feature 1136: count=428 (100.0%), avg_activation=0.0407 | COMMON
+4. Feature 3992: count=428 (100.0%), avg_activation=0.0423 | COMMON
+5. Feature 4086: count=428 (100.0%), avg_activation=13.0770 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 312: count=444 (100.0%)
+2. Feature 977: count=444 (100.0%)
+3. Feature 1136: count=444 (100.0%)
+4. Feature 3992: count=444 (100.0%)
+5. Feature 4086: count=444 (100.0%)
+6. Feature 4175: count=444 (100.0%)
+7. Feature 7859: count=444 (100.0%)
+8. Feature 12349: count=444 (100.0%)
+9. Feature 14300: count=444 (100.0%)
+10. Feature 14381: count=444 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 312: count=428 (100.0%)
+2. Feature 977: count=428 (100.0%)
+3. Feature 1136: count=428 (100.0%)
+4. Feature 3992: count=428 (100.0%)
+5. Feature 4086: count=428 (100.0%)
+6. Feature 4175: count=428 (100.0%)
+7. Feature 7859: count=428 (100.0%)
+8. Feature 12349: count=428 (100.0%)
+9. Feature 14300: count=428 (100.0%)
+10. Feature 14381: count=428 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 POS & NEG
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 312, 977, 1136, 3992, 4086, 4175, 7859, 12349, 14300, 14381

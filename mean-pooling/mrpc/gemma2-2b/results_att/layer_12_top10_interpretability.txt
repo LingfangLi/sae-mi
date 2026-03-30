@@ -1,0 +1,214 @@
+GEMMA-2B INTERPRETABILITY REPORT - Layer 12, MRPC, top-10 global features
+======================================================================
+
+Layer 12, Feature 4
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the presence of a specific type of word or phrase, particularly near the end of a sentence, that is likely related to the final clause or a call to action, and may often involve the verb "release", "issue", "said", or other indicative language, often accompanied by a stronger activation of the word "month", "year", "guidance", or other related terms.
+
+Evaluation sentences:
+1. Donations stemming from the Sept . 11 attacks helped push up contributions to human service organiza
+   Actual=0.438, Pred=0.000
+2. Asked if the delegates could leave on Friday , police intelligence chief in Aceh , Surya Dharma , to
+   Actual=0.427, Pred=2.000
+3. But MTA officials appropriated the money to the 2003 and 2004 budgets without notifying riders or ev
+   Actual=0.423, Pred=2.000
+4. The European Commission , the EU 's antitrust enforcer , is expected to issue its decision next spri
+   Actual=0.386, Pred=9.000
+5. The results appear in the January issue of Cancer , an American Cancer Society journal , being publi
+   Actual=0.386, Pred=8.000
+
+Pearson correlation: -0.9941
+======================================================================
+
+Layer 12, Feature 6
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of "last word" in a sentence.
+
+Evaluation sentences:
+1. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.064, Pred=8.000
+2. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.064, Pred=8.000
+3. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.064, Pred=1.000
+4. " Allison just proves you don 't need to wait until August or September to have a disaster , " said 
+   Actual=0.064, Pred=9.000
+5. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.064, Pred=3.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 7
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the presence of a specific word or token, likely "PM", which is consistently activated in all examples provided, indicating that the feature is sensitive to this particular token.
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.119, Pred=3.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.119, Pred=8.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.119, Pred=8.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.119, Pred=6.000
+5. " He may not have been there , " the defence official said on Thursday . <|endoftext|> " He may not 
+   Actual=0.119, Pred=1.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 15
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the linguistic concept of phrases related to "intelligence" or "information gathering" in a text, often with a focus on the strength or reliability of the information being discussed.
+
+Evaluation sentences:
+1. It 's the first such drill since the September 11 terrorist attacks on New York and Washington . <|e
+   Actual=0.981, Pred=3.000
+2. He is blocking them until the Air Force assigns four additional C-130 cargo planes to Gowen Field , 
+   Actual=0.828, Pred=1.000
+3. The 3 rd Armored Cavalry Regiment is 5,200 strong and the largest combat unit at Fort Carson . <|end
+   Actual=0.640, Pred=1.000
+4. " There is no conscious policy of the United States , I can assure you of this , to move the dollar 
+   Actual=0.466, Pred=4.000
+5. Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's 
+   Actual=0.449, Pred=2.000
+
+Pearson correlation: -0.1889
+======================================================================
+
+Layer 12, Feature 17
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of a numerical value or a number in the input sentence.
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.060, Pred=0.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.060, Pred=8.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.060, Pred=8.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.060, Pred=8.000
+5. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.060, Pred=6.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 27
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the presence of a specific token or pattern that is consistently highlighted in all input sentences, indicating that it may be detecting a non-linguistic or noise-related artifact rather than a linguistic concept.
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.067, Pred=3.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.067, Pred=3.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.067, Pred=7.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.067, Pred=8.000
+5. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.067, Pred=6.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 32
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of a specific, possibly out-of-place or uncharacteristic, word or phrase that appears at the end of a sentence, particularly after a common article such as "this" or "the".
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.070, Pred=8.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.070, Pred=8.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.070, Pred=0.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.070, Pred=8.000
+5. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.070, Pred=4.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 39
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the presence of a specific punctuation mark, likely a period (.) or a colon (:), at the end of a sentence.
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.074, Pred=6.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.074, Pred=6.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.074, Pred=8.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.074, Pred=8.000
+5. " He may not have been there , " the defence official said on Thursday . <|endoftext|> " He may not 
+   Actual=0.074, Pred=2.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 40
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to words that are likely to be related to abstract concepts, nouns, or proper nouns, particularly those that are not concrete objects.
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.081, Pred=4.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.081, Pred=8.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.081, Pred=9.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.081, Pred=9.000
+5. " He may not have been there , " the defence official said on Thursday . <|endoftext|> " He may not 
+   Actual=0.081, Pred=4.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 45
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of a specific word or token that is consistently activated at the same index across different sentences, regardless of their content.
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.066, Pred=2.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.066, Pred=3.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.066, Pred=6.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.066, Pred=3.000
+5. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.066, Pred=9.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 12
+Mean Pearson correlation: -0.5915
+Features analyzed: 2/10
+Best feature: 15 (correlation: -0.1889)
+
+All correlations:
+  Feature 15: -0.1889
+  Feature 4: -0.9941
+======================================================================

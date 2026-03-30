@@ -1,0 +1,92 @@
+======================================================================
+LAYER 3 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.6789 (67.89%)
+Precision: 0.7681
+Recall: 0.7599
+F1-Score: 0.7640
+Baseline Accuracy: 0.6593
+Improvement over baseline: +1.96%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   65     64]
+       Pos  [   67    212]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 27136
+Total features activated for NON-PARAPHRASE: 19650
+COMMON features (activated for both): 15943
+UNIQUE to PARAPHRASE only: 11193
+UNIQUE to NON-PARAPHRASE only: 3707
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 39769: avg_activation=2.1353, frequency=2/279 (0.7%) | COMMON
+2. Feature 28198: avg_activation=1.7114, frequency=36/279 (12.9%) | COMMON
+3. Feature 9208: avg_activation=1.6557, frequency=1/279 (0.4%) | COMMON
+4. Feature 37910: avg_activation=1.5767, frequency=279/279 (100.0%) | COMMON
+5. Feature 6713: avg_activation=1.3261, frequency=2/279 (0.7%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 37910: avg_activation=1.6496, frequency=129/129 (100.0%) | COMMON
+2. Feature 20069: avg_activation=1.6405, frequency=1/129 (0.8%) | COMMON
+3. Feature 49880: avg_activation=1.6375, frequency=1/129 (0.8%) | UNIQUE
+4. Feature 9208: avg_activation=1.4857, frequency=1/129 (0.8%) | COMMON
+5. Feature 28198: avg_activation=1.3960, frequency=22/129 (17.1%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1559: count=279 (100.0%), avg_activation=0.4035 | COMMON
+2. Feature 2096: count=279 (100.0%), avg_activation=0.1035 | COMMON
+3. Feature 2136: count=279 (100.0%), avg_activation=0.0528 | COMMON
+4. Feature 3823: count=279 (100.0%), avg_activation=0.0094 | COMMON
+5. Feature 10361: count=279 (100.0%), avg_activation=0.0994 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1559: count=129 (100.0%), avg_activation=0.4383 | COMMON
+2. Feature 2096: count=129 (100.0%), avg_activation=0.1056 | COMMON
+3. Feature 2136: count=129 (100.0%), avg_activation=0.0539 | COMMON
+4. Feature 3823: count=129 (100.0%), avg_activation=0.0096 | COMMON
+5. Feature 10361: count=129 (100.0%), avg_activation=0.1015 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1559: count=279 (100.0%)
+2. Feature 2096: count=279 (100.0%)
+3. Feature 2136: count=279 (100.0%)
+4. Feature 3823: count=279 (100.0%)
+5. Feature 10361: count=279 (100.0%)
+6. Feature 13270: count=279 (100.0%)
+7. Feature 14900: count=279 (100.0%)
+8. Feature 15419: count=279 (100.0%)
+9. Feature 16483: count=279 (100.0%)
+10. Feature 17795: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1559: count=129 (100.0%)
+2. Feature 2096: count=129 (100.0%)
+3. Feature 2136: count=129 (100.0%)
+4. Feature 3823: count=129 (100.0%)
+5. Feature 10361: count=129 (100.0%)
+6. Feature 13270: count=129 (100.0%)
+7. Feature 14900: count=129 (100.0%)
+8. Feature 15419: count=129 (100.0%)
+9. Feature 16483: count=129 (100.0%)
+10. Feature 17795: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 1559, 2096, 2136, 3823, 10361, 13270, 14900, 15419, 16483, 17795

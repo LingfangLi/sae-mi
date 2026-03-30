@@ -1,0 +1,220 @@
+GEMMA-2B INTERPRETABILITY REPORT - Layer 7, Europarl MT, top-10 global features
+======================================================================
+
+Layer 7, Feature 5
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of sentence-final particles or phrases, particularly those indicating continuation or uncertainty, such as "even though", "we can continue", "I am not sure", "that they did not know whether", etc., often accompanied by a subject or a pronoun at the beginning of the sentence.
+
+Evaluation sentences:
+1. I look forward to having a useful exchange of views this afternoon with the Members of Parliament wh
+   Actual=0.145, Pred=4.000
+2. You have seen yourself as the guardian of the Treaties, and that is indeed your role. <|endoftext|> 
+   Actual=0.144, Pred=1.000
+3. This stability is required in the relations with Yugoslavia, Kosovo, Albania and Bulgaria. <|endofte
+   Actual=0.127, Pred=1.000
+4. Not only should this be deleted, the whole interception title should be scrapped. <|endoftext|> Il n
+   Actual=0.126, Pred=4.000
+5. Ireland, for generations, sent her sons and daughters to places of safety throughout the world, but 
+   Actual=0.122, Pred=6.000
+
+Pearson correlation: -0.3860
+======================================================================
+
+Layer 7, Feature 11
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of "transition from one clause or phrase to another," suggesting it detects changes in sentence structure or context.
+
+Evaluation sentences:
+1. Mr President, this directive deals with the comparatively small but growing problem of abandoned car
+   Actual=2.418, Pred=6.000
+2. That is also the reason why the present political situation in Austria is, of course, not 'business 
+   Actual=2.399, Pred=6.000
+3. I would like to make another appeal for a broad analysis of the developments in the field of company
+   Actual=2.356, Pred=8.000
+4. It has already been said in this debate that the European response has, relatively speaking, shown t
+   Actual=2.326, Pred=8.000
+5. Can I perhaps also turn to Mr Patten as well and ask, in terms of the conflict prevention work we ar
+   Actual=2.319, Pred=8.000
+
+Pearson correlation: -0.9358
+======================================================================
+
+Layer 7, Feature 17
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of out-of-vocabulary or unseen words in the input sentence, as it activates strongly for tokens with part-of-speech tag '0', indicating unknown words.
+
+Evaluation sentences:
+1. Moreover, Article 191 of the Treaty (ex Article 138a) stresses, political parties are, I quote, "imp
+   Actual=0.054, Pred=8.000
+2. INTERREG resources must also contribute to the development of a European research area. <|endoftext|
+   Actual=0.053, Pred=8.000
+3. The trade agreement between the European Union and Israel, which equally fails to define the territo
+   Actual=0.048, Pred=9.000
+4. While I recognise that some progress has been made in areas like port state control and minimal crew
+   Actual=0.048, Pred=2.000
+5. The Commission' s objective for the next five years is to become a 'global actor' by showing 'genuin
+   Actual=0.048, Pred=9.000
+
+Pearson correlation: 0.2704
+======================================================================
+
+Layer 7, Feature 66
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to instances of "sur" (meaning 'on' or 'upon' in French, but more commonly 'sure' or 'sur' in English as an abbreviation for 'surely') and possibly similar word forms or suffixes, often in specific syntactic positions, such as at the end of a sentence, denoting a sense of certainty or completion.
+
+Evaluation sentences:
+1. Mr President, in terms of human rights, there is of course a great deal amiss in Chechnya. <|endofte
+   Actual=0.032, Pred=4.000
+2. Is this a question of new competition between the European institutions and the national states? <|e
+   Actual=0.031, Pred=2.000
+3. The next item is the report (A5-0067/2000) by Mrs Read, on behalf of the Committee on Industry, Exte
+   Actual=0.031, Pred=4.000
+4. If the concept of ethnic groups and minorities is re-established, this will take us down a dangerous
+   Actual=0.031, Pred=2.000
+5. Let me finish by addressing some of the other concerns expressed in the draft resolution submitted t
+   Actual=0.015, Pred=9.000
+
+Pearson correlation: -0.9188
+======================================================================
+
+Layer 7, Feature 95
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the presence of a specific punctuation or token at the beginning of a sentence, as indicated by the consistently strong activations at the token position 0.
+
+Evaluation sentences:
+1. I therefore appeal to the President of this House and the President of the Commission for them to st
+   Actual=0.052, Pred=5.000
+2. She has had to leave earlier on account of a death and funeral in the family. <|endoftext|> Concerna
+   Actual=0.047, Pred=6.000
+3. With our amendment, we hope to see Community cofinancing rise above 75% for organisations representi
+   Actual=0.047, Pred=3.000
+4. In the interests of best practice - and whilst it is increasingly difficult to define family and we 
+   Actual=0.046, Pred=3.000
+5. Once again, there will be no clearly defined party responsible. <|endoftext|> Exprimer notre solidar
+   Actual=0.044, Pred=8.000
+
+Pearson correlation: -0.2035
+======================================================================
+
+Layer 7, Feature 104
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of formal titles and honorifics, such as "Mr President" and "Mrs Terrón i Cusí", which are often used at the beginning of formal speeches or official documents.
+
+Evaluation sentences:
+1. In the eyes of the Albanian minority, the Macedonians and the Macedonian state have more than met th
+   Actual=0.979, Pred=2.000
+2. Past experience dictates that, as the elected representatives of the European taxpayer, we should, a
+   Actual=0.926, Pred=8.000
+3. It must carry out that role by, amongst other things, supporting the decisions of the United Nations
+   Actual=0.924, Pred=3.000
+4. We should remember - and the Commission proposal and Parliament's response highlight the fact - that
+   Actual=0.912, Pred=2.000
+5. A condition of this type may have no legal value, but it is nonetheless of great symbolic value. <|e
+   Actual=0.904, Pred=0.000
+
+Pearson correlation: 0.0795
+======================================================================
+
+Layer 7, Feature 113
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of idiomatic or non-literal expressions, particularly those involving French idioms or phrases.
+
+Evaluation sentences:
+1. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.017, Pred=2.000
+2. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.017, Pred=3.000
+3. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.017, Pred=4.000
+4. Not only should this be deleted, the whole interception title should be scrapped. <|endoftext|> Il n
+   Actual=0.017, Pred=6.000
+5. We are fortunate in having the Gulf Stream. <|endoftext|> Il s'agit d'une perte irréparable.
+   Actual=0.017, Pred=6.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 7, Feature 129
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to instances of sentence-initial phrases or clauses with a strong, formal tone, often introducing a new idea or counterargument, often containing words related to abstract concepts (e.g., "consider", "promising", "remember") and frequently accompanied by sentence starters or connectors like "perhaps", "we should", or "however".
+
+Evaluation sentences:
+1. Which is why, unless they are accompanied by clear political solutions which respect borders and aut
+   Actual=1.613, Pred=8.000
+2. While the report was being prepared, it was interesting to discuss the Union' s regional policy in g
+   Actual=1.488, Pred=4.000
+3. In other words, as indeed already remarked by Mr Gasòliba, globalisation is, in my view, positive, a
+   Actual=1.471, Pred=2.000
+4. Can I perhaps also turn to Mr Patten as well and ask, in terms of the conflict prevention work we ar
+   Actual=1.460, Pred=9.000
+5. After investigating these complaints between 1998 and the beginning of 1999 - during which time the 
+   Actual=1.409, Pred=0.000
+
+Pearson correlation: 0.6104
+======================================================================
+
+Layer 7, Feature 188
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the presence of long, complex sentences, often containing prepositional phrases or subordinating conjunctions, typically located at the end of a sentence.
+
+Evaluation sentences:
+1. I am nevertheless extremely pleased that there was no majority for the amendments of Florenz, Lange 
+   Actual=0.052, Pred=9.000
+2. What is actually needed in those circumstances is something between the armed forces and community p
+   Actual=0.046, Pred=7.000
+3. It is therefore unacceptable that the readmission agreements can allow a third country national to b
+   Actual=0.044, Pred=8.000
+4. Which citizens will it cover (those of the European Union or the citizens of all European countries 
+   Actual=0.042, Pred=9.000
+5. That is lacking in this new system, or at least is only there in embryonic form. <|endoftext|> L' ac
+   Actual=0.042, Pred=8.000
+
+Pearson correlation: 0.2117
+======================================================================
+
+Layer 7, Feature 195
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of a translation from French to English, as it consistently activates strongly on tokens at the beginning of the sentence (token 0), which often corresponds to the French sentence start token, indicating the feature is detecting source language information.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.017, Pred=0.000
+2. Mr Solana, these questions convey our concern. <|endoftext|> La décision de mettre sur pied une forc
+   Actual=0.017, Pred=8.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.017, Pred=1.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <|endoftext
+   Actual=0.017, Pred=4.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.017, Pred=1.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 7
+Mean Pearson correlation: -0.1590
+Features analyzed: 8/10
+Best feature: 129 (correlation: 0.6104)
+
+All correlations:
+  Feature 129: 0.6104
+  Feature 17: 0.2704
+  Feature 188: 0.2117
+  Feature 104: 0.0795
+  Feature 95: -0.2035
+  Feature 5: -0.3860
+  Feature 66: -0.9188
+  Feature 11: -0.9358
+======================================================================

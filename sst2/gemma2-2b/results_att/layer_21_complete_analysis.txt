@@ -1,0 +1,92 @@
+======================================================================
+LAYER 21 - COMPLETE ANALYSIS (Gemma Scope Attention SAE)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.8899 (88.99%)
+Precision: 0.8850
+Recall: 0.9009
+F1-Score: 0.8929
+Baseline Accuracy: 0.6330
+Improvement over baseline: +25.69%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [  376     52]
+       Pos  [   44    400]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total POSITIVE samples: 444
+Total NEGATIVE samples: 428
+
+Total features activated for POSITIVE: 9720
+Total features activated for NEGATIVE: 10102
+COMMON features (activated for both): 8778
+UNIQUE to POSITIVE only: 942
+UNIQUE to NEGATIVE only: 1324
+
+C. TOP 5 MOST ACTIVATING FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 2796: avg_activation=2.1631, frequency=444/444 (100.0%) | COMMON
+2. Feature 16293: avg_activation=1.8384, frequency=444/444 (100.0%) | COMMON
+3. Feature 7019: avg_activation=1.7542, frequency=444/444 (100.0%) | COMMON
+4. Feature 6448: avg_activation=1.6464, frequency=444/444 (100.0%) | COMMON
+5. Feature 3765: avg_activation=0.8653, frequency=413/444 (93.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 2796: avg_activation=2.1074, frequency=428/428 (100.0%) | COMMON
+2. Feature 16293: avg_activation=1.8387, frequency=428/428 (100.0%) | COMMON
+3. Feature 7019: avg_activation=1.7968, frequency=428/428 (100.0%) | COMMON
+4. Feature 6448: avg_activation=1.7021, frequency=428/428 (100.0%) | COMMON
+5. Feature 3858: avg_activation=0.7624, frequency=428/428 (100.0%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 13: count=444 (100.0%), avg_activation=0.0309 | COMMON
+2. Feature 100: count=444 (100.0%), avg_activation=0.0295 | COMMON
+3. Feature 110: count=444 (100.0%), avg_activation=0.0374 | COMMON
+4. Feature 120: count=444 (100.0%), avg_activation=0.0316 | COMMON
+5. Feature 138: count=444 (100.0%), avg_activation=0.0229 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 13: count=428 (100.0%), avg_activation=0.0326 | COMMON
+2. Feature 100: count=428 (100.0%), avg_activation=0.0336 | COMMON
+3. Feature 110: count=428 (100.0%), avg_activation=0.0396 | COMMON
+4. Feature 120: count=428 (100.0%), avg_activation=0.0335 | COMMON
+5. Feature 138: count=428 (100.0%), avg_activation=0.0264 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (POSITIVE)
+----------------------------------------------------------------------
+1. Feature 13: count=444 (100.0%)
+2. Feature 100: count=444 (100.0%)
+3. Feature 110: count=444 (100.0%)
+4. Feature 120: count=444 (100.0%)
+5. Feature 138: count=444 (100.0%)
+6. Feature 183: count=444 (100.0%)
+7. Feature 268: count=444 (100.0%)
+8. Feature 327: count=444 (100.0%)
+9. Feature 375: count=444 (100.0%)
+10. Feature 447: count=444 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NEGATIVE)
+----------------------------------------------------------------------
+1. Feature 13: count=428 (100.0%)
+2. Feature 100: count=428 (100.0%)
+3. Feature 110: count=428 (100.0%)
+4. Feature 120: count=428 (100.0%)
+5. Feature 138: count=428 (100.0%)
+6. Feature 183: count=428 (100.0%)
+7. Feature 268: count=428 (100.0%)
+8. Feature 327: count=428 (100.0%)
+9. Feature 375: count=428 (100.0%)
+10. Feature 447: count=428 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 POS & NEG
+----------------------------------------------------------------------
+Count: 10
+Example IDs: 13, 100, 110, 120, 138, 183, 268, 327, 375, 447

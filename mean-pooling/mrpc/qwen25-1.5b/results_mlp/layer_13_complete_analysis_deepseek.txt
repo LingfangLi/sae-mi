@@ -1,0 +1,92 @@
+======================================================================
+LAYER 13 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.7132 (71.32%)
+Precision: 0.7852
+Recall: 0.7993
+F1-Score: 0.7922
+Baseline Accuracy: 0.6593
+Improvement over baseline: +5.39%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   68     61]
+       Pos  [   56    223]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 49190
+Total features activated for NON-PARAPHRASE: 40352
+COMMON features (activated for both): 36714
+UNIQUE to PARAPHRASE only: 12476
+UNIQUE to NON-PARAPHRASE only: 3638
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 33553: avg_activation=8.5959, frequency=279/279 (100.0%) | COMMON
+2. Feature 62661: avg_activation=1.1713, frequency=1/279 (0.4%) | COMMON
+3. Feature 14776: avg_activation=0.9225, frequency=279/279 (100.0%) | COMMON
+4. Feature 8967: avg_activation=0.8656, frequency=1/279 (0.4%) | UNIQUE
+5. Feature 5479: avg_activation=0.5697, frequency=279/279 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 33553: avg_activation=9.3089, frequency=129/129 (100.0%) | COMMON
+2. Feature 14776: avg_activation=0.9844, frequency=129/129 (100.0%) | COMMON
+3. Feature 28266: avg_activation=0.8094, frequency=1/129 (0.8%) | UNIQUE
+4. Feature 27862: avg_activation=0.8054, frequency=2/129 (1.6%) | COMMON
+5. Feature 15467: avg_activation=0.6925, frequency=24/129 (18.6%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 5479: count=279 (100.0%), avg_activation=0.5697 | COMMON
+2. Feature 7510: count=279 (100.0%), avg_activation=0.0131 | COMMON
+3. Feature 8840: count=279 (100.0%), avg_activation=0.1058 | COMMON
+4. Feature 12955: count=279 (100.0%), avg_activation=0.0356 | COMMON
+5. Feature 13150: count=279 (100.0%), avg_activation=0.0163 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 5479: count=129 (100.0%), avg_activation=0.5150 | COMMON
+2. Feature 7510: count=129 (100.0%), avg_activation=0.0134 | COMMON
+3. Feature 12955: count=129 (100.0%), avg_activation=0.0364 | COMMON
+4. Feature 13150: count=129 (100.0%), avg_activation=0.0166 | COMMON
+5. Feature 13969: count=129 (100.0%), avg_activation=0.0157 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 5479: count=279 (100.0%)
+2. Feature 7510: count=279 (100.0%)
+3. Feature 8840: count=279 (100.0%)
+4. Feature 12955: count=279 (100.0%)
+5. Feature 13150: count=279 (100.0%)
+6. Feature 13969: count=279 (100.0%)
+7. Feature 14421: count=279 (100.0%)
+8. Feature 14776: count=279 (100.0%)
+9. Feature 21647: count=279 (100.0%)
+10. Feature 23307: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 5479: count=129 (100.0%)
+2. Feature 7510: count=129 (100.0%)
+3. Feature 12955: count=129 (100.0%)
+4. Feature 13150: count=129 (100.0%)
+5. Feature 13969: count=129 (100.0%)
+6. Feature 14421: count=129 (100.0%)
+7. Feature 14776: count=129 (100.0%)
+8. Feature 21647: count=129 (100.0%)
+9. Feature 23307: count=129 (100.0%)
+10. Feature 26396: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 9
+Example IDs: 5479, 7510, 12955, 13150, 13969, 14421, 14776, 21647, 23307

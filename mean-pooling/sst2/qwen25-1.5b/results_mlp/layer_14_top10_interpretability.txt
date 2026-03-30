@@ -1,0 +1,209 @@
+DEEPSEEK-R1-DISTILL-QWEN-1.5B INTERPRETABILITY REPORT - Layer 14, top-10 global features (MLP SAE)
+======================================================================
+
+Layer 14, Feature 2249
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of a word or phrase containing the suffix "-ly" or similar positive adverbial phrases with a somewhat formal tone, indicating a positive or descriptive adjective-like interpretation.
+
+Evaluation sentences:
+1. the far future may be awesome to consider , but from period detail to matters of the heart , this film is most transporting when it stays put in the past . 
+   Actual=0.399, Pred=8.000
+2. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.399, Pred=4.000
+3. dull , lifeless , and amateurishly assembled . 
+   Actual=0.399, Pred=1.000
+4. altogether , this is successful as a film , while at the same time being a most touching reconsideration of the familiar masterpiece . 
+   Actual=0.300, Pred=9.000
+5. portentous and pretentious , the weight of water is appropriately titled , given the heavy-handedness of it drama . 
+   Actual=0.300, Pred=4.000
+
+Pearson correlation: -0.3628
+======================================================================
+
+Layer 14, Feature 7790
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to phrases or sentences that express a high level of praise or admiration, particularly for a performance or a movie, often using superlatives or strong adjectives such as "exemplary" or "awesome".
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.302, Pred=4.000
+2. dull , lifeless , and amateurishly assembled . 
+   Actual=0.302, Pred=0.000
+3. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.302, Pred=2.000
+4. there are plot holes big enough for shamu the killer whale to swim through . 
+   Actual=0.249, Pred=1.000
+5. director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+   Actual=0.255, Pred=8.000
+
+Pearson correlation: -0.3690
+======================================================================
+
+Layer 14, Feature 13705
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to phrases or sentences that contain negative critiques, specifically those containing phrases with a negative connotation such as "could not be improved upon," "arthritis," "does not," "flair" (in a non-literal sense), and "depth."
+
+Evaluation sentences:
+1. the far future may be awesome to consider , but from period detail to matters of the heart , this film is most transporting when it stays put in the past . 
+   Actual=0.336, Pred=2.000
+2. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.336, Pred=7.000
+3. dull , lifeless , and amateurishly assembled . 
+   Actual=0.336, Pred=9.000
+4. altogether , this is successful as a film , while at the same time being a most touching reconsideration of the familiar masterpiece . 
+   Actual=0.253, Pred=1.000
+5. portentous and pretentious , the weight of water is appropriately titled , given the heavy-handedness of it drama . 
+   Actual=0.253, Pred=6.000
+
+Pearson correlation: 0.4038
+======================================================================
+
+Layer 14, Feature 26708
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern or concept of a negative or critical evaluation of a movie's execution, particularly when it lacks depth or has poor directing skills.
+
+Evaluation sentences:
+1. a subject like this should inspire reaction in its audience ; the pianist does not . 
+   Actual=0.030, Pred=8.000
+2. has all the depth of a wading pool . 
+   Actual=0.030, Pred=9.000
+3. the far future may be awesome to consider , but from period detail to matters of the heart , this film is most transporting when it stays put in the past . 
+   Actual=0.030, Pred=4.000
+4. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.030, Pred=6.000
+5. dull , lifeless , and amateurishly assembled . 
+   Actual=0.030, Pred=8.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 14, Feature 27161
+----------------------------------------------------------------------
+Interpretation:
+After analyzing the per-token activation strengths for each sentence, I found that this sparse autoencoder feature responds to the presence of descriptive language and vivid imagery, particularly in the context of film or storytelling.
+
+Evaluation sentences:
+1. this is wild surreal stuff , but brilliant and the camera just kind of sits there and lets you look at this and its like you 're going from one room to the next and none of them have any relation to the other . 
+   Actual=96.204, Pred=8.000
+2. whether writer-director anne fontaine 's film is a ghost story , an account of a nervous breakdown , a trip down memory lane , all three or none of the above , it is as seductive as it is haunting . 
+   Actual=102.215, Pred=9.000
+3. maud and roland 's search for an unknowable past makes for a haunting literary detective story , but labute pulls off a neater trick in possession : he makes language sexy . 
+   Actual=101.957, Pred=8.500
+4. it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , without all oedekerk 's impish augmentation . 
+   Actual=99.819, Pred=3.000
+5. even if you do n't think ( kissinger 's ) any more guilty of criminal activity than most contemporary statesmen , he 'd sure make a courtroom trial great fun to watch . 
+   Actual=121.205, Pred=8.000
+
+Pearson correlation: 0.2003
+======================================================================
+
+Layer 14, Feature 28103
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the concept of "excellence" or a highly positive evaluation, as it is strongly activated when describing outstanding performances, inspiring reactions, and impressive qualities.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.293, Pred=0.000
+2. dull , lifeless , and amateurishly assembled . 
+   Actual=0.293, Pred=0.000
+3. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.293, Pred=3.000
+4. there are plot holes big enough for shamu the killer whale to swim through . 
+   Actual=0.242, Pred=0.000
+5. director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+   Actual=0.248, Pred=6.000
+
+Pearson correlation: -0.3430
+======================================================================
+
+Layer 14, Feature 31737
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the presence of the word "anarchic" or phrases that convey a sense of depth or lack thereof, often in a negative context.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.379, Pred=2.000
+2. dull , lifeless , and amateurishly assembled . 
+   Actual=0.379, Pred=8.000
+3. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.379, Pred=2.000
+4. there are plot holes big enough for shamu the killer whale to swim through . 
+   Actual=0.313, Pred=8.000
+5. director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+   Actual=0.321, Pred=0.000
+
+Pearson correlation: -0.0612
+======================================================================
+
+Layer 14, Feature 33993
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to phrases that convey a sense of excellence, admiration, or high praise, often accompanied by descriptions of something being "exemplary" or of a high quality.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.270, Pred=1.000
+2. dull , lifeless , and amateurishly assembled . 
+   Actual=0.270, Pred=0.000
+3. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.270, Pred=4.000
+4. there are plot holes big enough for shamu the killer whale to swim through . 
+   Actual=0.222, Pred=0.000
+5. director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+   Actual=0.228, Pred=8.000
+
+Pearson correlation: -0.3044
+======================================================================
+
+Layer 14, Feature 35169
+----------------------------------------------------------------------
+Interpretation:
+This feature from the DeepSeek-R1-Distill-Qwen-1.5B model responds to patterns or concepts related to humor, particularly in the context of comedy films, movie reviews, and criticisms of films' humor, tone, and style.
+
+Evaluation sentences:
+1. this is a train wreck of an action film -- a stupefying attempt by the filmmakers to force-feed james bond into the mindless xxx mold and throw 40 years of cinematic history down the toilet in favor of bright flashes and loud bangs . 
+   Actual=0.822, Pred=6.000
+2. vera 's three actors -- mollà , gil and bardem -- excel in insightful , empathetic performances . 
+   Actual=1.107, Pred=2.000
+3. my big fat greek wedding uses stereotypes in a delightful blend of sweet romance and lovingly dished out humor . 
+   Actual=0.893, Pred=9.000
+4. once ( kim ) begins to overplay the shock tactics and bait-and-tackle metaphors , you may decide it 's too high a price to pay for a shimmering picture postcard . 
+   Actual=0.971, Pred=5.000
+5. dull , lifeless , and amateurishly assembled . 
+   Actual=0.788, Pred=2.000
+
+Pearson correlation: -0.2492
+======================================================================
+
+Layer 14, Feature 35839
+----------------------------------------------------------------------
+Interpretation:
+This feature appears to respond to the presence of the word "exemplary" in a sentence, possibly indicating an appreciation for exceptional or praiseworthy qualities.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.334, Pred=0.000
+2. dull , lifeless , and amateurishly assembled . 
+   Actual=0.334, Pred=0.000
+3. mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . 
+   Actual=0.334, Pred=0.000
+4. there are plot holes big enough for shamu the killer whale to swim through . 
+   Actual=0.276, Pred=0.000
+5. director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+   Actual=0.283, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 14
+Mean Pearson correlation: nan
+Features analyzed: 10/10
+======================================================================

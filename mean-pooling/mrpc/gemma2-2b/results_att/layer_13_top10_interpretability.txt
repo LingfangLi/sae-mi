@@ -1,0 +1,217 @@
+GEMMA-2B INTERPRETABILITY REPORT - Layer 13, MRPC, top-10 global features
+======================================================================
+
+Layer 13, Feature 39
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of a token at the beginning of a sentence.
+
+Evaluation sentences:
+1. He said : " For the first time there is an easy and affordable way of making this treasure trove of 
+   Actual=0.044, Pred=0.000
+2. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.044, Pred=5.000
+3. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.044, Pred=10.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.044, Pred=1.000
+5. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.044, Pred=1.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 13, Feature 57
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to financial news or concepts related to economic performance or market movements, as it consistently activates on words and phrases indicative of financial data, market trends, and economic indicators such as "gain", "earnings season", "Dow Jones", "bond yield", "stock market", "resigned", and specific financial metrics or numbers.
+
+Evaluation sentences:
+1. Dealers said the dollar also drew some downside support as Japanese investors are expected to keep s
+   Actual=2.711, Pred=6.000
+2. Prosecutors said PW Marketing violated the state 's 1998 anti-spam law by sending unsolicited e-mail
+   Actual=2.677, Pred=0.000
+3. Other staff members , however , defended the document , saying it would still help policy-makers and
+   Actual=2.615, Pred=2.000
+4. The delegates said raising and distributing funds has been complicated by the U.S. crackdown on jiha
+   Actual=2.504, Pred=2.000
+5. Altria shares fell 2.5 percent or $ 1.11 to $ 42.57 and were the Dow 's biggest percentage loser . <
+   Actual=2.419, Pred=9.000
+
+Pearson correlation: -0.4769
+======================================================================
+
+Layer 13, Feature 68
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to nouns and proper nouns, particularly those that are common entities or names of brands, organizations, and locations.
+
+Evaluation sentences:
+1. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.041, Pred=7.000
+2. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.041, Pred=9.000
+3. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.041, Pred=9.000
+4. " Allison just proves you don 't need to wait until August or September to have a disaster , " said 
+   Actual=0.041, Pred=8.000
+5. " He may not have been there , " the defence official said on Thursday . <|endoftext|> " He may not 
+   Actual=0.041, Pred=4.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 13, Feature 88
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the concept of a "stock market average" or "financial indicator," as it consistently activates on words associated with the Dow Jones industrial average, such as "Dow Jones," "average," and "points," across the provided examples.
+
+Evaluation sentences:
+1. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.037, Pred=0.000
+2. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.037, Pred=0.000
+3. " Allison just proves you don 't need to wait until August or September to have a disaster , " said 
+   Actual=0.037, Pred=0.000
+4. Today , analysts say , UN members can no longer ignore the shifts since the September 11 2001 attack
+   Actual=0.037, Pred=0.000
+5. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.037, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 13, Feature 166
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to patterns involving proper nouns or named entities, particularly when they are mentioned in the context of the rest of the sentence.
+
+Evaluation sentences:
+1. Last month Intel raised its revenue guidance for the quarter to between $ 7.6 billion and $ 7.8 bill
+   Actual=3.814, Pred=8.000
+2. Q : Can I buy coverage for prescription drugs right away ? <|endoftext|> Congress has added a new be
+   Actual=3.808, Pred=8.000
+3. He replaces Ron Dittemore , who announced his resignation in April . <|endoftext|> Dittemore announc
+   Actual=3.772, Pred=9.000
+4. SP2 is basically about security enhancements to Windows , such as the improved Internet Connection F
+   Actual=3.653, Pred=8.000
+5. Thus far , Stewart 's company appears ready to stand behind her . <|endoftext|> For now , the compan
+   Actual=3.622, Pred=8.000
+
+Pearson correlation: 0.2370
+======================================================================
+
+Layer 13, Feature 218
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of a pronoun or a noun phrase followed by a verb phrase indicating a transition or a decision, often with a sense of agency or action taken.
+
+Evaluation sentences:
+1. McCabe said he was considered a witness , not a suspect . <|endoftext|> " He is not considered a sus
+   Actual=2.906, Pred=6.000
+2. Gasps could be heard in the courtroom when the photo was displayed . <|endoftext|> Gasps could be he
+   Actual=2.867, Pred=8.000
+3. Authorities had no evidence to suggest the two incidents were connected . <|endoftext|> There was no
+   Actual=2.854, Pred=8.000
+4. It does not affect the current Windows Media Player 9.0 Series . <|endoftext|> Windows Media Player 
+   Actual=2.845, Pred=3.000
+5. Ridge said no actual explosives or other harmful substances will be used . <|endoftext|> Ridge said 
+   Actual=2.816, Pred=7.000
+
+Pearson correlation: 0.0247
+======================================================================
+
+Layer 13, Feature 232
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to numerical or quantitative information, particularly in the context of dates, amounts, or numbers of items.
+
+Evaluation sentences:
+1. Three such vigilante-style attacks forced the hacker organizer , who identified himself only as " El
+   Actual=0.040, Pred=1.000
+2. Eric Gagne pitched a perfect ninth for his 23rd save in as many opportunities . <|endoftext|> Gagne 
+   Actual=0.040, Pred=8.000
+3. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.040, Pred=2.000
+4. " Allison just proves you don 't need to wait until August or September to have a disaster , " said 
+   Actual=0.040, Pred=0.000
+5. " He may not have been there , " the defence official said on Thursday . <|endoftext|> " He may not 
+   Actual=0.040, Pred=6.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 13, Feature 323
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the linguistic concept of "numerical quantities" or specifically, numbers that are significant or emphasized in a sentence.
+
+Evaluation sentences:
+1. " I don 't know if the person I 'm talking to now may end up being someone else at another time that
+   Actual=6.977, Pred=2.000
+2. The patch also fixes a vulnerability that results because IE does not implement an appropriate block
+   Actual=6.909, Pred=3.000
+3. The attack followed several days of disturbances in the city where American soldiers exchanged fire 
+   Actual=6.866, Pred=4.000
+4. A year or two later , 259 , or 10 per cent , of the youths reported that they had started to smoke ,
+   Actual=6.841, Pred=9.000
+5. The airline also said it has the option to buy 380 more airplanes , orders that would be split evenl
+   Actual=6.383, Pred=8.000
+
+Pearson correlation: -0.6448
+======================================================================
+
+Layer 13, Feature 330
+----------------------------------------------------------------------
+Interpretation:
+This autoencoder feature responds to linguistic patterns related to numbers, specifically numerical values indicating quantities or percentages, often in the context of financial or statistical information.
+
+Evaluation sentences:
+1. Based on a separate survey of households , the unemployment rate fell in August to 6.1 percent from 
+   Actual=2.772, Pred=8.000
+2. However , Lapidus expects foreign brands ' sales to be up 4 percent , driven by strong truck sales a
+   Actual=2.719, Pred=9.000
+3. The Dow Jones industrial average .DJI ended up 64.64 points , or 0.71 percent , at 9,191.09 , accord
+   Actual=2.599, Pred=8.000
+4. The delegates said raising and distributing funds has been complicated by the U.S. crackdown on jiha
+   Actual=2.479, Pred=4.000
+5. He said he has begun a court action to seize Beacon Hill 's assets and has frozen more than $ 13 mil
+   Actual=2.465, Pred=9.000
+
+Pearson correlation: 0.4185
+======================================================================
+
+Layer 13, Feature 353
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to numbers, specifically numerical values that are likely part of financial or statistical data, such as stock prices, percentages, and point values.
+
+Evaluation sentences:
+1. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=0.036, Pred=0.000
+2. " Allison just proves you don 't need to wait until August or September to have a disaster , " said 
+   Actual=0.036, Pred=0.000
+3. Today , analysts say , UN members can no longer ignore the shifts since the September 11 2001 attack
+   Actual=0.036, Pred=0.000
+4. Police say CIBA was involved in the importation of qat , a narcotic substance legal in Britain but b
+   Actual=0.036, Pred=0.000
+5. " He may not have been there , " the defence official said on Thursday . <|endoftext|> " He may not 
+   Actual=0.036, Pred=2.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 13
+Mean Pearson correlation: -0.0883
+Features analyzed: 5/10
+Best feature: 330 (correlation: 0.4185)
+
+All correlations:
+  Feature 330: 0.4185
+  Feature 166: 0.2370
+  Feature 218: 0.0247
+  Feature 57: -0.4769
+  Feature 323: -0.6448
+======================================================================

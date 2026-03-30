@@ -1,0 +1,225 @@
+INTERPRETABILITY REPORT - DeepSeek-R1-Distill-Qwen-1.5B, Layer 12, Europarl MT, top-10 global features
+======================================================================
+
+Layer 12, Feature 1854
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the presence of certain phrases or keywords at the very end of sentences, particularly those involving official titles, names, or statements of regret or approval.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.062, Pred=4.000
+2. Mr Solana, these questions convey our concern. <｜end▁of▁sentence｜> La décision de mettre sur pied un
+   Actual=0.062, Pred=8.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.062, Pred=4.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <｜end▁of▁se
+   Actual=0.062, Pred=9.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.062, Pred=8.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 3860
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of certain named entities, particularly titles such as "Mr President" or "Mr", located at the beginning of sentences.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.052, Pred=0.000
+2. Mr Solana, these questions convey our concern. <｜end▁of▁sentence｜> La décision de mettre sur pied un
+   Actual=0.052, Pred=9.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.052, Pred=3.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <｜end▁of▁se
+   Actual=0.052, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.052, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 4064
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the presence of honorific titles (e.g. "Mr President") in the input text, particularly when they occur at the beginning of the sentence.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.078, Pred=0.000
+2. Mr Solana, these questions convey our concern. <｜end▁of▁sentence｜> La décision de mettre sur pied un
+   Actual=0.078, Pred=9.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.078, Pred=2.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <｜end▁of▁se
+   Actual=0.078, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.078, Pred=1.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 7942
+----------------------------------------------------------------------
+Interpretation:
+Based on the activation patterns provided, I can identify a feature that responds to certain linguistic elements. 
+
+This feature appears to respond to phrases or sentences that convey **"emphasized or positive sentiment"** or **"strong opinions"**. 
+
+In examples 1 and 3, the feature is highly activated when words like "essence," "essential," "totally positive," and "obviously" are used, which convey a sense of strong opinion or emphasis. 
+
+In example 5, the feature is highly activated when words like "best practice," "increasingly difficult," and "we" are used, which convey a sense of strong opinion or emphasis.
+
+In examples 2 and 4, the feature is less activated
+
+Evaluation sentences:
+1. Finally, will you make sure that in the meantime Parliament's rules are properly implemented and tha
+   Actual=12.151, Pred=5.000
+2. This is far too many and thirty years is a ridiculous time limit, given the fact that the problem is
+   Actual=11.742, Pred=8.000
+3. Let us consider the scenario whereby the Commission, not believing itself to be equal to the task, w
+   Actual=11.696, Pred=5.000
+4. But through this regional and environmental reconstruction plan we can continue the monitoring and t
+   Actual=11.504, Pred=6.000
+5. However, this issue worries me, as it worries you, and I would like to see whether, within the new f
+   Actual=11.484, Pred=3.000
+
+Pearson correlation: 0.1691
+======================================================================
+
+Layer 12, Feature 15524
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern or concept of "thanks" or expressions of gratitude, as indicated by the presence of the word "Thank" or similar phrases in all the sentences with non-zero activations.
+
+Evaluation sentences:
+1. Firstly, I would like to pay tribute to the mayors and local representatives who, on a daily basis, 
+   Actual=0.427, Pred=0.000
+2. Nothing could be further from the truth! <｜end▁of▁sentence｜> Nous devons être sûrs que les amendemen
+   Actual=0.484, Pred=0.000
+3. That is what it says in the Treaties and that is what we keep reminding each other of. <｜end▁of▁sent
+   Actual=0.424, Pred=2.000
+4. However, there is some concern over the lack of progress made despite the good and honest intentions
+   Actual=0.479, Pred=1.000
+5. One of the reasons why it has been so successful is that the basic concept of the LEADER programmes 
+   Actual=0.414, Pred=0.000
+
+Pearson correlation: -0.0848
+======================================================================
+
+Layer 12, Feature 15671
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the presence of honorific titles and formal language, particularly "Mr President", in the input sentences, indicating a high likelihood of formal or official documents.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.035, Pred=1.000
+2. Mr Solana, these questions convey our concern. <｜end▁of▁sentence｜> La décision de mettre sur pied un
+   Actual=0.035, Pred=8.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.035, Pred=3.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <｜end▁of▁se
+   Actual=0.035, Pred=9.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.035, Pred=2.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 15956
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of the word "certainly" or phrases with a similar structure, as indicated by the activation strength of 0.7727565765380859 at the corresponding token index in each example.
+
+Evaluation sentences:
+1. I think that it manages, through a series of clever devices, to carefully avoid addressing the centr
+   Actual=0.070, Pred=6.000
+2. The protocol is the result of a process in which there is too little pressure on the reluctant to do
+   Actual=0.070, Pred=1.000
+3. The protocol goes only halfway towards the goal for acidification already agreed by Parliament and t
+   Actual=0.070, Pred=4.000
+4. What we need to look out for in this context is how matters develop in connection with the harbours 
+   Actual=0.060, Pred=6.000
+5. We should not overlook the fact that, although quotas are an important point in recycling and recove
+   Actual=0.060, Pred=2.000
+
+Pearson correlation: -0.0801
+======================================================================
+
+Layer 12, Feature 19627
+----------------------------------------------------------------------
+Interpretation:
+After analyzing the provided activation patterns from the sparse autoencoder feature, I have identified a common pattern that this feature responds to.
+
+This feature appears to respond to the presence of the title "Mr President" in a sentence. In all examples where this title is present, the activation strength is consistently high (1.076691746711731), while in other examples where the title is not present, the activation strength is consistently low (0.0).
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.084, Pred=0.000
+2. Mr Solana, these questions convey our concern. <｜end▁of▁sentence｜> La décision de mettre sur pied un
+   Actual=0.084, Pred=8.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.084, Pred=0.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <｜end▁of▁se
+   Actual=0.084, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.084, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 23020
+----------------------------------------------------------------------
+Interpretation:
+The feature appears to respond to instances where the name "Mr President" appears in a sentence, as it consistently activates with a strength of 0.6986084580421448 at the corresponding token position in sentences 4 and 5.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.055, Pred=0.000
+2. Mr Solana, these questions convey our concern. <｜end▁of▁sentence｜> La décision de mettre sur pied un
+   Actual=0.055, Pred=4.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.055, Pred=0.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <｜end▁of▁se
+   Actual=0.055, Pred=0.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.055, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 12, Feature 26233
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B on Europarl translation quality detection responds to the pattern or concept of a specific word or phrase appearing at the end of a sentence, likely indicating that the model is detecting the presence of a particular word or phrase that signals the end of the sentence or a new concept.
+
+Evaluation sentences:
+1. The presence of these substances must be indicated separately but in the same area of the packaging 
+   Actual=0.041, Pred=6.000
+2. Mr Solana, these questions convey our concern. <｜end▁of▁sentence｜> La décision de mettre sur pied un
+   Actual=0.041, Pred=5.000
+3. The remaining amendments of the environment regulation can be placed in two categories: on the one h
+   Actual=0.041, Pred=8.000
+4. Once again, the Commission would like to make four key points quite clear to Parliament. <｜end▁of▁se
+   Actual=0.041, Pred=9.000
+5. In other words, when EU commercial interests are concerned, poverty considerations go out of the win
+   Actual=0.041, Pred=8.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 12
+Mean Pearson correlation: 0.0014
+Features analyzed: 3/10
+Best feature: 7942 (correlation: 0.1691)
+
+All correlations:
+  Feature 7942: 0.1691
+  Feature 15956: -0.0801
+  Feature 15524: -0.0848
+======================================================================

@@ -2,6 +2,7 @@
 hf_cache/
 *.err
 *.out
+*.sh
 __pycache__/
 *.pyc
 .DS_Store

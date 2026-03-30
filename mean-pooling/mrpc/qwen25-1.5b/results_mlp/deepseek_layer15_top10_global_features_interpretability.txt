@@ -1,0 +1,230 @@
+INTERPRETABILITY REPORT - DeepSeek-R1-Distill-Qwen-1.5B, Layer 15, MRPC, top-10 global features
+======================================================================
+
+Layer 15, Feature 374
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to patterns related to financial information and specific numerical values, particularly those concerning stock market indices and their movements (e.g., Dow Jones industrial average).
+
+Evaluation sentences:
+1. On Saturday , a 149mph serve against Agassi equalled Rusedski 's world record . <｜end▁of▁sentence｜> 
+   Actual=0.329, Pred=0.000
+2. The driver , Eugene Rogers , helped to remove children from the bus , Wood said . <｜end▁of▁sentence｜
+   Actual=0.231, Pred=0.000
+3. Claire had advanced to the third round of the 76th annual Scripps Howard National Spelling Bee . <｜e
+   Actual=0.180, Pred=0.000
+4. Cortisol levels in the saliva of day care children were highest and rose most steeply in those judge
+   Actual=0.144, Pred=0.000
+5. Based on a separate survey of households , the unemployment rate fell in August to 6.1 percent from 
+   Actual=0.084, Pred=6.000
+
+Pearson correlation: -0.6588
+======================================================================
+
+Layer 15, Feature 1012
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B on MRPC paraphrase detection responds to the concept of "amounts" or "dollars" in various contexts, as it consistently activates when encountering words or numbers related to money or financial values (e.g. "dollar", "yen", "$30.65", "$49.5 million", etc.).
+
+Evaluation sentences:
+1. " We will work with the board to ensure a smooth transition . " <｜end▁of▁sentence｜> He said federal 
+   Actual=0.033, Pred=0.000
+2. One of the FBI ’ s key operatives , who had a falling out with the bureau , provided an account of t
+   Actual=0.036, Pred=0.000
+3. " He may not have been there , " the defence official said on Thursday . <｜end▁of▁sentence｜> " He ma
+   Actual=0.034, Pred=0.000
+4. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.034, Pred=0.000
+5. North American markets grabbed early gains Monday morning , as earnings season begins to slow and ec
+   Actual=0.034, Pred=1.000
+
+Pearson correlation: -0.0509
+======================================================================
+
+Layer 15, Feature 1139
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B appears to respond to the pattern or concept of "numeric values" or "quantifiable measurements" in the context of MRPC paraphrase detection, as it is activated by sentences containing specific numbers, such as amounts of money, parts per million, or numerical rankings (e.g., 76th, 2nd).
+
+Evaluation sentences:
+1. Based on a separate survey of households , the unemployment rate fell in August to 6.1 percent from 
+   Actual=0.478, Pred=8.000
+2. Gamarekian told The News she remembers only the woman 's first name - and refused to reveal it . <｜e
+   Actual=0.530, Pred=0.000
+3. " He may not have been there , " the defence official said on Thursday . <｜end▁of▁sentence｜> " He ma
+   Actual=0.500, Pred=0.000
+4. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.500, Pred=2.000
+5. North American markets grabbed early gains Monday morning , as earnings season begins to slow and ec
+   Actual=0.500, Pred=0.000
+
+Pearson correlation: -0.7444
+======================================================================
+
+Layer 15, Feature 3285
+----------------------------------------------------------------------
+Interpretation:
+After analyzing the sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B on MRPC paraphrase detection, I have identified a pattern that this feature responds to.
+
+This feature appears to respond to the presence of numerical values, especially percentages and amounts, in the input text. It tends to be strongly activated when it encounters words like "percent," "percent," "amount," "percent," "dollar," or "yen," which are often associated with numerical values.
+
+Evaluation sentences:
+1. The only announced Republican to replace Davis is Rep. Darrell Issa of Vista , who has spent $ 1.71 
+   Actual=20.896, Pred=9.000
+2. The player 's eyes were bloodshot and a blood-alcohol test produced a reading of 0.18 - well above T
+   Actual=19.449, Pred=9.000
+3. The broad Standard & Poor 's 500 < .SPX > eased 0.37 of a point , or 0.03 percent , at 1,121 . <｜end
+   Actual=18.905, Pred=9.000
+4. But Ms Ward said the headroom under its financial covenants was " tight " and that there could be an
+   Actual=19.320, Pred=6.000
+5. Gilead had earnings of $ 73.1 million , or 33 cents a share , compared with $ 20.8 million , or 10 c
+   Actual=18.139, Pred=8.000
+
+Pearson correlation: 0.2413
+======================================================================
+
+Layer 15, Feature 6064
+----------------------------------------------------------------------
+Interpretation:
+The feature responds to the presence of a specific name or title in a sentence, particularly the names of individuals in prominent positions.
+
+Evaluation sentences:
+1. Carlson on Tuesday said he would not recuse himself from the case . <｜end▁of▁sentence｜> Service offi
+   Actual=0.966, Pred=6.000
+2. Clinton did not mention that two Democratic senators , Charles Robb of Virginia and Wendell Ford of 
+   Actual=0.891, Pred=9.000
+3. Prosecutors allege that Nichols and co-conspirator Timothy McVeigh worked together to prepare a bomb
+   Actual=0.888, Pred=9.000
+4. Prosecutors said PW Marketing violated the state 's 1998 anti-spam law by sending unsolicited e-mail
+   Actual=0.870, Pred=2.000
+5. Witnesses said they believed the man planned to crash the Launceston-bound Qantas flight 1737 , whic
+   Actual=0.918, Pred=2.000
+
+Pearson correlation: -0.0156
+======================================================================
+
+Layer 15, Feature 7631
+----------------------------------------------------------------------
+Interpretation:
+The sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B on MRPC paraphrase detection is likely responding to patterns related to **numerical values and financial data**.
+
+This feature is highly activated by sentences containing specific numbers, percentages, or financial metrics, such as stock prices, monetary amounts, and percentages. The activation values are often high for sentences describing financial transactions, market movements, or economic data.
+
+For example, in sentence 1, the feature is highly activated by the stock price and percentage change of the Dow Jones industrial average. In sentence 3, the feature is activated by the number of active UAW workers and retirees. Similarly, in sentence 5, the feature is activated by the record
+
+Evaluation sentences:
+1. Wal-Mart Stores Inc . , Kohl 's Corp. , Family Dollar Stores Inc. and Big Lots Inc. were among the m
+   Actual=152.078, Pred=2.000
+2. Federal regulators have turned from sour to sweet on a proposed $ 2.8 billion merger of ice cream gi
+   Actual=164.792, Pred=9.000
+3. The dollar was at 116.92 yen against the yen , flat on the session , and at 1.2891 against the Swiss
+   Actual=154.696, Pred=9.000
+4. The Dow Jones industrial average < .DJI > added 28 points , or 0.27 percent , at 10,557 , hitting it
+   Actual=152.755, Pred=8.000
+5. In the year-ago quarter , the steelmaker recorded a profit of $ 16.2 million , or 15 cents per share
+   Actual=168.933, Pred=9.000
+
+Pearson correlation: 0.5528
+======================================================================
+
+Layer 15, Feature 8190
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the concept of "currency names" or specifically, words associated with financial exchange rates.
+
+Evaluation sentences:
+1. The blasts killed two people and injured more than 150 others . <｜end▁of▁sentence｜> The Atlanta Olym
+   Actual=0.100, Pred=0.000
+2. Morrill 's wife , Ellie , sobbed and hugged Bondeson 's sister-in-law during the service . <｜end▁of▁
+   Actual=0.100, Pred=0.000
+3. About 1,500 police will be deployed for the visit . <｜end▁of▁sentence｜> Around 1,500 police are to b
+   Actual=0.107, Pred=0.000
+4. Other staff members , however , defended the document , saying it would still help policy-makers and
+   Actual=0.100, Pred=0.000
+5. Gamarekian told The News she remembers only the woman 's first name - and refused to reveal it . <｜e
+   Actual=0.107, Pred=1.000
+
+Pearson correlation: 0.6124
+======================================================================
+
+Layer 15, Feature 9101
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B on MRPC paraphrase detection responds to large numbers, particularly to specific numerical values such as exact numbers (e.g., "29.4", "32.6", "115,000") and possibly to units of measurement or currency (e.g., "$" or "C.N").
+
+Evaluation sentences:
+1. Q : Can I buy coverage for prescription drugs right away ? <｜end▁of▁sentence｜> Congress has added a 
+   Actual=0.511, Pred=0.000
+2. Claire had advanced to the third round of the 76th annual Scripps Howard National Spelling Bee . <｜e
+   Actual=0.449, Pred=6.000
+3. Saddam loyalists have been blamed for sabotaging the nation 's infrastructure , as well as frequent 
+   Actual=0.479, Pred=2.000
+4. SARS has killed about 800 people and affected more than 8400 since being detected in China in Novemb
+   Actual=0.484, Pred=7.000
+5. Terri Schiavo , 39 , underwent the procedure at the Tampa Bay area hospice where she has been living
+   Actual=0.442, Pred=2.000
+
+Pearson correlation: -0.3454
+======================================================================
+
+Layer 15, Feature 9894
+----------------------------------------------------------------------
+Interpretation:
+One concise sentence describing what pattern or concept this feature responds to is: 
+
+This feature responds to the presence of the word or phrase that comes at the end of a sentence, likely indicating the feature is related to sentence or sequence-level information in the MRPC paraphrase detection task.
+
+Evaluation sentences:
+1. " We will work with the board to ensure a smooth transition . " <｜end▁of▁sentence｜> He said federal 
+   Actual=0.126, Pred=9.000
+2. One of the FBI ’ s key operatives , who had a falling out with the bureau , provided an account of t
+   Actual=0.140, Pred=3.000
+3. Other staff members , however , defended the document , saying it would still help policy-makers and
+   Actual=0.132, Pred=2.000
+4. The U.N. troops are in Congo to protect U.N. installations and personnel , and they can only fire in
+   Actual=0.132, Pred=8.000
+5. North American markets grabbed early gains Monday morning , as earnings season begins to slow and ec
+   Actual=0.132, Pred=5.000
+
+Pearson correlation: -0.6678
+======================================================================
+
+Layer 15, Feature 10888
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature from DeepSeek-R1-Distill-Qwen-1.5B on MRPC paraphrase detection responds to the presence of a specific type of word or phrase that indicates a location or a specific date, such as a country name, a city name, a date, or an event with a specific time.
+
+Evaluation sentences:
+1. He said they lied on a sworn affidavit that requires them to list prior marriages . <｜end▁of▁sentenc
+   Actual=0.210, Pred=1.000
+2. Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's 
+   Actual=0.204, Pred=8.000
+3. The men were remanded in custody and are due to appear again before court on July 8 . <｜end▁of▁sente
+   Actual=0.172, Pred=9.000
+4. Police suspected that Shaichat , 20 , had been abducted either by Palestinians or by Israeli Arabs .
+   Actual=0.183, Pred=8.000
+5. A landslide in central Chungchong province derailed a Seoul-bound train and 28 passengers were injur
+   Actual=0.175, Pred=9.000
+
+Pearson correlation: -0.7596
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 15
+Mean Pearson correlation: -0.1836
+Features analyzed: 10/10
+Best feature: 8190 (correlation: 0.6124)
+
+All correlations:
+  Feature 8190: 0.6124
+  Feature 7631: 0.5528
+  Feature 3285: 0.2413
+  Feature 6064: -0.0156
+  Feature 1012: -0.0509
+  Feature 9101: -0.3454
+  Feature 374: -0.6588
+  Feature 9894: -0.6678
+  Feature 1139: -0.7444
+  Feature 10888: -0.7596
+======================================================================

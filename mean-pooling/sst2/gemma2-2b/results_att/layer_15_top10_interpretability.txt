@@ -1,0 +1,209 @@
+GEMMA-2B INTERPRETABILITY REPORT - Layer 15, top-10 global features
+======================================================================
+
+Layer 15, Feature 3
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to sentiment patterns related to high praise and admiration, particularly when describing a subject's charisma, performance, or aesthetic qualities.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.118, Pred=0.000
+2. directed in a paint-by-numbers manner . 
+   Actual=0.118, Pred=0.000
+3. the sort of film that makes me miss hitchcock , but also feel optimistic that there 's hope for popular cinema yet . 
+   Actual=0.118, Pred=4.000
+4. serving sara does n't serve up a whole lot of laughs . 
+   Actual=0.118, Pred=2.000
+5. the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+   Actual=0.118, Pred=9.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 49
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to linguistic concepts associated with positive sentiment, particularly emphasizing phrases that convey warmth, innocence, and a sense of safety, often accompanied by exaggerated or hyperbolic language.
+
+Evaluation sentences:
+1. too often , the viewer is n't reacting to humor so much as they are wincing back in repugnance . 
+   Actual=1.976, Pred=6.000
+2. ( lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place . 
+   Actual=1.594, Pred=3.000
+3. basically a static series of semi-improvised ( and semi-coherent ) raps between the stars . 
+   Actual=1.571, Pred=2.000
+4. it haunts , horrifies , startles and fascinates ; it is impossible to look away . 
+   Actual=1.477, Pred=2.000
+5. preaches to two completely different choirs at the same time , which is a pretty amazing accomplishment . 
+   Actual=1.397, Pred=6.000
+
+Pearson correlation: 0.3603
+======================================================================
+
+Layer 15, Feature 69
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the sentiment pattern of a positive evaluation of a performance, movie, or character, often with strong or exceptional qualities.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.318, Pred=0.000
+2. directed in a paint-by-numbers manner . 
+   Actual=0.318, Pred=0.000
+3. the sort of film that makes me miss hitchcock , but also feel optimistic that there 's hope for popular cinema yet . 
+   Actual=0.318, Pred=8.000
+4. serving sara does n't serve up a whole lot of laughs . 
+   Actual=0.318, Pred=1.000
+5. the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+   Actual=0.318, Pred=9.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 78
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to sentences that contain evaluative language about a person's performance, charisma, or acting skills, indicating a focus on assessing the effectiveness of a performance or the presence of a particular quality in a person.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.168, Pred=9.000
+2. directed in a paint-by-numbers manner . 
+   Actual=0.168, Pred=4.000
+3. the sort of film that makes me miss hitchcock , but also feel optimistic that there 's hope for popular cinema yet . 
+   Actual=0.168, Pred=2.000
+4. serving sara does n't serve up a whole lot of laughs . 
+   Actual=0.168, Pred=9.000
+5. the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+   Actual=0.168, Pred=0.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 92
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the sentiment pattern of strong positive sentiment or praise towards a performance, film, or actor, particularly when describing their charisma or excellence.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.131, Pred=0.000
+2. directed in a paint-by-numbers manner . 
+   Actual=0.131, Pred=0.000
+3. the sort of film that makes me miss hitchcock , but also feel optimistic that there 's hope for popular cinema yet . 
+   Actual=0.131, Pred=4.000
+4. serving sara does n't serve up a whole lot of laughs . 
+   Actual=0.131, Pred=0.000
+5. the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+   Actual=0.131, Pred=8.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 138
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the sentiment pattern of an unpleasant or off-putting tone, particularly in relation to humor or comedy that falls short in its execution, often being crude, hackneyed, or overly offensive.
+
+Evaluation sentences:
+1. you really have to wonder how on earth anyone , anywhere could have thought they 'd make audiences guffaw with a script as utterly diabolical as this . 
+   Actual=1.057, Pred=3.000
+2. i can take infantile humor ... but this is the sort of infantile that makes you wonder about changing the director and writer 's diapers . 
+   Actual=0.999, Pred=8.000
+3. at least one scene is so disgusting that viewers may be hard pressed to retain their lunch . 
+   Actual=0.919, Pred=9.000
+4. this re-do is so dumb and so exploitative in its violence that , ironically , it becomes everything that the rather clumsy original was railing against . 
+   Actual=0.764, Pred=8.000
+5. once ( kim ) begins to overplay the shock tactics and bait-and-tackle metaphors , you may decide it 's too high a price to pay for a shimmering picture postcard . 
+   Actual=0.679, Pred=6.000
+
+Pearson correlation: -0.2782
+======================================================================
+
+Layer 15, Feature 202
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the sentiment pattern or linguistic concept of a speaker or writer expressing empathy or sympathy, as indicated by the consistently high activation of the feature for words such as "sympathize", "sorry", and "come on", which are typically associated with emotional support or understanding.
+
+Evaluation sentences:
+1. awesome creatures , breathtaking scenery , and epic battle scenes add up to another ` spectacular spectacle . ' 
+   Actual=0.184, Pred=2.000
+2. intriguing documentary which is emotionally diluted by focusing on the story 's least interesting subject . 
+   Actual=0.181, Pred=2.000
+3. a good piece of work more often than not . 
+   Actual=0.177, Pred=1.000
+4. macdowell , whose wifty southern charm has anchored lighter affairs ... brings an absolutely riveting conviction to her role . 
+   Actual=0.173, Pred=0.000
+5. at its best , queen is campy fun like the vincent price horror classics of the '60s . 
+   Actual=0.094, Pred=2.000
+
+Pearson correlation: -0.2758
+======================================================================
+
+Layer 15, Feature 296
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of positive evaluative adjectives or phrases, often used to express admiration or appreciation.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.126, Pred=0.000
+2. directed in a paint-by-numbers manner . 
+   Actual=0.126, Pred=0.000
+3. the sort of film that makes me miss hitchcock , but also feel optimistic that there 's hope for popular cinema yet . 
+   Actual=0.126, Pred=8.000
+4. serving sara does n't serve up a whole lot of laughs . 
+   Actual=0.126, Pred=2.000
+5. the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+   Actual=0.126, Pred=9.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 371
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the sentiment pattern or linguistic concept of strong positive opinions about a film's lead actor, often accompanied by phrases describing the actor's charisma or exceptional performance.
+
+Evaluation sentences:
+1. ... is an arthritic attempt at directing by callie khouri . 
+   Actual=0.129, Pred=2.000
+2. directed in a paint-by-numbers manner . 
+   Actual=0.129, Pred=0.000
+3. serving sara does n't serve up a whole lot of laughs . 
+   Actual=0.129, Pred=0.000
+4. travels a fascinating arc from hope and euphoria to reality and disillusionment . 
+   Actual=0.129, Pred=1.000
+5. the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+   Actual=0.129, Pred=1.000
+
+Pearson correlation: nan
+======================================================================
+
+Layer 15, Feature 381
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to the presence of a particular linguistic concept or sentiment pattern involving a "hopeful arc" or "emotional trajectory" in a text, characterized by a transition from positive to negative emotions or vice versa.
+
+Evaluation sentences:
+1. looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+   Actual=0.117, Pred=6.000
+2. k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension . 
+   Actual=0.117, Pred=3.000
+3. fun , flip and terribly hip bit of cinematic entertainment . 
+   Actual=0.117, Pred=1.000
+4. serving sara does n't serve up a whole lot of laughs . 
+   Actual=0.117, Pred=3.000
+5. the old-world - meets-new mesh is incarnated in the movie 's soundtrack , a joyful effusion of disco bollywood that , by the end of monsoon wedding , sent my spirit soaring out of the theater . 
+   Actual=0.117, Pred=3.000
+
+Pearson correlation: nan
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 15
+Mean Pearson correlation: nan
+Features analyzed: 10/10
+======================================================================

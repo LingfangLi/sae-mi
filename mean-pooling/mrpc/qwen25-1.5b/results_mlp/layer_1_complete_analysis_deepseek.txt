@@ -1,0 +1,92 @@
+======================================================================
+LAYER 1 - COMPLETE ANALYSIS (DeepSeek-R1-Distill-Qwen-1.5B, MRPC)
+======================================================================
+
+A. LAYER PERFORMANCE (Raw Representations)
+----------------------------------------------------------------------
+Accuracy: 0.6176 (61.76%)
+Precision: 0.7286
+Recall: 0.7025
+F1-Score: 0.7153
+Baseline Accuracy: 0.6593
+Improvement over baseline: -4.17%
+
+Confusion Matrix:
+              Predicted
+              Neg    Pos
+Actual Neg  [   56     73]
+       Pos  [   83    196]
+
+B. SAE FEATURE COUNTS
+----------------------------------------------------------------------
+Total PARAPHRASE samples: 279
+Total NON-PARAPHRASE samples: 129
+
+Total features activated for PARAPHRASE: 23236
+Total features activated for NON-PARAPHRASE: 16118
+COMMON features (activated for both): 12926
+UNIQUE to PARAPHRASE only: 10310
+UNIQUE to NON-PARAPHRASE only: 3192
+
+C. TOP 5 MOST ACTIVATING FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 43166: avg_activation=5.0905, frequency=279/279 (100.0%) | COMMON
+2. Feature 41132: avg_activation=4.6836, frequency=279/279 (100.0%) | COMMON
+3. Feature 34389: avg_activation=4.6780, frequency=279/279 (100.0%) | COMMON
+4. Feature 8497: avg_activation=4.5848, frequency=279/279 (100.0%) | COMMON
+5. Feature 3386: avg_activation=4.5498, frequency=279/279 (100.0%) | COMMON
+
+D. TOP 5 MOST ACTIVATING FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 43166: avg_activation=5.1965, frequency=129/129 (100.0%) | COMMON
+2. Feature 41132: avg_activation=4.7811, frequency=129/129 (100.0%) | COMMON
+3. Feature 34389: avg_activation=4.7754, frequency=129/129 (100.0%) | COMMON
+4. Feature 8497: avg_activation=4.6802, frequency=129/129 (100.0%) | COMMON
+5. Feature 3386: avg_activation=4.6445, frequency=129/129 (100.0%) | COMMON
+
+E. TOP 5 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1921: count=279 (100.0%), avg_activation=1.2970 | COMMON
+2. Feature 2179: count=279 (100.0%), avg_activation=0.0286 | COMMON
+3. Feature 2881: count=279 (100.0%), avg_activation=0.0688 | COMMON
+4. Feature 3386: count=279 (100.0%), avg_activation=4.5498 | COMMON
+5. Feature 3860: count=279 (100.0%), avg_activation=2.5949 | COMMON
+
+F. TOP 5 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1921: count=129 (100.0%), avg_activation=1.3240 | COMMON
+2. Feature 2099: count=129 (100.0%), avg_activation=0.1038 | COMMON
+3. Feature 2881: count=129 (100.0%), avg_activation=0.0701 | COMMON
+4. Feature 3386: count=129 (100.0%), avg_activation=4.6445 | COMMON
+5. Feature 3860: count=129 (100.0%), avg_activation=2.6490 | COMMON
+
+G. TOP 10 MOST FREQUENT FEATURES (PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1921: count=279 (100.0%)
+2. Feature 2179: count=279 (100.0%)
+3. Feature 2881: count=279 (100.0%)
+4. Feature 3386: count=279 (100.0%)
+5. Feature 3860: count=279 (100.0%)
+6. Feature 5366: count=279 (100.0%)
+7. Feature 7438: count=279 (100.0%)
+8. Feature 8497: count=279 (100.0%)
+9. Feature 9159: count=279 (100.0%)
+10. Feature 11133: count=279 (100.0%)
+
+H. TOP 10 MOST FREQUENT FEATURES (NON-PARAPHRASE)
+----------------------------------------------------------------------
+1. Feature 1921: count=129 (100.0%)
+2. Feature 2099: count=129 (100.0%)
+3. Feature 2881: count=129 (100.0%)
+4. Feature 3386: count=129 (100.0%)
+5. Feature 3860: count=129 (100.0%)
+6. Feature 4606: count=129 (100.0%)
+7. Feature 5366: count=129 (100.0%)
+8. Feature 7438: count=129 (100.0%)
+9. Feature 8497: count=129 (100.0%)
+10. Feature 9159: count=129 (100.0%)
+
+I. COMMON FEATURES AMONG TOP-10 PARAPHRASE & NON-PARAPHRASE
+----------------------------------------------------------------------
+Count: 8
+Example IDs: 1921, 2881, 3386, 3860, 5366, 7438, 8497, 9159

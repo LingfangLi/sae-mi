@@ -1,0 +1,222 @@
+INTERPRETABILITY REPORT - DeepSeek-R1-Distill-Qwen-1.5B, Layer 16, MRPC, top-10 global features
+======================================================================
+
+Layer 16, Feature 3150
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the concept of a specific word or term near the end of the sentence.
+
+Evaluation sentences:
+1. Cortisol levels in the saliva of day care children were highest and rose most steeply in those judge
+   Actual=0.644, Pred=3.000
+2. Cisco pared spending to compensate for sluggish sales . <｜end▁of▁sentence｜> In response to sluggish 
+   Actual=0.535, Pred=8.000
+3. In the 2002 study , the margin of error ranged from 1.8 to 4.4 percentage points . <｜end▁of▁sentence
+   Actual=0.512, Pred=4.000
+4. Broomhead was assigned to 2nd Squadron , 3rd Armor Cavalry Regiment , based at Fort Carson . <｜end▁o
+   Actual=0.500, Pred=3.000
+5. Sony said the PSP would also feature a 4.5-inch LCD screen , Memory Stick expansion slots . <｜end▁of
+   Actual=0.503, Pred=1.000
+
+Pearson correlation: 0.0445
+======================================================================
+
+Layer 16, Feature 5589
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern or concept of a "last name" or a "title" followed by a specific word or phrase that indicates a person or organization, often in a position of authority.
+
+Evaluation sentences:
+1. He said he has begun a court action to seize Beacon Hill 's assets and has frozen more than $ 13 mil
+   Actual=0.473, Pred=8.000
+2. It 's the first such drill since the September 11 terrorist attacks on New York and Washington . <｜e
+   Actual=0.483, Pred=3.000
+3. The U.S. Supreme Court will hear arguments on Wednesday on whether companies can be sued under the A
+   Actual=0.494, Pred=8.000
+4. Cortisol levels in the saliva of day care children were highest and rose most steeply in those judge
+   Actual=0.484, Pred=3.000
+5. Parson was charged with intentionally causing and attempting to cause damage to protected computers 
+   Actual=0.476, Pred=4.000
+
+Pearson correlation: 0.0682
+======================================================================
+
+Layer 16, Feature 5944
+----------------------------------------------------------------------
+Interpretation:
+Based on the provided activation strengths and sentences, this sparse autoencoder feature appears to respond to the presence of specific geographic locations, such as countries or cities, particularly when they appear towards the end of a sentence.
+
+Evaluation sentences:
+1. Garner said the group would probably be expanded to include , for example , a Christian and perhaps 
+   Actual=1.255, Pred=0.000
+2. They were among about 40 people attending the traditional Jewish ceremony colored by some non-tradit
+   Actual=1.253, Pred=1.000
+3. Dealers said the dollar also drew some downside support as Japanese investors are expected to keep s
+   Actual=1.194, Pred=3.000
+4. The first products are likely to be dongles costing between US $ 100 and US $ 150 that will establis
+   Actual=1.385, Pred=0.000
+5. SP2 is basically about security enhancements to Windows , such as the improved Internet Connection F
+   Actual=1.366, Pred=0.000
+
+Pearson correlation: -0.7678
+======================================================================
+
+Layer 16, Feature 6765
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to phrases or tokens that have a punctuation mark, such as "▁" or "<｜end▁of▁sentence｜>" at the end, indicating the end of a sentence.
+
+Evaluation sentences:
+1. Based on a separate survey of households , the unemployment rate fell in August to 6.1 percent from 
+   Actual=0.015, Pred=9.000
+2. About 1,500 police will be deployed for the visit . <｜end▁of▁sentence｜> Around 1,500 police are to b
+   Actual=0.016, Pred=0.000
+3. Other staff members , however , defended the document , saying it would still help policy-makers and
+   Actual=0.015, Pred=8.000
+4. President Bush raised a record-breaking $ 49.5 million for his re-election campaign over the last th
+   Actual=0.015, Pred=8.000
+5. " He may not have been there , " the defence official said on Thursday . <｜end▁of▁sentence｜> " He ma
+   Actual=0.015, Pred=9.000
+
+Pearson correlation: -0.8917
+======================================================================
+
+Layer 16, Feature 7953
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature appears to respond to a pattern of a word or phrase being truncated at the end of a sentence.
+
+Evaluation sentences:
+1. " But they never climb out of the pot of beer again . " <｜end▁of▁sentence｜> It 's just that they nev
+   Actual=1.170, Pred=8.000
+2. About 1,500 police will be deployed for the visit . <｜end▁of▁sentence｜> Around 1,500 police are to b
+   Actual=1.223, Pred=9.000
+3. Chief financial officer Andy Bryant has said that hike had a greater affect volume than officials ex
+   Actual=1.152, Pred=8.000
+4. One way or another , Harry Potter And The Order Of The Phoenix will be in your hands by Saturday . <
+   Actual=1.192, Pred=5.000
+5. Another $ 100-million in savings will come from management layoffs and pay cuts . <｜end▁of▁sentence｜
+   Actual=1.061, Pred=8.000
+
+Pearson correlation: -0.0920
+======================================================================
+
+Layer 16, Feature 10547
+----------------------------------------------------------------------
+Interpretation:
+This feature responds to the presence of punctuation marks or specific special characters, particularly the comma (",") and end-of-sentence punctuation (e.g., ".").
+
+Evaluation sentences:
+1. Based on a separate survey of households , the unemployment rate fell in August to 6.1 percent from 
+   Actual=0.107, Pred=9.000
+2. About 1,500 police will be deployed for the visit . <｜end▁of▁sentence｜> Around 1,500 police are to b
+   Actual=0.119, Pred=8.000
+3. President Bush raised a record-breaking $ 49.5 million for his re-election campaign over the last th
+   Actual=0.112, Pred=8.000
+4. An episode is declared when the ozone reaches .20 parts per million parts of air for one hour . <｜en
+   Actual=0.112, Pred=8.000
+5. " He may not have been there , " the defence official said on Thursday . <｜end▁of▁sentence｜> " He ma
+   Actual=0.112, Pred=2.000
+
+Pearson correlation: -0.0637
+======================================================================
+
+Layer 16, Feature 10548
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the presence of specific words related to locations, names, and other proper nouns, particularly when they appear early in the sentence.
+
+Evaluation sentences:
+1. About two hours later , his body , wrapped in a blanket , was found dumped a few blocks away . <｜end
+   Actual=0.238, Pred=6.000
+2. The results appear in the January issue of Cancer , an American Cancer Society journal , being publi
+   Actual=0.249, Pred=8.000
+3. BP shares slipped 0.8 percent to 433.50 pence ( $ 6.85 ) each in afternoon trading on the London Sto
+   Actual=0.224, Pred=8.000
+4. He was arrested Friday night at an Alpharetta seafood restaurant while dining with his wife , singer
+   Actual=0.216, Pred=9.000
+5. The other inmate fell but Selenski shimmed down the makeshift rope to a second-story roof and used t
+   Actual=0.193, Pred=8.000
+
+Pearson correlation: -0.3823
+======================================================================
+
+Layer 16, Feature 14003
+----------------------------------------------------------------------
+Interpretation:
+Based on the provided activation strengths, this sparse autoencoder feature appears to respond to the presence of specific nouns or proper nouns, such as "G. P. Putnam's Sons" (example 1), "Gov. Bob Riley" (example 2), "president" (example 3), "Authorities" (example 4), and "Prosecutors" (example 5).
+
+Evaluation sentences:
+1. Prosecutors allege that Nichols and co-conspirator Timothy McVeigh worked together to prepare a bomb
+   Actual=1.221, Pred=9.000
+2. Intel was disappointed and assessing its " options in the event Mr. Hamidi resumes his spamming acti
+   Actual=1.178, Pred=8.000
+3. ONG KONG , July 9 Tens of thousands of demonstrators gathered tonight before the legislature buildin
+   Actual=1.177, Pred=7.000
+4. Today , analysts say , UN members can no longer ignore the shifts since the September 11 2001 attack
+   Actual=1.228, Pred=4.000
+5. " Today , we are trying to convey this problem to Russian President Vladimir Putin and US President 
+   Actual=1.179, Pred=8.000
+
+Pearson correlation: -0.4161
+======================================================================
+
+Layer 16, Feature 17887
+----------------------------------------------------------------------
+Interpretation:
+This sparse autoencoder feature responds to the pattern of a trailing punctuation mark, likely indicating the end of a sentence.
+
+Evaluation sentences:
+1. In the 2002 study , the margin of error ranged from 1.8 to 4.4 percentage points . <｜end▁of▁sentence
+   Actual=0.287, Pred=8.000
+2. A year or two later , 259 , or 10 per cent , of the youths reported that they had started to smoke ,
+   Actual=0.270, Pred=8.000
+3. The 12-nation currency has risen by 33 percent against the dollar over the past 15 months . <｜end▁of
+   Actual=0.301, Pred=8.000
+4. Lu reclined in a soft chair wearing a woolly coat near the blackened capsule . <｜end▁of▁sentence｜> "
+   Actual=0.310, Pred=9.000
+5. While dioxin levels in the environment were up last year , they have dropped by 75 percent since the
+   Actual=0.272, Pred=6.000
+
+Pearson correlation: 0.7072
+======================================================================
+
+Layer 16, Feature 18523
+----------------------------------------------------------------------
+Interpretation:
+Based on the activation patterns, this feature appears to respond to the presence of geographic locations, specifically countries or regions, in the input text.
+
+Evaluation sentences:
+1. Mr. Rowland attended a party in South Windsor for the families of Connecticut National Guard soldier
+   Actual=0.262, Pred=9.000
+2. Citigroup Inc . C.N , the world 's largest financial services company , on Wednesday promoted Marjor
+   Actual=0.227, Pred=2.000
+3. Xerox itself paid a $ 10 million fine last year to settle similar SEC charges . <｜end▁of▁sentence｜> 
+   Actual=0.242, Pred=0.000
+4. The AFL-CIO is waiting until October to decide if it will endorse a candidate . <｜end▁of▁sentence｜> 
+   Actual=0.232, Pred=1.000
+5. " There is no need for one deadline for all to create the ASEAN Economic Community , " Thaksin said 
+   Actual=0.200, Pred=8.000
+
+Pearson correlation: -0.0242
+======================================================================
+
+
+======================================================================
+SUMMARY: Layer 16
+Mean Pearson correlation: -0.1818
+Features analyzed: 10/10
+Best feature: 17887 (correlation: 0.7072)
+
+All correlations:
+  Feature 17887: 0.7072
+  Feature 5589: 0.0682
+  Feature 3150: 0.0445
+  Feature 18523: -0.0242
+  Feature 10547: -0.0637
+  Feature 7953: -0.0920
+  Feature 10548: -0.3823
+  Feature 14003: -0.4161
+  Feature 5944: -0.7678
+  Feature 6765: -0.8917
+======================================================================
