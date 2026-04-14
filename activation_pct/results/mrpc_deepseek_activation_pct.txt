@@ -1,0 +1,20 @@
+Per-Sample Activated Feature Percentage
+Model: DeepSeek-R1-Distill-Qwen-1.5B
+SAE: EleutherAI/sae-DeepSeek-R1-Distill-Qwen-1.5B-65k (TopK=32)
+Layer: 14
+Task: MRPC (Paraphrase Detection)
+Total features: 65536
+Samples: 1000
+
+Threshold    Mean Count      Mean %     Median %   Max %     
+------------------------------------------------------------
+0.000        1420.8          2.17       2.17       3.68      
+0.001        1420.8          2.17       2.17       3.68      
+0.005        1399.3          2.14       2.14       3.60      
+0.010        1368.8          2.09       2.09       3.54      
+0.020        1300.1          1.98       2.02       2.86      
+0.050        386.7           0.59       0.51       1.18      
+0.100        111.0           0.17       0.17       0.45      
+0.200        26.3            0.04       0.04       0.11      
+0.500        3.2             0.00       0.00       0.02      
+1.000        1.1             0.00       0.00       0.01      

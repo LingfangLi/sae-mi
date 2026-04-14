@@ -1,0 +1,61 @@
+sentence_id,sentence_type,sentence_text,avg_top5_neg_features
+P1,positive,"having had the good sense to cast actors who are , generally speaking , adored by the movie-going public , khouri then gets terrific performances from them all . ",0.061192
+P2,positive,a fairly revealing study of its two main characters ,0.103949
+P3,positive,falls neatly into the category of good stupid fun . ,0.020870
+P4,positive,it inspires a continuing and deeply satisfying awareness of the best movies as monumental ` picture shows . ' ,0.174726
+P5,positive,manages to infuse the rocky path to sibling reconciliation with flashes of warmth and gentle humor ,0.091873
+P6,positive,"for the most part , it 's a work of incendiary genius , steering clear of knee-jerk reactions and quick solutions . ",0.137195
+P7,positive,joyous romp of a film . ,0.037793
+P8,positive,in addition to hoffman 's powerful acting clinic ,0.181928
+P9,positive,"hugh grant , who has a good line in charm ",0.083929
+P10,positive,"instead , he shows them the respect they are due . ",0.003003
+P11,positive,` de niro ... is a veritable source of sincere passion that this hollywood contrivance orbits around . ' ,0.026658
+P12,positive,it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ,0.143838
+P13,positive,"maud and roland 's search for an unknowable past makes for a haunting literary detective story , but labute pulls off a neater trick in possession : he makes language sexy . ",0.155732
+P14,positive,"pacino is brilliant as the sleep-deprived dormer , his increasing weariness as much existential as it is physical . ",0.115321
+P15,positive,leigh 's film is full of memorable performances from top to bottom . ,0.141198
+P16,positive,the film 's welcome breeziness and some unbelievably hilarious moments -- most portraying the idiocy of the film industry -- make it mostly worth the trip . ,0.143254
+P17,positive,"add yet another hat to a talented head , clooney 's a good director . ",0.211823
+P18,positive,well-rounded tribute ,0.002597
+P19,positive,"neither parker nor donovan is a typical romantic lead , but they bring a fresh , quirky charm to the formula . ",0.079663
+P20,positive,a smile on your face ,0.021791
+P21,positive,"that final , beautiful scene ",0.039436
+P22,positive,"this tenth feature is a big deal , indeed -- at least the third-best , and maybe even a notch above the previous runner-up , nicholas meyer 's star trek vi : the undiscovered country . ",0.097310
+P23,positive,people cinema at its finest . ,0.057251
+P24,positive,"for movie lovers as well as opera lovers , tosca is a real treat . ",0.136770
+P25,positive,"entertains by providing good , lively company . ",0.117804
+P26,positive,well-thought stunts or ,0.205827
+P27,positive,a welcome relief ,0.000000
+P28,positive,so much like a young robert deniro ,0.000000
+P29,positive,overall very good for what it 's trying to do . ,0.130552
+P30,positive,"though only 60 minutes long , the film is packed with information and impressions . ",0.025635
+N1,negative,burns never really harnesses to full effect the energetic cast . ,0.190976
+N2,negative,the talented and clever robert rodriguez perhaps put a little too much heart into his first film and did n't reserve enough for his second . ,0.335525
+N3,negative,"partway through watching this saccharine , easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected tv show . ",0.100057
+N4,negative,how do you spell cliché ? ,0.010720
+N5,negative,tedious norwegian offering which somehow snagged an oscar nomination . ,0.177234
+N6,negative,than this mess ,0.167620
+N7,negative,"it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake . ",0.072654
+N8,negative,"in its best moments , resembles a bad high school production of grease , without benefit of song . ",0.123102
+N9,negative,chokes on its own depiction of upper-crust decorum . ,0.189356
+N10,negative,vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ,0.229327
+N11,negative,overbearing and over-the-top ,0.000000
+N12,negative,a résumé loaded with credits like `` girl in bar # 3 ,0.065586
+N13,negative,"in an effort , i suspect , not to offend by appearing either too serious or too lighthearted , it offends by just being wishy-washy . ",0.494523
+N14,negative,too much of the humor falls flat . ,0.127963
+N15,negative,"it 's too self-important and plodding to be funny , and too clipped and abbreviated to be an epic . ",0.469789
+N16,negative,", unassuming , subordinate ",0.041229
+N17,negative,"as a director , eastwood is off his game ",0.045986
+N18,negative,"instead of hiding pinocchio from critics , miramax should have hidden it from everyone . ",0.103815
+N19,negative,hide new secretions from the parental units ,0.039589
+N20,negative,the horror ,0.039169
+N21,negative,"yes , dull . ",0.058049
+N22,negative,"walked out muttering words like `` horrible '' and `` terrible , '' ",0.148253
+N23,negative,"his comedy premises are often hackneyed or just plain crude , calculated to provoke shocked laughter , without following up on a deeper level . ",0.064197
+N24,negative,a subject like this should inspire reaction in its audience ; the pianist does not . ,0.268843
+N25,negative,"the movie is what happens when you blow up small potatoes to 10 times their natural size , and it ai n't pretty . ",0.220262
+N26,negative,"the longer the movie goes , the worse it gets , but it 's actually pretty good in the first few minutes . ",0.301947
+N27,negative,rarely has leukemia looked so shimmering and benign . ,0.096123
+N28,negative,"serves as auto-critique , and its clumsiness as its own most damning censure . ",0.289715
+N29,negative,at least one scene is so disgusting that viewers may be hard pressed to retain their lunch . ,0.073468
+N30,negative,"stealing harvard is evidence that the farrelly bros. -- peter and bobby -- and their brand of screen comedy are wheezing to an end , along with green 's half-hearted movie career . ",0.209130

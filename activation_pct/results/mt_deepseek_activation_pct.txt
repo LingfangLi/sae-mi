@@ -1,0 +1,20 @@
+Per-Sample Activated Feature Percentage
+Model: DeepSeek-R1-Distill-Qwen-1.5B
+SAE: EleutherAI/sae-DeepSeek-R1-Distill-Qwen-1.5B-65k (TopK=32)
+Layer: 12
+Task: Machine Translation (Europarl)
+Total features: 65536
+Samples: 1000
+
+Threshold    Mean Count      Mean %     Median %   Max %     
+------------------------------------------------------------
+0.000        1725.1          2.63       2.54       4.55      
+0.001        1725.1          2.63       2.54       4.55      
+0.005        1702.8          2.60       2.51       4.46      
+0.010        1659.6          2.53       2.45       4.29      
+0.020        1149.6          1.75       1.79       2.48      
+0.050        303.1           0.46       0.44       1.02      
+0.100        84.4            0.13       0.12       0.46      
+0.200        21.1            0.03       0.03       0.12      
+0.500        4.3             0.01       0.01       0.03      
+1.000        2.3             0.00       0.00       0.01      

@@ -1,0 +1,61 @@
+sentence_id,sentence_type,sentence_text,avg_top5_pos_features
+P1,positive,"you 'll gasp appalled and laugh outraged and possibly , watching the spectacle of a promising young lad treading desperately in a nasty sea , shed an errant tear . ",1.012547
+P2,positive,( d ) oes n't bother being as cloying or preachy as equivalent evangelical christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful . ,0.979039
+P3,positive,respectable new one ,2.782628
+P4,positive,"( næs ) directed the stage version of elling , and gets fine performances from his two leads who originated the characters on stage . ",1.045437
+P5,positive,this film special ,2.621927
+P6,positive,for a story ,2.913871
+P7,positive,"may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",1.249517
+P8,positive,"but taken as a stylish and energetic one-shot , the queen of the damned can not be said to suck . ",1.397821
+P9,positive,"if it is n't entirely persuasive , it does give exposure to some talented performers ",1.511523
+P10,positive,", compelling ",3.081017
+P11,positive,"another one of those estrogen overdose movies like `` divine secrets of the ya ya sisterhood , '' except that the writing , acting and character development are a lot better . ",1.050536
+P12,positive,the cast is spot on and ,2.274451
+P13,positive,true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable . ,1.172397
+P14,positive,spiffy animated feature ,2.587286
+P15,positive,the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy . ,1.021937
+P16,positive,", sometimes beautiful adaptation ",2.525320
+P17,positive,the positive change in tone here seems to have recharged him . ,2.048338
+P18,positive,funny yet ,2.908412
+P19,positive,"fun , flip and terribly hip bit of cinematic entertainment . ",1.874750
+P20,positive,"... a story we have n't seen on the big screen before , and it 's a story that we as americans , and human beings , should know . ",1.268552
+P21,positive,a delightful coming-of-age story . ,2.041479
+P22,positive,director andrew niccol ... demonstrates a wry understanding of the quirks of fame . ,1.522720
+P23,positive,i just loved every minute of this film . ,2.129257
+P24,positive,the film 's performances are thrilling . ,2.100544
+P25,positive,at its best moments ,2.711883
+P26,positive,jones ... does offer a brutal form of charisma . ,1.882313
+P27,positive,pays earnest homage to turntablists ,2.273809
+P28,positive,"audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . ",0.972895
+P29,positive,seem fresh ,3.039456
+P30,positive,cool ? ,2.775362
+N1,negative,"dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . ",1.200837
+N2,negative,the plot convolutions ultimately add up to nothing more than jerking the audience 's chain . ,1.337893
+N3,negative,its well of thorn and vinegar ( and simple humanity ) has long been plundered by similar works featuring the insight and punch this picture so conspicuously lacks . ,1.163871
+N4,negative,i got a headache watching this meaningless downer . ,1.696234
+N5,negative,"as ` chick flicks ' go , this one is pretty miserable , resorting to string-pulling rather than legitimate character development and intelligent plotting . ",0.940028
+N6,negative,the script is n't very good ; not even someone as gifted as hoffman ( the actor ) can make it work . ,1.195986
+N7,negative,"it does nothing new with the old story , except to show fisticuffs in this sort of stop-go slow motion that makes the gang rumbles look like they 're being streamed over a 28k modem . ",0.700923
+N8,negative,i hate it . ,2.538206
+N9,negative,"complete lack of originality , cleverness or even visible effort ",1.683561
+N10,negative,... the film suffers from a lack of humor ( something needed to balance out the violence ) ... ,1.104954
+N11,negative,villeneuve spends too much time wallowing in bibi 's generic angst ( there are a lot of shots of her gazing out windows ) . ,0.925256
+N12,negative,"when the film ended , i felt tired and drained and wanted to lie on my own deathbed for a while . ",1.120283
+N13,negative,"it can not be enjoyed , even on the level that one enjoys a bad slasher flick , primarily because it is dull . ",1.256810
+N14,negative,"the x potion gives the quickly named blossom , bubbles and buttercup supernatural powers that include extraordinary strength and laser-beam eyes , which unfortunately do n't enable them to discern flimsy screenplays . ",0.789710
+N15,negative,"it 's too harsh to work as a piece of storytelling , ",1.676731
+N16,negative,"it ca n't decide if it wants to be a mystery/thriller , a romance or a comedy . ",1.293275
+N17,negative,a dumb movie with dumb characters doing dumb things and you have to be really dumb not to see where this is going . ,0.904103
+N18,negative,"it 's a cookie-cutter movie , a cut-and-paste job . ",1.396398
+N19,negative,"while ( hill ) has learned new tricks , the tricks alone are not enough to salvage this lifeless boxing film . ",1.221436
+N20,negative,the overall effect is less like a children 's movie than a recruitment film for future hollywood sellouts . ,1.460122
+N21,negative,an extremely unpleasant film . ,2.252070
+N22,negative,taylor appears to have blown his entire budget on soundtrack rights and had nothing left over for jokes . ,1.160364
+N23,negative,"but the power of these ( subjects ) is obscured by the majority of the film that shows a stationary camera on a subject that could be mistaken for giving a public oration , rather than contributing to a film 's narrative . ",0.837781
+N24,negative,"i sympathize with the plight of these families , but the movie does n't do a very good job conveying the issue at hand . ",1.067755
+N25,negative,tries to add some spice to its quirky sentiments but the taste is all too familiar . ,1.541780
+N26,negative,"in exactly 89 minutes , most of which passed as slowly as if i 'd been sitting naked on an igloo , formula 51 sank from quirky to jerky to utter turkey . ",0.963991
+N27,negative,it is supremely unfunny and unentertaining to watch middle-age and ,1.488444
+N28,negative,starts off so bad that you feel like running out screaming ,1.549592
+N29,negative,"was produced by jerry bruckheimer and directed by joel schumacher , and reflects the worst of their shallow styles : wildly overproduced , inadequately motivated every step of the way and demographically targeted to please every one ( and no one ) ",1.190926
+N30,negative,"the humor is n't as sharp , the effects not as innovative , nor the story as imaginative as in the original . ",1.043845

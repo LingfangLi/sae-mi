@@ -1,0 +1,61 @@
+sentence_id,sentence_type,sentence_text,avg_top5_neg_features
+P1,positive,does point the way for adventurous indian filmmakers toward a crossover into nonethnic markets . ,0.026097
+P2,positive,"you 'll gasp appalled and laugh outraged and possibly , watching the spectacle of a promising young lad treading desperately in a nasty sea , shed an errant tear . ",0.031025
+P3,positive,( d ) oes n't bother being as cloying or preachy as equivalent evangelical christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful . ,0.019054
+P4,positive,respectable new one ,0.079606
+P5,positive,"( næs ) directed the stage version of elling , and gets fine performances from his two leads who originated the characters on stage . ",0.012560
+P6,positive,this film special ,0.092503
+P7,positive,for a story ,0.078795
+P8,positive,"may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",0.017633
+P9,positive,"but taken as a stylish and energetic one-shot , the queen of the damned can not be said to suck . ",0.045891
+P10,positive,"if it is n't entirely persuasive , it does give exposure to some talented performers ",0.029646
+P11,positive,", compelling ",0.099768
+P12,positive,"another one of those estrogen overdose movies like `` divine secrets of the ya ya sisterhood , '' except that the writing , acting and character development are a lot better . ",0.013614
+P13,positive,the cast is spot on and ,0.080485
+P14,positive,true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable . ,0.019723
+P15,positive,spiffy animated feature ,0.095079
+P16,positive,the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy . ,0.011058
+P17,positive,", sometimes beautiful adaptation ",0.079506
+P18,positive,the positive change in tone here seems to have recharged him . ,0.031591
+P19,positive,funny yet ,0.155879
+P20,positive,"fun , flip and terribly hip bit of cinematic entertainment . ",0.050725
+P21,positive,"... a story we have n't seen on the big screen before , and it 's a story that we as americans , and human beings , should know . ",0.010738
+P22,positive,a delightful coming-of-age story . ,0.053627
+P23,positive,director andrew niccol ... demonstrates a wry understanding of the quirks of fame . ,0.020427
+P24,positive,i just loved every minute of this film . ,0.041966
+P25,positive,the film 's performances are thrilling . ,0.042264
+P26,positive,at its best moments ,0.086014
+P27,positive,jones ... does offer a brutal form of charisma . ,0.044774
+P28,positive,pays earnest homage to turntablists ,0.074494
+P29,positive,"audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . ",0.018146
+P30,positive,seem fresh ,0.143962
+N1,negative,"too often , the viewer is n't reacting to humor so much as they are wincing back in repugnance . ",0.039499
+N2,negative,this movie is maddening . ,0.061272
+N3,negative,"utterly lacking in charm , wit and invention , roberto benigni 's pinocchio is an astonishingly bad film . ",0.047324
+N4,negative,"an absurdist comedy about alienation , separation and loss . ",0.060076
+N5,negative,so bad ,0.120690
+N6,negative,villeneuve spends too much time wallowing in bibi 's generic angst ( there are a lot of shots of her gazing out windows ) . ,0.025776
+N7,negative,", esther kahn is unusual but unfortunately also irritating . ",0.043397
+N8,negative,an extremely unpleasant film . ,0.081671
+N9,negative,"mattei is tiresomely grave and long-winded , as if circularity itself indicated profundity . ",0.091888
+N10,negative,"stultifyingly , dumbfoundingly , mind-numbingly bad . ",0.086127
+N11,negative,too much of it feels unfocused and underdeveloped . ,0.093525
+N12,negative,ugly as the shabby digital photography ,0.077046
+N13,negative,"unfortunately , it 's not silly fun unless you enjoy really bad movies . ",0.046080
+N14,negative,my reaction in a word : disappointment . ,0.043550
+N15,negative,how do you spell cliché ? ,0.085783
+N16,negative,overbearing and over-the-top ,0.150118
+N17,negative,too much of the humor falls flat . ,0.116282
+N18,negative,"despite the evocative aesthetics evincing the hollow state of modern love life , the film never percolates beyond a monotonous whine . ",0.017175
+N19,negative,"not only unfunny , but downright repellent . ",0.099369
+N20,negative,"too restrained to be a freak show , too mercenary and obvious to be cerebral , too dull and pretentious to be engaging ... the isle defies an easy categorization . ",0.093115
+N21,negative,"nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting . ",0.054472
+N22,negative,as vulgar as it is banal . ,0.079192
+N23,negative,", vicious and absurd ",0.166408
+N24,negative,too ludicrous ,0.378386
+N25,negative,even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . ,0.014888
+N26,negative,"forced , familiar and thoroughly condescending . ",0.139583
+N27,negative,"this obscenely bad dark comedy , so crass ",0.048826
+N28,negative,"slapstick buffoonery can tickle many a preschooler 's fancy , but when it costs a family of four about $ 40 to see a film in theaters , why spend money on a dog like this when you can rent a pedigree instead ? ",0.031408
+N29,negative,an insult to every family ,0.100023
+N30,negative,"excessive , profane , packed with cartoonish violence and comic-strip characters . ",0.071311

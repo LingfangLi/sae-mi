@@ -1,0 +1,20 @@
+Per-Sample Activated Feature Percentage
+Model: GPT-2 Small
+SAE: gpt2-small-hook-z-kk (attention hook_z)
+Layer: 2
+Task: MRPC (Paraphrase)
+d_sae: 24576
+Samples: 1000
+
+Threshold    Mean Count      Mean %     Median %   Max %     
+------------------------------------------------------------
+0.000        319.8           1.30       1.29       2.25      
+0.001        272.0           1.11       1.11       1.76      
+0.005        184.1           0.75       0.75       1.05      
+0.010        136.6           0.56       0.56       0.74      
+0.020        89.2            0.36       0.36       0.48      
+0.050        36.8            0.15       0.15       0.22      
+0.100        10.6            0.04       0.04       0.11      
+0.200        1.3             0.01       0.00       0.03      
+0.500        0.0             0.00       0.00       0.01      
+1.000        0.0             0.00       0.00       0.00      

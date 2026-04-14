@@ -1,0 +1,81 @@
+idx,usage,sentence,ground_truth_label
+1,select,"too often , the viewer is n't reacting to humor so much as they are wincing back in repugnance . ",0
+2,select,this movie is maddening . ,0
+3,select,"utterly lacking in charm , wit and invention , roberto benigni 's pinocchio is an astonishingly bad film . ",0
+4,select,"an absurdist comedy about alienation , separation and loss . ",0
+5,select,so bad ,0
+6,select,villeneuve spends too much time wallowing in bibi 's generic angst ( there are a lot of shots of her gazing out windows ) . ,0
+7,select,", esther kahn is unusual but unfortunately also irritating . ",0
+8,select,an extremely unpleasant film . ,0
+9,select,"mattei is tiresomely grave and long-winded , as if circularity itself indicated profundity . ",0
+10,select,"stultifyingly , dumbfoundingly , mind-numbingly bad . ",0
+11,select,too much of it feels unfocused and underdeveloped . ,0
+12,select,ugly as the shabby digital photography ,0
+13,select,"unfortunately , it 's not silly fun unless you enjoy really bad movies . ",0
+14,select,my reaction in a word : disappointment . ,0
+15,select,how do you spell cliché ? ,0
+16,select,overbearing and over-the-top ,0
+17,select,too much of the humor falls flat . ,0
+18,select,"despite the evocative aesthetics evincing the hollow state of modern love life , the film never percolates beyond a monotonous whine . ",0
+19,select,"not only unfunny , but downright repellent . ",0
+20,select,"too restrained to be a freak show , too mercenary and obvious to be cerebral , too dull and pretentious to be engaging ... the isle defies an easy categorization . ",0
+21,select,"nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting . ",0
+22,select,as vulgar as it is banal . ,0
+23,select,", vicious and absurd ",0
+24,select,too ludicrous ,0
+25,select,even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . ,0
+26,select,"forced , familiar and thoroughly condescending . ",0
+27,select,"this obscenely bad dark comedy , so crass ",0
+28,select,"slapstick buffoonery can tickle many a preschooler 's fancy , but when it costs a family of four about $ 40 to see a film in theaters , why spend money on a dog like this when you can rent a pedigree instead ? ",0
+29,select,an insult to every family ,0
+30,select,"excessive , profane , packed with cartoonish violence and comic-strip characters . ",0
+31,select,overbearing and ,0
+32,select,"sounds like a cruel deception carried out by men of marginal intelligence , with reactionary ideas about women and a total lack of empathy . ",0
+33,select,"it takes a certain kind of horror movie to qualify as ` worse than expected , ' but ghost ship somehow manages to do exactly that . ",0
+34,select,ugly digital video ,0
+35,select,"a lackluster , unessential sequel to the classic disney adaptation of j.m. barrie 's peter pan . ",0
+36,select,"too slow , too long and too little happens . ",0
+37,select,the worst film a man has made about women since valley of the dolls ,0
+38,select,taboo subject matter ,0
+39,select,of dishonesty ,0
+40,select,excruciatingly unfunny and pitifully unromantic ,0
+41,select,a coarse and stupid gross-out . ,0
+42,select,becomes one more dumb high school comedy about sex gags and prom dates ,0
+43,select,"clumsy dialogue , heavy-handed phoney-feeling sentiment , ",0
+44,select,this is so bad . ,0
+45,select,so unremittingly awful that labeling it a dog probably constitutes cruelty to canines . ,0
+46,select,by far the worst movie of the year ,0
+47,select,"simply stupid , irrelevant ",0
+48,select,just embarrassment and a vague sense of shame . ,0
+49,select,"velocity represents everything wrong with '' independent film '' as a commodified , sold-out concept on the american filmmaking scene . ",0
+50,select,"degraded , handheld blair witch video-cam footage ",0
+51,plot,"too often , the viewer is n't reacting to humor so much as they are wincing back in repugnance . ",0
+52,plot,this movie is maddening . ,0
+53,plot,"utterly lacking in charm , wit and invention , roberto benigni 's pinocchio is an astonishingly bad film . ",0
+54,plot,"an absurdist comedy about alienation , separation and loss . ",0
+55,plot,so bad ,0
+56,plot,villeneuve spends too much time wallowing in bibi 's generic angst ( there are a lot of shots of her gazing out windows ) . ,0
+57,plot,", esther kahn is unusual but unfortunately also irritating . ",0
+58,plot,an extremely unpleasant film . ,0
+59,plot,"mattei is tiresomely grave and long-winded , as if circularity itself indicated profundity . ",0
+60,plot,"stultifyingly , dumbfoundingly , mind-numbingly bad . ",0
+61,plot,too much of it feels unfocused and underdeveloped . ,0
+62,plot,ugly as the shabby digital photography ,0
+63,plot,"unfortunately , it 's not silly fun unless you enjoy really bad movies . ",0
+64,plot,my reaction in a word : disappointment . ,0
+65,plot,how do you spell cliché ? ,0
+66,plot,overbearing and over-the-top ,0
+67,plot,too much of the humor falls flat . ,0
+68,plot,"despite the evocative aesthetics evincing the hollow state of modern love life , the film never percolates beyond a monotonous whine . ",0
+69,plot,"not only unfunny , but downright repellent . ",0
+70,plot,"too restrained to be a freak show , too mercenary and obvious to be cerebral , too dull and pretentious to be engaging ... the isle defies an easy categorization . ",0
+71,plot,"nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting . ",0
+72,plot,as vulgar as it is banal . ,0
+73,plot,", vicious and absurd ",0
+74,plot,too ludicrous ,0
+75,plot,even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . ,0
+76,plot,"forced , familiar and thoroughly condescending . ",0
+77,plot,"this obscenely bad dark comedy , so crass ",0
+78,plot,"slapstick buffoonery can tickle many a preschooler 's fancy , but when it costs a family of four about $ 40 to see a film in theaters , why spend money on a dog like this when you can rent a pedigree instead ? ",0
+79,plot,an insult to every family ,0
+80,plot,"excessive , profane , packed with cartoonish violence and comic-strip characters . ",0
