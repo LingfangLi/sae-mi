@@ -1,0 +1,17 @@
+======================================================================
+FINAL SUMMARY — Qwen/Qwen3-8B-Base + qwen-scope-3-8b-base-w64k-l100
+======================================================================
+
+Baseline zero-shot: 94.84%
+
+LR-probe accuracy by layer:
+  L18:  89.91%  (Δ=-4.93%)
+  L19:  90.25%  (Δ=-4.59%)
+  L20:  90.02%  (Δ=-4.82%)
+  L21:  90.14%  (Δ=-4.70%)
+
+SAE feature counts by layer (pct_active_pos, pct_active_neg, common):
+  L18: pos= 25609 (39.08%)  neg= 25930 (39.57%)  common= 21336
+  L19: pos= 24649 (37.61%)  neg= 25092 (38.29%)  common= 20692
+  L20: pos= 25214 (38.47%)  neg= 25525 (38.95%)  common= 21260
+  L21: pos= 25932 (39.57%)  neg= 26293 (40.12%)  common= 22139

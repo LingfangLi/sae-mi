@@ -1,0 +1,9 @@
+======================================================================
+OVERALL SUMMARY — Qwen3-8B MT (Europarl) interpretability (max-pool)
+SAE: qwen-scope-3-8b-base-w64k-l100
+======================================================================
+
+  L14: mean_r=-0.2666  (valid 9/10)
+  L15: mean_r=-0.1003  (valid 9/10)
+  L19: mean_r=-0.2458  (valid 9/10)
+  L20: mean_r=-0.2600  (valid 9/10)

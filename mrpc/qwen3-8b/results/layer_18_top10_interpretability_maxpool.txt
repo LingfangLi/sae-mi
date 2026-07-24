@@ -1,0 +1,230 @@
+QWEN3-8B-BASE MRPC INTERPRETABILITY REPORT (max-pool)
+Layer 18, top-10 global features by mean per-sample max activation
+SAE: qwen-scope-3-8b-base-w64k-l100 / layer18
+======================================================================
+
+Layer 18, Feature 37949
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the pattern of **repetition or paraphrasing of key entities or phrases** across sentence pairs.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=4357.573] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  2. [max=4302.554] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  3. [max=4239.137] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  4. [max=4154.756] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  5. [max=4087.831] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=4072.341, pred=9.000] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+  2. [actual_max=4018.078, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=4018.078, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  4. [actual_max=3994.991, pred=8.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=3967.609, pred=8.000] Sony said the PSP would also feature a 4.5-inch LCD screen , Memory Stick expansion slots . <|endoftext|> It also features a 4.5 in back-lit LCD screen and memory expansion facilities .
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.8424
+======================================================================
+
+Layer 18, Feature 35783
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the pattern of near identical sentence structures, particularly the presence of a list of named entities or a sequence of similar phrases, often accompanied by minimal semantic variation in the two sentences.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=3623.766] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  2. [max=3585.429] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  3. [max=3520.353] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  4. [max=3463.547] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  5. [max=3408.253] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=3389.827, pred=8.000] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+  2. [actual_max=3351.915, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=3351.915, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  4. [actual_max=3329.728, pred=8.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=3314.758, pred=8.000] Sources who knew of the bidding said last week that cable TV company Comcast Corp. was also looking at VUE . <|endoftext|> Late last week , sources told Reuters cable TV company Comcast Corp. CMCSA.O also was looking at buying VUE assets .
+
+Pearson correlation (max-pool activation vs Llama 0-10): nan
+======================================================================
+
+Layer 18, Feature 28040
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature appears to respond to **co-referential noun phrases**, particularly in the context of paraphrase detection, where it identifies instances of equivalent or related noun phrases across two sentence pairs. This feature is sensitive to the presence of similar words, phrases, or concepts, and its activation values tend to be higher when the same or related entities are mentioned in both sentences.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=2025.982] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  2. [max=1993.665] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  3. [max=1923.437] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+  4. [max=1915.854] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  5. [max=1913.536] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1892.636, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  2. [actual_max=1892.636, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  3. [actual_max=1880.484, pred=9.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  4. [actual_max=1871.576, pred=8.000] Sources who knew of the bidding said last week that cable TV company Comcast Corp. was also looking at VUE . <|endoftext|> Late last week , sources told Reuters cable TV company Comcast Corp. CMCSA.O also was looking at buying VUE assets .
+  5. [actual_max=1868.923, pred=8.000] Sony claimed that the reader 's capacitance sensing technology cannot be fooled by paper copies and does not require cleaning . <|endoftext|> Its capacitance sensing technology electronically reads a fingerprint ; Sony says it can 't be fooled by paper copies and doesn 't require cleaning .
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.0381
+======================================================================
+
+Layer 18, Feature 56980
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the pattern of "numerical alignment" or more specifically, the alignment of specific numerical values between two sentence pairs, often accompanied by corresponding lexical overlap.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=2142.931] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  2. [max=2047.006] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  3. [max=1919.651] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  4. [max=1882.360] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  5. [max=1816.873] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1808.683, pred=9.000] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+  2. [actual_max=1784.071, pred=9.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  3. [actual_max=1784.071, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  4. [actual_max=1777.611, pred=8.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=1773.674, pred=8.000] Sony claimed that the reader 's capacitance sensing technology cannot be fooled by paper copies and does not require cleaning . <|endoftext|> Its capacitance sensing technology electronically reads a fingerprint ; Sony says it can 't be fooled by paper copies and doesn 't require cleaning .
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.7201
+======================================================================
+
+Layer 18, Feature 39566
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to linguistic patterns of lexical repetition or overlap, particularly between the two sentences in a paraphrase pair.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1835.999] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  2. [max=1804.274] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  3. [max=1800.515] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  4. [max=1749.698] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+  5. [max=1736.688] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1719.140, pred=8.000] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  2. [actual_max=1715.862, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=1715.862, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  4. [actual_max=1706.545, pred=8.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=1700.006, pred=8.000] Sony claimed that the reader 's capacitance sensing technology cannot be fooled by paper copies and does not require cleaning . <|endoftext|> Its capacitance sensing technology electronically reads a fingerprint ; Sony says it can 't be fooled by paper copies and doesn 't require cleaning .
+
+Pearson correlation (max-pool activation vs Llama 0-10): nan
+======================================================================
+
+Layer 18, Feature 4175
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to lexical overlap, particularly in the context of similar or repeated phrases, words, or sentences between the two input sentences.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1720.709] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  2. [max=1692.714] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  3. [max=1662.710] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  4. [max=1634.155] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+  5. [max=1625.034] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1605.626, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  2. [actual_max=1605.626, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=1597.744, pred=9.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  4. [actual_max=1590.788, pred=8.000] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  5. [actual_max=1587.646, pred=8.000] Sony claimed that the reader 's capacitance sensing technology cannot be fooled by paper copies and does not require cleaning . <|endoftext|> Its capacitance sensing technology electronically reads a fingerprint ; Sony says it can 't be fooled by paper copies and doesn 't require cleaning .
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.0174
+======================================================================
+
+Layer 18, Feature 52493
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the pattern of lexical overlap in consecutive sentence positions with similar word forms, particularly in the presence of proper nouns, entities, or specific names.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1758.800] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  2. [max=1690.570] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  3. [max=1543.301] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  4. [max=1513.706] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  5. [max=1459.372] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1449.688, pred=8.000] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+  2. [actual_max=1431.587, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=1431.587, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  4. [actual_max=1431.292, pred=9.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=1424.167, pred=8.000] Sony claimed that the reader 's capacitance sensing technology cannot be fooled by paper copies and does not require cleaning . <|endoftext|> Its capacitance sensing technology electronically reads a fingerprint ; Sony says it can 't be fooled by paper copies and doesn 't require cleaning .
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.1396
+======================================================================
+
+Layer 18, Feature 40691
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature appears to respond to the preservation of specific dates, numbers, and temporal references across paraphrased sentence pairs, indicating its sensitivity to temporal alignment or numerical consistency in paraphrases.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1592.032] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  2. [max=1525.723] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  3. [max=1467.310] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  4. [max=1435.980] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  5. [max=1387.959] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1379.996, pred=8.000] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+  2. [actual_max=1362.287, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=1362.287, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  4. [actual_max=1357.698, pred=8.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=1352.516, pred=8.000] Sony said the PSP would also feature a 4.5-inch LCD screen , Memory Stick expansion slots . <|endoftext|> It also features a 4.5 in back-lit LCD screen and memory expansion facilities .
+
+Pearson correlation (max-pool activation vs Llama 0-10): nan
+======================================================================
+
+Layer 18, Feature 3844
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to lexical overlap and similarity in verb phrases, focusing on identical phrases or closely related verb constructions across sentence pairs.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1443.089] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  2. [max=1372.803] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  3. [max=1260.103] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  4. [max=1233.495] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  5. [max=1191.790] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1182.630, pred=9.000] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+  2. [actual_max=1172.348, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=1172.348, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  4. [actual_max=1165.465, pred=9.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=1160.329, pred=8.000] Sony claimed that the reader 's capacitance sensing technology cannot be fooled by paper copies and does not require cleaning . <|endoftext|> Its capacitance sensing technology electronically reads a fingerprint ; Sony says it can 't be fooled by paper copies and doesn 't require cleaning .
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.3718
+======================================================================
+
+Layer 18, Feature 40467
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the pattern of **lexical or numerical alignment between corresponding parts of sentence pairs**, often involving matching or similar phrases, numbers, or entities.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1231.853] Shares of Salix have rocketed 64 percent since Axcan made its first offer on April 10 . <|endoftext|> Since the initial takeover offer , Salix shares have risen about 35 percent .
+  2. [max=1225.467] In February 2000 , the officers — Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy — were acquitted of all charges in the killing . <|endoftext|> The officers -- Kenneth Boss , Sean Carroll , Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges .
+  3. [max=1210.737] Secretary of State Colin Powell designated the Chechen leader believed responsible for last year 's hostage standoff in a Moscow theater as a threat to U.S. security Friday . <|endoftext|> U.S. Secretary of State Colin Powell on Friday designated Chechen rebel leader Shamil Basayev a threat to the security of the United States and to U.S. citizens .
+  4. [max=1172.565] Cintas is battling efforts to unionize 17,000 of its workers and to let unions organize the workers by signing cards , rather than by a lengthy election process . <|endoftext|> Cintas is battling efforts to unionize 17,000 of its workers and labor 's demands to let its workers organize by signing cards , rather than by a lengthy election process .
+  5. [max=1168.048] Iran has until the end of the month to satisfy the agency it has no plans for nuclear weapons . <|endoftext|> The Iranians have until the end of the month to answer all the agency 's questions about their past nuclear activities .
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1156.083, pred=8.000] Cisco pared spending to compensate for sluggish sales . <|endoftext|> In response to sluggish sales , Cisco pared spending .
+  2. [actual_max=1146.094, pred=8.000] Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21 . <|endoftext|> He said the Government still did not know the real reason the original Saudi buyer pulled out on August 21 .
+  3. [actual_max=1146.094, pred=8.000] Federal Emergency Management Administration designated $ 20 million to establish the registry . <|endoftext|> The registry was launched with $ 20 million from the Federal Emergency Management Agency .
+  4. [actual_max=1141.238, pred=8.000] Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " . <|endoftext|> " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+  5. [actual_max=1135.368, pred=8.000] Sony said the PSP would also feature a 4.5-inch LCD screen , Memory Stick expansion slots . <|endoftext|> It also features a 4.5 in back-lit LCD screen and memory expansion facilities .
+
+Pearson correlation (max-pool activation vs Llama 0-10): nan
+======================================================================
+
+
+======================================================================
+SUMMARY: layer 18, features analyzed = 6/10
+Mean Pearson (max-pool): 0.2957
+======================================================================

@@ -1,0 +1,24 @@
+LAYER 21 — Qwen/Qwen3-8B-Base + qwen-scope-3-8b-base-w64k-l100/layer21
+======================================================================
+
+A. LR PROBE ON RAW RESIDUAL
+  accuracy: 0.9013761467889908
+  precision: 0.8891304347826087
+  recall: 0.9211711711711712
+  f1: 0.9048672566371682
+  improvement_over_baseline: -0.047018348623853234
+  confusion_matrix: [[377, 51], [35, 409]]
+
+B. SAE FEATURE COUNTS
+  n_pos_samples: 444
+  n_neg_samples: 428
+  n_pos_active: 25932
+  n_neg_active: 26293
+  n_common: 22139
+  n_pos_only: 3793
+  n_neg_only: 4154
+  top5_pos_by_avg_activation: [(28137, 3738.590338079779), (23851, 2894.131694621868), (58402, 2236.8970862036354), (63553, 2233.0505140149917), (24613, 2107.809432845932)]
+  top5_neg_by_avg_activation: [(28137, 3808.665926068743), (23851, 2947.1662820120837), (58402, 2278.2065395462178), (63553, 2274.0259191210025), (24613, 2146.526885701117)]
+  d_sae: 65536
+  pct_active_pos: 0.39569091796875
+  pct_active_neg: 0.4011993408203125

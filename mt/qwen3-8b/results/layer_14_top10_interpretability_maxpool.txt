@@ -1,0 +1,236 @@
+QWEN3-8B-BASE MT (Europarl) INTERPRETABILITY REPORT (max-pool)
+Layer 14, top-10 global features by mean per-sample max activation
+SAE: qwen-scope-3-8b-base-w64k-l100 / layer14
+======================================================================
+
+Layer 14, Feature 30605
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to translation patterns involving **linguistic contrast between formal and informal language**, particularly between the more formal language used in official EU documents and the more informal language used in the translations.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=3712.104] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  2. [max=3712.100] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  3. [max=3676.591] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=3609.536] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=3559.490] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=3557.906, pred=2.000] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+  2. [actual_max=3544.552, pred=8.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  3. [actual_max=3542.597, pred=2.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  4. [actual_max=3500.822, pred=2.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=3456.089, pred=8.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.4380
+======================================================================
+
+Layer 14, Feature 29887
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature appears to respond to a translation pattern of formal/institutional language usage, as the highest activation values are consistently associated with tokens such as "Member States", "Commission", "Parliament", "Council", and "Institutions", which are typically formal and institutional terms in both English and French.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=3183.374] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  2. [max=3183.000] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  3. [max=3146.407] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=3088.918] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=3053.351] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=3052.638, pred=6.000] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+  2. [actual_max=3039.383, pred=2.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  3. [actual_max=3031.906, pred=8.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  4. [actual_max=2991.337, pred=2.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=2962.796, pred=6.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.0863
+======================================================================
+
+Layer 14, Feature 52661
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+After analyzing the provided activation patterns for the sparse autoencoder feature on the English-French translation pairs from Europarl, I have identified a pattern in the responses of this feature.
+
+The feature appears to respond to **translation divergence** in terms of **lexical and semantic equivalence**. This is evident from the high activation values associated with words or phrases that have been translated into French, but are not exact equivalents in meaning or lexical representation.
+
+In particular, the feature seems to capture cases where the English sentence contains abstract or formal concepts, such as "sustainability" or "priorities recognized by the Council of Ministers", which are translated into more concrete or specific French phrases, like "l'aménagement du territoire européen" or "cib
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1622.914] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  2. [max=1622.824] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  3. [max=1602.281] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1574.712] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1555.407] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1555.397, pred=0.000] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+  2. [actual_max=1546.741, pred=0.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  3. [actual_max=1546.104, pred=0.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  4. [actual_max=1528.186, pred=0.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1510.398, pred=0.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): nan
+======================================================================
+
+Layer 14, Feature 29035
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to translation patterns that involve the preservation of formal or institutional language, particularly in official or bureaucratic contexts, such as policy statements or diplomatic communications.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1545.050] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  2. [max=1545.031] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  3. [max=1523.941] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1500.668] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1480.505] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1480.495, pred=4.000] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+  2. [actual_max=1474.406, pred=8.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  3. [actual_max=1471.465, pred=6.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  4. [actual_max=1453.605, pred=6.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1435.663, pred=8.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.5471
+======================================================================
+
+Layer 14, Feature 50910
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+Based on the given data, this sparse autoencoder feature responds to translation patterns related to **formal / institutional language** and **lexical mapping**, particularly the translation of English formal or technical terms into French equivalents. 
+
+This interpretation is derived from the high activation values for English sentences that contain formal or technical terms, such as "Commission", "Member of the Commission", "Council of Ministers", "policy", "sustainability", and "innovation", which are then translated into French with corresponding formal or technical terms.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1464.338] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  2. [max=1464.292] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  3. [max=1440.712] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1420.421] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1403.989] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1402.682, pred=4.000] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+  2. [actual_max=1394.413, pred=8.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  3. [actual_max=1388.436, pred=2.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  4. [actual_max=1375.495, pred=2.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1357.025, pred=8.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.2609
+======================================================================
+
+Layer 14, Feature 28894
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to lexical mapping, particularly the translation of formal or institutional language.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1317.302] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  2. [max=1317.265] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  3. [max=1303.470] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1278.213] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1263.983] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1263.769, pred=8.000] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+  2. [actual_max=1258.974, pred=6.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  3. [actual_max=1255.214, pred=8.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  4. [actual_max=1241.063, pred=8.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1225.539, pred=8.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.3613
+======================================================================
+
+Layer 14, Feature 9854
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+Based on the provided data, this feature appears to respond to the translation of formal or institutional language, particularly in the context of European Union policies and discussions.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1288.986] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  2. [max=1288.965] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  3. [max=1268.042] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1242.455] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1230.578] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1230.050, pred=8.000] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+  2. [actual_max=1222.011, pred=4.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  3. [actual_max=1219.867, pred=8.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  4. [actual_max=1207.369, pred=2.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1191.064, pred=8.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.0492
+======================================================================
+
+Layer 14, Feature 36926
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature from Qwen3-8B-Base appears to respond to translation patterns involving **formal language and institutional terminology**, particularly when translating English sentences that express formal or institutional concepts into French. It is sensitive to the presence of specific terms and phrases that convey a sense of formality or official language in both the English source and French target texts.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1266.066] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  2. [max=1266.038] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  3. [max=1251.013] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1230.428] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1217.628] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1217.365, pred=8.000] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+  2. [actual_max=1208.628, pred=9.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  3. [actual_max=1205.325, pred=8.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  4. [actual_max=1194.618, pred=8.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1180.814, pred=9.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.4300
+======================================================================
+
+Layer 14, Feature 47228
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+After analyzing the given data, it appears that this sparse autoencoder feature responds to formal/institutional language translation patterns. The feature seems to be particularly activated when the English sentence contains formal or institutional language, such as official policies, EU directives, or diplomatic statements, and is translated into French in a way that preserves or adapts this formal tone. The high activation values (e.g., 1196.723) in the presence of such language patterns and the low or zero values for other sentence types suggest that this feature is attuned to capturing the nuances of formal/institutional language in translation.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1196.723] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  2. [max=1196.717] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  3. [max=1188.290] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1164.312] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1146.841] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1145.993, pred=9.000] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+  2. [actual_max=1145.472, pred=8.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  3. [actual_max=1144.530, pred=9.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  4. [actual_max=1129.256, pred=9.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1110.922, pred=9.000] Remember that, as a member of the Andean Pact, Peru is bound to the European Union by a democracy clause and the European Community, or more specifically the Community institutions, has a certain responsibility by virtue of that democracy clause to call for the electoral process in Peru to be adapted, as far as possible, to certain essential democratic requirements. <|endoftext|> À cet égard, il serait utile que les propositions du gouvernement allemand soient reprises par tous les États membres.
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.3746
+======================================================================
+
+Layer 14, Feature 53059
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature appears to respond to the translation of formal or institutional language, particularly in the context of European Union policies and politics.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1116.862] Whatever the reform, it is vitally important that smaller Member States retain their right to nominate a Member of the Commission. <|endoftext|> Je partage les remarques qui ont été formulées quant à la nécessité de cibler d' avantage ledit programme, mais également d' améliorer le lien l' unissant au plan quinquennal.
+  2. [max=1116.861] Whatever the details, whichever way you look at it, it is a damned dangerous situation which we have to avoid. <|endoftext|> À l'heure de la tournée du président Clinton à la fin du mois de mars- M. James Elles y a fait référence - dans le sud-est asiatique et quelques semaines avant que la délégation du Parlement européen auprès de l'ASACR ne se rende en Inde, au mois d'avril, le Cachemire figure en tête de l'ordre du jour.
+  3. [max=1103.583] Quality, sustainability, innovation are at the forefront of the Commission' s own policy and are priorities recognised by the Council of Ministers. <|endoftext|> Le tourisme se trouve lui aussi sur la liste des sujets qui ne figurent pas parmi les nouveaux domaines de compétence de l'UE.
+  4. [max=1082.032] Even by this stage, that is already too many by far. <|endoftext|> Mais, comment pouvons-nous réussir lorsque les ressources disponibles sont limitées et lorsque la crédibilité de nos institutions est entamée ?
+  5. [max=1073.996] Due to the existence of these borders, they have become peripheral areas within the countries to which they belong. This has too often led the national authorities to neglect these regions in national policy. <|endoftext|> Les enjeux sont donc importants : l' intégration des régions frontalières constituera un élément essentiel de l' élaboration d' une future politique d' aménagement du territoire européen !
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1073.656, pred=6.000] Due to this split vote, we are now voting on the least in-depth first and are working our way up to the most in-depth. <|endoftext|> Le voyage récent du chef du gouvernement britannique à Moscou, sa flagornerie à l'égard du massacreur en chef Poutine, illustrent l'attitude de l'ensemble des puissances occidentales.
+  2. [actual_max=1063.341, pred=6.000] Broken promises can lead rapidly to bankruptcy. <|endoftext|> À l'heure actuelle, les contribuables se voient souvent attribuer des subventions dans les domaines de l'industrie ou de l'agriculture.
+  3. [actual_max=1062.815, pred=8.000] Even though, as the Commission says, the texts of the treaties do not contain special provisions to regulate all the respective issues raised by technological development, it can nevertheless be said that within the legislative framework created, performing or interpreting artists enjoy broader protection than that accorded by the Treaty of Rome or even by the Community directives. <|endoftext|> Dans le courant de ces dernières années, la Communauté a dépensé quelque 200 millions d'euros dans l'élimination des mines, l'assistance aux victimes et des activités connexes.
+  4. [actual_max=1048.206, pred=4.000] Humans are continuing to play the sorcerer' s apprentice, juggling with food safety. <|endoftext|> Les exemples sont tous énumérés dans une résolution qui nous est soumise maintenant.
+  5. [actual_max=1036.176, pred=8.000] Women in the decision-making process <|endoftext|> Il ne doit y avoir aucune réserve, aucune réserve concernant l'obligation législative de participation des femmes aux centres de pouvoir.
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.1232
+======================================================================
+
+
+======================================================================
+SUMMARY: layer 14, features analyzed = 9/10
+Mean Pearson (max-pool): -0.2666
+======================================================================

@@ -1,0 +1,189 @@
+{
+  "task": "sst2",
+  "model": "Qwen/Qwen3-8B-Base",
+  "n_layers": 36,
+  "baseline_accuracy": 0.9484,
+  "baseline_accuracy_pct": 94.84,
+  "layer_performance": {
+    "0": {
+      "accuracy": 0.7752,
+      "accuracy_pct": 77.52,
+      "improvement_over_baseline_pct": -17.32
+    },
+    "1": {
+      "accuracy": 0.781,
+      "accuracy_pct": 78.1,
+      "improvement_over_baseline_pct": -16.74
+    },
+    "2": {
+      "accuracy": 0.7878,
+      "accuracy_pct": 78.78,
+      "improvement_over_baseline_pct": -16.06
+    },
+    "3": {
+      "accuracy": 0.7867,
+      "accuracy_pct": 78.67,
+      "improvement_over_baseline_pct": -16.17
+    },
+    "4": {
+      "accuracy": 0.7856,
+      "accuracy_pct": 78.56,
+      "improvement_over_baseline_pct": -16.28
+    },
+    "5": {
+      "accuracy": 0.805,
+      "accuracy_pct": 80.5,
+      "improvement_over_baseline_pct": -14.33
+    },
+    "6": {
+      "accuracy": 0.8303,
+      "accuracy_pct": 83.03,
+      "improvement_over_baseline_pct": -11.81
+    },
+    "7": {
+      "accuracy": 0.8406,
+      "accuracy_pct": 84.06,
+      "improvement_over_baseline_pct": -10.78
+    },
+    "8": {
+      "accuracy": 0.8521,
+      "accuracy_pct": 85.21,
+      "improvement_over_baseline_pct": -9.63
+    },
+    "9": {
+      "accuracy": 0.8601,
+      "accuracy_pct": 86.01,
+      "improvement_over_baseline_pct": -8.83
+    },
+    "10": {
+      "accuracy": 0.8601,
+      "accuracy_pct": 86.01,
+      "improvement_over_baseline_pct": -8.83
+    },
+    "11": {
+      "accuracy": 0.8658,
+      "accuracy_pct": 86.58,
+      "improvement_over_baseline_pct": -8.26
+    },
+    "12": {
+      "accuracy": 0.8739,
+      "accuracy_pct": 87.39,
+      "improvement_over_baseline_pct": -7.45
+    },
+    "13": {
+      "accuracy": 0.8658,
+      "accuracy_pct": 86.58,
+      "improvement_over_baseline_pct": -8.26
+    },
+    "14": {
+      "accuracy": 0.8716,
+      "accuracy_pct": 87.16,
+      "improvement_over_baseline_pct": -7.68
+    },
+    "15": {
+      "accuracy": 0.8739,
+      "accuracy_pct": 87.39,
+      "improvement_over_baseline_pct": -7.45
+    },
+    "16": {
+      "accuracy": 0.875,
+      "accuracy_pct": 87.5,
+      "improvement_over_baseline_pct": -7.34
+    },
+    "17": {
+      "accuracy": 0.8796,
+      "accuracy_pct": 87.96,
+      "improvement_over_baseline_pct": -6.88
+    },
+    "18": {
+      "accuracy": 0.8979,
+      "accuracy_pct": 89.79,
+      "improvement_over_baseline_pct": -5.05
+    },
+    "19": {
+      "accuracy": 0.9037,
+      "accuracy_pct": 90.37,
+      "improvement_over_baseline_pct": -4.47
+    },
+    "20": {
+      "accuracy": 0.8991,
+      "accuracy_pct": 89.91,
+      "improvement_over_baseline_pct": -4.93
+    },
+    "21": {
+      "accuracy": 0.9025,
+      "accuracy_pct": 90.25,
+      "improvement_over_baseline_pct": -4.59
+    },
+    "22": {
+      "accuracy": 0.8945,
+      "accuracy_pct": 89.45,
+      "improvement_over_baseline_pct": -5.39
+    },
+    "23": {
+      "accuracy": 0.8956,
+      "accuracy_pct": 89.56,
+      "improvement_over_baseline_pct": -5.28
+    },
+    "24": {
+      "accuracy": 0.8911,
+      "accuracy_pct": 89.11,
+      "improvement_over_baseline_pct": -5.73
+    },
+    "25": {
+      "accuracy": 0.8888,
+      "accuracy_pct": 88.88,
+      "improvement_over_baseline_pct": -5.96
+    },
+    "26": {
+      "accuracy": 0.8888,
+      "accuracy_pct": 88.88,
+      "improvement_over_baseline_pct": -5.96
+    },
+    "27": {
+      "accuracy": 0.8876,
+      "accuracy_pct": 88.76,
+      "improvement_over_baseline_pct": -6.08
+    },
+    "28": {
+      "accuracy": 0.8819,
+      "accuracy_pct": 88.19,
+      "improvement_over_baseline_pct": -6.65
+    },
+    "29": {
+      "accuracy": 0.8842,
+      "accuracy_pct": 88.42,
+      "improvement_over_baseline_pct": -6.42
+    },
+    "30": {
+      "accuracy": 0.8727,
+      "accuracy_pct": 87.27,
+      "improvement_over_baseline_pct": -7.57
+    },
+    "31": {
+      "accuracy": 0.875,
+      "accuracy_pct": 87.5,
+      "improvement_over_baseline_pct": -7.34
+    },
+    "32": {
+      "accuracy": 0.8784,
+      "accuracy_pct": 87.84,
+      "improvement_over_baseline_pct": -7.0
+    },
+    "33": {
+      "accuracy": 0.8693,
+      "accuracy_pct": 86.93,
+      "improvement_over_baseline_pct": -7.91
+    },
+    "34": {
+      "accuracy": 0.8681,
+      "accuracy_pct": 86.81,
+      "improvement_over_baseline_pct": -8.03
+    },
+    "35": {
+      "accuracy": 0.883,
+      "accuracy_pct": 88.3,
+      "improvement_over_baseline_pct": -6.54
+    }
+  }
+}

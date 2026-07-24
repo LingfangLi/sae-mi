@@ -1,0 +1,230 @@
+QWEN3-8B-BASE INTERPRETABILITY REPORT (max-pool)
+Layer 21, top-10 global features by mean per-sample max activation
+SAE: qwen-scope-3-8b-base-w64k-l100 / layer21
+======================================================================
+
+Layer 21, Feature 28137
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature appears to respond to the sentiment pattern of "understanding" or "insight" in film-related contexts, particularly when describing a director's or actor's portrayal of character quirks.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=5132.456] affleck and jackson are good sparring partners . 
+  2. [max=5057.856] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=4885.984] forced , familiar and thoroughly condescending . 
+  4. [max=4880.185] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  5. [max=4861.734] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=4861.726, pred=2.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  2. [actual_max=4861.726, pred=2.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  3. [actual_max=4859.614, pred=8.000] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+  4. [actual_max=4799.892, pred=0.000] cool ? 
+  5. [actual_max=4792.403, pred=2.000] burns never really harnesses to full effect the energetic cast . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.5032
+======================================================================
+
+Layer 21, Feature 23851
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the sentiment pattern of evaluating a movie's or a character's emotional authenticity, particularly when it is described as moving, wise, or genuine.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=3952.186] affleck and jackson are good sparring partners . 
+  2. [max=3888.991] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=3763.019] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  4. [max=3762.025] forced , familiar and thoroughly condescending . 
+  5. [max=3741.254] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=3741.252, pred=2.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  2. [actual_max=3741.252, pred=1.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  3. [actual_max=3739.649, pred=6.000] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+  4. [actual_max=3700.754, pred=2.000] burns never really harnesses to full effect the energetic cast . 
+  5. [actual_max=3699.930, pred=2.000] falls neatly into the category of good stupid fun . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.2529
+======================================================================
+
+Layer 21, Feature 58402
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the sentiment pattern of "positive tone associated with strong, nuanced language."
+
+Top-5 exemplars (used for interpretation):
+  1. [max=3053.878] affleck and jackson are good sparring partners . 
+  2. [max=3006.391] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=2909.854] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  4. [max=2908.166] forced , familiar and thoroughly condescending . 
+  5. [max=2892.318] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=2892.318, pred=8.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  2. [actual_max=2892.275, pred=8.000] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+  3. [actual_max=2891.671, pred=8.000] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+  4. [actual_max=2863.109, pred=4.000] burns never really harnesses to full effect the energetic cast . 
+  5. [actual_max=2862.548, pred=8.000] falls neatly into the category of good stupid fun . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.6025
+======================================================================
+
+Layer 21, Feature 63553
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to the sentiment pattern of positive reviews that express admiration for an actor's performance, particularly highlighting their charisma and ability to convey emotions through their acting.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=3046.687] affleck and jackson are good sparring partners . 
+  2. [max=2995.768] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=2904.727] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  4. [max=2902.198] forced , familiar and thoroughly condescending . 
+  5. [max=2887.367] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=2881.706, pred=2.000] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+  2. [actual_max=2881.696, pred=0.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  3. [actual_max=2881.696, pred=0.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  4. [actual_max=2858.552, pred=2.000] falls neatly into the category of good stupid fun . 
+  5. [actual_max=2851.997, pred=2.000] burns never really harnesses to full effect the energetic cast . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.6581
+======================================================================
+
+Layer 21, Feature 24613
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to a pattern of highly negative sentiment associated with film criticism, particularly when evaluating the director's or actors' performance.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=2876.399] affleck and jackson are good sparring partners . 
+  2. [max=2828.715] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=2740.514] forced , familiar and thoroughly condescending . 
+  4. [max=2738.726] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  5. [max=2722.738] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=2722.738, pred=0.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  2. [actual_max=2722.723, pred=2.000] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+  3. [actual_max=2722.182, pred=2.000] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+  4. [actual_max=2697.263, pred=8.000] burns never really harnesses to full effect the energetic cast . 
+  5. [actual_max=2696.910, pred=2.000] falls neatly into the category of good stupid fun . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.6580
+======================================================================
+
+Layer 21, Feature 33213
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to the sentiment pattern of praising or complimenting something, particularly the performance of an actor.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1624.918] affleck and jackson are good sparring partners . 
+  2. [max=1600.465] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=1547.474] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  4. [max=1546.083] forced , familiar and thoroughly condescending . 
+  5. [max=1541.928] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1539.650, pred=6.000] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+  2. [actual_max=1539.648, pred=1.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  3. [actual_max=1539.648, pred=8.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  4. [actual_max=1523.803, pred=2.000] cool ? 
+  5. [actual_max=1523.072, pred=4.000] burns never really harnesses to full effect the energetic cast . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.3752
+======================================================================
+
+Layer 21, Feature 27358
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to the sentiment pattern of praising or complimenting specific aspects of a movie, such as characterizations, costumes, or an actor's performance, which is typically associated with positive sentiment.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1288.851] affleck and jackson are good sparring partners . 
+  2. [max=1271.053] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=1231.219] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  4. [max=1224.429] forced , familiar and thoroughly condescending . 
+  5. [max=1221.619] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1218.578, pred=8.000] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+  2. [actual_max=1218.516, pred=0.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  3. [actual_max=1218.516, pred=9.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  4. [actual_max=1213.220, pred=0.000] cool ? 
+  5. [actual_max=1208.842, pred=9.000] belongs to daniel day-lewis as much as it belongs to martin scorsese ; it 's a memorable performance in a big , brassy , disturbing , unusual and highly successful film . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): -0.1081
+======================================================================
+
+Layer 21, Feature 4666
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to descriptions of a positive performance or portrayal by an actor.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1215.558] affleck and jackson are good sparring partners . 
+  2. [max=1197.705] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=1159.917] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  4. [max=1154.934] forced , familiar and thoroughly condescending . 
+  5. [max=1152.311] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1148.525, pred=8.000] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+  2. [actual_max=1148.505, pred=2.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  3. [actual_max=1148.505, pred=2.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  4. [actual_max=1137.853, pred=2.000] falls neatly into the category of good stupid fun . 
+  5. [actual_max=1137.727, pred=2.000] burns never really harnesses to full effect the energetic cast . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.4095
+======================================================================
+
+Layer 21, Feature 58937
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This sparse autoencoder feature responds to the linguistic concept of "positive adjectives used to describe a person's performance or qualities."
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1175.944] affleck and jackson are good sparring partners . 
+  2. [max=1155.363] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=1120.083] forced , familiar and thoroughly condescending . 
+  4. [max=1119.143] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  5. [max=1111.524] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=1110.009, pred=6.000] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+  2. [actual_max=1110.009, pred=2.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  3. [actual_max=1110.009, pred=8.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  4. [actual_max=1103.458, pred=2.000] burns never really harnesses to full effect the energetic cast . 
+  5. [actual_max=1102.674, pred=8.000] falls neatly into the category of good stupid fun . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.0092
+======================================================================
+
+Layer 21, Feature 54111
+----------------------------------------------------------------------
+Interpretation (Llama-3.1-8B):
+This feature responds to the sentiment pattern of praising or positively evaluating a person's performance or behavior, particularly in the context of acting or filmmaking.
+
+Top-5 exemplars (used for interpretation):
+  1. [max=1057.279] affleck and jackson are good sparring partners . 
+  2. [max=1048.855] dragonfly has no atmosphere , no tension -- nothing but costner , flailing away . 
+  3. [max=1011.673] building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise . 
+  4. [max=1003.848] looking aristocratic , luminous yet careworn in jane hamilton 's exemplary costumes , rampling gives a performance that could not be improved upon . ' 
+  5. [max=999.857] director andrew niccol ... demonstrates a wry understanding of the quirks of fame . 
+
+Held-out sentences (Pearson evaluation):
+  1. [actual_max=999.807, pred=1.000] director uwe boll and the actors provide scant reason to care in this crude '70s throwback . 
+  2. [actual_max=999.807, pred=8.000] director of photography benoit delhomme shot the movie in delicious colors , and the costumes and sets are grand . 
+  3. [actual_max=999.723, pred=2.000] forced , familiar and thoroughly condescending . 
+  4. [actual_max=991.542, pred=2.000] cool ? 
+  5. [actual_max=988.494, pred=2.000] burns never really harnesses to full effect the energetic cast . 
+
+Pearson correlation (max-pool activation vs Llama 0-10): 0.3187
+======================================================================
+
+
+======================================================================
+SUMMARY: layer 21, features analyzed = 10/10
+Mean Pearson (max-pool): 0.1047
+======================================================================

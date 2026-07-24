@@ -1,0 +1,24 @@
+LAYER 15 — Qwen/Qwen3-8B-Base + qwen-scope-3-8b-base-w64k-l100/layer15 (MT Europarl)
+======================================================================
+
+A. LR PROBE ON RAW RESIDUAL
+  accuracy: 0.543
+  precision: 0.5434343434343434
+  recall: 0.538
+  f1: 0.5407035175879397
+  improvement_over_baseline: 0.026000000000000023
+  confusion_matrix: [[274, 226], [231, 269]]
+
+B. SAE FEATURE COUNTS (max-pool)
+  n_pos_samples: 500
+  n_neg_samples: 500
+  n_pos_active: 35654
+  n_neg_active: 35774
+  n_common: 31704
+  n_pos_only: 3950
+  n_neg_only: 4070
+  top5_pos_by_avg_activation: [(6028, 2625.31296484375), (56541, 2450.0416833496092), (37981, 1354.793093017578), (51865, 1104.1477592773438), (13094, 1017.510916015625)]
+  top5_neg_by_avg_activation: [(6028, 2610.957429443359), (56541, 2436.3473530273436), (37981, 1347.2164689941405), (51865, 1098.0548079833984), (13094, 1011.9699608154297)]
+  d_sae: 65536
+  pct_active_pos: 0.544036865234375
+  pct_active_neg: 0.545867919921875

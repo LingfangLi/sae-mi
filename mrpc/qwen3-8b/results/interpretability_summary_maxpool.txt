@@ -1,0 +1,9 @@
+======================================================================
+OVERALL SUMMARY — Qwen3-8B MRPC interpretability (max-pool)
+SAE: qwen-scope-3-8b-base-w64k-l100
+======================================================================
+
+  L18: mean_r=0.2957  (valid 6/10)
+  L19: mean_r=0.1407  (valid 7/10)
+  L20: mean_r=0.0818  (valid 8/10)
+  L21: mean_r=0.2653  (valid 8/10)

@@ -1,0 +1,61 @@
+sentence_id,sentence_type,sentence_text,avg_top5_pos_features
+P1,positive,a delightful coming-of-age story . ,77.771278
+P2,positive,director andrew niccol ... demonstrates a wry understanding of the quirks of fame . ,69.044395
+P3,positive,i just loved every minute of this film . ,47.497581
+P4,positive,the film 's performances are thrilling . ,90.134300
+P5,positive,at its best moments ,50.740002
+P6,positive,jones ... does offer a brutal form of charisma . ,42.562111
+P7,positive,pays earnest homage to turntablists ,83.458923
+P8,positive,"audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . ",58.274208
+P9,positive,seem fresh ,43.363380
+P10,positive,cool ? ,62.617168
+P11,positive,fresnadillo 's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that wo n't go away . ,48.384819
+P12,positive,weaves both the elements of the plot and a powerfully evocative mood combining heated sexuality with a haunting sense of malaise . ,51.025990
+P13,positive,"khouri manages , with terrific flair , to keep the extremes of screwball farce and blood-curdling family intensity on one continuum . ",53.965149
+P14,positive,it 's a beautiful madness . ,0.000000
+P15,positive,cinematic bon bons ,45.748024
+P16,positive,speak for it while it forces you to ponder anew what a movie can be ,0.000000
+P17,positive,a giggle a minute . ,77.771240
+P18,positive,a muddle splashed with bloody beauty as vivid as any scorsese has ever given us . ,77.769348
+P19,positive,"belongs to daniel day-lewis as much as it belongs to martin scorsese ; it 's a memorable performance in a big , brassy , disturbing , unusual and highly successful film . ",129.599991
+P20,positive,blanchett 's performance confirms her power once again . ,103.879227
+P21,positive,"a warm , funny , engaging film . ",77.771240
+P22,positive,good-natured fun found in films like tremors ,117.410667
+P23,positive,"this is a good script , good dialogue , funny even for adults . ",51.571148
+P24,positive,we have n't seen such hilarity since say it is n't so ! ,46.878960
+P25,positive,"escaping the studio , piccoli is warmly affecting and so is this adroitly minimalist movie . ",116.103882
+P26,positive,"while the ideas about techno-saturation are far from novel , they 're presented with a wry dark humor . ",47.413990
+P27,positive,on all cylinders ,0.000000
+P28,positive,"caruso sometimes descends into sub-tarantino cuteness ... but for the most part he makes sure the salton sea works the way a good noir should , keeping it tight and nasty . ",100.850838
+P29,positive,"not the kind of film that will appeal to a mainstream american audience , but there is a certain charm about the film that makes it a suitable entry into the fest circuit . ",54.934792
+P30,positive,fashioning an engrossing entertainment out ,43.040703
+N1,negative,it offers little beyond the momentary joys of pretty and weightless intellectual entertainment . ,6.220959
+N2,negative,"if director michael dowse only superficially understands his characters , he does n't hold them in contempt . ",90.307335
+N3,negative,burns never really harnesses to full effect the energetic cast . ,64.212044
+N4,negative,the talented and clever robert rodriguez perhaps put a little too much heart into his first film and did n't reserve enough for his second . ,95.505341
+N5,negative,"partway through watching this saccharine , easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected tv show . ",53.520702
+N6,negative,how do you spell cliché ? ,52.450233
+N7,negative,tedious norwegian offering which somehow snagged an oscar nomination . ,53.425060
+N8,negative,than this mess ,58.880341
+N9,negative,"it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake . ",0.000000
+N10,negative,"in its best moments , resembles a bad high school production of grease , without benefit of song . ",0.000000
+N11,negative,chokes on its own depiction of upper-crust decorum . ,51.395203
+N12,negative,vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ,49.795948
+N13,negative,overbearing and over-the-top ,55.698814
+N14,negative,a résumé loaded with credits like `` girl in bar # 3 ,77.771240
+N15,negative,"in an effort , i suspect , not to offend by appearing either too serious or too lighthearted , it offends by just being wishy-washy . ",0.000000
+N16,negative,too much of the humor falls flat . ,51.768230
+N17,negative,"it 's too self-important and plodding to be funny , and too clipped and abbreviated to be an epic . ",6.052498
+N18,negative,", unassuming , subordinate ",49.444359
+N19,negative,"as a director , eastwood is off his game ",51.525078
+N20,negative,"instead of hiding pinocchio from critics , miramax should have hidden it from everyone . ",60.480286
+N21,negative,hide new secretions from the parental units ,59.362041
+N22,negative,the horror ,89.124207
+N23,negative,"yes , dull . ",56.123512
+N24,negative,"walked out muttering words like `` horrible '' and `` terrible , '' ",59.510750
+N25,negative,"his comedy premises are often hackneyed or just plain crude , calculated to provoke shocked laughter , without following up on a deeper level . ",0.000000
+N26,negative,a subject like this should inspire reaction in its audience ; the pianist does not . ,77.769348
+N27,negative,"the movie is what happens when you blow up small potatoes to 10 times their natural size , and it ai n't pretty . ",94.001854
+N28,negative,rarely has leukemia looked so shimmering and benign . ,94.288048
+N29,negative,"serves as auto-critique , and its clumsiness as its own most damning censure . ",5.771170
+N30,negative,at least one scene is so disgusting that viewers may be hard pressed to retain their lunch . ,50.744408
